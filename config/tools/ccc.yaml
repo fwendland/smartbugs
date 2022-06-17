@@ -1,0 +1,3 @@
+# image needs to be available locally
+docker_image: aisec/ccc
+info: CPG Contract Checker. Developed by Fraunhofer AISEC & Université du Luxembourg.

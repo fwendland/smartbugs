@@ -94,6 +94,10 @@ def parse_results(logqueue, results, result_log, result_tar, import_path):
     elif toolname == 'conkas':
         results['analysis'] = Conkas().parse(output)
         sarif = Conkas().parseSarif(results, file_path_in_repo)
+    elif toolname == 'ccc':
+        ccc = CCC()
+        results['analysis'] = ccc.parse(output)
+        sarif = ccc.parseSarif(results, file_path_in_repo)
     else:
         results["analysis"] = None
         sarif = None
