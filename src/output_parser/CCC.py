@@ -67,12 +67,11 @@ class CCC(Parser):
                     msg = line[2:].strip() # removes "- "
                     #print(f"msg: {msg}")
                     vulnerability, coded_location = msg.split(", ", 1)
-                    vulnerability = vulnerability.lower().replace(' ', '_').strip()
 
                     location = self.parse_location(coded_location.strip())
 
                     current_contract["errors"].append({
-                        'vulnerability': vulnerability,
+                        'vulnerability': vulnerability.strip(),
                         'location': location
                     })
         
@@ -86,7 +85,7 @@ class CCC(Parser):
         resultsList = []
         rulesList = []
 
-        print("parseSarif")
+        
 
         for analysis in output_results["analysis"]:
             for result in analysis["errors"]:
@@ -110,10 +109,12 @@ class CCC(Parser):
                 logicalLocationsList.append(logicalLocation)
             """
         artifact = parseArtifact(uri=file_path_in_repo)
-
-        tool = Tool(driver=ToolComponent(name="ccc", version="1.0", rules=rulesList,
-                                         information_uri="https://github.com/",
-                                         full_description=MultiformatMessageString(
+        
+        tool = Tool(driver=ToolComponent(name="ccc", 
+                                        version="1.0", 
+                                        rules=rulesList, 
+                                        information_uri="https://github.com/", 
+                                        full_description=MultiformatMessageString(
                                              text="CPG Contract Checker. Developed by Fraunhofer AISEC & Université du Luxembourg.")))
 
         #run = Run(tool=tool, artifacts=[artifact], logical_locations=logicalLocationsList, results=resultsList)
