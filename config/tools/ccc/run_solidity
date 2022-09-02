@@ -2,7 +2,10 @@
 
 FILENAME="$1"
 
-export PATH="/data/bin:$PATH"
-chmod +x /data/bin/solc
+neo4j start
+sleep 10
 
 cpg-contract-checker-app "$FILENAME"
+
+neo4j stop
+sleep 10

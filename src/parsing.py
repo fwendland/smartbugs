@@ -16,6 +16,7 @@ from src.output_parser.Securify import Securify
 from src.output_parser.Slither import Slither
 from src.output_parser.Smartcheck import Smartcheck
 from src.output_parser.Solhint import Solhint
+from src.output_parser.CCC import CCC
 import src.logging as log
 import src.colors as col
 import src.output_parser.SarifHolder as SarifHolder
