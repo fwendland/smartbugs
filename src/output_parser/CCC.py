@@ -12,12 +12,8 @@ class CCC(Parser):
     def parse_location(self, coded_location):
         index = coded_location.rfind(' ')
 
-        #print(f"coded_location: {coded_location}")
-
         file = coded_location[:index].strip()
         region = coded_location[index:].strip()
-
-        #print(f"Region: {region}")
 
         start,end = region.split('-')
         start_line,start_column = start.strip().split(':')
@@ -37,7 +33,6 @@ class CCC(Parser):
     Sample output:
 
     Nr. Files: 1
-    File: Empty translation
     File: ../../../../../cpg-solidity/src/test/resources/examples/
     - Reentrancy Vulnerability, example3.sol 21:31-21:48
     - Reentrancy Vulnerability, DoWhileStatement.sol 21:9-21:23
@@ -56,7 +51,7 @@ class CCC(Parser):
             if line.startswith("File:"):
                 if current_contract is not None:
                     output.append(current_contract)
-                
+
                 current_contract = {
                     'file': line[5:].strip(), # removes "File:"
                     'errors': []
@@ -65,7 +60,6 @@ class CCC(Parser):
                 if line.startswith('- '):
                     # parse each line
                     msg = line[2:].strip() # removes "- "
-                    #print(f"msg: {msg}")
                     vulnerability, coded_location = msg.split(", ", 1)
 
                     location = self.parse_location(coded_location.strip())
@@ -74,9 +68,14 @@ class CCC(Parser):
                         'vulnerability': vulnerability.strip(),
                         'location': location
                     })
-        
+
         if current_contract is not None:
             output.append(current_contract)
+
+        # remove files without errors
+        for entry in list(output):
+            if len(entry["errors"]) == 0:
+                output.remove(entry)
 
         return output
 
@@ -85,17 +84,15 @@ class CCC(Parser):
         resultsList = []
         rulesList = []
 
-        
-
         for analysis in output_results["analysis"]:
             for result in analysis["errors"]:
                 rule = parseRule(tool="ccc", vulnerability=result["vulnerability"])
-                result = parseResult(tool="ccc", 
-                                    vulnerability=result["vulnerability"], 
-                                    level="warning", 
-                                    uri=file_path_in_repo, 
-                                    line=result["location"]["region"]["start_line"], 
-                                    column=result["location"]["region"]["start_column"], 
+                result = parseResult(tool="ccc",
+                                    vulnerability=result["vulnerability"],
+                                    level="warning",
+                                    uri=file_path_in_repo,
+                                    line=result["location"]["region"]["start_line"],
+                                    column=result["location"]["region"]["start_column"],
                                     end_line=result["location"]["region"]["end_line"])
 
                 resultsList.append(result)
@@ -109,13 +106,12 @@ class CCC(Parser):
                 logicalLocationsList.append(logicalLocation)
             """
         artifact = parseArtifact(uri=file_path_in_repo)
-        
-        tool = Tool(driver=ToolComponent(name="ccc", 
-                                        version="1.0", 
-                                        rules=rulesList, 
-                                        information_uri="https://github.com/", 
+
+        tool = Tool(driver=ToolComponent(name="ccc",
+                                        version="1.0", rules=rulesList,
+                                        information_uri="https://github.com/",
                                         full_description=MultiformatMessageString(
-                                             text="CPG Contract Checker. Developed by Fraunhofer AISEC & Université du Luxembourg.")))
+                                             text="CPG Contract Checker. Developed by Fraunhofer AISEC & University of Luxembourg.")))
 
         #run = Run(tool=tool, artifacts=[artifact], logical_locations=logicalLocationsList, results=resultsList)
         run = Run(tool=tool, artifacts=[artifact], results=resultsList)

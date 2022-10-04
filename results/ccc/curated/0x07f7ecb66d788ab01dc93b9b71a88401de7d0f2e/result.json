@@ -1,0 +1,39 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
+            "region": {
+              "end_column": "41",
+              "end_line": "190",
+              "start_column": "9",
+              "start_line": "190"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
+            "region": {
+              "end_column": "37",
+              "end_line": "67",
+              "start_column": "17",
+              "start_line": "67"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        }
+      ],
+      "file": "/data/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
+  "duration": 23.635190963745117,
+  "end": 1664835066.399468,
+  "exit_code": 0,
+  "start": 1664835042.764277,
+  "tool": "ccc"
+}

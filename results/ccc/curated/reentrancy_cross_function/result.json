@@ -1,0 +1,39 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "reentrancy_cross_function.sol",
+            "region": {
+              "end_column": "71",
+              "end_line": "24",
+              "start_column": "28",
+              "start_line": "24"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "reentrancy_cross_function.sol",
+            "region": {
+              "end_column": "33",
+              "end_line": "14",
+              "start_column": "23",
+              "start_line": "14"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        }
+      ],
+      "file": "/data/reentrancy_cross_function.sol"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_cross_function.sol",
+  "duration": 620.3507421016693,
+  "end": 1664450613.515496,
+  "exit_code": 0,
+  "start": 1664449993.164754,
+  "tool": "ccc"
+}

@@ -1,0 +1,51 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "wallet_04_confused_sign.sol",
+            "region": {
+              "end_column": "39",
+              "end_line": "31",
+              "start_column": "10",
+              "start_line": "31"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "wallet_04_confused_sign.sol",
+            "region": {
+              "end_column": "39",
+              "end_line": "31",
+              "start_column": "10",
+              "start_line": "31"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "wallet_04_confused_sign.sol",
+            "region": {
+              "end_column": "37",
+              "end_line": "39",
+              "start_column": "10",
+              "start_line": "39"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        }
+      ],
+      "file": "/data/wallet_04_confused_sign.sol"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "duration": 20.92289900779724,
+  "end": 1664834136.74536,
+  "exit_code": 0,
+  "start": 1664834115.822461,
+  "tool": "ccc"
+}

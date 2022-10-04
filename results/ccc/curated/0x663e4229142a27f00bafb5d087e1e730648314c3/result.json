@@ -1,0 +1,195 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "58",
+              "end_line": "453",
+              "start_column": "27",
+              "start_line": "453"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "45",
+              "end_line": "2007",
+              "start_column": "25",
+              "start_line": "2007"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "59",
+              "end_line": "455",
+              "start_column": "26",
+              "start_line": "455"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "41",
+              "end_line": "1152",
+              "start_column": "9",
+              "start_line": "1152"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "41",
+              "end_line": "2005",
+              "start_column": "21",
+              "start_line": "2005"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "29",
+              "end_line": "1961",
+              "start_column": "9",
+              "start_line": "1961"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "42",
+              "end_line": "1307",
+              "start_column": "9",
+              "start_line": "1307"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "60",
+              "end_line": "1223",
+              "start_column": "9",
+              "start_line": "1223"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "46",
+              "end_line": "1295",
+              "start_column": "13",
+              "start_line": "1295"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "49",
+              "end_line": "1496",
+              "start_column": "20",
+              "start_line": "1496"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "54",
+              "end_line": "2467",
+              "start_column": "13",
+              "start_line": "2467"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "70",
+              "end_line": "1961",
+              "start_column": "9",
+              "start_line": "1961"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "41",
+              "end_line": "1152",
+              "start_column": "9",
+              "start_line": "1152"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "55",
+              "end_line": "1861",
+              "start_column": "34",
+              "start_line": "1861"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        },
+        {
+          "location": {
+            "file": "0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "region": {
+              "end_column": "46",
+              "end_line": "1474",
+              "start_column": "27",
+              "start_line": "1474"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+  "duration": 315.40580320358276,
+  "end": 1664835673.3550222,
+  "exit_code": 0,
+  "start": 1664835357.949219,
+  "tool": "ccc"
+}

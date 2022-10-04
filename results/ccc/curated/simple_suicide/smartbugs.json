@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "ccc",
+  "start": 1664834350.9144452,
+  "end": 1664834371.660157,
+  "duration": 20.74571180343628,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "tool": "ccc",
+  "start": 1664450846.243128,
+  "end": 1664452647.329122,
+  "duration": 1801.0859940052032,
+  "exit_code": null
+}

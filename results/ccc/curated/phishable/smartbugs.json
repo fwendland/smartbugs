@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "ccc",
+  "start": 1664834268.110958,
+  "end": 1664834289.014134,
+  "duration": 20.903175830841064,
+  "exit_code": 0
+}

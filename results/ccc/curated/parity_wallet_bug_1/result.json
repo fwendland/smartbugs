@@ -1,0 +1,51 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "parity_wallet_bug_1.sol",
+            "region": {
+              "end_column": "54",
+              "end_line": "279",
+              "start_column": "14",
+              "start_line": "279"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "parity_wallet_bug_1.sol",
+            "region": {
+              "end_column": "19",
+              "end_line": "230",
+              "start_column": "5",
+              "start_line": "230"
+            }
+          },
+          "vulnerability": "Missing Access Control to Selfdestruct"
+        },
+        {
+          "location": {
+            "file": "parity_wallet_bug_1.sol",
+            "region": {
+              "end_column": "45",
+              "end_line": "437",
+              "start_column": "7",
+              "start_line": "437"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        }
+      ],
+      "file": "/data/parity_wallet_bug_1.sol"
+    }
+  ],
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "duration": 75.02134990692139,
+  "end": 1664834446.682656,
+  "exit_code": 0,
+  "start": 1664834371.6613061,
+  "tool": "ccc"
+}

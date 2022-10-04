@@ -1,0 +1,27 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "region": {
+              "end_column": "44",
+              "end_line": "54",
+              "start_column": "16",
+              "start_line": "54"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        }
+      ],
+      "file": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+  "duration": 620.5019249916077,
+  "end": 1664448331.56374,
+  "exit_code": 0,
+  "start": 1664447711.061815,
+  "tool": "ccc"
+}

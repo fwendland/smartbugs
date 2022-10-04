@@ -1,0 +1,63 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "etherpot_lotto.sol",
+            "region": {
+              "end_column": "48",
+              "end_line": "141",
+              "start_column": "14",
+              "start_line": "141"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "etherpot_lotto.sol",
+            "region": {
+              "end_column": "32",
+              "end_line": "109",
+              "start_column": "10",
+              "start_line": "109"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "etherpot_lotto.sol",
+            "region": {
+              "end_column": "48",
+              "end_line": "141",
+              "start_column": "14",
+              "start_line": "141"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "etherpot_lotto.sol",
+            "region": {
+              "end_column": "32",
+              "end_line": "109",
+              "start_column": "10",
+              "start_line": "109"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        }
+      ],
+      "file": "/data/etherpot_lotto.sol"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "duration": 23.93989086151123,
+  "end": 1664834853.366796,
+  "exit_code": 0,
+  "start": 1664834829.4269052,
+  "tool": "ccc"
+}

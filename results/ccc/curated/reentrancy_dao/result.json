@@ -1,0 +1,27 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "reentrancy_dao.sol",
+            "region": {
+              "end_column": "63",
+              "end_line": "18",
+              "start_column": "31",
+              "start_line": "18"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        }
+      ],
+      "file": "/data/reentrancy_dao.sol"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_dao.sol",
+  "duration": 623.2363848686218,
+  "end": 1664444235.5256479,
+  "exit_code": 0,
+  "start": 1664443612.289263,
+  "tool": "ccc"
+}

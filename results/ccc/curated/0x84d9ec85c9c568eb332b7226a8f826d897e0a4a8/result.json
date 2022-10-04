@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+  "duration": 21.178761959075928,
+  "end": 1664835717.734335,
+  "exit_code": 0,
+  "start": 1664835696.555573,
+  "tool": "ccc"
+}

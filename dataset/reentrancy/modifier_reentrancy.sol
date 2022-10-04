@@ -1,7 +1,7 @@
 /*
  * @source: https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/reentracy/modifier_reentrancy.sol
- * @author: - 
- * @vulnerable_at_lines: 15
+ * @author: -
+ * @vulnerable_at_lines: 21
  */
 
 pragma solidity ^0.4.24;

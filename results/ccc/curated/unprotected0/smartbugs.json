@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "ccc",
+  "start": 1664834227.3616729,
+  "end": 1664834248.145486,
+  "duration": 20.78381323814392,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "ccc",
+  "start": 1664834095.266654,
+  "end": 1664834115.821045,
+  "duration": 20.554390907287598,
+  "exit_code": 0
+}

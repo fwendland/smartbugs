@@ -1,0 +1,123 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "102",
+              "end_line": "61",
+              "start_column": "18",
+              "start_line": "61"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "38",
+              "end_line": "95",
+              "start_column": "18",
+              "start_line": "95"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "47",
+              "end_line": "103",
+              "start_column": "18",
+              "start_line": "103"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "47",
+              "end_line": "85",
+              "start_column": "18",
+              "start_line": "85"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "86",
+              "end_line": "74",
+              "start_column": "26",
+              "start_line": "74"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "38",
+              "end_line": "95",
+              "start_column": "18",
+              "start_line": "95"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "47",
+              "end_line": "103",
+              "start_column": "18",
+              "start_line": "103"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "47",
+              "end_line": "85",
+              "start_column": "18",
+              "start_line": "85"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "rubixi.sol",
+            "region": {
+              "end_column": "86",
+              "end_line": "74",
+              "start_column": "26",
+              "start_line": "74"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        }
+      ],
+      "file": "/data/rubixi.sol"
+    }
+  ],
+  "contract": "dataset/access_control/rubixi.sol",
+  "duration": 33.20265507698059,
+  "end": 1664834012.2676191,
+  "exit_code": 0,
+  "start": 1664833979.064964,
+  "tool": "ccc"
+}

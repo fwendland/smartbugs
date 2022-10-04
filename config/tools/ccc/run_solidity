@@ -3,9 +3,16 @@
 FILENAME="$1"
 
 neo4j start
-sleep 10
+STATUS=$(curl --write-out "%{http_code}\n" --silent --output /dev/null http://localhost:7474)
+while [ "$STATUS" -ne 200 ]
+do
+	sleep 1
+	STATUS=$(curl --write-out "%{http_code}\n" --silent --output /dev/null http://localhost:7474)
+	if [ "$STATUS" -eq 200 ]; then
+    		echo "Neo4j is running."
+	else
+    		echo "Neo4j is not running."
+	fi
+done
 
 cpg-contract-checker-app "$FILENAME"
-
-neo4j stop
-sleep 10

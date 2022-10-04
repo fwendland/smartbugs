@@ -1,0 +1,27 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "etherstore.sol",
+            "region": {
+              "end_column": "56",
+              "end_line": "27",
+              "start_column": "17",
+              "start_line": "27"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        }
+      ],
+      "file": "/data/etherstore.sol"
+    }
+  ],
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "duration": 95.18186712265015,
+  "end": 1664444330.70962,
+  "exit_code": 0,
+  "start": 1664444235.5277529,
+  "tool": "ccc"
+}

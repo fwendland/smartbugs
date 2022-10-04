@@ -1,0 +1,135 @@
+Directories in use:
+home:         /var/lib/neo4j
+config:       /etc/neo4j
+logs:         /var/log/neo4j
+plugins:      /var/lib/neo4j/plugins
+import:       /var/lib/neo4j/import
+data:         /var/lib/neo4j/data
+certificates: /var/lib/neo4j/certificates
+licenses:     /var/lib/neo4j/licenses
+run:          /var/lib/neo4j/run
+Starting Neo4j.
+Started neo4j (pid:34). It is available at http://localhost:7474
+There may be a short delay until the server is ready.
+Neo4j is not running.
+Neo4j is not running.
+Neo4j is running.
+/data/unprotected0.sol
+21:57:12.982 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:12.985 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:12.985 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:12.986 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:12.986 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:12.997 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:12.997 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:12.997 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:12.998 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.003 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.014 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.014 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.014 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.014 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.015 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.016 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.016 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.016 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.016 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.016 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.017 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.017 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.017 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.018 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.018 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.025 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.025 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.026 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.026 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.026 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.060 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.061 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.061 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.061 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.061 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.062 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.062 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.062 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.063 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.063 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.065 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.065 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.066 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.066 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.066 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.066 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.066 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.066 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.067 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.067 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.072 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.072 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.072 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.072 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.072 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.073 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.073 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.074 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.074 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.074 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.080 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.080 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.080 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.081 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.081 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.082 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.082 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.082 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.083 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.083 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.084 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.084 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.084 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.084 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.084 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.085 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.085 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.085 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.085 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.086 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.086 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.086 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.086 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.087 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.087 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.088 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.088 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.088 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.088 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.089 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.089 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.089 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.089 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.090 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.090 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.090 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.091 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.091 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.091 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.091 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.092 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.092 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.092 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.092 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+21:57:13.093 [ForkJoinPool.commonPool-worker-3] ERROR de.fraunhofer.aisec.cpg.graph.TypeManager - Unknown language (frontend: SolidityLanguageFrontend)
+Oct 03, 2022 9:57:13 PM org.neo4j.driver.internal.logging.JULogger info
+INFO: Direct driver instance 182949133 created for server address localhost:7687
+Oct 03, 2022 9:57:16 PM org.neo4j.driver.internal.logging.JULogger info
+INFO: Closing driver instance 182949133
+Oct 03, 2022 9:57:16 PM org.neo4j.driver.internal.logging.JULogger info
+INFO: Closing connection pool towards localhost:7687
+Oct 03, 2022 9:57:16 PM org.neo4j.driver.internal.logging.JULogger info
+INFO: Direct driver instance 397857830 created for server address localhost:7687
+Oct 03, 2022 9:57:27 PM org.neo4j.driver.internal.logging.JULogger info
+INFO: Closing driver instance 397857830
+Oct 03, 2022 9:57:27 PM org.neo4j.driver.internal.logging.JULogger info
+INFO: Closing connection pool towards localhost:7687
+Nr. Files: 1

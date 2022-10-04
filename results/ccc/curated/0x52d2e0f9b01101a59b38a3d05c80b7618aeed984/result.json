@@ -1,0 +1,39 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "region": {
+              "end_column": "39",
+              "end_line": "22",
+              "start_column": "9",
+              "start_line": "22"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "region": {
+              "end_column": "49",
+              "end_line": "19",
+              "start_column": "9",
+              "start_line": "19"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        }
+      ],
+      "file": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+  "duration": 21.207231998443604,
+  "end": 1664835107.346886,
+  "exit_code": 0,
+  "start": 1664835086.139654,
+  "tool": "ccc"
+}

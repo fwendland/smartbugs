@@ -1,0 +1,39 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "mycontract.sol",
+            "region": {
+              "end_column": "36",
+              "end_line": "21",
+              "start_column": "9",
+              "start_line": "21"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "mycontract.sol",
+            "region": {
+              "end_column": "36",
+              "end_line": "21",
+              "start_column": "9",
+              "start_line": "21"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        }
+      ],
+      "file": "/data/mycontract.sol"
+    }
+  ],
+  "contract": "dataset/access_control/mycontract.sol",
+  "duration": 20.16623330116272,
+  "end": 1664834032.4369652,
+  "exit_code": 0,
+  "start": 1664834012.270732,
+  "tool": "ccc"
+}

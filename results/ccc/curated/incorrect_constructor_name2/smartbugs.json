@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "tool": "ccc",
+  "start": 1664834136.748136,
+  "end": 1664834156.748797,
+  "duration": 20.00066089630127,
+  "exit_code": 0
+}

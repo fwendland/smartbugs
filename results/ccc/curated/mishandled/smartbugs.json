@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "tool": "ccc",
+  "start": 1664834853.369259,
+  "end": 1664834874.892956,
+  "duration": 21.523696899414062,
+  "exit_code": 0
+}

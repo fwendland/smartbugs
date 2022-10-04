@@ -1,0 +1,123 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "45",
+              "end_line": "313",
+              "start_column": "9",
+              "start_line": "313"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "45",
+              "end_line": "324",
+              "start_column": "24",
+              "start_line": "324"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "30",
+              "end_line": "295",
+              "start_column": "9",
+              "start_line": "295"
+            }
+          },
+          "vulnerability": "Missing Access Control to Selfdestruct"
+        },
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "41",
+              "end_line": "302",
+              "start_column": "9",
+              "start_line": "302"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "45",
+              "end_line": "313",
+              "start_column": "9",
+              "start_line": "313"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "52",
+              "end_line": "239",
+              "start_column": "29",
+              "start_line": "239"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        },
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "38",
+              "end_line": "80",
+              "start_column": "18",
+              "start_line": "80"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        },
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "66",
+              "end_line": "80",
+              "start_column": "40",
+              "start_line": "80"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        },
+        {
+          "location": {
+            "file": "0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "region": {
+              "end_column": "45",
+              "end_line": "324",
+              "start_column": "24",
+              "start_line": "324"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        }
+      ],
+      "file": "/data/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+  "duration": 41.16837501525879,
+  "end": 1664834765.328088,
+  "exit_code": 0,
+  "start": 1664834724.159713,
+  "tool": "ccc"
+}

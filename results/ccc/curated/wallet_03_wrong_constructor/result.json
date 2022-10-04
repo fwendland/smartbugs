@@ -1,0 +1,51 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "wallet_03_wrong_constructor.sol",
+            "region": {
+              "end_column": "39",
+              "end_line": "30",
+              "start_column": "10",
+              "start_line": "30"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "wallet_03_wrong_constructor.sol",
+            "region": {
+              "end_column": "39",
+              "end_line": "30",
+              "start_column": "10",
+              "start_line": "30"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "wallet_03_wrong_constructor.sol",
+            "region": {
+              "end_column": "37",
+              "end_line": "38",
+              "start_column": "10",
+              "start_line": "38"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        }
+      ],
+      "file": "/data/wallet_03_wrong_constructor.sol"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "duration": 20.554390907287598,
+  "end": 1664834115.821045,
+  "exit_code": 0,
+  "start": 1664834095.266654,
+  "tool": "ccc"
+}

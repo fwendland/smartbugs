@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "ccc",
+  "start": 1664834446.685759,
+  "end": 1664834468.317398,
+  "duration": 21.631639003753662,
+  "exit_code": 0
+}

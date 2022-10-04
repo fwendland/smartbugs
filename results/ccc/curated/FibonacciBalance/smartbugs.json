@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "tool": "ccc",
+  "start": 1664834309.8927438,
+  "end": 1664834330.3586078,
+  "duration": 20.465863943099976,
+  "exit_code": 0
+}

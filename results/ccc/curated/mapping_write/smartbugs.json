@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "ccc",
+  "start": 1664834053.78804,
+  "end": 1664834074.3015318,
+  "duration": 20.51349186897278,
+  "exit_code": 0
+}

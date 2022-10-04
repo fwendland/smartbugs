@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "ccc",
+  "start": 1664834012.270732,
+  "end": 1664834032.4369652,
+  "duration": 20.16623330116272,
+  "exit_code": 0
+}

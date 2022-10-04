@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/modifier_reentrancy.sol",
+  "tool": "ccc",
+  "start": 1664449350.040496,
+  "end": 1664449370.837579,
+  "duration": 20.797082901000977,
+  "exit_code": 0
+}

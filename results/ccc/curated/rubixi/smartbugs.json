@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "ccc",
+  "start": 1664833979.064964,
+  "end": 1664834012.2676191,
+  "duration": 33.20265507698059,
+  "exit_code": 0
+}

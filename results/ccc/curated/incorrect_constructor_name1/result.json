@@ -1,0 +1,27 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "incorrect_constructor_name1.sol",
+            "region": {
+              "end_column": "38",
+              "end_line": "32",
+              "start_column": "8",
+              "start_line": "32"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        }
+      ],
+      "file": "/data/incorrect_constructor_name1.sol"
+    }
+  ],
+  "contract": "dataset/access_control/incorrect_constructor_name1.sol",
+  "duration": 20.961958169937134,
+  "end": 1664834095.264964,
+  "exit_code": 0,
+  "start": 1664834074.303006,
+  "tool": "ccc"
+}

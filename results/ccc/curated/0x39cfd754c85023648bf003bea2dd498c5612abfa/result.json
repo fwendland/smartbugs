@@ -1,0 +1,63 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+            "region": {
+              "end_column": "41",
+              "end_line": "97",
+              "start_column": "17",
+              "start_line": "97"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        },
+        {
+          "location": {
+            "file": "0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+            "region": {
+              "end_column": "75",
+              "end_line": "44",
+              "start_column": "9",
+              "start_line": "44"
+            }
+          },
+          "vulnerability": "Missing Check of Return Value from external Call"
+        },
+        {
+          "location": {
+            "file": "0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+            "region": {
+              "end_column": "44",
+              "end_line": "87",
+              "start_column": "31",
+              "start_line": "87"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        },
+        {
+          "location": {
+            "file": "0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+            "region": {
+              "end_column": "41",
+              "end_line": "97",
+              "start_column": "17",
+              "start_line": "97"
+            }
+          },
+          "vulnerability": "Message padding vulnerability found at ether transfer."
+        }
+      ],
+      "file": "/data/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+  "duration": 21.70707607269287,
+  "end": 1664834682.060609,
+  "exit_code": 0,
+  "start": 1664834660.353533,
+  "tool": "ccc"
+}

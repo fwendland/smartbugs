@@ -1,0 +1,27 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "location": {
+            "file": "reentrance.sol",
+            "region": {
+              "end_column": "42",
+              "end_line": "24",
+              "start_column": "10",
+              "start_line": "24"
+            }
+          },
+          "vulnerability": "Reentrancy Vulnerability"
+        }
+      ],
+      "file": "/data/reentrance.sol"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrance.sol",
+  "duration": 20.773678064346313,
+  "end": 1664452668.1148071,
+  "exit_code": 0,
+  "start": 1664452647.341129,
+  "tool": "ccc"
+}

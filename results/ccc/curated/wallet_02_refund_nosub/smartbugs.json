@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "tool": "ccc",
+  "start": 1664834289.0155861,
+  "end": 1664834309.891243,
+  "duration": 20.875656843185425,
+  "exit_code": 0
+}
