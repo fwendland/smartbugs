@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/reentrancy/etherstore.sol",
-  "tool": "ccc",
-  "start": 1664444235.5277529,
-  "end": 1664444330.70962,
-  "duration": 95.18186712265015,
-  "exit_code": 0
-}

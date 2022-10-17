@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/access_control/proxy.sol",
-  "tool": "ccc",
-  "start": 1664834248.1467369,
-  "end": 1664834268.109704,
-  "duration": 19.96296715736389,
-  "exit_code": 0
-}

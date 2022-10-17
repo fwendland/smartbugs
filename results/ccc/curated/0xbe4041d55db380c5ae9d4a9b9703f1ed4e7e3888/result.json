@@ -1,9 +1,0 @@
-{
-  "analysis": [],
-  "contract": "dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
-  "duration": 625.3889319896698,
-  "end": 1664453356.925375,
-  "exit_code": 0,
-  "start": 1664452731.536443,
-  "tool": "ccc"
-}

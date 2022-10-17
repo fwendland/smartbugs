@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
-  "tool": "ccc",
-  "start": 1664834371.6613061,
-  "end": 1664834446.682656,
-  "duration": 75.02134990692139,
-  "exit_code": 0
-}

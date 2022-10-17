@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/reentrancy/etherbank.sol",
-  "tool": "ccc",
-  "start": 1664454951.4555972,
-  "end": 1664455576.0005949,
-  "duration": 624.5449976921082,
-  "exit_code": 0
-}

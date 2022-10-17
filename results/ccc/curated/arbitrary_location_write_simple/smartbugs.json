@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
-  "tool": "ccc",
-  "start": 1664834032.438281,
-  "end": 1664834053.786755,
-  "duration": 21.34847402572632,
-  "exit_code": 0
-}

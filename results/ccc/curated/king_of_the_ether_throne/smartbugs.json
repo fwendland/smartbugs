@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
-  "tool": "ccc",
-  "start": 1664835843.202719,
-  "end": 1664835893.4306612,
-  "duration": 50.22794222831726,
-  "exit_code": 0
-}

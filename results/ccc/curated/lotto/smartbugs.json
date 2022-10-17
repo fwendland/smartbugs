@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
-  "tool": "ccc",
-  "start": 1664835148.182058,
-  "end": 1664835168.2290711,
-  "duration": 20.0470130443573,
-  "exit_code": 0
-}

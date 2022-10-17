@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/reentrancy/simple_dao.sol",
-  "tool": "ccc",
-  "start": 1664449370.839107,
-  "end": 1664449993.163451,
-  "duration": 622.324343919754,
-  "exit_code": 0
-}

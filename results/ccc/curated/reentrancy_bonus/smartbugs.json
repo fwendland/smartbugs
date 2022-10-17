@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
-  "tool": "ccc",
-  "start": 1664455576.002028,
-  "end": 1664455599.1955369,
-  "duration": 23.193508863449097,
-  "exit_code": 0
-}

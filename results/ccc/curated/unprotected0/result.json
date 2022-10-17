@@ -1,9 +1,0 @@
-{
-  "analysis": [],
-  "contract": "dataset/access_control/unprotected0.sol",
-  "duration": 20.78381323814392,
-  "end": 1664834248.145486,
-  "exit_code": 0,
-  "start": 1664834227.3616729,
-  "tool": "ccc"
-}

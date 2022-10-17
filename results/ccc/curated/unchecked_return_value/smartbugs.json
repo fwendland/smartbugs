@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
-  "tool": "ccc",
-  "start": 1664834542.369845,
-  "end": 1664834562.5831292,
-  "duration": 20.213284254074097,
-  "exit_code": 0
-}

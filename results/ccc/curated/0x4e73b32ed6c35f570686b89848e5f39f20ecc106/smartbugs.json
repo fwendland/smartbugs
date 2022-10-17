@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/reentrancy/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
-  "tool": "ccc",
-  "start": 1664453356.932999,
-  "end": 1664453680.488271,
-  "duration": 323.55527210235596,
-  "exit_code": 0
-}

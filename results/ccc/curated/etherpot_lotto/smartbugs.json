@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
-  "tool": "ccc",
-  "start": 1664834829.4269052,
-  "end": 1664834853.366796,
-  "duration": 23.93989086151123,
-  "exit_code": 0
-}

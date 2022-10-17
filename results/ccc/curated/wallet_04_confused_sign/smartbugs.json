@@ -1,8 +1,0 @@
-{
-  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
-  "tool": "ccc",
-  "start": 1664834115.822461,
-  "end": 1664834136.74536,
-  "duration": 20.92289900779724,
-  "exit_code": 0
-}
