@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "conkas",
+  "start": 1654106830.4186096,
+  "end": 1654106837.746104,
+  "duration": 7.327494382858276,
+  "exit_code": 0
+}

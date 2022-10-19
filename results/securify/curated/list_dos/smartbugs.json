@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/list_dos.sol",
+  "tool": "securify",
+  "start": 1654183441.6821282,
+  "end": 1654183445.4393678,
+  "duration": 3.757239580154419,
+  "exit_code": 0
+}

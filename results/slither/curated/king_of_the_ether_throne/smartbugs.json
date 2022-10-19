@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "tool": "slither",
+  "start": 1654186435.5571268,
+  "end": 1654186439.747507,
+  "duration": 4.190380334854126,
+  "exit_code": 12
+}

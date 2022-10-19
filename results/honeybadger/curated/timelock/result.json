@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/timelock.sol",
+      "name": "TimeLock"
+    }
+  ],
+  "contract": "dataset/arithmetic/timelock.sol",
+  "duration": 3.9989688396453857,
+  "end": 1654122535.5043998,
+  "exit_code": 0,
+  "start": 1654122531.505431,
+  "tool": "honeybadger"
+}

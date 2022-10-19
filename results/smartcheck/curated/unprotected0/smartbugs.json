@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.811084,
+  "end": 1654186486.8255746,
+  "duration": 7.014490604400635,
+  "exit_code": 0
+}

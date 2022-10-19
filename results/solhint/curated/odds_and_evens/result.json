@@ -1,0 +1,250 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "31",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "32",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "34",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "35",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "36",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "37",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "38",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "39",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "41",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "44",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "45",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "46",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "48",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "49",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "50",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/odds_and_evens.sol",
+      "level": "Error",
+      "line": "51",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "duration": 2.57950758934021,
+  "end": 1654186607.1458793,
+  "exit_code": 1,
+  "start": 1654186604.5663717,
+  "tool": "solhint"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "securify",
+  "start": 1654182041.350645,
+  "end": 1654182288.7784858,
+  "duration": 247.42784070968628,
+  "exit_code": 0
+}

@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/reentrancy/0x8c7777c45481dba411450c228cb692ac3d550344.sol",
+  "duration": 5.013043642044067,
+  "end": 1654082646.4177551,
+  "exit_code": 0,
+  "start": 1654082641.4047115,
+  "tool": "solhint"
+}

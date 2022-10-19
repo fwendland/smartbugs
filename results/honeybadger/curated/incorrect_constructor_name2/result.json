@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/incorrect_constructor_name2.sol",
+      "name": "Missing"
+    }
+  ],
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "duration": 4.394575595855713,
+  "end": 1654122270.875786,
+  "exit_code": 0,
+  "start": 1654122266.4812105,
+  "tool": "honeybadger"
+}

@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 19,
+          "line": 22,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/dos_number.sol",
+      "name": "DosNumber"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "duration": 52.116450548172,
+  "end": 1654181117.878191,
+  "exit_code": 0,
+  "start": 1654181065.7617404,
+  "tool": "osiris"
+}

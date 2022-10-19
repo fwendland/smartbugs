@@ -1,0 +1,62 @@
+{
+  "analysis": [
+    [
+      {
+        "code": "balances[_to] += msg.value",
+        "line": 14,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "mapping(address => uint) public balances",
+        "line": 11,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "balances[msg.sender]",
+        "line": 22,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "balances[_who]",
+        "line": 18,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "msg.sender.call.value(_amount)()",
+        "line": 24,
+        "name": "Potential reentrancy vulnerability"
+      },
+      {
+        "code": "msg.sender.call.value(_amount)()",
+        "line": 24,
+        "name": "Reentrancy multi-million ether bug"
+      },
+      {
+        "code": "msg.sender.call.value(_amount)()",
+        "line": 24,
+        "name": "Returned value at CALL instruction is not used"
+      },
+      {
+        "code": "msg.sender.call.value(_amount)()",
+        "line": 24,
+        "name": "Reachable ether leak to sender"
+      },
+      {
+        "code": "msg.sender.call.value(_amount)()",
+        "line": 24,
+        "name": "Reachable external call to sender"
+      },
+      {
+        "code": "balances[msg.sender] -= _amount",
+        "line": 27,
+        "name": "Potentially reading uninitialized storage"
+      }
+    ]
+  ],
+  "contract": "dataset/reentrancy/reentrance.sol",
+  "duration": 118.23675227165222,
+  "end": 1654004895.0093439,
+  "exit_code": 0,
+  "start": 1654004776.7725916,
+  "tool": "manticore"
+}

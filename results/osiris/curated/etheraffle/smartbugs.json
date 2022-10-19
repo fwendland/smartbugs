@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "osiris",
+  "start": 1654181009.9231648,
+  "end": 1654181062.8337464,
+  "duration": 52.91058158874512,
+  "exit_code": 139
+}

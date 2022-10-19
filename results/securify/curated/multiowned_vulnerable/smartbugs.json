@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "securify",
+  "start": 1654182041.404664,
+  "end": 1654182208.2399514,
+  "duration": 166.8352873325348,
+  "exit_code": 0
+}

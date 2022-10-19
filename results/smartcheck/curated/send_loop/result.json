@@ -1,0 +1,66 @@
+{
+  "analysis": [
+    {
+      "column": 29,
+      "content": "0x79B483371E87d664cd39491b5F06250165e4b184",
+      "line": 16,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 29,
+      "content": "0x79B483371E87d664cd39491b5F06250165e4b185",
+      "line": 17,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "for(uintx;x<refundAddresses.length;x++){require(refundAddresses[x].send(refunds[refundAddresses[x]]));}",
+      "line": 22,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "d3j11j",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "for(uintx;x<refundAddresses.length;x++){require(refundAddresses[x].send(refunds[refundAddresses[x]]));}",
+      "line": 22,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "f6f853",
+      "severity": 2
+    },
+    {
+      "column": 10,
+      "content": "private",
+      "line": 12,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 39,
+      "content": "send(refunds[refundAddresses[x]])",
+      "line": 24,
+      "name": "SOLIDITY_SEND",
+      "patternId": 430636,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "constructor(){refundAddresses.push(0x79B483371E87d664cd39491b5F06250165e4b184);refundAddresses.push(0x79B483371E87d664cd39491b5F06250165e4b185);}",
+      "line": 15,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "duration": 5.242772102355957,
+  "end": 1654186513.449945,
+  "exit_code": 0,
+  "start": 1654186508.2071729,
+  "tool": "smartcheck"
+}

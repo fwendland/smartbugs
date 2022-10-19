@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "19",
+      "maybe_in_function": "0x7d1c54f8",
+      "pc": "0x299",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "19",
+      "maybe_in_function": "0x7d1c54f8",
+      "pc": "0x299",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "26",
+      "maybe_in_function": "0x7d1c54f8",
+      "pc": "0x177",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "duration": 5.092687606811523,
+  "end": 1654008669.7241204,
+  "exit_code": 0,
+  "start": 1654008664.6314328,
+  "tool": "conkas"
+}

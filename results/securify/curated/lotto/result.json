@@ -1,0 +1,151 @@
+{
+  "analysis": {
+    "lotto.sol": {
+      "results": {
+        "DAO": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": false,
+          "hasWarnings": false,
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": true,
+          "hasViolations": true,
+          "hasWarnings": false,
+          "safe": [
+            229,
+            229,
+            229
+          ],
+          "violations": [
+            291
+          ],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": true,
+          "hasViolations": false,
+          "hasWarnings": false,
+          "safe": [
+            339,
+            339,
+            325,
+            339,
+            325,
+            184,
+            339,
+            325,
+            184,
+            320,
+            339,
+            325,
+            184,
+            320,
+            237
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODAmount": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": true,
+          "hasWarnings": true,
+          "safe": [],
+          "violations": [
+            229,
+            229,
+            229
+          ],
+          "warnings": [
+            291
+          ]
+        },
+        "TODReceiver": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": true,
+          "hasViolations": true,
+          "hasWarnings": false,
+          "safe": [
+            229,
+            229,
+            229
+          ],
+          "violations": [
+            291
+          ],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": true,
+          "hasWarnings": false,
+          "safe": [],
+          "violations": [
+            229,
+            229,
+            229,
+            291
+          ],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": true,
+          "hasWarnings": false,
+          "safe": [],
+          "violations": [
+            229,
+            229,
+            229,
+            291
+          ],
+          "warnings": []
+        },
+        "UnrestrictedEtherFlow": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": false,
+          "hasWarnings": true,
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            229,
+            229,
+            229,
+            291
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "duration": 1660.6245667934418,
+  "end": 1654185411.6701698,
+  "exit_code": 1,
+  "start": 1654183751.045603,
+  "tool": "securify"
+}

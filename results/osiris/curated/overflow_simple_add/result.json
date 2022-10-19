@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 14,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/overflow_simple_add.sol",
+      "name": "Overflow_Add"
+    }
+  ],
+  "contract": "dataset/arithmetic/overflow_simple_add.sol",
+  "duration": 4.143837928771973,
+  "end": 1654180934.7945154,
+  "exit_code": 0,
+  "start": 1654180930.6506774,
+  "tool": "osiris"
+}

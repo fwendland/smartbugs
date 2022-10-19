@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "conkas",
+  "start": 1654106821.6284997,
+  "end": 1654106827.329421,
+  "duration": 5.700921297073364,
+  "exit_code": 0
+}

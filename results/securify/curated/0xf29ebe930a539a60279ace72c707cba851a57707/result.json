@@ -1,0 +1,86 @@
+{
+  "analysis": {
+    "/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol:B": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            15
+          ]
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            16
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            12,
+            10
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            15
+          ],
+          "violations": [
+            16
+          ],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            15,
+            16
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            15,
+            16
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            15
+          ],
+          "warnings": [
+            16
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            15,
+            16
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/unchecked_low_level_calls/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+  "duration": 399.37556314468384,
+  "end": 1654245472.4151785,
+  "exit_code": 0,
+  "start": 1654245073.0396154,
+  "tool": "securify"
+}

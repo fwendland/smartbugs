@@ -1,0 +1,212 @@
+{
+  "analysis": [
+    {
+      "check": "arbitrary-send",
+      "confidence": "Medium",
+      "description": "TestContract.withdrawAll (/data/multiowned_vulnerable.sol#56-58) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(this.balance) (/data/multiowned_vulnerable.sol#57)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "TestContract",
+            "source_mapping": {
+              "filename": "/data/multiowned_vulnerable.sol",
+              "length": 151,
+              "lines": [
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "start": 1271
+            },
+            "type": "contract"
+          },
+          "name": "withdrawAll",
+          "source_mapping": {
+            "filename": "/data/multiowned_vulnerable.sol",
+            "length": 77,
+            "lines": [
+              56,
+              57,
+              58
+            ],
+            "start": 1314
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.transfer(this.balance)",
+          "source_mapping": {
+            "filename": "/data/multiowned_vulnerable.sol",
+            "length": 33,
+            "lines": [
+              57
+            ],
+            "start": 1353
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "TestContract.withdrawAll (/data/multiowned_vulnerable.sol#56-58) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "TestContract",
+            "source_mapping": {
+              "filename": "/data/multiowned_vulnerable.sol",
+              "length": 151,
+              "lines": [
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "start": 1271
+            },
+            "type": "contract"
+          },
+          "name": "withdrawAll",
+          "source_mapping": {
+            "filename": "/data/multiowned_vulnerable.sol",
+            "length": 77,
+            "lines": [
+              56,
+              57,
+              58
+            ],
+            "start": 1314
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "TestContract.fallback (/data/multiowned_vulnerable.sol#60-61) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "TestContract",
+            "source_mapping": {
+              "filename": "/data/multiowned_vulnerable.sol",
+              "length": 151,
+              "lines": [
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "start": 1271
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/multiowned_vulnerable.sol",
+            "length": 24,
+            "lines": [
+              60,
+              61
+            ],
+            "start": 1395
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/multiowned_vulnerable.sol:\n\t- pragma solidity^0.4.23 (/data/multiowned_vulnerable.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.23",
+          "source_mapping": {
+            "filename": "/data/multiowned_vulnerable.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 227
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_owner' of MultiOwnable.newOwner (/data/multiowned_vulnerable.sol#38) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_owner",
+          "source_mapping": {
+            "filename": "/data/multiowned_vulnerable.sol",
+            "length": 14,
+            "lines": [
+              38
+            ],
+            "start": 895
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_owner' of MultiOwnable.deleteOwner (/data/multiowned_vulnerable.sol#47) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_owner",
+          "source_mapping": {
+            "filename": "/data/multiowned_vulnerable.sol",
+            "length": 14,
+            "lines": [
+              47
+            ],
+            "start": 1081
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "duration": 4.6582536697387695,
+  "end": 1654186386.7446234,
+  "exit_code": 6,
+  "start": 1654186382.0863698,
+  "tool": "slither"
+}

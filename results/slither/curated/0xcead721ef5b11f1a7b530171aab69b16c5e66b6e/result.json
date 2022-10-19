@@ -1,0 +1,839 @@
+{
+  "analysis": [
+    {
+      "check": "reentrancy-eth",
+      "confidence": "Medium",
+      "description": "Reentrancy in WALLET.Collect (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#21-35):\n\tExternal calls:\n\t- msg.sender.call.value(_am)() (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#29-33)\n\tState variables written after the call(s):\n\t- Acc (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#31)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WALLET",
+            "source_mapping": {
+              "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+              "length": 1007,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 401,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "start": 378
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(_am)()",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 156,
+            "lines": [
+              29,
+              30,
+              31,
+              32,
+              33
+            ],
+            "start": 607
+          },
+          "type": "external_calls"
+        },
+        {
+          "expression": "acc.balance -= _am",
+          "name": "Acc",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 16,
+            "lines": [
+              31
+            ],
+            "start": 670
+          },
+          "type": "variables_written"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "constable-states",
+      "confidence": "High",
+      "description": "WALLET.MinSum should be constant (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#54)\n",
+      "elements": [
+        {
+          "name": "MinSum",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 28,
+            "lines": [
+              54
+            ],
+            "start": 998
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "WALLET.Collect (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#21-35) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WALLET",
+            "source_mapping": {
+              "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+              "length": 1007,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 401,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "start": 378
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "WALLET.fallback (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#37-42) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WALLET",
+            "source_mapping": {
+              "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+              "length": 1007,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 63,
+            "lines": [
+              37,
+              38,
+              39,
+              40,
+              41,
+              42
+            ],
+            "start": 785
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Log.AddMessage (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#76-84) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Log",
+            "source_mapping": {
+              "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+              "length": 418,
+              "lines": [
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85
+              ],
+              "start": 1112
+            },
+            "type": "contract"
+          },
+          "name": "AddMessage",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 227,
+            "lines": [
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84
+            ],
+            "start": 1301
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in WALLET.Collect (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#21-35):\n\t-msg.sender.call.value(_am)() /data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#29-33\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WALLET",
+            "source_mapping": {
+              "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+              "length": 1007,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 401,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "start": 378
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(_am)()",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 156,
+            "lines": [
+              29,
+              30,
+              31,
+              32,
+              33
+            ],
+            "start": 607
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'WALLET.Put' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#11-19) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Put",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 248,
+            "lines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 124
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_unlockTime' of WALLET.Put (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#11) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_unlockTime",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 16,
+            "lines": [
+              11
+            ],
+            "start": 137
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'WALLET.Collect' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#21-35) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 401,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "start": 378
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_am' of WALLET.Collect (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#21) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_am",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 8,
+            "lines": [
+              21
+            ],
+            "start": 395
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'WALLET.WALLET' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#56-58) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "WALLET",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 70,
+            "lines": [
+              56,
+              57,
+              58
+            ],
+            "start": 1037
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'WALLET.Acc' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#50) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Acc",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 38,
+            "lines": [
+              50
+            ],
+            "start": 935
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'WALLET.LogFile' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#52) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "LogFile",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 11,
+            "lines": [
+              52
+            ],
+            "start": 980
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'WALLET.MinSum' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#54) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "MinSum",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 28,
+            "lines": [
+              54
+            ],
+            "start": 998
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Log.AddMessage' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#76-84) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "AddMessage",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 227,
+            "lines": [
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84
+            ],
+            "start": 1301
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_adr' of Log.AddMessage (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#76) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_adr",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 12,
+            "lines": [
+              76
+            ],
+            "start": 1321
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_val' of Log.AddMessage (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#76) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_val",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 9,
+            "lines": [
+              76
+            ],
+            "start": 1334
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_data' of Log.AddMessage (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#76) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_data",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 12,
+            "lines": [
+              76
+            ],
+            "start": 1344
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'Log.History' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#72) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "History",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 24,
+            "lines": [
+              72
+            ],
+            "start": 1248
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'Log.LastMsg' (/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol#74) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "LastMsg",
+          "source_mapping": {
+            "filename": "/data/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+            "length": 15,
+            "lines": [
+              74
+            ],
+            "start": 1279
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+  "duration": 6.0900890827178955,
+  "end": 1653999789.46768,
+  "exit_code": 20,
+  "start": 1653999783.377591,
+  "tool": "slither"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "mythril",
+  "start": 1654177637.8335435,
+  "end": 1654177644.440246,
+  "duration": 6.606702566146851,
+  "exit_code": 0
+}

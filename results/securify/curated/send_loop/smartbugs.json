@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "securify",
+  "start": 1654183441.6303847,
+  "end": 1654183454.7649214,
+  "duration": 13.134536743164062,
+  "exit_code": 0
+}

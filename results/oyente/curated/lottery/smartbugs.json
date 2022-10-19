@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "oyente",
+  "start": 1654181780.4543607,
+  "end": 1654181786.5707514,
+  "duration": 6.116390705108643,
+  "exit_code": 0
+}

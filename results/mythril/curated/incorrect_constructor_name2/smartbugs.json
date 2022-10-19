@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "tool": "mythril",
+  "start": 1654177339.59339,
+  "end": 1654177344.699785,
+  "duration": 5.10639500617981,
+  "exit_code": 0
+}

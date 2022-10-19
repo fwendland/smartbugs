@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "honeybadger",
+  "start": 1654003682.6938665,
+  "end": 1654003688.5652206,
+  "duration": 5.871354103088379,
+  "exit_code": 0
+}

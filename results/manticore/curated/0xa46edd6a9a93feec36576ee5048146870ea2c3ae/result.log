@@ -1,0 +1,4 @@
+2022-06-02 13:11:38,113: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 13:11:38,114: [14] m.main:INFO: Beginning analysis
+2022-06-02 13:11:38,117: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 13:11:39,172: [14] m.e.manticore:INFO: Starting symbolic transaction: 0

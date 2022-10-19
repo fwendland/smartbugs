@@ -1,0 +1,71 @@
+{
+  "analysis": {
+    "/data/overflow_single_tx.sol:IntegerOverflowSingleTransaction": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            15,
+            21,
+            27
+          ],
+          "warnings": [
+            33,
+            45,
+            12,
+            39
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "duration": 17.16945242881775,
+  "end": 1654182428.8577895,
+  "exit_code": 0,
+  "start": 1654182411.688337,
+  "tool": "securify"
+}

@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/incorrect_constructor_name2.sol",
+      "name": "Missing"
+    }
+  ],
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "duration": 4.346983432769775,
+  "end": 1654180879.039061,
+  "exit_code": 0,
+  "start": 1654180874.6920776,
+  "tool": "osiris"
+}

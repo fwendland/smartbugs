@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "tool": "slither",
+  "start": 1654186435.7373207,
+  "end": 1654186445.5229144,
+  "duration": 9.785593748092651,
+  "exit_code": 4
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_minimal.sol",
+  "tool": "maian",
+  "start": 1654162138.454607,
+  "end": 1654162185.9669561,
+  "duration": 47.512349128723145,
+  "exit_code": 0
+}

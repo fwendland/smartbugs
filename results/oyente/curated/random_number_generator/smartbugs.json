@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "tool": "oyente",
+  "start": 1654181780.369879,
+  "end": 1654181782.4511182,
+  "duration": 2.0812392234802246,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "manticore",
+  "start": 1654173600.2033207,
+  "end": 1654173688.3574617,
+  "duration": 88.15414094924927,
+  "exit_code": 0
+}

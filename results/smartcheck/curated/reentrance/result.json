@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "column": 20,
+      "content": "call.value(_amount)()",
+      "line": 24,
+      "name": "SOLIDITY_CALL_WITHOUT_DATA",
+      "patternId": "om991k",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 20,
+      "content": "call.value(_amount)()",
+      "line": 24,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "public",
+      "line": 31,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "91h3sa",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrance.sol",
+  "duration": 10.645107507705688,
+  "end": 1654008613.8358154,
+  "exit_code": 0,
+  "start": 1654008603.190708,
+  "tool": "smartcheck"
+}

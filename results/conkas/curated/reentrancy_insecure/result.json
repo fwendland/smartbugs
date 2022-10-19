@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "17",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0xcf",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0xcf",
+      "vuln_type": "Transaction Ordering Dependence"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_insecure.sol",
+  "duration": 9.33313536643982,
+  "end": 1654008674.023828,
+  "exit_code": 0,
+  "start": 1654008664.6906927,
+  "tool": "conkas"
+}

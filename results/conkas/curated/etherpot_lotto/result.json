@@ -1,0 +1,40 @@
+{
+  "analysis": [
+    {
+      "line_number": "120",
+      "maybe_in_function": "getBuyers(uint256,address)",
+      "pc": "0x895",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "141",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x163",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "119",
+      "maybe_in_function": "getBuyers(uint256,address)",
+      "pc": "0x4f4",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "73",
+      "maybe_in_function": "getDecisionBlockNumber(uint256,uint256)",
+      "pc": "0xc55",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "141",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x163",
+      "vuln_type": "Unchecked Low Level Call"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "duration": 51.151355028152466,
+  "end": 1654106881.6133091,
+  "exit_code": 0,
+  "start": 1654106830.461954,
+  "tool": "conkas"
+}

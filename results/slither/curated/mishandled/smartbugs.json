@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "tool": "slither",
+  "start": 1654186435.7617986,
+  "end": 1654186451.4890137,
+  "duration": 15.727215051651001,
+  "exit_code": 2
+}

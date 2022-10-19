@@ -1,0 +1,68 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 12,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 14,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "51.6%",
+      "file": "/data/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "Proxy",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 12,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 33,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 14,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "77.2%",
+      "file": "/data/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "VaultProxy",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+  "duration": 9.039432287216187,
+  "end": 1654181878.8401563,
+  "exit_code": 1,
+  "start": 1654181869.800724,
+  "tool": "oyente"
+}

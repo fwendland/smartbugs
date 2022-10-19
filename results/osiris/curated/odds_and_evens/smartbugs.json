@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "osiris",
+  "start": 1654181119.9001863,
+  "end": 1654181123.8442814,
+  "duration": 3.9440951347351074,
+  "exit_code": 0
+}

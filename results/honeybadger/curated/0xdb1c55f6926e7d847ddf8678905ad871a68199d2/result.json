@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 809,
+          "line": 20,
+          "message": "hidden_transfer"
+        }
+      ],
+      "file": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+      "name": "FreeEth"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+  "duration": 64.61899638175964,
+  "end": 1654123468.6741605,
+  "exit_code": 0,
+  "start": 1654123404.055164,
+  "tool": "honeybadger"
+}

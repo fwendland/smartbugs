@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "tool": "slither",
+  "start": 1654247457.5689778,
+  "end": 1654247462.9502454,
+  "duration": 5.381267547607422,
+  "exit_code": 120
+}

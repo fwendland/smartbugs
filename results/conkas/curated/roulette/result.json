@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "20",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x6e",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "18",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x63",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "21",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x84",
+      "vuln_type": "Time Manipulation"
+    }
+  ],
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "duration": 5.610472679138184,
+  "end": 1654106827.2233548,
+  "exit_code": 0,
+  "start": 1654106821.6128821,
+  "tool": "conkas"
+}

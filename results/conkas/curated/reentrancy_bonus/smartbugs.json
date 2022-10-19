@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "tool": "conkas",
+  "start": 1654008664.6314328,
+  "end": 1654008669.7241204,
+  "duration": 5.092687606811523,
+  "exit_code": 0
+}

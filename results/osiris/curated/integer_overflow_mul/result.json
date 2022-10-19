@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 17,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/integer_overflow_mul.sol",
+      "name": "IntegerOverflowMul"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_mul.sol",
+  "duration": 14.891316413879395,
+  "end": 1654180945.5655696,
+  "exit_code": 0,
+  "start": 1654180930.6742532,
+  "tool": "osiris"
+}

@@ -1,0 +1,82 @@
+{
+  "analysis": [
+    {
+      "line_number": "118",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x446",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "132",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x539",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "103",
+      "maybe_in_function": "claimThrone(string)",
+      "pc": "0x23b",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "110",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x3fa",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "110",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x3fa",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "174",
+      "maybe_in_function": "sweepCommission(uint256)",
+      "pc": "0xa2d",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "132",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x539",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "174",
+      "maybe_in_function": "sweepCommission(uint256)",
+      "pc": "0xa2d",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "99",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x9b",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "118",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x446",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "138",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x569",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "139",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x6cc",
+      "vuln_type": "Time Manipulation"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "duration": 211.62409901618958,
+  "end": 1654107042.0510283,
+  "exit_code": 0,
+  "start": 1654106830.4269292,
+  "tool": "conkas"
+}

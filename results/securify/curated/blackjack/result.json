@@ -1,0 +1,171 @@
+{
+  "analysis": {
+    "/data/blackjack.sol:BlackJack": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [
+            185
+          ],
+          "violations": [
+            169,
+            182,
+            222,
+            235,
+            239
+          ],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            169,
+            185,
+            182,
+            222,
+            235,
+            239
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            169,
+            185,
+            182,
+            222,
+            235,
+            239
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            169,
+            185,
+            182,
+            222,
+            235,
+            239
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            169,
+            185,
+            182,
+            222,
+            235,
+            239
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            169,
+            185,
+            182,
+            222,
+            235,
+            239
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    },
+    "/data/blackjack.sol:Deck": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [
+            -1
+          ],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "duration": 518.3885006904602,
+  "end": 1654183293.8689885,
+  "exit_code": 0,
+  "start": 1654182775.4804878,
+  "tool": "securify"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "mythril",
+  "start": 1654179442.5166073,
+  "end": 1654179447.9233103,
+  "duration": 5.406702995300293,
+  "exit_code": 0
+}

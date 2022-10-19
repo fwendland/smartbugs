@@ -1,0 +1,46 @@
+{
+  "analysis": [
+    {
+      "line_number": "27",
+      "maybe_in_function": "withdraw()",
+      "pc": "0x21c",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "deposit()",
+      "pc": "0x3ec",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "deposit()",
+      "pc": "0x3aa",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "30",
+      "maybe_in_function": "withdraw()",
+      "pc": "0x2d6",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "16",
+      "maybe_in_function": "deposit()",
+      "pc": "0x39d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "22",
+      "maybe_in_function": "increaseLockTime(uint256)",
+      "pc": "0x336",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/arithmetic/timelock.sol",
+  "duration": 5.710962533950806,
+  "end": 1654092837.5602074,
+  "exit_code": 0,
+  "start": 1654092831.8492448,
+  "tool": "conkas"
+}

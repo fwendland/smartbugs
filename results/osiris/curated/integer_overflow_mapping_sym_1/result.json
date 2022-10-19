@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 16,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/integer_overflow_mapping_sym_1.sol",
+      "name": "IntegerOverflowMappingSym1"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "duration": 2.923259973526001,
+  "end": 1654180933.5705667,
+  "exit_code": 0,
+  "start": 1654180930.6473067,
+  "tool": "osiris"
+}

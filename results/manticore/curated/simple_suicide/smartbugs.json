@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "manticore",
+  "start": 1654164567.3889005,
+  "end": 1654164572.835219,
+  "duration": 5.4463183879852295,
+  "exit_code": 0
+}

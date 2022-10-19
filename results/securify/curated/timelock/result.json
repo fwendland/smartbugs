@@ -1,0 +1,81 @@
+{
+  "analysis": {
+    "/data/timelock.sol:TimeLock": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            29
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            19,
+            12,
+            11
+          ],
+          "warnings": [
+            14,
+            24
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            29
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            29
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            29
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            29
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            29
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/arithmetic/timelock.sol",
+  "duration": 83.23892664909363,
+  "end": 1654182494.965177,
+  "exit_code": 0,
+  "start": 1654182411.7262504,
+  "tool": "securify"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.7783637,
+  "end": 1654186487.1265044,
+  "duration": 7.348140716552734,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "slither",
+  "start": 1654186400.0867121,
+  "end": 1654186405.2986236,
+  "duration": 5.21191143989563,
+  "exit_code": 65
+}

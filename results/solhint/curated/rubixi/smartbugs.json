@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "solhint",
+  "start": 1654186576.7765393,
+  "end": 1654186580.7609577,
+  "duration": 3.9844183921813965,
+  "exit_code": 1
+}

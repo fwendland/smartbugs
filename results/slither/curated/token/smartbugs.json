@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "slither",
+  "start": 1654186391.1463664,
+  "end": 1654186395.440462,
+  "duration": 4.294095754623413,
+  "exit_code": 8
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "conkas",
+  "start": 1654008664.6671712,
+  "end": 1654008671.5103292,
+  "duration": 6.843158006668091,
+  "exit_code": 0
+}

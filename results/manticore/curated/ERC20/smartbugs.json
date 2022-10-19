@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "manticore",
+  "start": 1654171791.250253,
+  "end": 1654173256.9189243,
+  "duration": 1465.6686713695526,
+  "exit_code": 0
+}

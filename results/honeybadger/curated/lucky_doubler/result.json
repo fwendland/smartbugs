@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/lucky_doubler.sol",
+      "name": "LuckyDoubler"
+    }
+  ],
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "duration": 54.090484380722046,
+  "end": 1654122786.2532258,
+  "exit_code": 0,
+  "start": 1654122732.1627414,
+  "tool": "honeybadger"
+}

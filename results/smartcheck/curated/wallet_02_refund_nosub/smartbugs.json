@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.654406,
+  "end": 1654186486.552856,
+  "duration": 6.898449897766113,
+  "exit_code": 0
+}

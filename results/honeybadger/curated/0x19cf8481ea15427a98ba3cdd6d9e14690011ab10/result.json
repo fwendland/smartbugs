@@ -1,0 +1,25 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "name": "SafeMath"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "name": "StandardToken"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "name": "daoPOLSKAtokens"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+  "duration": 272.0494227409363,
+  "end": 1654123676.1095536,
+  "exit_code": 0,
+  "start": 1654123404.0601308,
+  "tool": "honeybadger"
+}

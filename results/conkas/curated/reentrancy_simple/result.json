@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "24",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x13a",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "24",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x13a",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "addToBalance()",
+      "pc": "0x1d4",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_simple.sol",
+  "duration": 8.869262456893921,
+  "end": 1654008673.5255725,
+  "exit_code": 0,
+  "start": 1654008664.65631,
+  "tool": "conkas"
+}

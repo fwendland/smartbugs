@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+      "name": "Marriage"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+      "name": "Owned"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+  "duration": 278.301659822464,
+  "end": 1654123682.4476218,
+  "exit_code": 0,
+  "start": 1654123404.145962,
+  "tool": "honeybadger"
+}

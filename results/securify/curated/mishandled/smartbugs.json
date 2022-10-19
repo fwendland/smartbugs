@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "tool": "securify",
+  "start": 1654183751.0802314,
+  "end": 1654184095.968614,
+  "duration": 344.88838267326355,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "oyente",
+  "start": 1654181834.2582426,
+  "end": 1654181837.4446852,
+  "duration": 3.1864426136016846,
+  "exit_code": 0
+}

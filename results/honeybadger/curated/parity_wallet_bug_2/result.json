@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/parity_wallet_bug_2.sol",
+      "name": "WalletEvents"
+    },
+    {
+      "errors": [],
+      "file": "/data/parity_wallet_bug_2.sol",
+      "name": "WalletLibrary"
+    }
+  ],
+  "contract": "dataset/access_control/parity_wallet_bug_2.sol",
+  "duration": 263.06208395957947,
+  "end": 1654122529.532165,
+  "exit_code": 0,
+  "start": 1654122266.470081,
+  "tool": "honeybadger"
+}

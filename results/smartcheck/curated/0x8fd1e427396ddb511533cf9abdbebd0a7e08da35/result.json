@@ -1,0 +1,98 @@
+{
+  "analysis": [
+    {
+      "column": 26,
+      "content": "sha3",
+      "line": 44,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionBal()publicconstantreturns(uint){returnthis.balance;}",
+      "line": 103,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 0,
+      "content": "contractTokenBankisToken{uintpublicMinDeposit;mapping(address=>uint)publicHolders;functioninitTokenBank()public{owner=msg.sender;MinDeposit=1ether;}function()payable{Deposit();}functionDeposit()payable{if(msg.value>=MinDeposit){Holders[msg.sender]+=msg.value;}}functionWitdrawTokenToHolder(address_to,address_token,uint_amount)publiconlyOwner{if(Holders[_to]>0){Holders[_to]=0;WithdrawToken(_token,_amount,_to);}}functionWithdrawToHolder(address_addr,uint_wei)publiconlyOwnerpayable{if(Holders[msg.sender]>0){if(Holders[_addr]>=_wei){_addr.call.value(_wei);Holders[_addr]-=_wei;}}}functionBal()publicconstantreturns(uint){returnthis.balance;}}",
+      "line": 48,
+      "name": "SOLIDITY_LOCKED_MONEY",
+      "patternId": "30281d",
+      "severity": 3
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 14,
+      "content": "call(bytes4(sha3(\"transfer(address,uint256)\")),to,amount)",
+      "line": 44,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 14,
+      "content": "call(bytes4(sha3(\"transfer(address,uint256)\")),to,amount)",
+      "line": 44,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "function()payable{Deposit();}",
+      "line": 61,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionDeposit()payable{if(msg.value>=MinDeposit){Holders[msg.sender]+=msg.value;}}",
+      "line": 67,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "addressnewOwner;",
+      "line": 11,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "addressowner=msg.sender;",
+      "line": 12,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "addressowner=msg.sender;",
+      "line": 38,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol",
+  "duration": 12.52987027168274,
+  "end": 1654186555.472074,
+  "exit_code": 0,
+  "start": 1654186542.9422038,
+  "tool": "smartcheck"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "solhint",
+  "start": 1654186621.8022525,
+  "end": 1654186627.4242308,
+  "duration": 5.621978282928467,
+  "exit_code": 1
+}

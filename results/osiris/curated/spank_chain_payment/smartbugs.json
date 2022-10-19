@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "tool": "osiris",
+  "start": 1654007399.671932,
+  "end": 1654007507.981003,
+  "duration": 108.30907106399536,
+  "exit_code": 0
+}

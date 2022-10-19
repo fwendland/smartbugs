@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 20,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 31,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "17.1%",
+      "file": "/data/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "AirDropContract",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol",
+  "duration": 3.5044779777526855,
+  "end": 1654181873.240629,
+  "exit_code": 1,
+  "start": 1654181869.736151,
+  "tool": "oyente"
+}

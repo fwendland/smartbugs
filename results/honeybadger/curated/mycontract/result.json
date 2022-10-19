@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/mycontract.sol",
+      "name": "MyContract"
+    }
+  ],
+  "contract": "dataset/access_control/mycontract.sol",
+  "duration": 4.787038326263428,
+  "end": 1654122271.2192283,
+  "exit_code": 0,
+  "start": 1654122266.43219,
+  "tool": "honeybadger"
+}

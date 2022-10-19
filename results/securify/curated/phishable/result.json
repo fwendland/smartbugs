@@ -1,0 +1,78 @@
+{
+  "analysis": {
+    "/data/phishable.sol:Phishable": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            20
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            17
+          ],
+          "warnings": [
+            9
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            20
+          ],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            20
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            20
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            20
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            20
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/access_control/phishable.sol",
+  "duration": 17.549719095230103,
+  "end": 1654182058.932803,
+  "exit_code": 0,
+  "start": 1654182041.3830838,
+  "tool": "securify"
+}

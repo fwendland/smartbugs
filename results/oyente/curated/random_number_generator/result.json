@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "100.0%",
+      "file": "/data/random_number_generator.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "RandomNumberGenerator",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "duration": 2.0812392234802246,
+  "end": 1654181782.4511182,
+  "exit_code": 0,
+  "start": 1654181780.369879,
+  "tool": "oyente"
+}

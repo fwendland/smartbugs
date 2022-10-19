@@ -1,0 +1,106 @@
+INFO:Slither:Compilation warnings/errors on /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:29:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:87:25: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                        ^------------^
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:67:5: The shadowed declaration is here:
+    uint public indexdate;
+    ^-------------------^
+
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:87:41: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                        ^---------------^
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:65:5: The shadowed declaration is here:
+    string public wedaddress;
+    ^----------------------^
+
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:87:60: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                           ^-----------------^
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:66:5: The shadowed declaration is here:
+    string public partnernames;
+    ^------------------------^
+
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:87:81: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                                                ^--------------^
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:68:5: The shadowed declaration is here:
+    uint public weddingdate;
+    ^---------------------^
+
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:87:99: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                                                                  ^------------------^
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:69:5: The shadowed declaration is here:
+    uint public displaymultisig;
+    ^-------------------------^
+
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:56:9: Warning: Return value of low-level calls not used.
+        _dst.call.value(_value)(_data);
+        ^----------------------------^
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:89:9: Warning: Invoking events without "emit" prefix is deprecated.
+        IndexWritten(now, wedaddress, partnernames, weddingdate, displaymultisig);
+        ^-----------------------------------------------------------------------^
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:29:5: Warning: No visibility specified. Defaulting to "public". 
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:38:5: Warning: No visibility specified. Defaulting to "public". 
+    function changeOwner(address _newOwner) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:45:5: Warning: No visibility specified. Defaulting to "public". 
+    function acceptOwnership() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:54:5: Warning: No visibility specified. Defaulting to "public". 
+    function execute(address _dst, uint _value, bytes _data) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:87:5: Warning: No visibility specified. Defaulting to "public". 
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:87:25: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                        ^------------^
+
+INFO:Detectors:[92m
+WedIndex.writeIndex.indexdate (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:
+	- WedIndex.indexdate (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#67)
+WedIndex.writeIndex.wedaddress (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:
+	- WedIndex.wedaddress (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#65)
+WedIndex.writeIndex.partnernames (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:
+	- WedIndex.partnernames (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#66)
+WedIndex.writeIndex.weddingdate (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:
+	- WedIndex.weddingdate (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#68)
+WedIndex.writeIndex.displaymultisig (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:
+	- WedIndex.displaymultisig (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#69)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#local-variable-shadowing[0m
+INFO:Detectors:[92m
+WedIndex.displaymultisig should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#69)
+WedIndex.indexdate should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#67)
+WedIndex.partnernames should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#66)
+WedIndex.wedaddress should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#65)
+WedIndex.weddingdate should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#68)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#state-variables-that-could-be-declared-constant[0m
+INFO:Detectors:[92m
+Owned.changeOwner (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#38-40) should be declared external
+Owned.acceptOwnership (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#45-49) should be declared external
+Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54-57) should be declared external
+WedIndex.numberOfIndex (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#81-83) should be declared external
+WedIndex.writeIndex (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87-90) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Detected issues with version pragma in /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:
+	- pragma solidity^0.4.16 (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#7): it allows old versions
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#incorrect-version-of-solidity[0m
+INFO:Detectors:[92m
+Low level call in Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54-57):
+	-_dst.call.value(_value)(_data) /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#56
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#low-level-calls[0m
+INFO:Detectors:[92m
+Function 'Owned.Owned' (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#29-31) is not in mixedCase
+Parameter '_newOwner' of Owned.changeOwner (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#38) is not in mixedCase
+Parameter '_dst' of Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54) is not in mixedCase
+Parameter '_value' of Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54) is not in mixedCase
+Parameter '_data' of Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54) is not in mixedCase
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#conformance-to-solidity-naming-conventions[0m
+INFO:Slither:/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol analyzed (2 contracts), 18 result(s) found

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "securify",
+  "start": 1654182775.47889,
+  "end": 1654183439.5865138,
+  "duration": 664.1076238155365,
+  "exit_code": 0
+}

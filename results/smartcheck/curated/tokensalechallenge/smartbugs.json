@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "tool": "smartcheck",
+  "start": 1654186490.3245099,
+  "end": 1654186496.315839,
+  "duration": 5.991329193115234,
+  "exit_code": 0
+}

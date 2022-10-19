@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "24",
+      "maybe_in_function": "withdraw(uint256)",
+      "pc": "0x24a",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "24",
+      "maybe_in_function": "withdraw(uint256)",
+      "pc": "0x24a",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "14",
+      "maybe_in_function": "donate(address)",
+      "pc": "0x1b9",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrance.sol",
+  "duration": 5.28005576133728,
+  "end": 1654008669.4408998,
+  "exit_code": 0,
+  "start": 1654008664.160844,
+  "tool": "conkas"
+}

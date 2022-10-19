@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/list_dos.sol",
+  "tool": "oyente",
+  "start": 1654181834.1177983,
+  "end": 1654181839.0821376,
+  "duration": 4.964339256286621,
+  "exit_code": 1
+}

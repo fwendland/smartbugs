@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "duration": 70.86516976356506,
+  "end": 1654164638.2051067,
+  "exit_code": 0,
+  "start": 1654164567.339937,
+  "tool": "manticore"
+}

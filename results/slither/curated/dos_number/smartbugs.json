@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "tool": "slither",
+  "start": 1654186407.4323924,
+  "end": 1654186410.553026,
+  "duration": 3.120633602142334,
+  "exit_code": 5
+}

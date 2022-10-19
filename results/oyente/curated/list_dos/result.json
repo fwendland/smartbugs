@@ -1,0 +1,84 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 32,
+          "level": "Warning",
+          "line": 39,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 14,
+          "level": "Warning",
+          "line": 35,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 16,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 17,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 14,
+          "level": "Warning",
+          "line": 39,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 14,
+          "level": "Warning",
+          "line": 40,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 22,
+          "level": "Warning",
+          "line": 70,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 18,
+          "level": "Warning",
+          "line": 62,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 22,
+          "level": "Warning",
+          "line": 75,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 35,
+          "message": "Timestamp Dependency."
+        }
+      ],
+      "evm_code_coverage": "41.9%",
+      "file": "/data/list_dos.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "Government",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": true,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/denial_of_service/list_dos.sol",
+  "duration": 4.964339256286621,
+  "end": 1654181839.0821376,
+  "exit_code": 1,
+  "start": 1654181834.1177983,
+  "tool": "oyente"
+}

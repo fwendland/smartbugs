@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "16",
+      "maybe_in_function": "transfer(address,uint256)",
+      "pc": "0x20d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "24",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x127",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "24",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x127",
+      "vuln_type": "Transaction Ordering Dependence"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_cross_function.sol",
+  "duration": 10.798168659210205,
+  "end": 1654008675.4679067,
+  "exit_code": 0,
+  "start": 1654008664.669738,
+  "tool": "conkas"
+}

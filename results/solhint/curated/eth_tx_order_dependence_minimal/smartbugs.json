@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "solhint",
+  "start": 1654186604.6216662,
+  "end": 1654186606.9337273,
+  "duration": 2.312061071395874,
+  "exit_code": 0
+}

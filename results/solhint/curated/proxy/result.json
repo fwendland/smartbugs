@@ -1,0 +1,74 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/proxy.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/proxy.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/proxy.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/proxy.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/proxy.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/proxy.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Line length must be no more than 120 but current length is 125.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "5",
+      "file": "/data/proxy.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/proxy.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/proxy.sol",
+  "duration": 4.996084451675415,
+  "end": 1654186581.9170263,
+  "exit_code": 1,
+  "start": 1654186576.9209418,
+  "tool": "solhint"
+}

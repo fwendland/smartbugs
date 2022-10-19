@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 35,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 35,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 44,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+      "name": "Honey"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+  "duration": 43.02715063095093,
+  "end": 1654181231.818479,
+  "exit_code": 0,
+  "start": 1654181188.7913284,
+  "tool": "osiris"
+}

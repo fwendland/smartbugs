@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 22,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 23,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "98.8%",
+      "file": "/data/token.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "Token",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/arithmetic/token.sol",
+  "duration": 3.7121121883392334,
+  "end": 1654181753.6092029,
+  "exit_code": 0,
+  "start": 1654181749.8970907,
+  "tool": "oyente"
+}

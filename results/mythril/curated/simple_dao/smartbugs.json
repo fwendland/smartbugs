@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "tool": "mythril",
+  "start": 1654006855.3085692,
+  "end": 1654006863.98735,
+  "duration": 8.678780794143677,
+  "exit_code": 0
+}

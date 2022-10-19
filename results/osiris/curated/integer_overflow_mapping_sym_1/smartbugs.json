@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "tool": "osiris",
+  "start": 1654180930.6473067,
+  "end": 1654180933.5705667,
+  "duration": 2.923259973526001,
+  "exit_code": 0
+}

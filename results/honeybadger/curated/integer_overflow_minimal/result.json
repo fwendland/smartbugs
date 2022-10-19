@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/integer_overflow_minimal.sol",
+      "name": "IntegerOverflowMinimal"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_minimal.sol",
+  "duration": 3.5517327785491943,
+  "end": 1654122535.084863,
+  "exit_code": 0,
+  "start": 1654122531.5331302,
+  "tool": "honeybadger"
+}

@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/reentrancy_dao.sol",
+      "name": "ReentrancyDAO"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_dao.sol",
+  "duration": 8.680802822113037,
+  "end": 1654003691.3392627,
+  "exit_code": 0,
+  "start": 1654003682.65846,
+  "tool": "honeybadger"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "oyente",
+  "start": 1654181737.1860862,
+  "end": 1654181747.2263288,
+  "duration": 10.040242671966553,
+  "exit_code": 0
+}

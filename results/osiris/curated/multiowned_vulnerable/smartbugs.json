@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "osiris",
+  "start": 1654180874.7094357,
+  "end": 1654180880.4781585,
+  "duration": 5.768722772598267,
+  "exit_code": 0
+}

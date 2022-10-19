@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "osiris",
+  "start": 1654181119.9512622,
+  "end": 1654181122.6702886,
+  "duration": 2.7190263271331787,
+  "exit_code": 0
+}

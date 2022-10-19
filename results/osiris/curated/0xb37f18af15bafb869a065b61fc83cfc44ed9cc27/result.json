@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 20,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 28,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 28,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 33,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+      "name": "SimpleWallet"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+  "duration": 5.847905397415161,
+  "end": 1654181195.482524,
+  "exit_code": 0,
+  "start": 1654181189.6346185,
+  "tool": "osiris"
+}

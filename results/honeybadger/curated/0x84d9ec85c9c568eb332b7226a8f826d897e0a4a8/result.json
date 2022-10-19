@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+      "name": "Owned"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+      "name": "WedIndex"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+  "duration": 278.7310981750488,
+  "end": 1654123682.8568258,
+  "exit_code": 0,
+  "start": 1654123404.1257277,
+  "tool": "honeybadger"
+}

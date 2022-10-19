@@ -1,0 +1,3 @@
+Analysing /data/send_loop.sol:Refunder...
+Vulnerability: Unchecked Low Level Call. Maybe in function: refundAll(). PC: 0x1af. Line number: 24.
+Vulnerability: Reentrancy. Maybe in function: refundAll(). PC: 0x1af. Line number: 24.

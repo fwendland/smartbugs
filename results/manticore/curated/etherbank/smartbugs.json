@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "manticore",
+  "start": 1654004776.856145,
+  "end": 1654004827.6206012,
+  "duration": 50.764456272125244,
+  "exit_code": 0
+}

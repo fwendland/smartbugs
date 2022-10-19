@@ -1,0 +1,80 @@
+{
+  "analysis": {
+    "/data/tokensalechallenge.sol:TokenSaleChallenge": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            32
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            9
+          ],
+          "warnings": [
+            16,
+            20,
+            27
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            32
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            32
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            32
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            32
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            32
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "duration": 17.501348972320557,
+  "end": 1654182429.138755,
+  "exit_code": 0,
+  "start": 1654182411.637406,
+  "tool": "securify"
+}

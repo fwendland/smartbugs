@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "tool": "mythril",
+  "start": 1654177339.6208305,
+  "end": 1654177346.3086758,
+  "duration": 6.687845230102539,
+  "exit_code": 0
+}

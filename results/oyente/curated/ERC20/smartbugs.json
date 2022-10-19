@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "oyente",
+  "start": 1654181845.4257894,
+  "end": 1654181853.9378693,
+  "duration": 8.512079954147339,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name1.sol",
+  "tool": "osiris",
+  "start": 1654180874.6659875,
+  "end": 1654180878.3176763,
+  "duration": 3.651688814163208,
+  "exit_code": 0
+}

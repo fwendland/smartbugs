@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "osiris",
+  "start": 1654181177.6066978,
+  "end": 1654181180.2793603,
+  "duration": 2.6726624965667725,
+  "exit_code": 0
+}

@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "30",
+      "maybe_in_function": "withdraw(uint256)",
+      "pc": "0x176",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "24",
+      "maybe_in_function": "deposit()",
+      "pc": "0x35d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "38",
+      "maybe_in_function": "0x4ddaf8f2",
+      "pc": "0x2c1",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "duration": 6.87930154800415,
+  "end": 1654105995.5961142,
+  "exit_code": 0,
+  "start": 1654105988.7168126,
+  "tool": "conkas"
+}

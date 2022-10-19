@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/phishable.sol",
+      "level": "Error",
+      "line": "7",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/phishable.sol",
+      "level": "Error",
+      "line": "9",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/phishable.sol",
+  "duration": 2.8814773559570312,
+  "end": 1654186579.6106048,
+  "exit_code": 1,
+  "start": 1654186576.7291274,
+  "tool": "solhint"
+}

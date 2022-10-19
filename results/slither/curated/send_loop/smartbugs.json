@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "slither",
+  "start": 1654186407.4235158,
+  "end": 1654186410.5715685,
+  "duration": 3.14805269241333,
+  "exit_code": 4
+}

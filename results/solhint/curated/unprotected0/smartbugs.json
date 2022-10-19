@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "solhint",
+  "start": 1654186576.9360313,
+  "end": 1654186583.3962708,
+  "duration": 6.460239410400391,
+  "exit_code": 1
+}

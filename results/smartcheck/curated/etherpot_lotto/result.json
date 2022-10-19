@@ -1,0 +1,282 @@
+{
+  "analysis": [
+    {
+      "column": 32,
+      "content": "rounds[roundIndex].buyers.length++",
+      "line": 149,
+      "name": "SOLIDITY_ARRAY_LENGTH_MANIPULATION",
+      "patternId": "43ba1c",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetBlocksPerRound()constantreturns(uint){returnblocksPerRound;}",
+      "line": 20,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetTicketPrice()constantreturns(uint){returnticketPrice;}",
+      "line": 21,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetRoundIndex()constantreturns(uint){returnblock.number/blocksPerRound;}",
+      "line": 34,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetIsCashed(uintroundIndex,uintsubpotIndex)constantreturns(bool){returnrounds[roundIndex].isCashed[subpotIndex];}",
+      "line": 40,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functioncalculateWinner(uintroundIndex,uintsubpotIndex)constantreturns(address){vardecisionBlockNumber=getDecisionBlockNumber(roundIndex,subpotIndex);if(decisionBlockNumber>block.number)return;vardecisionBlockHash=getHashOfBlock(decisionBlockNumber);varwinningTicketIndex=decisionBlockHash%rounds[roundIndex].ticketsCount;varticketIndex=uint256(0);for(varbuyerIndex=0;buyerIndex<rounds[roundIndex].buyers.length;buyerIndex++){varbuyer=rounds[roundIndex].buyers[buyerIndex];ticketIndex+=rounds[roundIndex].ticketsCountByBuyer[buyer];if(ticketIndex>winningTicketIndex){returnbuyer;}}}",
+      "line": 47,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetDecisionBlockNumber(uintroundIndex,uintsubpotIndex)constantreturns(uint){return((roundIndex+1)*blocksPerRound)+subpotIndex;}",
+      "line": 72,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetSubpotsCount(uintroundIndex)constantreturns(uint){varsubpotsCount=rounds[roundIndex].pot/blockReward;if(rounds[roundIndex].pot%blockReward>0)subpotsCount++;returnsubpotsCount;}",
+      "line": 76,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetSubpot(uintroundIndex)constantreturns(uint){returnrounds[roundIndex].pot/getSubpotsCount(roundIndex);}",
+      "line": 85,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetHashOfBlock(uintblockIndex)constantreturns(uint){returnuint(block.blockhash(blockIndex));}",
+      "line": 115,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetBuyers(uintroundIndex,addressbuyer)constantreturns(address[]){returnrounds[roundIndex].buyers;}",
+      "line": 119,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetTicketsCountByBuyer(uintroundIndex,addressbuyer)constantreturns(uint){returnrounds[roundIndex].ticketsCountByBuyer[buyer];}",
+      "line": 123,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetPot(uintroundIndex)constantreturns(uint){returnrounds[roundIndex].pot;}",
+      "line": 127,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "for(varbuyerIndex=0;buyerIndex<rounds[roundIndex].buyers.length;buyerIndex++){varbuyer=rounds[roundIndex].buyers[buyerIndex];ticketIndex+=rounds[roundIndex].ticketsCountByBuyer[buyer];if(ticketIndex>winningTicketIndex){returnbuyer;}}",
+      "line": 62,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "d3j11j",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "for(varbuyerIndex=0;buyerIndex<rounds[roundIndex].buyers.length;buyerIndex++){varbuyer=rounds[roundIndex].buyers[buyerIndex];ticketIndex+=rounds[roundIndex].ticketsCountByBuyer[buyer];if(ticketIndex>winningTicketIndex){returnbuyer;}}",
+      "line": 62,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "f6f853",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 8,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "send(subpot)",
+      "line": 109,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 9,
+      "content": "varticketIndex=uint256(0)",
+      "line": 60,
+      "name": "SOLIDITY_VAR",
+      "patternId": "d28aa7",
+      "severity": 2
+    },
+    {
+      "column": 13,
+      "content": "varbuyerIndex=0",
+      "line": 62,
+      "name": "SOLIDITY_VAR",
+      "patternId": "d28aa7",
+      "severity": 2
+    },
+    {
+      "column": 5,
+      "content": "functiongetBlocksPerRound()constantreturns(uint){returnblocksPerRound;}",
+      "line": 20,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetTicketPrice()constantreturns(uint){returnticketPrice;}",
+      "line": 21,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetRoundIndex()constantreturns(uint){returnblock.number/blocksPerRound;}",
+      "line": 34,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetIsCashed(uintroundIndex,uintsubpotIndex)constantreturns(bool){returnrounds[roundIndex].isCashed[subpotIndex];}",
+      "line": 40,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functioncalculateWinner(uintroundIndex,uintsubpotIndex)constantreturns(address){vardecisionBlockNumber=getDecisionBlockNumber(roundIndex,subpotIndex);if(decisionBlockNumber>block.number)return;vardecisionBlockHash=getHashOfBlock(decisionBlockNumber);varwinningTicketIndex=decisionBlockHash%rounds[roundIndex].ticketsCount;varticketIndex=uint256(0);for(varbuyerIndex=0;buyerIndex<rounds[roundIndex].buyers.length;buyerIndex++){varbuyer=rounds[roundIndex].buyers[buyerIndex];ticketIndex+=rounds[roundIndex].ticketsCountByBuyer[buyer];if(ticketIndex>winningTicketIndex){returnbuyer;}}}",
+      "line": 47,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetDecisionBlockNumber(uintroundIndex,uintsubpotIndex)constantreturns(uint){return((roundIndex+1)*blocksPerRound)+subpotIndex;}",
+      "line": 72,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetSubpotsCount(uintroundIndex)constantreturns(uint){varsubpotsCount=rounds[roundIndex].pot/blockReward;if(rounds[roundIndex].pot%blockReward>0)subpotsCount++;returnsubpotsCount;}",
+      "line": 76,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetSubpot(uintroundIndex)constantreturns(uint){returnrounds[roundIndex].pot/getSubpotsCount(roundIndex);}",
+      "line": 85,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functioncash(uintroundIndex,uintsubpotIndex){varsubpotsCount=getSubpotsCount(roundIndex);if(subpotIndex>=subpotsCount)return;vardecisionBlockNumber=getDecisionBlockNumber(roundIndex,subpotIndex);if(decisionBlockNumber>block.number)return;if(rounds[roundIndex].isCashed[subpotIndex])return;varwinner=calculateWinner(roundIndex,subpotIndex);varsubpot=getSubpot(roundIndex);winner.send(subpot);rounds[roundIndex].isCashed[subpotIndex]=true;}",
+      "line": 89,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetHashOfBlock(uintblockIndex)constantreturns(uint){returnuint(block.blockhash(blockIndex));}",
+      "line": 115,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetBuyers(uintroundIndex,addressbuyer)constantreturns(address[]){returnrounds[roundIndex].buyers;}",
+      "line": 119,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetTicketsCountByBuyer(uintroundIndex,addressbuyer)constantreturns(uint){returnrounds[roundIndex].ticketsCountByBuyer[buyer];}",
+      "line": 123,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetPot(uintroundIndex)constantreturns(uint){returnrounds[roundIndex].pot;}",
+      "line": 127,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "function(){varroundIndex=getRoundIndex();varvalue=msg.value-(msg.value%ticketPrice);if(value==0)return;if(value<msg.value){msg.sender.send(msg.value-value);}varticketsCount=value/ticketPrice;rounds[roundIndex].ticketsCount+=ticketsCount;if(rounds[roundIndex].ticketsCountByBuyer[msg.sender]==0){varbuyersLength=rounds[roundIndex].buyers.length++;rounds[roundIndex].buyers[buyersLength]=msg.sender;}rounds[roundIndex].ticketsCountByBuyer[msg.sender]+=ticketsCount;rounds[roundIndex].ticketsCount+=ticketsCount;rounds[roundIndex].pot+=value;}",
+      "line": 131,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "mapping(uint=>Round)rounds;",
+      "line": 31,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "duration": 11.10693621635437,
+  "end": 1654186553.988281,
+  "exit_code": 0,
+  "start": 1654186542.8813448,
+  "tool": "smartcheck"
+}

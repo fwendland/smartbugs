@@ -1,0 +1,40 @@
+{
+  "analysis": [
+    {
+      "line_number": "52",
+      "maybe_in_function": "play()",
+      "pc": "0x1ff",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "52",
+      "maybe_in_function": "play()",
+      "pc": "0x1ea",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "52",
+      "maybe_in_function": "play()",
+      "pc": "0x1ff",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "43",
+      "maybe_in_function": "play()",
+      "pc": "0x149",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "39",
+      "maybe_in_function": "play()",
+      "pc": "0x12a",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "duration": 5.623275518417358,
+  "end": 1654106827.2728872,
+  "exit_code": 0,
+  "start": 1654106821.6496117,
+  "tool": "conkas"
+}

@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "14",
+      "file": "/data/FibonacciBalance.sol",
+      "level": "Error",
+      "line": "60",
+      "message": "Expected indentation of 17 spaces but found 13",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "duration": 3.9358081817626953,
+  "end": 1654186580.7398126,
+  "exit_code": 1,
+  "start": 1654186576.8040044,
+  "tool": "solhint"
+}

@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/integer_overflow_add.sol",
+      "name": "IntegerOverflowAdd"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_add.sol",
+  "duration": 2.8801863193511963,
+  "end": 1654122534.378293,
+  "exit_code": 0,
+  "start": 1654122531.4981067,
+  "tool": "honeybadger"
+}

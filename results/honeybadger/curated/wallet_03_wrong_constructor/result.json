@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/wallet_03_wrong_constructor.sol",
+      "name": "Wallet"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "duration": 7.499679088592529,
+  "end": 1654122273.8297644,
+  "exit_code": 0,
+  "start": 1654122266.3300853,
+  "tool": "honeybadger"
+}

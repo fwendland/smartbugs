@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/random_number_generator.sol",
+      "name": "RandomNumberGenerator"
+    }
+  ],
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "duration": 2.497067928314209,
+  "end": 1654181012.505919,
+  "exit_code": 0,
+  "start": 1654181010.008851,
+  "tool": "osiris"
+}

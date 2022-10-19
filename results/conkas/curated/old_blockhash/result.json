@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "39",
+      "maybe_in_function": "settle()",
+      "pc": "0x1f2",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "29",
+      "maybe_in_function": "0xed7f559c",
+      "pc": "0x2c1",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 5.562472820281982,
+  "end": 1654106494.2912629,
+  "exit_code": 0,
+  "start": 1654106488.72879,
+  "tool": "conkas"
+}

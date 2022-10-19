@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "maian",
+  "start": 1654162490.6061964,
+  "end": 1654162616.2957537,
+  "duration": 125.68955731391907,
+  "exit_code": 0
+}

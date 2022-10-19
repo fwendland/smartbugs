@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "oyente",
+  "start": 1654181869.7557657,
+  "end": 1654181885.1563525,
+  "duration": 15.4005868434906,
+  "exit_code": 1
+}

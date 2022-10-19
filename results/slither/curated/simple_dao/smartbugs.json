@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "tool": "slither",
+  "start": 1653999783.3818152,
+  "end": 1653999788.9023108,
+  "duration": 5.520495653152466,
+  "exit_code": 6
+}

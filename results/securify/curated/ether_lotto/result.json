@@ -1,0 +1,86 @@
+{
+  "analysis": {
+    "/data/ether_lotto.sol:EtherLotto": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            48,
+            51
+          ],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            20,
+            23,
+            32
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            51
+          ],
+          "warnings": [
+            48
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            48,
+            51
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            48,
+            51
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            48,
+            51
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            51
+          ],
+          "violations": [
+            48
+          ],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "duration": 11.968932628631592,
+  "end": 1654183681.0090828,
+  "exit_code": 0,
+  "start": 1654183669.0401502,
+  "tool": "securify"
+}

@@ -1,0 +1,6 @@
+/data/mishandled.sol:11:3: Expected indentation of 8 spaces but found 2 [Error/indent]
+/data/mishandled.sol:12:3: Expected indentation of 8 spaces but found 2 [Error/indent]
+/data/mishandled.sol:14:3: Expected indentation of 8 spaces but found 2 [Error/indent]
+/data/mishandled.sol:15:2: Expected indentation of 4 spaces but found 1 [Error/indent]
+
+4 problems

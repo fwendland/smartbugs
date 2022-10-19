@@ -1,0 +1,46 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 2,
+          "line": 100,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 2,
+          "line": 106,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 2,
+          "line": 106,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 2,
+          "line": 133,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 2,
+          "line": 100,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+      "name": "DrainMe"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+  "duration": 43.28338861465454,
+  "end": 1654181232.7223215,
+  "exit_code": 0,
+  "start": 1654181189.438933,
+  "tool": "osiris"
+}

@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 28,
+          "line": 17,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 28,
+          "line": 17,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/reentrancy_insecure.sol",
+      "name": "Reentrancy_insecure"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_insecure.sol",
+  "duration": 4.415038824081421,
+  "end": 1654007404.0617242,
+  "exit_code": 0,
+  "start": 1654007399.6466854,
+  "tool": "osiris"
+}

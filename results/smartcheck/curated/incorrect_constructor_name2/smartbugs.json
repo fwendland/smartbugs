@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.8014019,
+  "end": 1654186486.8776896,
+  "duration": 7.076287746429443,
+  "exit_code": 0
+}

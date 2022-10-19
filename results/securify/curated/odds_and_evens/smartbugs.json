@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "securify",
+  "start": 1654183512.1785827,
+  "end": 1654183655.859312,
+  "duration": 143.68072938919067,
+  "exit_code": 0
+}

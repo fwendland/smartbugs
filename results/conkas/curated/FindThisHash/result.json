@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "18",
+      "maybe_in_function": "solve(string)",
+      "pc": "0x1e8",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "14",
+      "maybe_in_function": "solve(string)",
+      "pc": "0xb2",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "duration": 6.236560344696045,
+  "end": 1654106807.5730414,
+  "exit_code": 0,
+  "start": 1654106801.336481,
+  "tool": "conkas"
+}

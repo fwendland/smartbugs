@@ -1,0 +1,22 @@
+Analysing /data/rubixi.sol:Rubixi...
+Vulnerability: Reentrancy. Maybe in function: _fallthrough. PC: 0xd5c. Line number: 74.
+Vulnerability: Integer Overflow. Maybe in function: nextPayoutWhenPyramidBalanceTotalsApproximately(). PC: 0x6cd. Line number: 141.
+If a = 2
+and b = 57896044618658097711785492504343953926634992332820282019728792003956564819968
+Vulnerability: Unchecked Low Level Call. Maybe in function: _fallthrough. PC: 0xd5c. Line number: 74.
+Vulnerability: Integer Overflow. Maybe in function: participantDetails(uint256). PC: 0x8bd. Line number: 159.
+If a = 2
+and b = 57896044618658097711785492504343998528125389394066565090870189395499687084031
+Vulnerability: Unchecked Low Level Call. Maybe in function: collectFeesInEther(uint256). PC: 0xa54. Line number: 95.
+Vulnerability: Transaction Ordering Dependence. Maybe in function: collectFeesInEther(uint256). PC: 0x7de. Line number: 85.
+Vulnerability: Transaction Ordering Dependence. Maybe in function: collectPercentOfFees(uint256). PC: 0x689. Line number: 103.
+Vulnerability: Reentrancy. Maybe in function: collectFeesInEther(uint256). PC: 0x7de. Line number: 85.
+Vulnerability: Unchecked Low Level Call. Maybe in function: collectFeesInEther(uint256). PC: 0x7de. Line number: 85.
+Vulnerability: Reentrancy. Maybe in function: collectPercentOfFees(uint256). PC: 0x689. Line number: 103.
+Vulnerability: Unchecked Low Level Call. Maybe in function: collectPercentOfFees(uint256). PC: 0x689. Line number: 103.
+Vulnerability: Integer Underflow. Maybe in function: numberOfParticipantsWaitingForPayout(). PC: 0xaf5. Line number: 153.
+If a = 0
+and b = 1
+Vulnerability: Integer Overflow. Maybe in function: collectFeesInEther(uint256). PC: 0x9dd. Line number: 90.
+If a = 314967205676405506470080275045683561509171030719389032737528025288433898
+and b = 1000000000000000000

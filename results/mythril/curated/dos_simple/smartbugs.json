@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_simple.sol",
+  "tool": "mythril",
+  "start": 1654179442.5071714,
+  "end": 1654179449.0573761,
+  "duration": 6.550204753875732,
+  "exit_code": 0
+}

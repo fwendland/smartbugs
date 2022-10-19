@@ -1,0 +1,930 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "32",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "33",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "34",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "35",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "36",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "45",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "46",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "47",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "48",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "56",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "58",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "65",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "66",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "67",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "70",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "71",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "72",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "73",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "74",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "81",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "82",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "83",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "91",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "92",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "93",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "94",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "103",
+      "message": "Line length must be no more than 120 but current length is 121.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "107",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "116",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "117",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "118",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "119",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "121",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "122",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "123",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "124",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "125",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "126",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "138",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "139",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "140",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "141",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "142",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "150",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "151",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "152",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "161",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "164",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "171",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "172",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "173",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "179",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "180",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "181",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "182",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "189",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "190",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "191",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "192",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "193",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "202",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "203",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "205",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "211",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "212",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "213",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "214",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "219",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "220",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "221",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "222",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "227",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "228",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "229",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "230",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "235",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "236",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "237",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "238",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "249",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "250",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "251",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "253",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "254",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "255",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "257",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "258",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "259",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "261",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "262",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "264",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "265",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "266",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "268",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "269",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "270",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "271",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "272",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "273",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "274",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "298",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/BECToken.sol",
+      "level": "Error",
+      "line": "299",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "duration": 4.607860803604126,
+  "end": 1654186591.0282269,
+  "exit_code": 1,
+  "start": 1654186586.420366,
+  "tool": "solhint"
+}

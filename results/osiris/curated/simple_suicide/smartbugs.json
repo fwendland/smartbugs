@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "osiris",
+  "start": 1654180874.6941803,
+  "end": 1654180879.367266,
+  "duration": 4.673085689544678,
+  "exit_code": 0
+}

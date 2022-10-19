@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 10,
+          "line": 21,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/short_address_example.sol",
+      "name": "MyToken"
+    }
+  ],
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "duration": 2.6726624965667725,
+  "end": 1654181180.2793603,
+  "exit_code": 0,
+  "start": 1654181177.6066978,
+  "tool": "osiris"
+}

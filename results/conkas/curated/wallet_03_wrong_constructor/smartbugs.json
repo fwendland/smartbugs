@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "conkas",
+  "start": 1654105988.7168126,
+  "end": 1654105995.5961142,
+  "duration": 6.87930154800415,
+  "exit_code": 0
+}

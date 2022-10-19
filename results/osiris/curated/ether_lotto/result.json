@@ -1,0 +1,41 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 39,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 33,
+          "line": 52,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 49,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 13,
+          "line": 52,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 13,
+          "line": 49,
+          "message": "concurrency_bug"
+        }
+      ],
+      "file": "/data/ether_lotto.sol",
+      "name": "EtherLotto"
+    }
+  ],
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "duration": 3.430040121078491,
+  "end": 1654181185.7538843,
+  "exit_code": 0,
+  "start": 1654181182.3238442,
+  "tool": "osiris"
+}

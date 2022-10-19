@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "tool": "manticore",
+  "start": 1654175495.1749256,
+  "end": 1654177298.3585777,
+  "duration": 1803.1836521625519,
+  "exit_code": null
+}

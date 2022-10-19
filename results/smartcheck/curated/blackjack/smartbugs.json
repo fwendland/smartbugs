@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "smartcheck",
+  "start": 1654186499.6676385,
+  "end": 1654186506.1192393,
+  "duration": 6.451600790023804,
+  "exit_code": 0
+}

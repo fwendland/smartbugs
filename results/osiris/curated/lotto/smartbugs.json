@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "osiris",
+  "start": 1654181189.6122413,
+  "end": 1654181195.4621198,
+  "duration": 5.849878549575806,
+  "exit_code": 0
+}

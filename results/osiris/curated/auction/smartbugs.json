@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "osiris",
+  "start": 1654181065.757778,
+  "end": 1654181068.3920615,
+  "duration": 2.6342835426330566,
+  "exit_code": 0
+}

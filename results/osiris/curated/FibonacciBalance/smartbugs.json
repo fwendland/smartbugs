@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "tool": "osiris",
+  "start": 1654180874.7016592,
+  "end": 1654180885.8725107,
+  "duration": 11.170851469039917,
+  "exit_code": 0
+}

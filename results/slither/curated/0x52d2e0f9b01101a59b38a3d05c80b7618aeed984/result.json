@@ -1,0 +1,613 @@
+{
+  "analysis": [
+    {
+      "check": "arbitrary-send",
+      "confidence": "Medium",
+      "description": "EtherGet.withdrawEther (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#21-23) sends eth to arbitrary user\n\tDangerous calls:\n\t- owner.transfer(this.balance) (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#22)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EtherGet",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 535,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "start": 264
+            },
+            "type": "contract"
+          },
+          "name": "withdrawEther",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 77,
+            "lines": [
+              21,
+              22,
+              23
+            ],
+            "start": 522
+          },
+          "type": "function"
+        },
+        {
+          "expression": "owner.transfer(this.balance)",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 28,
+            "lines": [
+              22
+            ],
+            "start": 564
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "arbitrary-send",
+      "confidence": "Medium",
+      "description": "EtherGet.getTokens (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#24-29) sends eth to arbitrary user\n\tDangerous calls:\n\t- addr.call.value(0)() (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#27)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EtherGet",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 535,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "start": 264
+            },
+            "type": "contract"
+          },
+          "name": "getTokens",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 193,
+            "lines": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 604
+          },
+          "type": "function"
+        },
+        {
+          "expression": "addr.call.value(0)()",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 24,
+            "lines": [
+              27
+            ],
+            "start": 756
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "unused-return",
+      "confidence": "Medium",
+      "description": "EtherGet.withdrawTokens (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#17-20) does not use the value returned by external calls:\n\t-tc.transfer(owner,tc.balanceOf(this)) (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#19)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EtherGet",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 535,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "start": 264
+            },
+            "type": "contract"
+          },
+          "name": "withdrawTokens",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 150,
+            "lines": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 367
+          },
+          "type": "function"
+        },
+        {
+          "expression": "tc.transfer(owner,tc.balanceOf(this))",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 38,
+            "lines": [
+              19
+            ],
+            "start": 472
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Medium"
+    },
+    {
+      "check": "calls-loop",
+      "confidence": "Medium",
+      "description": "EtherGet.getTokens has external calls inside a loop:\n\t- addr.call.value(0)() (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#27)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EtherGet",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 535,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "start": 264
+            },
+            "type": "contract"
+          },
+          "name": "getTokens",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 193,
+            "lines": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 604
+          },
+          "type": "function"
+        },
+        {
+          "expression": "addr.call.value(0)()",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 24,
+            "lines": [
+              27
+            ],
+            "start": 756
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Token.transfer (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#9) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Token",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 162,
+              "lines": [
+                8,
+                9,
+                10,
+                11
+              ],
+              "start": 101
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 67,
+            "lines": [
+              9
+            ],
+            "start": 122
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Token.balanceOf (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#10) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Token",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 162,
+              "lines": [
+                8,
+                9,
+                10,
+                11
+              ],
+              "start": 101
+            },
+            "type": "contract"
+          },
+          "name": "balanceOf",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 67,
+            "lines": [
+              10
+            ],
+            "start": 194
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "EtherGet.withdrawTokens (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#17-20) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EtherGet",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 535,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "start": 264
+            },
+            "type": "contract"
+          },
+          "name": "withdrawTokens",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 150,
+            "lines": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 367
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "EtherGet.withdrawEther (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#21-23) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EtherGet",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 535,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "start": 264
+            },
+            "type": "contract"
+          },
+          "name": "withdrawEther",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 77,
+            "lines": [
+              21,
+              22,
+              23
+            ],
+            "start": 522
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "EtherGet.getTokens (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#24-29) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EtherGet",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 535,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "start": 264
+            },
+            "type": "contract"
+          },
+          "name": "getTokens",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 193,
+            "lines": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 604
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol:\n\t- pragma solidity^0.4.19 (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.19",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 76
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in EtherGet.getTokens (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#24-29):\n\t-addr.call.value(0)() /data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#27\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EtherGet",
+            "source_mapping": {
+              "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+              "length": 535,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "start": 264
+            },
+            "type": "contract"
+          },
+          "name": "getTokens",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 193,
+            "lines": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 604
+          },
+          "type": "function"
+        },
+        {
+          "expression": "addr.call.value(0)()",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 24,
+            "lines": [
+              27
+            ],
+            "start": 756
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'EtherGet.EtherGet' (/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol#14-16) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "EtherGet",
+          "source_mapping": {
+            "filename": "/data/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+            "length": 55,
+            "lines": [
+              14,
+              15,
+              16
+            ],
+            "start": 307
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+  "duration": 3.87658953666687,
+  "end": 1654186439.456762,
+  "exit_code": 12,
+  "start": 1654186435.5801725,
+  "tool": "slither"
+}

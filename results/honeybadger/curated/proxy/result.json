@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/proxy.sol",
+      "name": "Proxy"
+    }
+  ],
+  "contract": "dataset/access_control/proxy.sol",
+  "duration": 11.855684757232666,
+  "end": 1654122278.2310054,
+  "exit_code": 0,
+  "start": 1654122266.3753207,
+  "tool": "honeybadger"
+}

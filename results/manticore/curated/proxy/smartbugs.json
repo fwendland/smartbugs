@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "manticore",
+  "start": 1654164567.3424592,
+  "end": 1654166370.3015769,
+  "duration": 1802.9591176509857,
+  "exit_code": null
+}

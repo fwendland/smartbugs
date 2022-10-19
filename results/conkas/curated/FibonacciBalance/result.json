@@ -1,0 +1,40 @@
+{
+  "analysis": [
+    {
+      "line_number": "38",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xd0",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "32",
+      "maybe_in_function": "withdraw()",
+      "pc": "0x32f",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "32",
+      "maybe_in_function": "withdraw()",
+      "pc": "0x31a",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "38",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xc1",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "32",
+      "maybe_in_function": "withdraw()",
+      "pc": "0x32f",
+      "vuln_type": "Transaction Ordering Dependence"
+    }
+  ],
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "duration": 18.801388025283813,
+  "end": 1654106007.4910038,
+  "exit_code": 0,
+  "start": 1654105988.6896157,
+  "tool": "conkas"
+}

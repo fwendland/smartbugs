@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 4.597715854644775,
+  "end": 1654168185.3286197,
+  "exit_code": 0,
+  "start": 1654168180.7309039,
+  "tool": "manticore"
+}

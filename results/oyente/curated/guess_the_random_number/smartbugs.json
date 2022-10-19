@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "tool": "oyente",
+  "start": 1654181780.4570763,
+  "end": 1654181783.1486812,
+  "duration": 2.6916048526763916,
+  "exit_code": 0
+}

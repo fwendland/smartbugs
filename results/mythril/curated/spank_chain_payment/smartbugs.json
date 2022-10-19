@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "tool": "mythril",
+  "start": 1654006854.9670846,
+  "end": 1654006864.6860366,
+  "duration": 9.718951940536499,
+  "exit_code": 0
+}

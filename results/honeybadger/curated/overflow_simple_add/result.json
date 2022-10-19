@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/overflow_simple_add.sol",
+      "name": "Overflow_Add"
+    }
+  ],
+  "contract": "dataset/arithmetic/overflow_simple_add.sol",
+  "duration": 4.337196350097656,
+  "end": 1654122535.9015083,
+  "exit_code": 0,
+  "start": 1654122531.564312,
+  "tool": "honeybadger"
+}

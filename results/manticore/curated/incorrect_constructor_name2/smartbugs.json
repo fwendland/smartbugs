@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "tool": "manticore",
+  "start": 1654164567.357883,
+  "end": 1654164628.8118987,
+  "duration": 61.45401573181152,
+  "exit_code": 0
+}

@@ -1,0 +1,266 @@
+{
+  "analysis": [
+    {
+      "column": 38,
+      "content": "0x0",
+      "line": 172,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "c67a09",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "unpaidEntries.length--",
+      "line": 111,
+      "name": "SOLIDITY_ARRAY_LENGTH_MANIPULATION",
+      "patternId": "872bdd",
+      "severity": 1
+    },
+    {
+      "column": 40,
+      "content": "throw",
+      "line": 142,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "throw",
+      "line": 149,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionrand(uintmax)constantprivatereturns(uint256result){uint256factor=FACTOR*100/max;uint256lastBlockNumber=block.number-1;uint256hashVal=uint256(block.blockhash(lastBlockNumber));returnuint256((uint256(hashVal)/factor))%max;}",
+      "line": 127,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionmultiplierFactor()constantreturns(uintfactor,stringinfo){factor=multiplier;info='The current multiplier applied to all deposits. Min 110%, max 150%.';}",
+      "line": 155,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functioncurrentFee()constantreturns(uintfeePercentage,stringinfo){feePercentage=fee;info='The fee percentage applied to all deposits. It can change to speed payouts (max 5%).';}",
+      "line": 160,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functiontotalEntries()constantreturns(uintcount,stringinfo){count=entries.length;info='The number of deposits.';}",
+      "line": 165,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionuserStats(addressuser)constantreturns(uintdeposits,uintpayouts,stringinfo){if(users[user].id!=address(0x0)){deposits=users[user].deposits;payouts=users[user].payoutsReceived;info='Users stats: total deposits, payouts received.';}}",
+      "line": 170,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionentryDetails(uintindex)constantreturns(addressuser,uintpayout,boolpaid,stringinfo){if(index<entries.length){user=entries[index].entryAddress;payout=entries[index].payout/1finney;paid=entries[index].paid;info='Entry info: user address, expected payout in Finneys, payout status.';}}",
+      "line": 180,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 9,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "private",
+      "line": 21,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "private",
+      "line": 24,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "private",
+      "line": 25,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "private",
+      "line": 26,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 30,
+      "content": "private",
+      "line": 28,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "private",
+      "line": 29,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 11,
+      "content": "private",
+      "line": 30,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 21,
+      "content": "private",
+      "line": 125,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(multi<110||multi>150)throw;",
+      "line": 142,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(fee>5)throw;",
+      "line": 148,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "EntrytheEntry=entries[unpaidEntries[index]]",
+      "line": 95,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "441gim",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionLuckyDoubler(){owner=msg.sender;}",
+      "line": 33,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "function(){init();}",
+      "line": 53,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionchangeOwner(addressnewOwner)onlyowner{owner=newOwner;}",
+      "line": 137,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionchangeMultiplier(uintmulti)onlyowner{if(multi<110||multi>150)throw;multiplier=multi;}",
+      "line": 141,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionchangeFee(uintnewFee)onlyowner{if(fee>5)throw;fee=newFee;}",
+      "line": 147,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionmultiplierFactor()constantreturns(uintfactor,stringinfo){factor=multiplier;info='The current multiplier applied to all deposits. Min 110%, max 150%.';}",
+      "line": 155,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functioncurrentFee()constantreturns(uintfeePercentage,stringinfo){feePercentage=fee;info='The fee percentage applied to all deposits. It can change to speed payouts (max 5%).';}",
+      "line": 160,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functiontotalEntries()constantreturns(uintcount,stringinfo){count=entries.length;info='The number of deposits.';}",
+      "line": 165,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionuserStats(addressuser)constantreturns(uintdeposits,uintpayouts,stringinfo){if(users[user].id!=address(0x0)){deposits=users[user].deposits;payouts=users[user].payoutsReceived;info='Users stats: total deposits, payouts received.';}}",
+      "line": 170,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionentryDetails(uintindex)constantreturns(addressuser,uintpayout,boolpaid,stringinfo){if(index<entries.length){user=entries[index].entryAddress;payout=entries[index].payout/1finney;paid=entries[index].paid;info='Entry info: user address, expected payout in Finneys, payout status.';}}",
+      "line": 180,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "duration": 6.290714979171753,
+  "end": 1654186506.014763,
+  "exit_code": 0,
+  "start": 1654186499.7240481,
+  "tool": "smartcheck"
+}

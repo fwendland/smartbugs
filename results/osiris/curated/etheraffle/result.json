@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/etheraffle.sol",
+      "name": "Ethraffle_v4b"
+    }
+  ],
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "duration": 52.91058158874512,
+  "end": 1654181062.8337464,
+  "exit_code": 139,
+  "start": 1654181009.9231648,
+  "tool": "osiris"
+}

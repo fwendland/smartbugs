@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "duration": 61.45401573181152,
+  "end": 1654164628.8118987,
+  "exit_code": 0,
+  "start": 1654164567.357883,
+  "tool": "manticore"
+}

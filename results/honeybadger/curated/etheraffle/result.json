@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/etheraffle.sol",
+      "name": "Ethraffle_v4b"
+    }
+  ],
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "duration": 274.2833561897278,
+  "end": 1654123006.4621792,
+  "exit_code": 0,
+  "start": 1654122732.178823,
+  "tool": "honeybadger"
+}

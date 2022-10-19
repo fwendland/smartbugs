@@ -1,0 +1,383 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosNumber.insertNnumbers (/data/dos_number.sol#14-24) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosNumber",
+            "source_mapping": {
+              "filename": "/data/dos_number.sol",
+              "length": 933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+              ],
+              "start": 206
+            },
+            "type": "contract"
+          },
+          "name": "insertNnumbers",
+          "source_mapping": {
+            "filename": "/data/dos_number.sol",
+            "length": 373,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24
+            ],
+            "start": 277
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosNumber.clear (/data/dos_number.sol#26-29) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosNumber",
+            "source_mapping": {
+              "filename": "/data/dos_number.sol",
+              "length": 933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+              ],
+              "start": 206
+            },
+            "type": "contract"
+          },
+          "name": "clear",
+          "source_mapping": {
+            "filename": "/data/dos_number.sol",
+            "length": 91,
+            "lines": [
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 656
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosNumber.clearDOS (/data/dos_number.sol#32-38) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosNumber",
+            "source_mapping": {
+              "filename": "/data/dos_number.sol",
+              "length": 933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+              ],
+              "start": 206
+            },
+            "type": "contract"
+          },
+          "name": "clearDOS",
+          "source_mapping": {
+            "filename": "/data/dos_number.sol",
+            "length": 172,
+            "lines": [
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ],
+            "start": 774
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosNumber.getLengthArray (/data/dos_number.sol#40-42) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosNumber",
+            "source_mapping": {
+              "filename": "/data/dos_number.sol",
+              "length": 933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+              ],
+              "start": 206
+            },
+            "type": "contract"
+          },
+          "name": "getLengthArray",
+          "source_mapping": {
+            "filename": "/data/dos_number.sol",
+            "length": 87,
+            "lines": [
+              40,
+              41,
+              42
+            ],
+            "start": 952
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosNumber.getRealLengthArray (/data/dos_number.sol#44-46) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosNumber",
+            "source_mapping": {
+              "filename": "/data/dos_number.sol",
+              "length": 933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+              ],
+              "start": 206
+            },
+            "type": "contract"
+          },
+          "name": "getRealLengthArray",
+          "source_mapping": {
+            "filename": "/data/dos_number.sol",
+            "length": 92,
+            "lines": [
+              44,
+              45,
+              46
+            ],
+            "start": 1045
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "duration": 3.120633602142334,
+  "end": 1654186410.553026,
+  "exit_code": 5,
+  "start": 1654186407.4323924,
+  "tool": "slither"
+}

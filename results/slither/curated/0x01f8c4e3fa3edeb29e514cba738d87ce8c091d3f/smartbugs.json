@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol",
+  "tool": "slither",
+  "start": 1653999783.6444101,
+  "end": 1653999794.5600073,
+  "duration": 10.915597200393677,
+  "exit_code": 26
+}

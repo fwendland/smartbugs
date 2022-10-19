@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_dao.sol",
+  "tool": "securify",
+  "start": 1654007606.1671026,
+  "end": 1654007661.014161,
+  "duration": 54.84705853462219,
+  "exit_code": 0
+}

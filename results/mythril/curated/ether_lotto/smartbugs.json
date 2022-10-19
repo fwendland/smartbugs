@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "mythril",
+  "start": 1654179653.1104121,
+  "end": 1654179658.299332,
+  "duration": 5.18891978263855,
+  "exit_code": 0
+}

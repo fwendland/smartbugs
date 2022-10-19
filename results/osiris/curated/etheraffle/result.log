@@ -1,0 +1,4 @@
+WARNING:root:You are using solc version 0.4.26. The supported version is 0.4.21.
+INFO:root:Contract /data/etheraffle.sol:Ethraffle_v4b:
+INFO:symExec:Running, please wait...
+Segmentation fault (core dumped)

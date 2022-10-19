@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "98.9%",
+      "file": "/data/unprotected0.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Unprotected",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/access_control/unprotected0.sol",
+  "duration": 4.002100706100464,
+  "end": 1654181741.3375902,
+  "exit_code": 0,
+  "start": 1654181737.3354895,
+  "tool": "oyente"
+}

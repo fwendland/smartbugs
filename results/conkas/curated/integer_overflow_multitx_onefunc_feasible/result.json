@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "22",
+      "maybe_in_function": "run(uint256)",
+      "pc": "0xc4",
+      "vuln_type": "Integer_Underflow"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_multitx_onefunc_feasible.sol",
+  "duration": 5.353083848953247,
+  "end": 1654092837.2267292,
+  "exit_code": 0,
+  "start": 1654092831.8736453,
+  "tool": "conkas"
+}

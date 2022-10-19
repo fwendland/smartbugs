@@ -1,0 +1,218 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 176.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "31",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "38",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "39",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "40",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "41",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "42",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "47",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "48",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "49",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "50",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "51",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "56",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "57",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "58",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "60",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/multiowned_vulnerable.sol",
+      "level": "Error",
+      "line": "61",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "duration": 3.2554006576538086,
+  "end": 1654186579.8392036,
+  "exit_code": 1,
+  "start": 1654186576.583803,
+  "tool": "solhint"
+}

@@ -1,0 +1,882 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 130.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "8",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "31",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "32",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "33",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "34",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "36",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "39",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "40",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "41",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "44",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "46",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "26",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "47",
+      "message": "Expected indentation of 12 spaces but found 25",
+      "type": "indent"
+    },
+    {
+      "column": "26",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "48",
+      "message": "Expected indentation of 12 spaces but found 25",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "49",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "51",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "53",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "55",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "56",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "59",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "61",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "63",
+      "message": "Line length must be no more than 120 but current length is 130.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "64",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "65",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "68",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "69",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "72",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "26",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "73",
+      "message": "Expected indentation of 12 spaces but found 25",
+      "type": "indent"
+    },
+    {
+      "column": "26",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "74",
+      "message": "Expected indentation of 12 spaces but found 25",
+      "type": "indent"
+    },
+    {
+      "column": "26",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "76",
+      "message": "Expected indentation of 12 spaces but found 25",
+      "type": "indent"
+    },
+    {
+      "column": "26",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "77",
+      "message": "Expected indentation of 12 spaces but found 25",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "78",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "79",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "82",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "83",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "85",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "86",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "87",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "89",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "90",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "91",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "93",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "95",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "96",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "97",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "99",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "100",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "102",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "103",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "104",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "105",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "108",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "109",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "110",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "112",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "113",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "115",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "116",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "118",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "119",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "121",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "122",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "125",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "126",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "127",
+      "message": "Line length must be no more than 120 but current length is 314.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "127",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "128",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "130",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "131",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "132",
+      "message": "Line length must be no more than 120 but current length is 159.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "132",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "133",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "135",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "136",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "137",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "137",
+      "message": "Line length must be no more than 120 but current length is 229.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "138",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "140",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "141",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "142",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "144",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "145",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "146",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "148",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "149",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "150",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "152",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "153",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "154",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "156",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "157",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "26",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "158",
+      "message": "Expected indentation of 12 spaces but found 25",
+      "type": "indent"
+    },
+    {
+      "column": "26",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "159",
+      "message": "Expected indentation of 12 spaces but found 25",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "160",
+      "message": "Expected indentation of 8 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "161",
+      "message": "Expected indentation of 4 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/rubixi.sol",
+      "level": "Error",
+      "line": "162",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/rubixi.sol",
+  "duration": 3.9844183921813965,
+  "end": 1654186580.7609577,
+  "exit_code": 1,
+  "start": 1654186576.7765393,
+  "tool": "solhint"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "slither",
+  "start": 1654186425.2713711,
+  "end": 1654186427.4009795,
+  "duration": 2.129608392715454,
+  "exit_code": 4
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "oyente",
+  "start": 1654181737.6016295,
+  "end": 1654181747.192241,
+  "duration": 9.590611457824707,
+  "exit_code": 0
+}

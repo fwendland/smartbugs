@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "osiris",
+  "start": 1654181009.9618018,
+  "end": 1654181063.0434558,
+  "duration": 53.08165407180786,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "securify",
+  "start": 1654183669.215726,
+  "end": 1654183676.5864358,
+  "duration": 7.3707098960876465,
+  "exit_code": 0
+}

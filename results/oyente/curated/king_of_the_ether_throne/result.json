@@ -1,0 +1,72 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 66,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 69,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 103,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 69,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 118,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 132,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 110,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 174,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "34.6%",
+      "file": "/data/king_of_the_ether_throne.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "KingOfTheEtherThrone",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "duration": 6.187006950378418,
+  "end": 1654181875.9459894,
+  "exit_code": 1,
+  "start": 1654181869.7589824,
+  "tool": "oyente"
+}

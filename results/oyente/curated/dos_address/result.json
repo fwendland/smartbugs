@@ -1,0 +1,30 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 1,
+          "level": "Warning",
+          "line": 9,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "69.1%",
+      "file": "/data/dos_address.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "DosGas",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "duration": 8.483338356018066,
+  "end": 1654181842.741714,
+  "exit_code": 0,
+  "start": 1654181834.2583756,
+  "tool": "oyente"
+}

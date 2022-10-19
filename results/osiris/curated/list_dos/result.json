@@ -1,0 +1,96 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 14,
+          "line": 101,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 10,
+          "line": 122,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 14,
+          "line": 35,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 10,
+          "line": 122,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 26,
+          "line": 100,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 14,
+          "line": 39,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 14,
+          "line": 37,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 14,
+          "line": 40,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 22,
+          "line": 70,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 18,
+          "line": 62,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 22,
+          "line": 75,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 18,
+          "line": 82,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 14,
+          "line": 37,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 14,
+          "line": 40,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 14,
+          "line": 39,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 10,
+          "line": 35,
+          "message": "time_dependency_bug"
+        }
+      ],
+      "file": "/data/list_dos.sol",
+      "name": "Government"
+    }
+  ],
+  "contract": "dataset/denial_of_service/list_dos.sol",
+  "duration": 52.124191999435425,
+  "end": 1654181117.8651354,
+  "exit_code": 0,
+  "start": 1654181065.7409434,
+  "tool": "osiris"
+}

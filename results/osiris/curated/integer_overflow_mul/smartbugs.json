@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mul.sol",
+  "tool": "osiris",
+  "start": 1654180930.6742532,
+  "end": 1654180945.5655696,
+  "duration": 14.891316413879395,
+  "exit_code": 0
+}

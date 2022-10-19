@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/dos_simple.sol",
+      "name": "DosOneFunc"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_simple.sol",
+  "duration": 10.732961177825928,
+  "end": 1654123033.2500618,
+  "exit_code": 0,
+  "start": 1654123022.5171006,
+  "tool": "honeybadger"
+}

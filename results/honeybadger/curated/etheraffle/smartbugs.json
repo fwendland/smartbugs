@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "honeybadger",
+  "start": 1654122732.178823,
+  "end": 1654123006.4621792,
+  "duration": 274.2833561897278,
+  "exit_code": 0
+}

@@ -1,0 +1,538 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "32",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "33",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "34",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "35",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "39",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "40",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "42",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "43",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "44",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "45",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "51",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "52",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "53",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "54",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "55",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "56",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "57",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "58",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "64",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "70",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "71",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "72",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "76",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "84",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "85",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "86",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "87",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "88",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "89",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "90",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "91",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "92",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "98",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "100",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "101",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "102",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "103",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "110",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "111",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "112",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "128",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "129",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "11",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "344",
+      "message": "Expected indentation of 16 spaces but found 10",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "381",
+      "message": "Line length must be no more than 120 but current length is 123.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "63",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "414",
+      "message": "Expected indentation of 8 spaces but found 62",
+      "type": "indent"
+    },
+    {
+      "column": "71",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "418",
+      "message": "Expected indentation of 8 spaces but found 70",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "533",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "564",
+      "message": "Line length must be no more than 120 but current length is 149.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "6",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "572",
+      "message": "Expected indentation of 12 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "40",
+      "file": "/data/smart_billions.sol",
+      "level": "Error",
+      "line": "610",
+      "message": "Expected indentation of 8 spaces but found 39",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "duration": 3.768249750137329,
+  "end": 1654186596.9536695,
+  "exit_code": 1,
+  "start": 1654186593.1854198,
+  "tool": "solhint"
+}

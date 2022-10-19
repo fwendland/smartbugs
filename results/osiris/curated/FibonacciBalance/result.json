@@ -1,0 +1,37 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 27,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 29,
+          "line": 32,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/FibonacciBalance.sol",
+      "name": "FibonacciBalance"
+    },
+    {
+      "errors": [
+        {
+          "column": 33,
+          "line": 59,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/FibonacciBalance.sol",
+      "name": "FibonacciLib"
+    }
+  ],
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "duration": 11.170851469039917,
+  "end": 1654180885.8725107,
+  "exit_code": 0,
+  "start": 1654180874.7016592,
+  "tool": "osiris"
+}

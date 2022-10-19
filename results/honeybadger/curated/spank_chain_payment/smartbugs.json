@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "tool": "honeybadger",
+  "start": 1654003682.697866,
+  "end": 1654004088.526801,
+  "duration": 405.8289351463318,
+  "exit_code": 0
+}

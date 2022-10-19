@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "tool": "maian",
+  "start": 1654163231.5034297,
+  "end": 1654163285.9334133,
+  "duration": 54.429983615875244,
+  "exit_code": 0
+}

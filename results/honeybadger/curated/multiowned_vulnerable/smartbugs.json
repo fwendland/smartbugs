@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.4622197,
+  "end": 1654122274.3753905,
+  "duration": 7.91317081451416,
+  "exit_code": 0
+}

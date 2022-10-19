@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "tool": "maian",
+  "start": 1654163338.5493782,
+  "end": 1654163396.718181,
+  "duration": 58.1688027381897,
+  "exit_code": 0
+}

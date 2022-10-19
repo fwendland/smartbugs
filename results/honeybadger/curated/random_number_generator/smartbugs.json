@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "tool": "honeybadger",
+  "start": 1654122732.183321,
+  "end": 1654122734.7946901,
+  "duration": 2.6113691329956055,
+  "exit_code": 0
+}

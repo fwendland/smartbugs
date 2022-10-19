@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "tool": "solhint",
+  "start": 1654186576.8040044,
+  "end": 1654186580.7398126,
+  "duration": 3.9358081817626953,
+  "exit_code": 1
+}

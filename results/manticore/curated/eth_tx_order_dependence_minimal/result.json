@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "duration": 26.51577091217041,
+  "end": 1654171818.1645713,
+  "exit_code": 0,
+  "start": 1654171791.6488004,
+  "tool": "manticore"
+}

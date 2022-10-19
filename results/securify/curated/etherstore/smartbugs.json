@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "tool": "securify",
+  "start": 1654007606.5753224,
+  "end": 1654007833.468323,
+  "duration": 226.89300060272217,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "slither",
+  "start": 1654186391.420337,
+  "end": 1654186396.0725584,
+  "duration": 4.652221441268921,
+  "exit_code": 32
+}

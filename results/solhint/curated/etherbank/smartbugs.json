@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "solhint",
+  "start": 1654082641.35644,
+  "end": 1654082651.2077575,
+  "duration": 9.851317405700684,
+  "exit_code": 1
+}

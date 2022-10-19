@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_2.sol",
+  "tool": "mythril",
+  "start": 1654177339.6097057,
+  "end": 1654177613.1939774,
+  "duration": 273.5842716693878,
+  "exit_code": 0
+}

@@ -1,0 +1,142 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Unprotected.changeOwner (/data/unprotected0.sol#25-29) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Unprotected",
+            "source_mapping": {
+              "filename": "/data/unprotected0.sol",
+              "length": 548,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+              ],
+              "start": 193
+            },
+            "type": "contract"
+          },
+          "name": "changeOwner",
+          "source_mapping": {
+            "filename": "/data/unprotected0.sol",
+            "length": 96,
+            "lines": [
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 500
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/unprotected0.sol:\n\t- pragma solidity^0.4.15 (/data/unprotected0.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.15",
+          "source_mapping": {
+            "filename": "/data/unprotected0.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 166
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Unprotected.Unprotected' (/data/unprotected0.sol#17-21) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Unprotected",
+          "source_mapping": {
+            "filename": "/data/unprotected0.sol",
+            "length": 81,
+            "lines": [
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "start": 332
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_newOwner' of Unprotected.changeOwner (/data/unprotected0.sol#25) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_newOwner",
+          "source_mapping": {
+            "filename": "/data/unprotected0.sol",
+            "length": 17,
+            "lines": [
+              25
+            ],
+            "start": 521
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/access_control/unprotected0.sol",
+  "duration": 5.590808629989624,
+  "end": 1654186387.6947696,
+  "exit_code": 4,
+  "start": 1654186382.103961,
+  "tool": "slither"
+}

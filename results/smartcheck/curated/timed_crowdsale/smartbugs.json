@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "tool": "smartcheck",
+  "start": 1654186535.5680416,
+  "end": 1654186540.5151603,
+  "duration": 4.947118759155273,
+  "exit_code": 0
+}

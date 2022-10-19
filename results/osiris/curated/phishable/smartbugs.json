@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "osiris",
+  "start": 1654180874.6461856,
+  "end": 1654180877.1970162,
+  "duration": 2.550830602645874,
+  "exit_code": 0
+}

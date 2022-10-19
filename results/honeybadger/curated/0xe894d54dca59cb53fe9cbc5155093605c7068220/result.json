@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+      "name": "airDrop"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+  "duration": 7.825835943222046,
+  "end": 1654123411.8425992,
+  "exit_code": 0,
+  "start": 1654123404.0167632,
+  "tool": "honeybadger"
+}

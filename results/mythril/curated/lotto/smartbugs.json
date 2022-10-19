@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "mythril",
+  "start": 1654179707.1749852,
+  "end": 1654179711.559311,
+  "duration": 4.384325742721558,
+  "exit_code": 0
+}

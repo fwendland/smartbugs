@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "conkas",
+  "start": 1654106821.6605852,
+  "end": 1654106827.1141512,
+  "duration": 5.453566074371338,
+  "exit_code": 0
+}

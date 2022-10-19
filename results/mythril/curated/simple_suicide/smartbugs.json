@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "mythril",
+  "start": 1654177339.5163362,
+  "end": 1654177343.3510418,
+  "duration": 3.8347055912017822,
+  "exit_code": 0
+}

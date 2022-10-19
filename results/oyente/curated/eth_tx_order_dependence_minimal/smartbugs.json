@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "oyente",
+  "start": 1654181845.2735503,
+  "end": 1654181848.031164,
+  "duration": 2.7576136589050293,
+  "exit_code": 1
+}

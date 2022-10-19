@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "securify",
+  "start": 1654183751.0953197,
+  "end": 1654183772.9700136,
+  "duration": 21.874693870544434,
+  "exit_code": 0
+}

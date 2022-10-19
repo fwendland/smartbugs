@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/tokensalechallenge.sol",
+      "name": "TokenSaleChallenge"
+    }
+  ],
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "duration": 7.240564823150635,
+  "end": 1654122538.7972035,
+  "exit_code": 0,
+  "start": 1654122531.5566387,
+  "tool": "honeybadger"
+}

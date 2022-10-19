@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/insecure_transfer.sol",
+      "name": "IntegerOverflowAdd"
+    }
+  ],
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "duration": 4.049382925033569,
+  "end": 1654122535.6149795,
+  "exit_code": 0,
+  "start": 1654122531.5655966,
+  "tool": "honeybadger"
+}

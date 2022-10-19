@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/lottopollo.sol",
+      "name": "lottopollo"
+    }
+  ],
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "duration": 4.164003849029541,
+  "end": 1654123374.4777508,
+  "exit_code": 0,
+  "start": 1654123370.313747,
+  "tool": "honeybadger"
+}

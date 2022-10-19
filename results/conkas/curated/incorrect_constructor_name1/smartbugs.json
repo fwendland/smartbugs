@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name1.sol",
+  "tool": "conkas",
+  "start": 1654105988.706282,
+  "end": 1654105994.0563326,
+  "duration": 5.350050687789917,
+  "exit_code": 0
+}

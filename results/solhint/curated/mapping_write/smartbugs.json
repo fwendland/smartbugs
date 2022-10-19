@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "solhint",
+  "start": 1654186576.9220989,
+  "end": 1654186583.3500903,
+  "duration": 6.4279913902282715,
+  "exit_code": 1
+}

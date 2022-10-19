@@ -1,0 +1,47 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 13,
+          "line": 33,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 39,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 14,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 14,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+      "name": "DepositProxy"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 14,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+      "name": "Proxy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+  "duration": 81.66676807403564,
+  "end": 1654181271.2964025,
+  "exit_code": 0,
+  "start": 1654181189.6296344,
+  "tool": "osiris"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/modifier_reentrancy.sol",
+  "tool": "solhint",
+  "start": 1654082641.4500747,
+  "end": 1654082645.7555668,
+  "duration": 4.305492162704468,
+  "exit_code": 1
+}

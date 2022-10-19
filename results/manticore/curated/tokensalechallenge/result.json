@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "duration": 23.823837280273438,
+  "end": 1654166398.9155867,
+  "exit_code": 0,
+  "start": 1654166375.0917494,
+  "tool": "manticore"
+}

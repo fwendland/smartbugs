@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "column": 17,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "private",
+      "line": 10,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/access_control/unprotected0.sol",
+  "duration": 7.014490604400635,
+  "end": 1654186486.8255746,
+  "exit_code": 0,
+  "start": 1654186479.811084,
+  "tool": "smartcheck"
+}

@@ -1,0 +1,12 @@
+2022-06-02 10:09:30,926: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 10:09:30,927: [14] m.main:INFO: Beginning analysis
+2022-06-02 10:09:30,930: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 10:09:31,397: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 10:09:31,508: [14] m.e.manticore:INFO: 0 alive states, 2 terminated states
+2022-06-02 10:09:31,689: [14] m.c.manticore:INFO: Results in /mcore_o0i3_m5p
+2022-06-02 10:09:31,690: [14] m.c.manticore:INFO: Total time: 0.2886064052581787
+2022-06-02 10:09:32,581: [82] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 10:09:32,582: [82] m.main:INFO: Beginning analysis
+2022-06-02 10:09:32,587: [82] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 10:09:40,059: [82] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 10:11:07,700: [82] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x05' -> 24844740378862328776040474930091120153261249145087783134505607967734118531963

@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/integer_overflow_minimal.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 148.",
+      "type": "max-line-length"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_minimal.sol",
+  "duration": 2.557482957839966,
+  "end": 1654186588.9281347,
+  "exit_code": 1,
+  "start": 1654186586.3706517,
+  "tool": "solhint"
+}

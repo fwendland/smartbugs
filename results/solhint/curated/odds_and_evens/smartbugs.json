@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "solhint",
+  "start": 1654186604.5663717,
+  "end": 1654186607.1458793,
+  "duration": 2.57950758934021,
+  "exit_code": 1
+}

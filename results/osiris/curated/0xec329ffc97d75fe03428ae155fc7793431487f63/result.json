@@ -1,0 +1,37 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 30,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+      "name": "Owned"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 82,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 30,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+      "name": "TokenSender"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+  "duration": 101.28767824172974,
+  "end": 1654181290.8173282,
+  "exit_code": 0,
+  "start": 1654181189.52965,
+  "tool": "osiris"
+}

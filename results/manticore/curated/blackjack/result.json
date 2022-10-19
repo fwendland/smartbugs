@@ -1,0 +1,12 @@
+{
+  "analysis": [
+    [],
+    []
+  ],
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "duration": 740.44961810112,
+  "end": 1654168921.1733446,
+  "exit_code": 0,
+  "start": 1654168180.7237265,
+  "tool": "manticore"
+}

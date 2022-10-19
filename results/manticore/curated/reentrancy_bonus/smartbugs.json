@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "tool": "manticore",
+  "start": 1654004776.7871184,
+  "end": 1654004801.0520556,
+  "duration": 24.264937162399292,
+  "exit_code": 0
+}

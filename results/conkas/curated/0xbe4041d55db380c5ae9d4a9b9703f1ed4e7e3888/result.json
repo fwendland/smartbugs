@@ -1,0 +1,76 @@
+{
+  "analysis": [
+    {
+      "line_number": "81",
+      "maybe_in_function": "AddMessage(address,uint256,string)",
+      "pc": "0x451",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "99",
+      "maybe_in_function": "AddMessage(address,uint256,string)",
+      "pc": "0x218",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "102",
+      "maybe_in_function": "AddMessage(address,uint256,string)",
+      "pc": "0x260",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "102",
+      "maybe_in_function": "AddMessage(address,uint256,string)",
+      "pc": "0x30e",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "95",
+      "maybe_in_function": "AddMessage(address,uint256,string)",
+      "pc": "0x9d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "51",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x241",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "50",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x22c",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "63",
+      "maybe_in_function": "Collect(uint256)",
+      "pc": "0x45d",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "66",
+      "maybe_in_function": "Collect(uint256)",
+      "pc": "0x579",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "51",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x244",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "52",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x34e",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+  "duration": 93.1972303390503,
+  "end": 1654008757.5927668,
+  "exit_code": 0,
+  "start": 1654008664.3955364,
+  "tool": "conkas"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_insecure.sol",
+  "tool": "securify",
+  "start": 1654007606.2637224,
+  "end": 1654007641.0869045,
+  "duration": 34.823182106018066,
+  "exit_code": 0
+}

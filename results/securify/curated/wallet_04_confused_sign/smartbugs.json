@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "tool": "securify",
+  "start": 1654182041.3854165,
+  "end": 1654182128.390771,
+  "duration": 87.00535440444946,
+  "exit_code": 0
+}

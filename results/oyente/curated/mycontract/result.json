@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "94.4%",
+      "file": "/data/mycontract.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "MyContract",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/access_control/mycontract.sol",
+  "duration": 4.120165824890137,
+  "end": 1654181741.711091,
+  "exit_code": 0,
+  "start": 1654181737.5909252,
+  "tool": "oyente"
+}

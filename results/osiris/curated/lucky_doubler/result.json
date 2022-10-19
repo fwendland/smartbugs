@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 119,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 13,
+          "line": 102,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 10,
+          "line": 74,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/lucky_doubler.sol",
+      "name": "LuckyDoubler"
+    }
+  ],
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "duration": 52.82764172554016,
+  "end": 1654181062.7536423,
+  "exit_code": 0,
+  "start": 1654181009.9260006,
+  "tool": "osiris"
+}

@@ -1,0 +1,76 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 145,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 37,
+          "line": 286,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 144,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 43,
+          "line": 103,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 146,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 37,
+          "line": 286,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 43,
+          "line": 103,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 20,
+          "line": 287,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 20,
+          "line": 287,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 20,
+          "line": 287,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 24,
+          "line": 324,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 150,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+      "name": "FiftyFlip"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+  "duration": 62.80060029029846,
+  "end": 1654181252.4207761,
+  "exit_code": 0,
+  "start": 1654181189.6201758,
+  "tool": "osiris"
+}

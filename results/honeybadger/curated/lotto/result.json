@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/lotto.sol",
+      "name": "Lotto"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "duration": 5.194617033004761,
+  "end": 1654123409.2258966,
+  "exit_code": 0,
+  "start": 1654123404.0312796,
+  "tool": "honeybadger"
+}

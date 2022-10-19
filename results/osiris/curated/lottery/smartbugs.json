@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "osiris",
+  "start": 1654181010.013681,
+  "end": 1654181014.8586228,
+  "duration": 4.844941854476929,
+  "exit_code": 0
+}

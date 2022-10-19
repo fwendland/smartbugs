@@ -1,0 +1,41 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 26,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 28,
+          "line": 19,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 28,
+          "line": 19,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 28,
+          "line": 19,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 28,
+          "line": 19,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/reentrancy_bonus.sol",
+      "name": "Reentrancy_bonus"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "duration": 8.906009197235107,
+  "end": 1654007408.5531309,
+  "exit_code": 0,
+  "start": 1654007399.6471217,
+  "tool": "osiris"
+}

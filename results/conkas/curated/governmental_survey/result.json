@@ -1,0 +1,82 @@
+{
+  "analysis": [
+    {
+      "line_number": "47",
+      "maybe_in_function": "attack(address,uint256)",
+      "pc": "0x158",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "50",
+      "maybe_in_function": "attack(address,uint256)",
+      "pc": "0x1da",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "47",
+      "maybe_in_function": "attack(address,uint256)",
+      "pc": "0xcb",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "31",
+      "maybe_in_function": "0x51294de7",
+      "pc": "0x1f3",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "27",
+      "maybe_in_function": "invest()",
+      "pc": "0x3f9",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "35",
+      "maybe_in_function": "0x51294de7",
+      "pc": "0x2c4",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "35",
+      "maybe_in_function": "0x51294de7",
+      "pc": "0x2af",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "34",
+      "maybe_in_function": "0x51294de7",
+      "pc": "0x24c",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "31",
+      "maybe_in_function": "0x51294de7",
+      "pc": "0x1ec",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "35",
+      "maybe_in_function": "0x51294de7",
+      "pc": "0x2c4",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "34",
+      "maybe_in_function": "0x51294de7",
+      "pc": "0x24c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "34",
+      "maybe_in_function": "0x51294de7",
+      "pc": "0x24c",
+      "vuln_type": "Unchecked Low Level Call"
+    }
+  ],
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "duration": 5.700921297073364,
+  "end": 1654106827.329421,
+  "exit_code": 0,
+  "start": 1654106821.6284997,
+  "tool": "conkas"
+}

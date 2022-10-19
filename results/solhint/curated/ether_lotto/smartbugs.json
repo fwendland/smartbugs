@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "solhint",
+  "start": 1654186616.9392257,
+  "end": 1654186619.3877373,
+  "duration": 2.4485116004943848,
+  "exit_code": 1
+}

@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "21",
+      "maybe_in_function": "transfer()",
+      "pc": "0x12a",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "22",
+      "maybe_in_function": "transfer()",
+      "pc": "0x216",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+  "duration": 22.000536918640137,
+  "end": 1654106852.49175,
+  "exit_code": 0,
+  "start": 1654106830.491213,
+  "tool": "conkas"
+}

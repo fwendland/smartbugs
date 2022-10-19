@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "maian",
+  "start": 1654163338.614548,
+  "end": 1654163433.8302665,
+  "duration": 95.21571850776672,
+  "exit_code": 0
+}

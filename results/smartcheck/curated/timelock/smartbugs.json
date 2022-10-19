@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/timelock.sol",
+  "tool": "smartcheck",
+  "start": 1654186490.3715405,
+  "end": 1654186495.5241718,
+  "duration": 5.1526312828063965,
+  "exit_code": 0
+}

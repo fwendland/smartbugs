@@ -1,0 +1,8 @@
+INFO:Detectors:[92m
+DosNumber.insertNnumbers (/data/dos_number.sol#14-24) should be declared external
+DosNumber.clear (/data/dos_number.sol#26-29) should be declared external
+DosNumber.clearDOS (/data/dos_number.sol#32-38) should be declared external
+DosNumber.getLengthArray (/data/dos_number.sol#40-42) should be declared external
+DosNumber.getRealLengthArray (/data/dos_number.sol#44-46) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Slither:/data/dos_number.sol analyzed (1 contracts), 5 result(s) found

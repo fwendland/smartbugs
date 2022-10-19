@@ -1,0 +1,90 @@
+{
+  "analysis": [
+    {
+      "column": 30,
+      "content": "throw",
+      "line": 26,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 26,
+      "content": "throw",
+      "line": 49,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "if(msg.value!=1ether)throw;",
+      "line": 26,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "if(msg.sender!=owner)throw;",
+      "line": 49,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionOddsAndEvens(){owner=msg.sender;}",
+      "line": 21,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionplay(uintnumber)payable{if(msg.value!=1ether)throw;players[tot]=Player(msg.sender,number);tot++;if(tot==2)andTheWinnerIs();}",
+      "line": 25,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functiongetProfit(){if(msg.sender!=owner)throw;boolres=msg.sender.send(this.balance);}",
+      "line": 48,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "uint8tot;",
+      "line": 18,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "addressowner;",
+      "line": 19,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "duration": 5.949145078659058,
+  "end": 1654186521.6778755,
+  "exit_code": 0,
+  "start": 1654186515.7287304,
+  "tool": "smartcheck"
+}

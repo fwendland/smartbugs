@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 17,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/integer_overflow_minimal.sol",
+      "name": "IntegerOverflowMinimal"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_minimal.sol",
+  "duration": 3.094510793685913,
+  "end": 1654180933.7731469,
+  "exit_code": 0,
+  "start": 1654180930.678636,
+  "tool": "osiris"
+}

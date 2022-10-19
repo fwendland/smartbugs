@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+      "name": "airDrop"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+  "duration": 59.72978401184082,
+  "end": 1654181249.3556716,
+  "exit_code": 0,
+  "start": 1654181189.6258876,
+  "tool": "osiris"
+}

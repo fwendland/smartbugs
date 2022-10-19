@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "tool": "mythril",
+  "start": 1654179708.3964705,
+  "end": 1654179722.010595,
+  "duration": 13.614124536514282,
+  "exit_code": 0
+}

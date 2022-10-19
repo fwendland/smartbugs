@@ -1,0 +1,80 @@
+{
+  "analysis": {
+    "/data/simple_dao.sol:SimpleDAO": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            18
+          ],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            23,
+            11,
+            9
+          ],
+          "warnings": [
+            15
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            18
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            18
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            18
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            18
+          ],
+          "warnings": []
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            18
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "duration": 60.70825004577637,
+  "end": 1654007667.1872191,
+  "exit_code": 0,
+  "start": 1654007606.478969,
+  "tool": "securify"
+}

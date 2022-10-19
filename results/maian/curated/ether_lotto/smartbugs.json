@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "maian",
+  "start": 1654163479.4971852,
+  "end": 1654163537.1951325,
+  "duration": 57.69794726371765,
+  "exit_code": 0
+}

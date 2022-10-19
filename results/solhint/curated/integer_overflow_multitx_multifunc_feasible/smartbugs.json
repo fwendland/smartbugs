@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_multitx_multifunc_feasible.sol",
+  "tool": "solhint",
+  "start": 1654186586.4053712,
+  "end": 1654186589.4483936,
+  "duration": 3.043022394180298,
+  "exit_code": 0
+}

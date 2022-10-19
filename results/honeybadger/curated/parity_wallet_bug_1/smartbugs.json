@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.3619845,
+  "end": 1654122269.3084223,
+  "duration": 2.9464378356933594,
+  "exit_code": 0
+}

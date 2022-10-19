@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "maian",
+  "start": 1654161877.2453706,
+  "end": 1654161958.3094258,
+  "duration": 81.06405520439148,
+  "exit_code": 0
+}

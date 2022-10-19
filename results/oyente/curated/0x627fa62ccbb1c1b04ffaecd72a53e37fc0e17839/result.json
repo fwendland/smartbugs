@@ -1,0 +1,68 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.5%",
+      "file": "/data/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Ownable",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.7%",
+      "file": "/data/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Token",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 96,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 71,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 94,
+          "message": "Re-Entrancy Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "99.9%",
+      "file": "/data/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "TokenBank",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": true,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/reentrancy/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+  "duration": 8.742932796478271,
+  "end": 1654007554.0370798,
+  "exit_code": 1,
+  "start": 1654007545.294147,
+  "tool": "oyente"
+}

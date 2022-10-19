@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/eth_tx_order_dependence_minimal.sol",
+      "name": "EthTxOrderDependenceMinimal"
+    }
+  ],
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "duration": 4.477355480194092,
+  "end": 1654123285.2364898,
+  "exit_code": 0,
+  "start": 1654123280.7591343,
+  "tool": "honeybadger"
+}

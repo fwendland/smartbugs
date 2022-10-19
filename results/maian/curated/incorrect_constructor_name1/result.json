@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": true,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/access_control/incorrect_constructor_name1.sol",
+  "duration": 92.37227320671082,
+  "end": 1654161969.6474588,
+  "exit_code": 0,
+  "start": 1654161877.2751856,
+  "tool": "maian"
+}

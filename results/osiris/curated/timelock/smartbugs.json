@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/timelock.sol",
+  "tool": "osiris",
+  "start": 1654180930.7348096,
+  "end": 1654180934.8661163,
+  "duration": 4.1313066482543945,
+  "exit_code": 0
+}

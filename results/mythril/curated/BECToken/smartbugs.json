@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "mythril",
+  "start": 1654177615.8516924,
+  "end": 1654177625.8274155,
+  "duration": 9.975723028182983,
+  "exit_code": 0
+}

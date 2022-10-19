@@ -1,0 +1,770 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Line length must be no more than 120 but current length is 187.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "31",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "32",
+      "message": "Line length must be no more than 120 but current length is 220.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "34",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "35",
+      "message": "Line length must be no more than 120 but current length is 199.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "37",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "38",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "40",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "43",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "44",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "47",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "48",
+      "message": "Line length must be no more than 120 but current length is 147.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "50",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "52",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "53",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "56",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "57",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "60",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "62",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "63",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "64",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "66",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "67",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "68",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "69",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "70",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "72",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "73",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "74",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "76",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "77",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "79",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "80",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "82",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "83",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "85",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "86",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "87",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "89",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "91",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "93",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "94",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "96",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "98",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "99",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "101",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "102",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "105",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "106",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "109",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "111",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "113",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "115",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "116",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "117",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "119",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "120",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "121",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "123",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "124",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "125",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "127",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "128",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "129",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "131",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "134",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "135",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "137",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "139",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "141",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "142",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "145",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "146",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "148",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "149",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "150",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "151",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "153",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "154",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "157",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "160",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherpot_lotto.sol",
+      "level": "Error",
+      "line": "162",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "duration": 5.621978282928467,
+  "end": 1654186627.4242308,
+  "exit_code": 1,
+  "start": 1654186621.8022525,
+  "tool": "solhint"
+}

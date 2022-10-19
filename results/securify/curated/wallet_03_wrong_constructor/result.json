@@ -1,0 +1,90 @@
+{
+  "analysis": {
+    "/data/wallet_03_wrong_constructor.sol:Wallet": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            29
+          ],
+          "warnings": [
+            37
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            35
+          ],
+          "warnings": [
+            22,
+            18,
+            27
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            37
+          ],
+          "warnings": [
+            29
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            37,
+            29
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            29
+          ],
+          "violations": [
+            37
+          ],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            37,
+            29
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            29
+          ],
+          "violations": [],
+          "warnings": [
+            37
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "duration": 88.29372596740723,
+  "end": 1654182129.703613,
+  "exit_code": 0,
+  "start": 1654182041.409887,
+  "tool": "securify"
+}

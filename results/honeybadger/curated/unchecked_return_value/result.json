@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/unchecked_return_value.sol",
+      "name": "ReturnValue"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "duration": 12.861719369888306,
+  "end": 1654123416.9647796,
+  "exit_code": 0,
+  "start": 1654123404.1030602,
+  "tool": "honeybadger"
+}

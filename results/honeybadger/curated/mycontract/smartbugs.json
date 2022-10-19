@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.43219,
+  "end": 1654122271.2192283,
+  "duration": 4.787038326263428,
+  "exit_code": 0
+}

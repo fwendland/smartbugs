@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "mythril",
+  "start": 1654006855.2903726,
+  "end": 1654006863.2898622,
+  "duration": 7.9994895458221436,
+  "exit_code": 0
+}

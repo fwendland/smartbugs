@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "slither",
+  "start": 1654186430.1646378,
+  "end": 1654186433.016599,
+  "duration": 2.851961135864258,
+  "exit_code": 3
+}

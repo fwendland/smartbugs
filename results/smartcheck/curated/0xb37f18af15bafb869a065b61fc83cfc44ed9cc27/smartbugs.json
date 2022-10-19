@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+  "tool": "smartcheck",
+  "start": 1654186542.9364753,
+  "end": 1654186555.2919176,
+  "duration": 12.35544228553772,
+  "exit_code": 0
+}

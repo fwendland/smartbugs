@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "duration": 3.823901414871216,
+  "end": 1654181741.3567505,
+  "exit_code": 1,
+  "start": 1654181737.532849,
+  "tool": "oyente"
+}

@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/blackjack.sol",
+      "name": "BlackJack"
+    },
+    {
+      "errors": [],
+      "file": "/data/blackjack.sol",
+      "name": "Deck"
+    }
+  ],
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "duration": 288.26203083992004,
+  "end": 1654123020.445844,
+  "exit_code": 0,
+  "start": 1654122732.183813,
+  "tool": "honeybadger"
+}

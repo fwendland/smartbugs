@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "conkas",
+  "start": 1654105988.7208676,
+  "end": 1654105995.0826383,
+  "duration": 6.3617706298828125,
+  "exit_code": 0
+}

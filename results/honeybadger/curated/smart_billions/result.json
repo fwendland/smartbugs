@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/smart_billions.sol",
+      "name": "SafeMath"
+    },
+    {
+      "errors": [],
+      "file": "/data/smart_billions.sol",
+      "name": "SmartBillions"
+    }
+  ],
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "duration": 281.8606905937195,
+  "end": 1654123014.0265687,
+  "exit_code": 0,
+  "start": 1654122732.165878,
+  "tool": "honeybadger"
+}

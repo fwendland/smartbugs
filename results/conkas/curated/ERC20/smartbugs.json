@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "conkas",
+  "start": 1654106801.3531604,
+  "end": 1654106805.9540582,
+  "duration": 4.600897789001465,
+  "exit_code": 0
+}

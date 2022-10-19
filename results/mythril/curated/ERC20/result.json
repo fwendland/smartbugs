@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [],
+    "success": true
+  },
+  "contract": "dataset/front_running/ERC20.sol",
+  "duration": 3.131653070449829,
+  "end": 1654179608.5915208,
+  "exit_code": 0,
+  "start": 1654179605.4598677,
+  "tool": "mythril"
+}

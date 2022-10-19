@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "securify",
+  "start": 1654182775.4605117,
+  "end": 1654182853.1483746,
+  "duration": 77.68786287307739,
+  "exit_code": 0
+}

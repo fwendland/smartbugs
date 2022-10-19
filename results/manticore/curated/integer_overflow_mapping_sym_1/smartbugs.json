@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "tool": "manticore",
+  "start": 1654166374.9610236,
+  "end": 1654166390.9118564,
+  "duration": 15.950832843780518,
+  "exit_code": 0
+}

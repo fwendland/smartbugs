@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+      "name": "DepositProxy"
+    },
+    {
+      "errors": [],
+      "file": "/data/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+      "name": "Proxy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+  "duration": 109.65518975257874,
+  "end": 1654123513.7186282,
+  "exit_code": 0,
+  "start": 1654123404.0634384,
+  "tool": "honeybadger"
+}

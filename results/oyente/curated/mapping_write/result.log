@@ -1,0 +1,23 @@
+WARNING:root:You are using evm version 1.8.2. The supported version is 1.7.3
+WARNING:root:You are using solc version 0.4.26, The latest supported version is 0.4.19
+INFO:root:contract /data/mapping_write.sol:Map:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 80.7%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/data/mapping_write.sol:24:17: Warning: Integer Overflow.
+         return map[key]
+Integer Overflow occurs if:
+    key = 105782898658114362639998236590588058411517566113314665475433552748888561006558
+    map[key] = 105782898658114362639998236590588058411517566113314665475433552748888561006559
+/data/mapping_write.sol:20:10: Warning: Integer Overflow.
+         map[key]
+Integer Overflow occurs if:
+    key = 105782898658114362639998236590588058411517566113314665475433552748888561006558
+    map.length = 105782898658114362639998236590588058411517566113314665475433552748888561006559
+INFO:symExec:	====== Analysis Completed ======

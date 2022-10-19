@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "tool": "smartcheck",
+  "start": 1654186490.3824584,
+  "end": 1654186497.474234,
+  "duration": 7.09177565574646,
+  "exit_code": 0
+}

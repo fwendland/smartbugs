@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/access_control/mycontract.sol",
+  "duration": 77.35687303543091,
+  "end": 1654161954.633482,
+  "exit_code": 0,
+  "start": 1654161877.276609,
+  "tool": "maian"
+}

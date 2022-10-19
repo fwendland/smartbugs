@@ -1,0 +1,126 @@
+{
+  "analysis": {
+    "/data/rubixi.sol:Rubixi": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            84,
+            94,
+            102,
+            73
+          ],
+          "warnings": [
+            73
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [
+            98
+          ],
+          "violations": [
+            107
+          ],
+          "warnings": [
+            139,
+            155,
+            129,
+            143,
+            117,
+            147,
+            58,
+            134,
+            22,
+            88,
+            151,
+            111,
+            81,
+            124,
+            43
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [
+            102
+          ],
+          "safe": [
+            73,
+            84
+          ],
+          "violations": [
+            84
+          ],
+          "warnings": [
+            94
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            73,
+            84
+          ],
+          "violations": [
+            84,
+            94,
+            102
+          ],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [
+            73
+          ],
+          "safe": [],
+          "violations": [
+            84,
+            94,
+            102
+          ],
+          "warnings": [
+            73,
+            84
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            73,
+            84,
+            94,
+            102
+          ],
+          "warnings": []
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            73,
+            84
+          ],
+          "violations": [],
+          "warnings": [
+            84,
+            94,
+            102
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/access_control/rubixi.sol",
+  "duration": 247.42784070968628,
+  "end": 1654182288.7784858,
+  "exit_code": 0,
+  "start": 1654182041.350645,
+  "tool": "securify"
+}

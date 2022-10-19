@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "tool": "maian",
+  "start": 1654163479.5460184,
+  "end": 1654163532.2535286,
+  "duration": 52.707510232925415,
+  "exit_code": 0
+}

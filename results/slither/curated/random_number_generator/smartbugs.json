@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "tool": "slither",
+  "start": 1654186399.6403272,
+  "end": 1654186402.7015615,
+  "duration": 3.06123423576355,
+  "exit_code": 0
+}

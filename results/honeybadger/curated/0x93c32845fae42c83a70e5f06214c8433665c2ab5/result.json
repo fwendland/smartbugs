@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 32,
+          "message": "straw_man_contract"
+        }
+      ],
+      "file": "/data/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+      "name": "X_WALLET"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+  "duration": 212.2893521785736,
+  "end": 1654003894.961821,
+  "exit_code": 0,
+  "start": 1654003682.672469,
+  "tool": "honeybadger"
+}

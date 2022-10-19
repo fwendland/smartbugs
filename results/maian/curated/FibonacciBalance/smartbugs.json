@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "tool": "maian",
+  "start": 1654161877.229345,
+  "end": 1654162005.9416575,
+  "duration": 128.71231245994568,
+  "exit_code": 0
+}

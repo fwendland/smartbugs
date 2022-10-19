@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "solhint",
+  "start": 1654186604.5889838,
+  "end": 1654186606.9892123,
+  "duration": 2.400228500366211,
+  "exit_code": 1
+}

@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/access_control/mycontract.sol",
+  "duration": 6.860241889953613,
+  "end": 1654164574.2088041,
+  "exit_code": 0,
+  "start": 1654164567.3485622,
+  "tool": "manticore"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_minimal.sol",
+  "tool": "conkas",
+  "start": 1654092831.8833587,
+  "end": 1654092837.6426497,
+  "duration": 5.759290933609009,
+  "exit_code": 0
+}

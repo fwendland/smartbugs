@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "securify",
+  "start": 1654183668.9906542,
+  "end": 1654183747.7778406,
+  "duration": 78.78718638420105,
+  "exit_code": 0
+}

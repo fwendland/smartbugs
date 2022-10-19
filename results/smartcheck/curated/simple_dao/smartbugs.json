@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "tool": "smartcheck",
+  "start": 1654008603.3334467,
+  "end": 1654008615.1078663,
+  "duration": 11.77441954612732,
+  "exit_code": 0
+}

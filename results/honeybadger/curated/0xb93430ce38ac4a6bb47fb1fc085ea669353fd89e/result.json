@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 41,
+          "message": "straw_man_contract"
+        }
+      ],
+      "file": "/data/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
+      "name": "PrivateBank"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
+  "duration": 211.07875561714172,
+  "end": 1654003893.7512038,
+  "exit_code": 0,
+  "start": 1654003682.6724482,
+  "tool": "honeybadger"
+}

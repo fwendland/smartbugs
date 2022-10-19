@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "oyente",
+  "start": 1654181864.4494221,
+  "end": 1654181867.7361066,
+  "duration": 3.286684513092041,
+  "exit_code": 0
+}

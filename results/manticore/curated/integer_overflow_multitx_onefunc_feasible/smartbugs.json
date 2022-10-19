@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_multitx_onefunc_feasible.sol",
+  "tool": "manticore",
+  "start": 1654166375.0898776,
+  "end": 1654166389.673274,
+  "duration": 14.583396434783936,
+  "exit_code": 0
+}

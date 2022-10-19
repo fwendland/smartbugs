@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "honeybadger",
+  "start": 1654123022.518101,
+  "end": 1654123085.951289,
+  "duration": 63.43318796157837,
+  "exit_code": 0
+}

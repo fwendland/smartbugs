@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "oyente",
+  "start": 1654181780.450156,
+  "end": 1654181819.053917,
+  "duration": 38.603760957717896,
+  "exit_code": 1
+}

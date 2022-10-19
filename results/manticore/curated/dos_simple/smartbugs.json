@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_simple.sol",
+  "tool": "manticore",
+  "start": 1654169986.2812028,
+  "end": 1654171789.4599547,
+  "duration": 1803.1787519454956,
+  "exit_code": null
+}

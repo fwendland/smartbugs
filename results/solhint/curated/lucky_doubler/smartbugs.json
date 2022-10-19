@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "solhint",
+  "start": 1654186593.074752,
+  "end": 1654186595.6858666,
+  "duration": 2.611114501953125,
+  "exit_code": 1
+}

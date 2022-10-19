@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
+  "tool": "mythril",
+  "start": 1654006854.7445364,
+  "end": 1654006863.149904,
+  "duration": 8.405367612838745,
+  "exit_code": 0
+}

@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 10,
+          "line": 17,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 24,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/reentrancy_simple.sol",
+      "name": "Reentrance"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_simple.sol",
+  "duration": 3.109508752822876,
+  "end": 1654007402.528317,
+  "exit_code": 0,
+  "start": 1654007399.4188082,
+  "tool": "osiris"
+}

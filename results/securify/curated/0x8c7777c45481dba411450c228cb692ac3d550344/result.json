@@ -1,0 +1,154 @@
+{
+  "analysis": {
+    "/data/0x8c7777c45481dba411450c228cb692ac3d550344.sol:ETH_VAULT": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            40
+          ],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            10
+          ],
+          "warnings": [
+            14,
+            33,
+            22
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            40
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            40
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            40
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            40,
+            43,
+            29
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            40
+          ],
+          "violations": [],
+          "warnings": [
+            43,
+            29
+          ]
+        }
+      }
+    },
+    "/data/0x8c7777c45481dba411450c228cb692ac3d550344.sol:Log": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            1
+          ],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            1
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            1
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            1
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            1,
+            73,
+            63
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            1
+          ],
+          "violations": [],
+          "warnings": [
+            73,
+            63
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/reentrancy/0x8c7777c45481dba411450c228cb692ac3d550344.sol",
+  "duration": 343.9370241165161,
+  "end": 1654007950.4106288,
+  "exit_code": 0,
+  "start": 1654007606.4736047,
+  "tool": "securify"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "slither",
+  "start": 1654186381.9077487,
+  "end": 1654186386.5181468,
+  "duration": 4.610398054122925,
+  "exit_code": 3
+}

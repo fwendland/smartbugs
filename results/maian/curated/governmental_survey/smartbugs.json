@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "maian",
+  "start": 1654163479.5606565,
+  "end": 1654163586.5826445,
+  "duration": 107.02198791503906,
+  "exit_code": 0
+}

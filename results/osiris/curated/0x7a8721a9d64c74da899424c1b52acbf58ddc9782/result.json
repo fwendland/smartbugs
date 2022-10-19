@@ -1,0 +1,57 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 86,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 86,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 13,
+          "line": 42,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 54,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 55,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 16,
+          "line": 52,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
+      "name": "PrivateDeposit"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
+  "duration": 60.29689049720764,
+  "end": 1654007459.948938,
+  "exit_code": 0,
+  "start": 1654007399.6520474,
+  "tool": "osiris"
+}

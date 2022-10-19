@@ -1,0 +1,77 @@
+{
+  "analysis": {
+    "/data/incorrect_constructor_name2.sol:Missing": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            29
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            17,
+            25
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            29
+          ],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            29
+          ],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            29
+          ],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            29
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            29
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "duration": 17.336990356445312,
+  "end": 1654182058.7170606,
+  "exit_code": 0,
+  "start": 1654182041.3800702,
+  "tool": "securify"
+}

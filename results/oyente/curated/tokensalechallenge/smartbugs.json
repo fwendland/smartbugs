@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "tool": "oyente",
+  "start": 1654181749.9031386,
+  "end": 1654181754.24067,
+  "duration": 4.337531328201294,
+  "exit_code": 0
+}

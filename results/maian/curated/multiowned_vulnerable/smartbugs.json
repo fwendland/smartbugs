@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "maian",
+  "start": 1654161877.192413,
+  "end": 1654162010.6371164,
+  "duration": 133.4447033405304,
+  "exit_code": 0
+}

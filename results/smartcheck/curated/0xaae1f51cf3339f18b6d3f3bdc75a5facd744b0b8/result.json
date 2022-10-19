@@ -1,0 +1,106 @@
+{
+  "analysis": [
+    {
+      "column": 26,
+      "content": "call.value(_am)()",
+      "line": 54,
+      "name": "SOLIDITY_CALL_WITHOUT_DATA",
+      "patternId": "om991k",
+      "severity": 2
+    },
+    {
+      "column": 23,
+      "content": "throw",
+      "line": 22,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 23,
+      "content": "throw",
+      "line": 29,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(intitalized)throw;",
+      "line": 22,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(intitalized)throw;",
+      "line": 29,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 26,
+      "content": "call.value(_am)()",
+      "line": 54,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "public",
+      "line": 63,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "91h3sa",
+      "severity": 1
+    },
+    {
+      "column": 47,
+      "content": "string_data",
+      "line": 86,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "341gim",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "LogFileLog;",
+      "line": 15,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "boolintitalized;",
+      "line": 17,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "MessageLastMsg;",
+      "line": 84,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+  "duration": 10.106704950332642,
+  "end": 1654008613.4441762,
+  "exit_code": 0,
+  "start": 1654008603.3374712,
+  "tool": "smartcheck"
+}

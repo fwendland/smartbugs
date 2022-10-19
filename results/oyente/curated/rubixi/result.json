@@ -1,0 +1,102 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 135,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 130,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 26,
+          "level": "Warning",
+          "line": 153,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 125,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 34,
+          "level": "Warning",
+          "line": 141,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 34,
+          "level": "Warning",
+          "line": 141,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 35,
+          "level": "Warning",
+          "line": 159,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 36,
+          "level": "Warning",
+          "line": 158,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 35,
+          "level": "Warning",
+          "line": 159,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 18,
+          "level": "Warning",
+          "line": 85,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 26,
+          "level": "Warning",
+          "line": 74,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 18,
+          "level": "Warning",
+          "line": 95,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 18,
+          "level": "Warning",
+          "line": 103,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "74.1%",
+      "file": "/data/rubixi.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "Rubixi",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/access_control/rubixi.sol",
+  "duration": 9.952723979949951,
+  "end": 1654181747.1926198,
+  "exit_code": 1,
+  "start": 1654181737.2398958,
+  "tool": "oyente"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "oyente",
+  "start": 1654181864.4524083,
+  "end": 1654181866.9476213,
+  "duration": 2.495213031768799,
+  "exit_code": 1
+}

@@ -1,0 +1,40 @@
+{
+  "analysis": [
+    {
+      "line_number": "38",
+      "maybe_in_function": "Command(address,bytes)",
+      "pc": "0x110",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "44",
+      "maybe_in_function": "Command(address,bytes)",
+      "pc": "0x4b8",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "44",
+      "maybe_in_function": "Command(address,bytes)",
+      "pc": "0x4b8",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "26",
+      "maybe_in_function": "GetFreebie()",
+      "pc": "0x39a",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "35",
+      "maybe_in_function": "withdraw()",
+      "pc": "0x2ab",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+  "duration": 11.166152477264404,
+  "end": 1654106841.5745358,
+  "exit_code": 0,
+  "start": 1654106830.4083834,
+  "tool": "conkas"
+}

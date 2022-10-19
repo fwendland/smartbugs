@@ -1,0 +1,57 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "BasicToken"
+    },
+    {
+      "errors": [
+        {
+          "column": 22,
+          "line": 264,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/BECToken.sol",
+      "name": "BecToken"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "Ownable"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "Pausable"
+    },
+    {
+      "errors": [
+        {
+          "column": 22,
+          "line": 264,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/BECToken.sol",
+      "name": "PausableToken"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "SafeMath"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "StandardToken"
+    }
+  ],
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "duration": 77.21149373054504,
+  "end": 1654181007.926791,
+  "exit_code": 0,
+  "start": 1654180930.7152972,
+  "tool": "osiris"
+}

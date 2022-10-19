@@ -1,0 +1,30 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 14,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "38.3%",
+      "file": "/data/FindThisHash.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "FindThisHash",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "duration": 2.527583599090576,
+  "end": 1654181847.9861736,
+  "exit_code": 0,
+  "start": 1654181845.45859,
+  "tool": "oyente"
+}

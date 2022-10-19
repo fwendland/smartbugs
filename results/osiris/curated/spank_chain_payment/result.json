@@ -1,0 +1,47 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/spank_chain_payment.sol",
+      "name": "ECTools"
+    },
+    {
+      "errors": [
+        {
+          "column": 10,
+          "line": 198,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/spank_chain_payment.sol",
+      "name": "HumanStandardToken"
+    },
+    {
+      "errors": [],
+      "file": "/data/spank_chain_payment.sol",
+      "name": "LedgerChannel"
+    },
+    {
+      "errors": [
+        {
+          "column": 10,
+          "line": 189,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 10,
+          "line": 198,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/spank_chain_payment.sol",
+      "name": "StandardToken"
+    }
+  ],
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "duration": 108.30907106399536,
+  "end": 1654007507.981003,
+  "exit_code": 0,
+  "start": 1654007399.671932,
+  "tool": "osiris"
+}

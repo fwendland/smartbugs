@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+  "duration": 38.52621245384216,
+  "end": 1654175533.8630445,
+  "exit_code": 0,
+  "start": 1654175495.336832,
+  "tool": "manticore"
+}

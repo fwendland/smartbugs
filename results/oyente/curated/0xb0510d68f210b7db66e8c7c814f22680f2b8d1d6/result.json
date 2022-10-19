@@ -1,0 +1,93 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 4,
+          "level": "Warning",
+          "line": 102,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 3,
+          "level": "Warning",
+          "line": 109,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "98.0%",
+      "file": "/data/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Puppet",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "100.0%",
+      "file": "/data/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "SafeMath",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 2,
+          "level": "Warning",
+          "line": 12,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 75,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 4,
+          "level": "Warning",
+          "line": 102,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 71,
+          "message": "Re-Entrancy Vulnerability."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 73,
+          "message": "Re-Entrancy Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "55.2%",
+      "file": "/data/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "Splitter",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": true,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+  "duration": 11.893664121627808,
+  "end": 1654181881.6780696,
+  "exit_code": 1,
+  "start": 1654181869.7844055,
+  "tool": "oyente"
+}

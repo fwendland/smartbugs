@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "solhint",
+  "start": 1654186576.583803,
+  "end": 1654186579.8392036,
+  "duration": 3.2554006576538086,
+  "exit_code": 1
+}

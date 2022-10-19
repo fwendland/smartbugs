@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/tokensalechallenge.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 136.",
+      "type": "max-line-length"
+    }
+  ],
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "duration": 2.5514941215515137,
+  "end": 1654186588.9550738,
+  "exit_code": 1,
+  "start": 1654186586.4035797,
+  "tool": "solhint"
+}

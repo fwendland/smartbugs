@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "tool": "oyente",
+  "start": 1654007545.3835702,
+  "end": 1654007554.515897,
+  "duration": 9.13232684135437,
+  "exit_code": 1
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "conkas",
+  "start": 1654105988.6935894,
+  "end": 1654106483.306457,
+  "duration": 494.61286759376526,
+  "exit_code": 0
+}

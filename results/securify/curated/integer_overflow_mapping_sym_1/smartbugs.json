@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "tool": "securify",
+  "start": 1654182411.6834476,
+  "end": 1654182423.1217284,
+  "duration": 11.438280820846558,
+  "exit_code": 0
+}

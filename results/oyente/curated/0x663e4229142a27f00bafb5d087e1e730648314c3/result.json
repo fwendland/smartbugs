@@ -1,0 +1,864 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 39,
+          "level": "Warning",
+          "line": 1381,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1348,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1349,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 1326,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 19,
+          "level": "Warning",
+          "line": 1343,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1350,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 1496,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "23.5%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "ClockAuction",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.2%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "ClockAuctionBase",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 516,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "17.2%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "ERC721Metadata",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.4%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Ownable",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.9%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "PandaAccessControl",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 397,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 697,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 896,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 392,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 29,
+          "level": "Warning",
+          "line": 895,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 27,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 1152,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "53.5%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "PandaAuction",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 27,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "88.3%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "PandaBase",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 397,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 697,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 907,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 392,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 29,
+          "level": "Warning",
+          "line": 895,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 907,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 896,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 27,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 1152,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "55.8%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "PandaBreeding",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 397,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 697,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 44,
+          "level": "Warning",
+          "line": 931,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 931,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 65,
+          "level": "Warning",
+          "line": 948,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 49,
+          "level": "Warning",
+          "line": 953,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 30,
+          "level": "Warning",
+          "line": 985,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 29,
+          "level": "Warning",
+          "line": 948,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 31,
+          "level": "Warning",
+          "line": 945,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 32,
+          "level": "Warning",
+          "line": 984,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 940,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 36,
+          "level": "Warning",
+          "line": 940,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 51,
+          "level": "Warning",
+          "line": 945,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 29,
+          "level": "Warning",
+          "line": 2429,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 948,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 392,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 29,
+          "level": "Warning",
+          "line": 895,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 26,
+          "level": "Warning",
+          "line": 2439,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 32,
+          "level": "Warning",
+          "line": 2435,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 896,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 29,
+          "level": "Warning",
+          "line": 2437,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 69,
+          "level": "Warning",
+          "line": 945,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 32,
+          "level": "Warning",
+          "line": 2436,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 49,
+          "level": "Warning",
+          "line": 948,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 2441,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 24,
+          "level": "Warning",
+          "line": 2432,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 945,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 44,
+          "level": "Warning",
+          "line": 934,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 30,
+          "level": "Warning",
+          "line": 2440,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 28,
+          "level": "Warning",
+          "line": 2438,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 33,
+          "level": "Warning",
+          "line": 2434,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 2433,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 934,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 27,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 2467,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 1152,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "47.2%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "PandaCore",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 397,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 697,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 392,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 29,
+          "level": "Warning",
+          "line": 895,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 40,
+          "level": "Warning",
+          "line": 439,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 896,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 27,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 1152,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "49.2%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "PandaMinting",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 397,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 697,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 392,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 27,
+          "level": "Warning",
+          "line": 385,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "88.1%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "PandaOwnership",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.8%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Pausable",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 39,
+          "level": "Warning",
+          "line": 1381,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 81,
+          "level": "Warning",
+          "line": 1808,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1348,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1349,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 19,
+          "level": "Warning",
+          "line": 1343,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1350,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 1326,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 25,
+          "level": "Warning",
+          "line": 1781,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 1235,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 1496,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "33.8%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "SaleClockAuction",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 39,
+          "level": "Warning",
+          "line": 1381,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1595,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1597,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1596,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1348,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1594,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1349,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 19,
+          "level": "Warning",
+          "line": 1343,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1350,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 1496,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 1496,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "46.7%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "SaleClockAuctionERC20",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    },
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 39,
+          "level": "Warning",
+          "line": 1381,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1348,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1349,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 19,
+          "level": "Warning",
+          "line": 1343,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 1350,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 1326,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 1235,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 1496,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "37.1%",
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "SiringClockAuction",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+  "duration": 134.16333436965942,
+  "end": 1654182003.9660442,
+  "exit_code": 1,
+  "start": 1654181869.8027098,
+  "tool": "oyente"
+}

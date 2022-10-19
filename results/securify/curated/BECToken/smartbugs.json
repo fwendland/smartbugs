@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "securify",
+  "start": 1654182411.7203233,
+  "end": 1654182773.125589,
+  "duration": 361.4052655696869,
+  "exit_code": 0
+}

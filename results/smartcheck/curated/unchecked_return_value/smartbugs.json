@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "tool": "smartcheck",
+  "start": 1654186542.8736997,
+  "end": 1654186553.155958,
+  "duration": 10.28225827217102,
+  "exit_code": 0
+}

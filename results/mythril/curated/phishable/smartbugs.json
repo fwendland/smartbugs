@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "mythril",
+  "start": 1654177339.6328247,
+  "end": 1654177343.7564893,
+  "duration": 4.123664617538452,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "honeybadger",
+  "start": 1654123370.5302498,
+  "end": 1654123402.0406425,
+  "duration": 31.510392665863037,
+  "exit_code": 0
+}

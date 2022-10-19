@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "solhint",
+  "start": 1654186576.8687263,
+  "end": 1654186581.0428262,
+  "duration": 4.174099922180176,
+  "exit_code": 1
+}

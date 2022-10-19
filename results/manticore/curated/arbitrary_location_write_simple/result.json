@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "duration": 1804.6335113048553,
+  "end": 1654166372.0492055,
+  "exit_code": null,
+  "start": 1654164567.4156942,
+  "tool": "manticore"
+}

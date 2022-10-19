@@ -1,0 +1,50 @@
+{
+  "analysis": [
+    {
+      "column": 41,
+      "content": "call.value(oCredit)()",
+      "line": 18,
+      "name": "SOLIDITY_CALL_WITHOUT_DATA",
+      "patternId": "om991k",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 41,
+      "content": "call.value(oCredit)()",
+      "line": 18,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "mapping(address=>uint)credit;",
+      "line": 10,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintbalance;",
+      "line": 11,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_dao.sol",
+  "duration": 8.811490297317505,
+  "end": 1654008611.9325464,
+  "exit_code": 0,
+  "start": 1654008603.121056,
+  "tool": "smartcheck"
+}

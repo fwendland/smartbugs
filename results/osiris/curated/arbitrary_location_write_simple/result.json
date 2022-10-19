@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/arbitrary_location_write_simple.sol",
+      "name": "Wallet"
+    }
+  ],
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "duration": 4.239202499389648,
+  "end": 1654180878.9288156,
+  "exit_code": 0,
+  "start": 1654180874.689613,
+  "tool": "osiris"
+}

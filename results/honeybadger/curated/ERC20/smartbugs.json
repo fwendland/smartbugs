@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "honeybadger",
+  "start": 1654123280.7328565,
+  "end": 1654123290.1753397,
+  "duration": 9.442483186721802,
+  "exit_code": 0
+}

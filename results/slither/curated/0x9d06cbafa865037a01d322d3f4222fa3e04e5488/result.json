@@ -1,0 +1,964 @@
+{
+  "analysis": [
+    {
+      "check": "shadowing-local",
+      "confidence": "High",
+      "description": "Delta.tokens_buy.tokens_buy (local variable @ /data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#44) shadows:\n\t- Delta.tokens_buy (function @ /data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#39-57)\n",
+      "elements": [
+        {
+          "name": "tokens_buy",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 46,
+            "lines": [
+              44
+            ],
+            "start": 1377
+          },
+          "type": "variable"
+        },
+        {
+          "contract": {
+            "name": "Delta",
+            "source_mapping": {
+              "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+              "length": 1836,
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90
+              ],
+              "start": 795
+            },
+            "type": "contract"
+          },
+          "name": "tokens_buy",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 528,
+            "lines": [
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57
+            ],
+            "start": 1223
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "constable-states",
+      "confidence": "High",
+      "description": "Delta.c should be constant (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#24)\nDelta.owner should be constant (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#25)\nDelta.owner2 should be constant (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#26)\n",
+      "elements": [
+        {
+          "name": "c",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 61,
+            "lines": [
+              24
+            ],
+            "start": 819
+          },
+          "type": "variable"
+        },
+        {
+          "name": "owner",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 65,
+            "lines": [
+              25
+            ],
+            "start": 884
+          },
+          "type": "variable"
+        },
+        {
+          "name": "owner2",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 66,
+            "lines": [
+              26
+            ],
+            "start": 953
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#48-50:\n\t- Usage of \"sha3()\" should be replaced with \"keccak256()\"\n",
+      "elements": [
+        {
+          "expression": "! c.call(bytes4(sha3()(transferFrom(address,address,uint256))),owner,msg.sender,tokens_buy)",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 129,
+            "lines": [
+              48,
+              49,
+              50
+            ],
+            "start": 1468
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#84:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+      "elements": [
+        {
+          "expression": "None",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 5,
+            "lines": [
+              84
+            ],
+            "start": 2585
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Delta.fallback (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#32-34) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Delta",
+            "source_mapping": {
+              "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+              "length": 1836,
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90
+              ],
+              "start": 795
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 58,
+            "lines": [
+              32,
+              33,
+              34
+            ],
+            "start": 1136
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Delta.withdraw (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#60-67) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Delta",
+            "source_mapping": {
+              "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+              "length": 1836,
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90
+              ],
+              "start": 795
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 283,
+            "lines": [
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67
+            ],
+            "start": 1818
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Delta.change_token_price (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#70-73) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Delta",
+            "source_mapping": {
+              "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+              "length": 1836,
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90
+              ],
+              "start": 795
+            },
+            "type": "contract"
+          },
+          "name": "change_token_price",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 148,
+            "lines": [
+              70,
+              71,
+              72,
+              73
+            ],
+            "start": 2130
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Delta.change_active (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#76-79) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Delta",
+            "source_mapping": {
+              "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+              "length": 1836,
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90
+              ],
+              "start": 795
+            },
+            "type": "contract"
+          },
+          "name": "change_active",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 128,
+            "lines": [
+              76,
+              77,
+              78,
+              79
+            ],
+            "start": 2308
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol:\n\t- pragma solidity^0.4.23 (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.23",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 79
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in Delta.tokens_buy (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#39-57):\n\t-! c.call(bytes4(sha3()(transferFrom(address,address,uint256))),owner,msg.sender,tokens_buy) /data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#48-50\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Delta",
+            "source_mapping": {
+              "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+              "length": 1836,
+              "lines": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90
+              ],
+              "start": 795
+            },
+            "type": "contract"
+          },
+          "name": "tokens_buy",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 528,
+            "lines": [
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57
+            ],
+            "start": 1223
+          },
+          "type": "function"
+        },
+        {
+          "expression": "! c.call(bytes4(sha3()(transferFrom(address,address,uint256))),owner,msg.sender,tokens_buy)",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 129,
+            "lines": [
+              48,
+              49,
+              50
+            ],
+            "start": 1468
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Delta.tokens_buy' (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#39-57) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "tokens_buy",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 528,
+            "lines": [
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57
+            ],
+            "start": 1223
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_amount' of Delta.withdraw (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#60) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_amount",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 15,
+            "lines": [
+              60
+            ],
+            "start": 1836
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Delta.change_token_price' (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#70-73) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "change_token_price",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 148,
+            "lines": [
+              70,
+              71,
+              72,
+              73
+            ],
+            "start": 2130
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_token_price' of Delta.change_token_price (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#70) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_token_price",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 20,
+            "lines": [
+              70
+            ],
+            "start": 2158
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Delta.change_active' (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#76-79) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "change_active",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 128,
+            "lines": [
+              76,
+              77,
+              78,
+              79
+            ],
+            "start": 2308
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_active' of Delta.change_active (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#76) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_active",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 15,
+            "lines": [
+              76
+            ],
+            "start": 2331
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'Delta.token_price' (/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol#29) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "token_price",
+          "source_mapping": {
+            "filename": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "length": 39,
+            "lines": [
+              29
+            ],
+            "start": 1050
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+  "duration": 11.12188196182251,
+  "end": 1654186446.8965313,
+  "exit_code": 17,
+  "start": 1654186435.7746494,
+  "tool": "slither"
+}

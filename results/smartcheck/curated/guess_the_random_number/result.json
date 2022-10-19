@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "column": 15,
+      "content": "address(this).balance==0",
+      "line": 19,
+      "name": "SOLIDITY_BALANCE_EQUALITY",
+      "patternId": "5094ad",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 23,
+      "content": "keccak256(block.blockhash(block.number-1),now)",
+      "line": 15,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "901eae",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uint8answer;",
+      "line": 10,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "duration": 5.814076662063599,
+  "end": 1654186505.5079997,
+  "exit_code": 0,
+  "start": 1654186499.693923,
+  "tool": "smartcheck"
+}

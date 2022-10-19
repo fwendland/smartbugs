@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "duration": 52.707510232925415,
+  "end": 1654163532.2535286,
+  "exit_code": 0,
+  "start": 1654163479.5460184,
+  "tool": "maian"
+}

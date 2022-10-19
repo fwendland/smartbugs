@@ -1,0 +1,52 @@
+{
+  "analysis": [
+    {
+      "line_number": "43",
+      "maybe_in_function": "WithdrawToken(address,uint256,address)",
+      "pc": "0x3b5",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "43",
+      "maybe_in_function": "WithdrawToken(address,uint256,address)",
+      "pc": "0x3b5",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "94",
+      "maybe_in_function": "WithdrawToHolder(address,uint256)",
+      "pc": "0x7dc",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "96",
+      "maybe_in_function": "WithdrawToHolder(address,uint256)",
+      "pc": "0x82b",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "71",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x30a",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "43",
+      "maybe_in_function": "WithdrawToken(address,uint256,address)",
+      "pc": "0x6f3",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "43",
+      "maybe_in_function": "WithdrawToken(address,uint256,address)",
+      "pc": "0x6f3",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+  "duration": 6.97375750541687,
+  "end": 1654008671.6143618,
+  "exit_code": 0,
+  "start": 1654008664.6406043,
+  "tool": "conkas"
+}

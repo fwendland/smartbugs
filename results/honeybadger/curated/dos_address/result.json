@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/dos_address.sol",
+      "name": "DosGas"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "duration": 11.79584002494812,
+  "end": 1654123034.2195406,
+  "exit_code": 0,
+  "start": 1654123022.4237006,
+  "tool": "honeybadger"
+}

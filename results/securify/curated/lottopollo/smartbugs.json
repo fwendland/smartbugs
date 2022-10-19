@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "securify",
+  "start": 1654183669.0336895,
+  "end": 1654183743.7909522,
+  "duration": 74.75726270675659,
+  "exit_code": 0
+}

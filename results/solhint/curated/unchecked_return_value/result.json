@@ -1,0 +1,58 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/unchecked_return_value.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/unchecked_return_value.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/unchecked_return_value.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/unchecked_return_value.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/unchecked_return_value.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/unchecked_return_value.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "duration": 3.183288335800171,
+  "end": 1654186625.2686925,
+  "exit_code": 1,
+  "start": 1654186622.0854042,
+  "tool": "solhint"
+}

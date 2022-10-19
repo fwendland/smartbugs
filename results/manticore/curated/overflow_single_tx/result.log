@@ -1,0 +1,57 @@
+2022-06-02 10:39:38,144: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 10:39:38,145: [14] m.main:INFO: Beginning analysis
+2022-06-02 10:39:38,148: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 10:39:38,971: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 10:39:47,494: [14] m.e.manticore:INFO: 6 alive states, 1 terminated states
+2022-06-02 10:39:47,808: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-06-02 10:40:49,327: [14] m.e.manticore:INFO: 36 alive states, 1 terminated states
+2022-06-02 10:40:49,837: [119] m.c.manticore:INFO: Generated testcase No. 0 - STOP(3 txs)
+2022-06-02 10:40:49,838: [119] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,842: [122] m.c.manticore:INFO: Generated testcase No. 1 - STOP(3 txs)
+2022-06-02 10:40:49,843: [122] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,889: [110] m.c.manticore:INFO: Generated testcase No. 2 - STOP(3 txs)
+2022-06-02 10:40:49,890: [110] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,898: [123] m.c.manticore:INFO: Generated testcase No. 3 - STOP(3 txs)
+2022-06-02 10:40:49,900: [123] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,904: [115] m.c.manticore:INFO: Generated testcase No. 4 - STOP(3 txs)
+2022-06-02 10:40:49,905: [118] m.c.manticore:INFO: Generated testcase No. 5 - STOP(3 txs)
+2022-06-02 10:40:49,906: [115] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,907: [118] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,909: [121] m.c.manticore:INFO: Generated testcase No. 6 - STOP(3 txs)
+2022-06-02 10:40:49,910: [121] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,938: [117] m.c.manticore:INFO: Generated testcase No. 7 - STOP(3 txs)
+2022-06-02 10:40:49,940: [117] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,969: [116] m.c.manticore:INFO: Generated testcase No. 10 - STOP(3 txs)
+2022-06-02 10:40:49,970: [116] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,973: [113] m.c.manticore:INFO: Generated testcase No. 8 - STOP(3 txs)
+2022-06-02 10:40:49,974: [111] m.c.manticore:INFO: Generated testcase No. 9 - STOP(3 txs)
+2022-06-02 10:40:49,974: [113] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:49,975: [111] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:50,011: [112] m.c.manticore:INFO: Generated testcase No. 11 - STOP(3 txs)
+2022-06-02 10:40:50,013: [112] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:40:51,188: [119] m.c.manticore:INFO: Generated testcase No. 12 - STOP(3 txs)
+2022-06-02 10:40:51,364: [122] m.c.manticore:INFO: Generated testcase No. 13 - STOP(3 txs)
+2022-06-02 10:40:51,501: [123] m.c.manticore:INFO: Generated testcase No. 14 - STOP(3 txs)
+2022-06-02 10:40:51,933: [110] m.c.manticore:INFO: Generated testcase No. 15 - STOP(3 txs)
+2022-06-02 10:40:52,080: [121] m.c.manticore:INFO: Generated testcase No. 16 - STOP(3 txs)
+2022-06-02 10:40:52,131: [118] m.c.manticore:INFO: Generated testcase No. 17 - STOP(3 txs)
+2022-06-02 10:40:52,134: [116] m.c.manticore:INFO: Generated testcase No. 18 - STOP(3 txs)
+2022-06-02 10:40:52,518: [119] m.c.manticore:INFO: Generated testcase No. 19 - STOP(3 txs)
+2022-06-02 10:40:52,570: [113] m.c.manticore:INFO: Generated testcase No. 20 - STOP(3 txs)
+2022-06-02 10:40:52,630: [111] m.c.manticore:INFO: Generated testcase No. 21 - STOP(3 txs)
+2022-06-02 10:40:52,636: [117] m.c.manticore:INFO: Generated testcase No. 22 - STOP(3 txs)
+2022-06-02 10:40:52,747: [112] m.c.manticore:INFO: Generated testcase No. 23 - STOP(3 txs)
+2022-06-02 10:40:53,116: [122] m.c.manticore:INFO: Generated testcase No. 24 - STOP(3 txs)
+2022-06-02 10:40:53,507: [110] m.c.manticore:INFO: Generated testcase No. 25 - STOP(3 txs)
+2022-06-02 10:40:53,525: [123] m.c.manticore:INFO: Generated testcase No. 26 - STOP(3 txs)
+2022-06-02 10:40:53,782: [121] m.c.manticore:INFO: Generated testcase No. 27 - STOP(3 txs)
+2022-06-02 10:40:53,842: [111] m.c.manticore:INFO: Generated testcase No. 28 - STOP(3 txs)
+2022-06-02 10:40:53,902: [116] m.c.manticore:INFO: Generated testcase No. 29 - STOP(3 txs)
+2022-06-02 10:40:53,982: [113] m.c.manticore:INFO: Generated testcase No. 30 - STOP(3 txs)
+2022-06-02 10:40:54,025: [118] m.c.manticore:INFO: Generated testcase No. 31 - STOP(3 txs)
+2022-06-02 10:40:54,878: [122] m.c.manticore:INFO: Generated testcase No. 32 - STOP(3 txs)
+2022-06-02 10:40:55,030: [110] m.c.manticore:INFO: Generated testcase No. 33 - STOP(3 txs)
+2022-06-02 10:40:55,079: [119] m.c.manticore:INFO: Generated testcase No. 34 - STOP(3 txs)
+2022-06-02 10:40:55,383: [111] m.c.manticore:INFO: Generated testcase No. 35 - STOP(3 txs)
+2022-06-02 10:43:07,083: [14] m.c.manticore:INFO: Results in /mcore_nak4u1ky
+2022-06-02 10:43:07,084: [14] m.c.manticore:INFO: Total time: 199.1778826713562

@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/arithmetic/overflow_simple_add.sol",
+  "duration": 3.612861156463623,
+  "end": 1654186590.0210373,
+  "exit_code": 0,
+  "start": 1654186586.4081762,
+  "tool": "solhint"
+}

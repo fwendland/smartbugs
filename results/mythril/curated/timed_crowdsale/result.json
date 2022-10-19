@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [],
+    "success": true
+  },
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "duration": 3.8058364391326904,
+  "end": 1654179657.007268,
+  "exit_code": 0,
+  "start": 1654179653.2014315,
+  "tool": "mythril"
+}

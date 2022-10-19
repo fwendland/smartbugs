@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "osiris",
+  "start": 1654180874.7058864,
+  "end": 1654180877.6847627,
+  "duration": 2.9788763523101807,
+  "exit_code": 0
+}

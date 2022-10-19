@@ -1,0 +1,12 @@
+2022-06-02 13:11:45,616: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 13:11:45,617: [14] m.main:INFO: Beginning analysis
+2022-06-02 13:11:45,621: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 13:11:46,725: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 13:11:51,517: [14] m.e.manticore:INFO: Found a concrete globalsha3 b'transfer(address,uint256)' -> 76450787364331811106618268332334209071204572358820727073668507032443496760475
+2022-06-02 13:11:58,367: [14] m.e.manticore:INFO: 1 alive states, 1 terminated states
+2022-06-02 13:11:58,675: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-06-02 13:12:09,679: [14] m.e.manticore:INFO: 1 alive states, 1 terminated states
+2022-06-02 13:12:10,212: [77] m.c.manticore:INFO: Generated testcase No. 0 - RETURN(3 txs)
+2022-06-02 13:12:10,213: [77] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:12:12,457: [14] m.c.manticore:INFO: Results in /mcore_wco73wv3
+2022-06-02 13:12:12,458: [14] m.c.manticore:INFO: Total time: 13.768951177597046

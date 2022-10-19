@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_simple_add.sol",
+  "tool": "manticore",
+  "start": 1654166375.1077764,
+  "end": 1654166386.3654833,
+  "duration": 11.257706880569458,
+  "exit_code": 0
+}

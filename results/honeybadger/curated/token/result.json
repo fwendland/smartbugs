@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/token.sol",
+      "name": "Token"
+    }
+  ],
+  "contract": "dataset/arithmetic/token.sol",
+  "duration": 4.562331199645996,
+  "end": 1654122536.1033578,
+  "exit_code": 0,
+  "start": 1654122531.5410266,
+  "tool": "honeybadger"
+}

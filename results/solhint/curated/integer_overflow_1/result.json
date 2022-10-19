@@ -1,0 +1,66 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/integer_overflow_1.sol",
+      "level": "Error",
+      "line": "7",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/integer_overflow_1.sol",
+      "level": "Error",
+      "line": "9",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/integer_overflow_1.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/integer_overflow_1.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/integer_overflow_1.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/integer_overflow_1.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/integer_overflow_1.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_1.sol",
+  "duration": 3.2787926197052,
+  "end": 1654186589.6956081,
+  "exit_code": 1,
+  "start": 1654186586.4168155,
+  "tool": "solhint"
+}

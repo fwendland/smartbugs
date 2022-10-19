@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "tool": "oyente",
+  "start": 1654181737.3169322,
+  "end": 1654181742.0094783,
+  "duration": 4.692546129226685,
+  "exit_code": 1
+}

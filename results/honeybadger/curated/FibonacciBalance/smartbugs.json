@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.4737713,
+  "end": 1654122281.1927564,
+  "duration": 14.718985080718994,
+  "exit_code": 0
+}

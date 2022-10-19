@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "tool": "mythril",
+  "start": 1654179708.2842097,
+  "end": 1654179714.330689,
+  "duration": 6.046479225158691,
+  "exit_code": 0
+}

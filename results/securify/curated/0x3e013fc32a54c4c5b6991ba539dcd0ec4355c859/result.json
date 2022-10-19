@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+  "duration": 2316.0959980487823,
+  "end": 1654247389.0434256,
+  "exit_code": null,
+  "start": 1654245072.9474275,
+  "tool": "securify"
+}

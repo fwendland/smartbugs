@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "tool": "smartcheck",
+  "start": 1654186542.812874,
+  "end": 1654186552.4363105,
+  "duration": 9.623436450958252,
+  "exit_code": 0
+}

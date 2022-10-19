@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "securify",
+  "start": 1654182041.401248,
+  "end": 1654182056.9669657,
+  "duration": 15.565717697143555,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "slither",
+  "start": 1654186430.1674304,
+  "end": 1654186432.7676346,
+  "duration": 2.6002042293548584,
+  "exit_code": 7
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "securify",
+  "start": 1654182411.5683122,
+  "end": 1654182426.8512628,
+  "duration": 15.282950639724731,
+  "exit_code": 0
+}

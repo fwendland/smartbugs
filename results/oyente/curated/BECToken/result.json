@@ -1,0 +1,133 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.1%",
+      "file": "/data/BECToken.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "BasicToken",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 291,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 289,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 290,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 3,
+          "level": "Warning",
+          "line": 261,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "65.4%",
+      "file": "/data/BECToken.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "BecToken",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.5%",
+      "file": "/data/BECToken.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Ownable",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.8%",
+      "file": "/data/BECToken.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Pausable",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 3,
+          "level": "Warning",
+          "line": 261,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "81.6%",
+      "file": "/data/BECToken.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "PausableToken",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "100.0%",
+      "file": "/data/BECToken.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "SafeMath",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.7%",
+      "file": "/data/BECToken.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "StandardToken",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "duration": 28.47022294998169,
+  "end": 1654181778.372415,
+  "exit_code": 0,
+  "start": 1654181749.902192,
+  "tool": "oyente"
+}

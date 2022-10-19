@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "honeybadger",
+  "start": 1654122531.553916,
+  "end": 1654122729.5792048,
+  "duration": 198.02528882026672,
+  "exit_code": 0
+}

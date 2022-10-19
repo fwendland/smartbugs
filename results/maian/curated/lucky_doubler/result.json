@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "duration": 96.75181102752686,
+  "end": 1654162587.3428435,
+  "exit_code": 0,
+  "start": 1654162490.5910325,
+  "tool": "maian"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "tool": "conkas",
+  "start": 1654105988.7203596,
+  "end": 1654105996.0099804,
+  "duration": 7.289620876312256,
+  "exit_code": 0
+}

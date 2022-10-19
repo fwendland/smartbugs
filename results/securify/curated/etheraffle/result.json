@@ -1,0 +1,109 @@
+{
+  "analysis": {
+    "/data/etheraffle.sol:Ethraffle_v4b": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [
+            149
+          ],
+          "violations": [],
+          "warnings": [
+            65,
+            137,
+            92,
+            120,
+            121
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            65,
+            137,
+            149,
+            92
+          ],
+          "violations": [],
+          "warnings": [
+            120,
+            121
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            149,
+            120
+          ],
+          "violations": [
+            121
+          ],
+          "warnings": [
+            65,
+            137,
+            92
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [
+            65,
+            137,
+            149,
+            92,
+            120,
+            121
+          ],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            65,
+            137,
+            149,
+            92,
+            120,
+            121
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            65,
+            149,
+            92,
+            120,
+            121
+          ],
+          "violations": [],
+          "warnings": [
+            137
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "duration": 77.68786287307739,
+  "end": 1654182853.1483746,
+  "exit_code": 0,
+  "start": 1654182775.4605117,
+  "tool": "securify"
+}

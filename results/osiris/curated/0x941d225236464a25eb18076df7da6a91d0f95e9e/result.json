@@ -1,0 +1,57 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 13,
+          "line": 31,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 46,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 47,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 16,
+          "line": 44,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+      "name": "ETH_FUND"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 78,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 78,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+      "name": "Log"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+  "duration": 59.601640939712524,
+  "end": 1654007459.267005,
+  "exit_code": 0,
+  "start": 1654007399.665364,
+  "tool": "osiris"
+}

@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/guess_the_random_number.sol",
+      "name": "GuessTheRandomNumberChallenge"
+    }
+  ],
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "duration": 3.2026028633117676,
+  "end": 1654122735.3784046,
+  "exit_code": 0,
+  "start": 1654122732.1758018,
+  "tool": "honeybadger"
+}

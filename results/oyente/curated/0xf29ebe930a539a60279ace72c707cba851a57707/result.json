@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "95.3%",
+      "file": "/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "B",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+  "duration": 8.62166142463684,
+  "end": 1654181878.3967671,
+  "exit_code": 0,
+  "start": 1654181869.7751057,
+  "tool": "oyente"
+}

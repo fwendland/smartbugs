@@ -1,0 +1,201 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.deposit (/data/wallet_04_confused_sign.sol#23-26) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/wallet_04_confused_sign.sol",
+              "length": 759,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "start": 387
+            },
+            "type": "contract"
+          },
+          "name": "deposit",
+          "source_mapping": {
+            "filename": "/data/wallet_04_confused_sign.sol",
+            "length": 160,
+            "lines": [
+              23,
+              24,
+              25,
+              26
+            ],
+            "start": 544
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.withdraw (/data/wallet_04_confused_sign.sol#28-33) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/wallet_04_confused_sign.sol",
+              "length": 759,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "start": 387
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/wallet_04_confused_sign.sol",
+            "length": 220,
+            "lines": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ],
+            "start": 711
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.migrateTo (/data/wallet_04_confused_sign.sol#37-40) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/wallet_04_confused_sign.sol",
+              "length": 759,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "start": 387
+            },
+            "type": "contract"
+          },
+          "name": "migrateTo",
+          "source_mapping": {
+            "filename": "/data/wallet_04_confused_sign.sol",
+            "length": 123,
+            "lines": [
+              37,
+              38,
+              39,
+              40
+            ],
+            "start": 1019
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "duration": 6.741866827011108,
+  "end": 1654186388.7370317,
+  "exit_code": 3,
+  "start": 1654186381.9951649,
+  "tool": "slither"
+}

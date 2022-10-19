@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/mapping_write.sol",
+      "name": "Map"
+    }
+  ],
+  "contract": "dataset/access_control/mapping_write.sol",
+  "duration": 16.027904510498047,
+  "end": 1654180890.7237155,
+  "exit_code": 0,
+  "start": 1654180874.695811,
+  "tool": "osiris"
+}

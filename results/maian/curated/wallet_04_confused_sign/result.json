@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": true,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "duration": 62.29944729804993,
+  "end": 1654161939.5361238,
+  "exit_code": 0,
+  "start": 1654161877.2366765,
+  "tool": "maian"
+}

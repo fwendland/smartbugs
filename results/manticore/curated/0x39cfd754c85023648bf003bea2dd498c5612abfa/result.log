@@ -1,0 +1,51 @@
+2022-06-02 13:11:43,867: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 13:11:43,868: [14] m.main:INFO: Beginning analysis
+2022-06-02 13:11:43,872: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 13:11:44,925: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 13:11:53,369: [14] m.e.manticore:INFO: 2 alive states, 1 terminated states
+2022-06-02 13:11:53,705: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-06-02 13:12:10,222: [14] m.e.manticore:INFO: 4 alive states, 1 terminated states
+2022-06-02 13:12:10,701: [89] m.c.manticore:INFO: Generated testcase No. 0 - STOP(3 txs)
+2022-06-02 13:12:10,703: [89] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:12:10,741: [90] m.c.manticore:INFO: Generated testcase No. 1 - STOP(3 txs)
+2022-06-02 13:12:10,743: [90] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:12:10,748: [92] m.c.manticore:INFO: Generated testcase No. 2 - STOP(3 txs)
+2022-06-02 13:12:10,750: [92] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:12:10,754: [91] m.c.manticore:INFO: Generated testcase No. 3 - STOP(3 txs)
+2022-06-02 13:12:10,755: [91] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:12:13,160: [14] m.c.manticore:INFO: Results in /mcore_t_10ifui
+2022-06-02 13:12:13,161: [14] m.c.manticore:INFO: Total time: 19.426074743270874
+2022-06-02 13:12:14,248: [120] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 13:12:14,249: [120] m.main:INFO: Beginning analysis
+2022-06-02 13:12:14,254: [120] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 13:12:15,728: [120] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 13:12:42,512: [120] m.e.manticore:INFO: 3 alive states, 1 terminated states
+2022-06-02 13:12:42,974: [120] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-06-02 13:14:15,912: [120] m.e.manticore:INFO: 9 alive states, 1 terminated states
+2022-06-02 13:14:16,619: [213] m.c.manticore:INFO: Generated testcase No. 0 - STOP(3 txs)
+2022-06-02 13:14:16,621: [213] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:16,680: [214] m.c.manticore:INFO: Generated testcase No. 1 - STOP(3 txs)
+2022-06-02 13:14:16,682: [214] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:16,726: [216] m.c.manticore:INFO: Generated testcase No. 2 - STOP(3 txs)
+2022-06-02 13:14:16,728: [216] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:16,729: [224] m.c.manticore:INFO: Generated testcase No. 4 - STOP(3 txs)
+2022-06-02 13:14:16,730: [224] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:16,731: [215] m.c.manticore:INFO: Generated testcase No. 5 - STOP(3 txs)
+2022-06-02 13:14:16,732: [215] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:16,738: [223] m.c.manticore:INFO: Generated testcase No. 3 - STOP(3 txs)
+2022-06-02 13:14:16,740: [223] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:16,749: [218] m.c.manticore:INFO: Generated testcase No. 6 - STOP(3 txs)
+2022-06-02 13:14:16,751: [218] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:16,804: [219] m.c.manticore:INFO: Generated testcase No. 8 - STOP(3 txs)
+2022-06-02 13:14:16,807: [219] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:16,814: [220] m.c.manticore:INFO: Generated testcase No. 7 - STOP(3 txs)
+2022-06-02 13:14:16,816: [220] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 13:14:21,092: [120] m.c.manticore:INFO: Results in /mcore_o8peezim
+2022-06-02 13:14:21,093: [120] m.c.manticore:INFO: Total time: 97.87372994422913
+2022-06-02 13:14:22,201: [259] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 13:14:22,202: [259] m.main:INFO: Beginning analysis
+2022-06-02 13:14:22,206: [259] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 13:14:24,840: [259] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 13:16:01,548: [259] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04' -> 93405925606848684242376394016972829529189361045273175667784367156876440055338
+2022-06-02 13:16:39,462: [259] m.e.manticore:INFO: 10 alive states, 1 terminated states
+2022-06-02 13:16:40,765: [259] m.e.manticore:INFO: Starting symbolic transaction: 1

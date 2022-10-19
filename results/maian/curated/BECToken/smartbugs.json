@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "maian",
+  "start": 1654162138.4613328,
+  "end": 1654162488.5594718,
+  "duration": 350.0981390476227,
+  "exit_code": 0
+}

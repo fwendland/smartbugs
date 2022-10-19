@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "slither",
+  "start": 1654186400.0927002,
+  "end": 1654186403.5126877,
+  "duration": 3.419987440109253,
+  "exit_code": 3
+}

@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "/data/etherpot_lotto.sol:Lotto": {
+      "results": {}
+    }
+  },
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "duration": 21.874693870544434,
+  "end": 1654183772.9700136,
+  "exit_code": 0,
+  "start": 1654183751.0953197,
+  "tool": "securify"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "solhint",
+  "start": 1654186576.752869,
+  "end": 1654186580.2287974,
+  "duration": 3.475928544998169,
+  "exit_code": 1
+}

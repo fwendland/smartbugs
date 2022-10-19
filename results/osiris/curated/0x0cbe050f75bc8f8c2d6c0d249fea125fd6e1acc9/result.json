@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol",
+      "name": "Caller"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol",
+  "duration": 2.9099903106689453,
+  "end": 1654181192.3919373,
+  "exit_code": 0,
+  "start": 1654181189.481947,
+  "tool": "osiris"
+}

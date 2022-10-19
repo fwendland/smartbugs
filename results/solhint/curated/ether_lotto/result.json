@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/ether_lotto.sol",
+      "level": "Error",
+      "line": "8",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "duration": 2.4485116004943848,
+  "end": 1654186619.3877373,
+  "exit_code": 1,
+  "start": 1654186616.9392257,
+  "tool": "solhint"
+}

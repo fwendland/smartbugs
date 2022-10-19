@@ -1,0 +1,58 @@
+{
+  "analysis": [
+    {
+      "line_number": "14",
+      "maybe_in_function": "proxy(address,bytes)",
+      "pc": "0x22d",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "14",
+      "maybe_in_function": "proxy(address,bytes)",
+      "pc": "0x22d",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "12",
+      "maybe_in_function": "proxy(address,bytes)",
+      "pc": "0xd5",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "39",
+      "maybe_in_function": "withdraw(uint256)",
+      "pc": "0x38c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "14",
+      "maybe_in_function": "proxy(address,bytes)",
+      "pc": "0x503",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "33",
+      "maybe_in_function": "Vault()",
+      "pc": "0x562",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "14",
+      "maybe_in_function": "proxy(address,bytes)",
+      "pc": "0x503",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "12",
+      "maybe_in_function": "proxy(address,bytes)",
+      "pc": "0x1ee",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+  "duration": 28.361838340759277,
+  "end": 1654106858.7906282,
+  "exit_code": 0,
+  "start": 1654106830.4287899,
+  "tool": "conkas"
+}

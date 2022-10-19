@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 38,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 28,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "89.2%",
+      "file": "/data/old_blockhash.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "PredictTheBlockHashChallenge",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 4.056294918060303,
+  "end": 1654181784.512274,
+  "exit_code": 0,
+  "start": 1654181780.455979,
+  "tool": "oyente"
+}

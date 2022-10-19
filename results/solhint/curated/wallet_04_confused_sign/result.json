@@ -1,0 +1,178 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "7",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "31",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "32",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "33",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "37",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "38",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "39",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "40",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/wallet_04_confused_sign.sol",
+      "level": "Error",
+      "line": "42",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "duration": 3.7117066383361816,
+  "end": 1654186580.5168617,
+  "exit_code": 1,
+  "start": 1654186576.805155,
+  "tool": "solhint"
+}

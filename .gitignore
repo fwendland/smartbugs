@@ -1,18 +1,9 @@
 #Ignore results
-results/conkas/*
-results/oyente/*
-results/honeybadger/*
-results/osiris/*
-results/maian/*
-results/manticore/*
-results/mythril/*
-results/securify/*
-results/smartcheck/*
-results/slither/*
-results/solhint/*
+results/ccc/*
 results/logs/*
 
 #Keep folders
+!results/ccc/.keep
 !results/honeybadger/.keep
 !results/osiris/.keep
 !results/conkas/.keep
@@ -43,3 +34,7 @@ dataset/solidiFI
 venv/
 .idea/
 results/*.*
+
+#Ignore false positives/negatives
+scripts/false_positives.csv
+scripts/false_negatives.csv

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "honeybadger",
+  "start": 1654122531.5410266,
+  "end": 1654122536.1033578,
+  "duration": 4.562331199645996,
+  "exit_code": 0
+}

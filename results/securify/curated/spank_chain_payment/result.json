@@ -1,0 +1,318 @@
+{
+  "analysis": {
+    "/data/spank_chain_payment.sol:ECTools": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            86
+          ]
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [
+            166,
+            90,
+            146,
+            61
+          ],
+          "violations": [
+            131
+          ],
+          "warnings": [
+            138,
+            97,
+            115
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            86
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            86
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            86
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            86
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            86
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    },
+    "/data/spank_chain_payment.sol:HumanStandardToken": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [
+            193,
+            210,
+            -1
+          ],
+          "violations": [
+            258,
+            214,
+            208,
+            181,
+            193,
+            251,
+            204
+          ],
+          "warnings": [
+            258,
+            23,
+            234,
+            235,
+            233,
+            232
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1,
+            258
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": [
+            258
+          ]
+        }
+      }
+    },
+    "/data/spank_chain_payment.sol:LedgerChannel": {
+      "results": {}
+    },
+    "/data/spank_chain_payment.sol:StandardToken": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [
+            -1,
+            193,
+            204,
+            214,
+            181,
+            208
+          ],
+          "warnings": [
+            -1,
+            23
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        }
+      }
+    },
+    "/data/spank_chain_payment.sol:Token": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            -1
+          ],
+          "violations": [],
+          "warnings": [
+            -1
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "duration": 915.2580213546753,
+  "end": 1654008521.4801216,
+  "exit_code": 0,
+  "start": 1654007606.2221003,
+  "tool": "securify"
+}

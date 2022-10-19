@@ -1,0 +1,89 @@
+{
+  "analysis": {
+    "/data/lottopollo.sol:lottopollo": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            13,
+            16
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            24,
+            10,
+            28
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            13
+          ],
+          "violations": [
+            16
+          ],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            16
+          ],
+          "violations": [
+            16
+          ],
+          "warnings": [
+            13
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            16
+          ],
+          "violations": [],
+          "warnings": [
+            13
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            13,
+            16
+          ],
+          "warnings": []
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            13,
+            16
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "duration": 74.75726270675659,
+  "end": 1654183743.7909522,
+  "exit_code": 0,
+  "start": 1654183669.0336895,
+  "tool": "securify"
+}

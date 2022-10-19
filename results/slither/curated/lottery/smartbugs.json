@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "slither",
+  "start": 1654186400.157724,
+  "end": 1654186403.728925,
+  "duration": 3.5712010860443115,
+  "exit_code": 12
+}

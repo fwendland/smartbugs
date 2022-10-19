@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/short_address_example.sol",
+      "name": "MyToken"
+    }
+  ],
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "duration": 3.530224084854126,
+  "end": 1654123368.3751762,
+  "exit_code": 0,
+  "start": 1654123364.844952,
+  "tool": "honeybadger"
+}

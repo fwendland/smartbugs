@@ -1,0 +1,506 @@
+{
+  "analysis": [
+    {
+      "column": 36,
+      "content": "0xcafecafecafecafecafecafecafecafecafecafe",
+      "line": 377,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 36,
+      "content": "0xcafecafecafecafecafecafecafecafecafecafe",
+      "line": 456,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 22,
+      "content": "m_pendingIndex.length++",
+      "line": 304,
+      "name": "SOLIDITY_ARRAY_LENGTH_MANIPULATION",
+      "patternId": "43ba1c",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "suicide",
+      "line": 230,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "27cb59",
+      "severity": 1
+    },
+    {
+      "column": 66,
+      "content": "sha3",
+      "line": 140,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 51,
+      "content": "sha3",
+      "line": 152,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 54,
+      "content": "sha3",
+      "line": 166,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 63,
+      "content": "sha3",
+      "line": 178,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 56,
+      "content": "sha3",
+      "line": 212,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 44,
+      "content": "sha3",
+      "line": 216,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 44,
+      "content": "sha3",
+      "line": 229,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 15,
+      "content": "sha3",
+      "line": 251,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 24,
+      "content": "sha3",
+      "line": 408,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 10,
+      "content": "throw",
+      "line": 246,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 10,
+      "content": "throw",
+      "line": 280,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionisOwner(address_addr)constantreturns(bool);",
+      "line": 59,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionhasConfirmed(bytes32_operation,address_owner)externalconstantreturns(bool);",
+      "line": 61,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functiongetOwner(uintownerIndex)externalconstantreturns(address){returnaddress(m_owners[ownerIndex+1]);}",
+      "line": 186,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionisOwner(address_addr)constantreturns(bool){returnm_ownerIndex[uint(_addr)]>0;}",
+      "line": 190,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionhasConfirmed(bytes32_operation,address_owner)externalconstantreturns(bool){varpending=m_pending[_operation];uintownerIndex=m_ownerIndex[uint(_owner)];if(ownerIndex==0)returnfalse;uintownerIndexBit=2**ownerIndex;return!(pending.ownersDone&ownerIndexBit==0);}",
+      "line": 194,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functiontoday()privateconstantreturns(uint){returnnow/1days;}",
+      "line": 361,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functiongetOwner(uintownerIndex)constantreturns(address){returnaddress(m_owners[ownerIndex+1]);}",
+      "line": 441,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionhasConfirmed(bytes32_operation,address_owner)externalconstantreturns(bool){return_walletLibrary.delegatecall(msg.data);}",
+      "line": 447,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionisOwner(address_addr)constantreturns(bool){return_walletLibrary.delegatecall(msg.data);}",
+      "line": 451,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "for(uinti=0;i<_owners.length;++i){m_owners[2+i]=uint(_owners[i]);m_ownerIndex[uint(_owners[i])]=2+i;}",
+      "line": 117,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "d3j11j",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "while(free<m_numOwners){while(free<m_numOwners&&m_owners[free]!=0)free++;while(m_numOwners>1&&m_owners[m_numOwners]==0)m_numOwners--;if(free<m_numOwners&&m_owners[m_numOwners]!=0&&m_owners[free]==0){m_owners[free]=m_owners[m_numOwners];m_ownerIndex[m_owners[free]]=free;m_owners[m_numOwners]=0;}}",
+      "line": 330,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "k4o1l4",
+      "severity": 1
+    },
+    {
+      "column": 6,
+      "content": "while(free<m_numOwners&&m_owners[free]!=0)free++;",
+      "line": 332,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "k4o1l4",
+      "severity": 1
+    },
+    {
+      "column": 6,
+      "content": "while(m_numOwners>1&&m_owners[m_numOwners]==0)m_numOwners--;",
+      "line": 333,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "k4o1l4",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functioncreate(uint_value,bytes_code)internalreturns(addresso_addr){assembly{o_addr:=create(_value,add(_code,0x20),mload(_code))jumpi(invalidJumpLabel,iszero(extcodesize(o_addr)))}}",
+      "line": 264,
+      "name": "SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN",
+      "patternId": "58bdd3",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "for(uinti=0;i<_owners.length;++i){m_owners[2+i]=uint(_owners[i]);m_ownerIndex[uint(_owners[i])]=2+i;}",
+      "line": 117,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "f6f853",
+      "severity": 2
+    },
+    {
+      "column": 4,
+      "content": "for(uinti=0;i<length;++i){deletem_txs[m_pendingIndex[i]];if(m_pendingIndex[i]!=0)deletem_pending[m_pendingIndex[i]];}",
+      "line": 366,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "f6f853",
+      "severity": 2
+    },
+    {
+      "column": 11,
+      "content": "free<m_numOwners",
+      "line": 330,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "17f23a",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "free<m_numOwners&&m_owners[free]!=0",
+      "line": 332,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "17f23a",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "m_numOwners>1&&m_owners[m_numOwners]==0",
+      "line": 333,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "17f23a",
+      "severity": 1
+    },
+    {
+      "column": 0,
+      "content": "contractWalletisWalletEvents{functionWallet(address[]_owners,uint_required,uint_daylimit){bytes4sig=bytes4(sha3(\"initWallet(address[],uint256,uint256)\"));addresstarget=_walletLibrary;uintargarraysize=(2+_owners.length);uintargsize=(2+argarraysize)*32;assembly{mstore(0x0,sig)codecopy(0x4,sub(codesize,argsize),argsize)delegatecall(sub(gas,10000),target,0x0,add(argsize,0x4),0x0,0x0)}}function()payable{if(msg.value>0)Deposit(msg.sender,msg.value);elseif(msg.data.length>0)_walletLibrary.delegatecall(msg.data);}functiongetOwner(uintownerIndex)constantreturns(address){returnaddress(m_owners[ownerIndex+1]);}functionhasConfirmed(bytes32_operation,address_owner)externalconstantreturns(bool){return_walletLibrary.delegatecall(msg.data);}functionisOwner(address_addr)constantreturns(bool){return_walletLibrary.delegatecall(msg.data);}addressconstant_walletLibrary=0xcafecafecafecafecafecafecafecafecafecafe;uintpublicm_required;uintpublicm_numOwners;uintpublicm_dailyLimit;uintpublicm_spentToday;uintpublicm_lastDay;uint[256]m_owners;}",
+      "line": 402,
+      "name": "SOLIDITY_LOCKED_MONEY",
+      "patternId": "30281d",
+      "severity": 3
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 18,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(!_to.call.value(_value)(_data))throw;",
+      "line": 245,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(!m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data))throw;",
+      "line": 279,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 31,
+      "content": "bytes_code",
+      "line": 264,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "341gim",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "assembly{o_addr:=create(_value,add(_code,0x20),mload(_code))jumpi(invalidJumpLabel,iszero(extcodesize(o_addr)))}",
+      "line": 265,
+      "name": "SOLIDITY_USING_INLINE_ASSEMBLY",
+      "patternId": "109cd5",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "assembly{mstore(0x0,sig)codecopy(0x4,sub(codesize,argsize),argsize)delegatecall(sub(gas,10000),target,0x0,add(argsize,0x4),0x0,0x0)}",
+      "line": 417,
+      "name": "SOLIDITY_USING_INLINE_ASSEMBLY",
+      "patternId": "109cd5",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionisOwner(address_addr)constantreturns(bool);",
+      "line": 59,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionconfirm(bytes32_h)returns(boolo_success);",
+      "line": 67,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "function()payable{if(msg.value>0)Deposit(msg.sender,msg.value);}",
+      "line": 105,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functioninitMultiowned(address[]_owners,uint_required){m_numOwners=_owners.length+1;m_owners[1]=uint(msg.sender);m_ownerIndex[uint(msg.sender)]=1;for(uinti=0;i<_owners.length;++i){m_owners[2+i]=uint(_owners[i]);m_ownerIndex[uint(_owners[i])]=2+i;}m_required=_required;}",
+      "line": 113,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionisOwner(address_addr)constantreturns(bool){returnm_ownerIndex[uint(_addr)]>0;}",
+      "line": 190,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functioninitDaylimit(uint_limit){m_dailyLimit=_limit;m_lastDay=today();}",
+      "line": 207,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functioninitWallet(address[]_owners,uint_required,uint_daylimit){initDaylimit(_daylimit);initMultiowned(_owners,_required);}",
+      "line": 223,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionconfirm(bytes32_h)onlymanyowners(_h)returns(boolo_success){if(m_txs[_h].to!=0||m_txs[_h].value!=0||m_txs[_h].data.length!=0){addresscreated;if(m_txs[_h].to==0){created=create(m_txs[_h].value,m_txs[_h].data);}else{if(!m_txs[_h].to.call.value(m_txs[_h].value)(m_txs[_h].data))throw;}MultiTransact(msg.sender,_h,m_txs[_h].value,m_txs[_h].to,m_txs[_h].data,created);deletem_txs[_h];returntrue;}}",
+      "line": 273,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionWallet(address[]_owners,uint_required,uint_daylimit){bytes4sig=bytes4(sha3(\"initWallet(address[],uint256,uint256)\"));addresstarget=_walletLibrary;uintargarraysize=(2+_owners.length);uintargsize=(2+argarraysize)*32;assembly{mstore(0x0,sig)codecopy(0x4,sub(codesize,argsize),argsize)delegatecall(sub(gas,10000),target,0x0,add(argsize,0x4),0x0,0x0)}}",
+      "line": 406,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "function()payable{if(msg.value>0)Deposit(msg.sender,msg.value);elseif(msg.data.length>0)_walletLibrary.delegatecall(msg.data);}",
+      "line": 431,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functiongetOwner(uintownerIndex)constantreturns(address){returnaddress(m_owners[ownerIndex+1]);}",
+      "line": 441,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionisOwner(address_addr)constantreturns(bool){return_walletLibrary.delegatecall(msg.data);}",
+      "line": 451,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "addressconstant_walletLibrary=0xcafecafecafecafecafecafecafecafecafecafe;",
+      "line": 377,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "uint[256]m_owners;",
+      "line": 389,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "uintconstantc_maxOwners=250;",
+      "line": 391,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "mapping(uint=>uint)m_ownerIndex;",
+      "line": 393,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "mapping(bytes32=>PendingState)m_pending;",
+      "line": 395,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "bytes32[]m_pendingIndex;",
+      "line": 396,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "mapping(bytes32=>Transaction)m_txs;",
+      "line": 399,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "addressconstant_walletLibrary=0xcafecafecafecafecafecafecafecafecafecafe;",
+      "line": 456,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "uint[256]m_owners;",
+      "line": 468,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "duration": 7.71835732460022,
+  "end": 1654186487.5312393,
+  "exit_code": 0,
+  "start": 1654186479.812882,
+  "tool": "smartcheck"
+}

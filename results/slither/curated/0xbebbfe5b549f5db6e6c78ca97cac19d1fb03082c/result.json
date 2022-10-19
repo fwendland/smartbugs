@@ -1,0 +1,464 @@
+{
+  "analysis": [
+    {
+      "check": "shadowing-state",
+      "confidence": "High",
+      "description": "VaultProxy.Owner (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#19) shadows:\n\t- Proxy.Owner (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#10)\n",
+      "elements": [
+        {
+          "name": "Owner",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 20,
+            "lines": [
+              19
+            ],
+            "start": 481
+          },
+          "type": "variable"
+        },
+        {
+          "name": "Owner",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 26,
+            "lines": [
+              10
+            ],
+            "start": 175
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Proxy.transferOwner (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#11) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Proxy",
+            "source_mapping": {
+              "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+              "length": 342,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "transferOwner",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 75,
+            "lines": [
+              11
+            ],
+            "start": 207
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Proxy.proxy (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#12-15) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Proxy",
+            "source_mapping": {
+              "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+              "length": 342,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "proxy",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 154,
+            "lines": [
+              12,
+              13,
+              14,
+              15
+            ],
+            "start": 288
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "VaultProxy.fallback (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#22) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "VaultProxy",
+            "source_mapping": {
+              "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+              "length": 617,
+              "lines": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "start": 446
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 30,
+            "lines": [
+              22
+            ],
+            "start": 558
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "VaultProxy.Vault (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#24-29) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "VaultProxy",
+            "source_mapping": {
+              "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+              "length": 617,
+              "lines": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "start": 446
+            },
+            "type": "contract"
+          },
+          "name": "Vault",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 143,
+            "lines": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 598
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "VaultProxy.withdraw (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#37-41) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "VaultProxy",
+            "source_mapping": {
+              "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+              "length": 617,
+              "lines": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "start": 446
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 165,
+            "lines": [
+              37,
+              38,
+              39,
+              40,
+              41
+            ],
+            "start": 896
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in Proxy.proxy (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#12-15):\n\t-target.call.value(msg.value)(data) /data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#14\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Proxy",
+            "source_mapping": {
+              "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+              "length": 342,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "proxy",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 154,
+            "lines": [
+              12,
+              13,
+              14,
+              15
+            ],
+            "start": 288
+          },
+          "type": "function"
+        },
+        {
+          "expression": "target.call.value(msg.value)(data)",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 34,
+            "lines": [
+              14
+            ],
+            "start": 401
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_owner' of Proxy.transferOwner (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#11) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_owner",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 14,
+            "lines": [
+              11
+            ],
+            "start": 230
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'Proxy.Owner' (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#10) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Owner",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 26,
+            "lines": [
+              10
+            ],
+            "start": 175
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'VaultProxy.Vault' (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#24-29) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Vault",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 143,
+            "lines": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 598
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'VaultProxy.Owner' (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#19) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Owner",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 20,
+            "lines": [
+              19
+            ],
+            "start": 481
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'VaultProxy.Deposits' (/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol#20) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Deposits",
+          "source_mapping": {
+            "filename": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+            "length": 44,
+            "lines": [
+              20
+            ],
+            "start": 507
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+  "duration": 11.871443271636963,
+  "end": 1654186447.6297772,
+  "exit_code": 12,
+  "start": 1654186435.758334,
+  "tool": "slither"
+}

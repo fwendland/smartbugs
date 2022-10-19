@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "slither",
+  "start": 1654186400.1008956,
+  "end": 1654186403.6293705,
+  "duration": 3.528474807739258,
+  "exit_code": 26
+}

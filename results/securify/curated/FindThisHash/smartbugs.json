@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "tool": "securify",
+  "start": 1654183512.1861942,
+  "end": 1654183521.7601912,
+  "duration": 9.573997020721436,
+  "exit_code": 0
+}

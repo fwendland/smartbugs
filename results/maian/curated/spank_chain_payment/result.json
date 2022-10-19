@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": true,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "duration": 567.3020951747894,
+  "end": 1654004753.6193833,
+  "exit_code": 0,
+  "start": 1654004186.3172882,
+  "tool": "maian"
+}

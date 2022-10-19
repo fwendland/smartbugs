@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "oyente",
+  "start": 1654181749.902192,
+  "end": 1654181778.372415,
+  "duration": 28.47022294998169,
+  "exit_code": 0
+}

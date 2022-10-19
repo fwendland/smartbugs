@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 5,
+          "line": 13,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 7,
+          "line": 20,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 18,
+          "line": 19,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 18,
+          "line": 19,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/simple_dao.sol",
+      "name": "SimpleDAO"
+    }
+  ],
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "duration": 4.362380266189575,
+  "end": 1654007403.9385576,
+  "exit_code": 0,
+  "start": 1654007399.5761774,
+  "tool": "osiris"
+}

@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "duration": 4.947118759155273,
+  "end": 1654186540.5151603,
+  "exit_code": 0,
+  "start": 1654186535.5680416,
+  "tool": "smartcheck"
+}

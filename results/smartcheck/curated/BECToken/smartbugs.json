@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "smartcheck",
+  "start": 1654186490.2402365,
+  "end": 1654186497.2779894,
+  "duration": 7.037752866744995,
+  "exit_code": 0
+}

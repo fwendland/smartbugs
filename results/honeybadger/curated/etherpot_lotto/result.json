@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/etherpot_lotto.sol",
+      "name": "Lotto"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "duration": 269.6043155193329,
+  "end": 1654123673.7284598,
+  "exit_code": 0,
+  "start": 1654123404.1241443,
+  "tool": "honeybadger"
+}

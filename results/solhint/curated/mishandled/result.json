@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/mishandled.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/mishandled.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/mishandled.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/mishandled.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "duration": 8.845128297805786,
+  "end": 1654186630.8625424,
+  "exit_code": 1,
+  "start": 1654186622.017414,
+  "tool": "solhint"
+}

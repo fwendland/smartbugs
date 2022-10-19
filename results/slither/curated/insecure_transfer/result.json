@@ -1,0 +1,172 @@
+{
+  "analysis": [
+    {
+      "check": "erc20-interface",
+      "confidence": "High",
+      "description": "IntegerOverflowAdd (/data/insecure_transfer.sol#9-21) has incorrect ERC20 function interface(s):\n\t-transfer (/data/insecure_transfer.sol#13-19)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "IntegerOverflowAdd",
+            "source_mapping": {
+              "filename": "/data/insecure_transfer.sol",
+              "length": 365,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "start": 218
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/insecure_transfer.sol",
+            "length": 260,
+            "lines": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 320
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Medium"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "IntegerOverflowAdd.transfer (/data/insecure_transfer.sol#13-19) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "IntegerOverflowAdd",
+            "source_mapping": {
+              "filename": "/data/insecure_transfer.sol",
+              "length": 365,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "start": 218
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/insecure_transfer.sol",
+            "length": 260,
+            "lines": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 320
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/insecure_transfer.sol:\n\t- pragma solidity^0.4.0 (/data/insecure_transfer.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.0",
+          "source_mapping": {
+            "filename": "/data/insecure_transfer.sol",
+            "length": 23,
+            "lines": [
+              7
+            ],
+            "start": 193
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_to' of IntegerOverflowAdd.transfer (/data/insecure_transfer.sol#13) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_to",
+          "source_mapping": {
+            "filename": "/data/insecure_transfer.sol",
+            "length": 11,
+            "lines": [
+              13
+            ],
+            "start": 338
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of IntegerOverflowAdd.transfer (/data/insecure_transfer.sol#13) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/insecure_transfer.sol",
+            "length": 14,
+            "lines": [
+              13
+            ],
+            "start": 351
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "duration": 4.586406230926514,
+  "end": 1654186395.8354878,
+  "exit_code": 5,
+  "start": 1654186391.2490816,
+  "tool": "slither"
+}

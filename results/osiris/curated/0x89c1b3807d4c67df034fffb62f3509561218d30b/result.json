@@ -1,0 +1,81 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 40,
+          "line": 211,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 164,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 26,
+          "line": 65,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 169,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 29,
+          "line": 184,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 164,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 13,
+          "line": 127,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 9,
+          "line": 192,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 13,
+          "line": 162,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 13,
+          "line": 180,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 18,
+          "line": 94,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 13,
+          "line": 180,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 18,
+          "line": 94,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "name": "TownCrier"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+  "duration": 57.76060628890991,
+  "end": 1654181247.2608702,
+  "exit_code": 0,
+  "start": 1654181189.500264,
+  "tool": "osiris"
+}

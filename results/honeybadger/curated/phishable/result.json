@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/phishable.sol",
+      "name": "Phishable"
+    }
+  ],
+  "contract": "dataset/access_control/phishable.sol",
+  "duration": 4.4922239780426025,
+  "end": 1654122270.954696,
+  "exit_code": 0,
+  "start": 1654122266.462472,
+  "tool": "honeybadger"
+}

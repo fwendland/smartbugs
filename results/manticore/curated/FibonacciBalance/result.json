@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "duration": 1804.0979163646698,
+  "end": 1654166371.4966702,
+  "exit_code": null,
+  "start": 1654164567.398754,
+  "tool": "manticore"
+}

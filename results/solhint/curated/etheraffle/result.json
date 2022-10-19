@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/etheraffle.sol",
+      "level": "Error",
+      "line": "8",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "duration": 2.961723566055298,
+  "end": 1654186596.1411915,
+  "exit_code": 1,
+  "start": 1654186593.179468,
+  "tool": "solhint"
+}

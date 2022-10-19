@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "solhint",
+  "start": 1654186576.850221,
+  "end": 1654186581.5899498,
+  "duration": 4.739728927612305,
+  "exit_code": 1
+}

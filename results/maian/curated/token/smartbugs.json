@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "maian",
+  "start": 1654162137.9608753,
+  "end": 1654162188.870121,
+  "duration": 50.90924572944641,
+  "exit_code": 0
+}

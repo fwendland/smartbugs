@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "tool": "conkas",
+  "start": 1654105988.7042902,
+  "end": 1654105995.9070807,
+  "duration": 7.2027904987335205,
+  "exit_code": 0
+}

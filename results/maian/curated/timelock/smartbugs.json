@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/timelock.sol",
+  "tool": "maian",
+  "start": 1654162138.3281465,
+  "end": 1654162198.418235,
+  "duration": 60.09008860588074,
+  "exit_code": 0
+}

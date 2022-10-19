@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "tool": "osiris",
+  "start": 1654181182.3354611,
+  "end": 1654181184.8044457,
+  "duration": 2.468984603881836,
+  "exit_code": 0
+}

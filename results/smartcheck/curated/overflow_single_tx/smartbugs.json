@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "tool": "smartcheck",
+  "start": 1654186490.3294146,
+  "end": 1654186495.5674043,
+  "duration": 5.237989664077759,
+  "exit_code": 0
+}

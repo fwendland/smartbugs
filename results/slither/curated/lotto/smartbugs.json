@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "slither",
+  "start": 1654186434.8591912,
+  "end": 1654186437.9103322,
+  "duration": 3.0511410236358643,
+  "exit_code": 7
+}

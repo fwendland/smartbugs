@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "osiris",
+  "start": 1654181182.3551636,
+  "end": 1654181186.7625434,
+  "duration": 4.407379865646362,
+  "exit_code": 0
+}

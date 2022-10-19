@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+      "name": "FiftyFlip"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+  "duration": 120.96245622634888,
+  "end": 1654123525.0910459,
+  "exit_code": 0,
+  "start": 1654123404.1285896,
+  "tool": "honeybadger"
+}

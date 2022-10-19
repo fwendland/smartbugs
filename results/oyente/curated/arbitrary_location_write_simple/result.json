@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 28,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 2,
+          "level": "Warning",
+          "line": 9,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 33,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "79.5%",
+      "file": "/data/arbitrary_location_write_simple.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "Wallet",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "duration": 9.590611457824707,
+  "end": 1654181747.192241,
+  "exit_code": 0,
+  "start": 1654181737.6016295,
+  "tool": "oyente"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "maian",
+  "start": 1654163588.7895384,
+  "end": 1654163751.886992,
+  "duration": 163.09745359420776,
+  "exit_code": 0
+}

@@ -1,0 +1,138 @@
+{
+  "analysis": {
+    "0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol": {
+      "results": {
+        "DAO": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": true,
+          "hasViolations": false,
+          "hasWarnings": false,
+          "safe": [
+            518,
+            518
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": false,
+          "hasWarnings": false,
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": true,
+          "hasViolations": true,
+          "hasWarnings": true,
+          "safe": [
+            528,
+            528,
+            528,
+            282,
+            528,
+            282,
+            528,
+            282,
+            336
+          ],
+          "violations": [
+            350,
+            350,
+            350,
+            350
+          ],
+          "warnings": [
+            399,
+            399
+          ]
+        },
+        "TODAmount": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": false,
+          "hasWarnings": true,
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            518,
+            518
+          ]
+        },
+        "TODReceiver": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": false,
+          "hasWarnings": true,
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            518,
+            518
+          ]
+        },
+        "TODTransfer": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": false,
+          "hasWarnings": true,
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            518,
+            518
+          ]
+        },
+        "UnhandledException": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": true,
+          "hasWarnings": false,
+          "safe": [],
+          "violations": [
+            518,
+            518
+          ],
+          "warnings": []
+        },
+        "UnrestrictedEtherFlow": {
+          "completed": true,
+          "conflicts": [],
+          "hasConflicts": false,
+          "hasSafe": false,
+          "hasViolations": false,
+          "hasWarnings": true,
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            518,
+            518
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+  "duration": 1655.2231562137604,
+  "end": 1654185406.3014395,
+  "exit_code": 1,
+  "start": 1654183751.0782833,
+  "tool": "securify"
+}

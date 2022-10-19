@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "26",
+      "maybe_in_function": "guess(uint8)",
+      "pc": "0x10d",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "duration": 5.3429787158966064,
+  "end": 1654106494.1233413,
+  "exit_code": 0,
+  "start": 1654106488.7803626,
+  "tool": "conkas"
+}

@@ -1,0 +1,14 @@
+INFO:Slither:Compilation warnings/errors on /data/0xf29ebe930a539a60279ace72c707cba851a57707.sol:
+/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol:16:9: Warning: Return value of low-level calls not used.
+        target.call.value(msg.value)();
+        ^----------------------------^
+
+INFO:Detectors:[92m
+B.go (/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol#13-18) should be declared external
+B.fallback (/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol#20-21) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Low level call in B.go (/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol#13-18):
+	-target.call.value(msg.value)() /data/0xf29ebe930a539a60279ace72c707cba851a57707.sol#16
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#low-level-calls[0m
+INFO:Slither:/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol analyzed (1 contracts), 3 result(s) found

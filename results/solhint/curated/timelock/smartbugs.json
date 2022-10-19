@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/timelock.sol",
+  "tool": "solhint",
+  "start": 1654186586.4154556,
+  "end": 1654186590.8012197,
+  "duration": 4.385764122009277,
+  "exit_code": 1
+}

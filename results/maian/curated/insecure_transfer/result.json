@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "duration": 43.477880239486694,
+  "end": 1654162181.9393454,
+  "exit_code": 0,
+  "start": 1654162138.4614651,
+  "tool": "maian"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_cross_function.sol",
+  "tool": "manticore",
+  "start": 1654004776.7127075,
+  "end": 1654004876.6546972,
+  "duration": 99.94198966026306,
+  "exit_code": 0
+}

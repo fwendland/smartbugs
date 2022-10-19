@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "securify",
+  "start": 1654007606.852889,
+  "end": 1654007667.1829817,
+  "duration": 60.330092668533325,
+  "exit_code": 0
+}

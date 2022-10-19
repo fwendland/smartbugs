@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 3470,
+          "line": 16,
+          "message": "hidden_transfer"
+        }
+      ],
+      "file": "/data/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+      "name": "HomeyJar"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+  "duration": 65.12566208839417,
+  "end": 1654123469.12893,
+  "exit_code": 0,
+  "start": 1654123404.003268,
+  "tool": "honeybadger"
+}

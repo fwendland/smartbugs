@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "solhint",
+  "start": 1654186616.9501228,
+  "end": 1654186619.5009975,
+  "duration": 2.550874710083008,
+  "exit_code": 1
+}

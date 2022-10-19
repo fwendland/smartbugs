@@ -1,0 +1,58 @@
+{
+  "analysis": [
+    {
+      "column": 2843,
+      "content": "0x1Fb3acdBa788CA50Ce165E5A4151f05187C67cd6",
+      "line": 33,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 2893,
+      "content": "0x1Fb3acdBa788CA50Ce165E5A4151f05187C67cd6",
+      "line": 33,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "call.value(msg.value)(data)",
+      "line": 44,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 4,
+      "content": "public",
+      "line": 14,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "91h3sa",
+      "severity": 1
+    },
+    {
+      "column": 33,
+      "content": "bytesdata",
+      "line": 38,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "341gim",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol",
+  "duration": 13.986478567123413,
+  "end": 1654186556.9432113,
+  "exit_code": 0,
+  "start": 1654186542.9567327,
+  "tool": "smartcheck"
+}

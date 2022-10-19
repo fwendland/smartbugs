@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "smartcheck",
+  "start": 1654186528.038235,
+  "end": 1654186533.2542827,
+  "duration": 5.216047763824463,
+  "exit_code": 0
+}

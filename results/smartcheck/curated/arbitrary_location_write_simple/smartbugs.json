@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.8058956,
+  "end": 1654186487.3703706,
+  "duration": 7.564475059509277,
+  "exit_code": 0
+}

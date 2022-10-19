@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "smartcheck",
+  "start": 1654186490.3682346,
+  "end": 1654186497.6964972,
+  "duration": 7.328262567520142,
+  "exit_code": 0
+}

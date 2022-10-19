@@ -1,0 +1,25 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol",
+      "name": "Ownable"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol",
+      "name": "Token"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol",
+      "name": "TokenBank"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol",
+  "duration": 19.020208597183228,
+  "end": 1654123423.1564398,
+  "exit_code": 0,
+  "start": 1654123404.1362312,
+  "tool": "honeybadger"
+}

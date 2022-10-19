@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "18",
+      "maybe_in_function": "transfer(address,uint256)",
+      "pc": "0x1eb",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "duration": 5.932849884033203,
+  "end": 1654092837.7686183,
+  "exit_code": 0,
+  "start": 1654092831.8357685,
+  "tool": "conkas"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "osiris",
+  "start": 1654007399.6625721,
+  "end": 1654007405.8779068,
+  "duration": 6.21533465385437,
+  "exit_code": 0
+}

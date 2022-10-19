@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "securify",
+  "start": 1654182041.4010706,
+  "end": 1654182053.454379,
+  "duration": 12.053308486938477,
+  "exit_code": 0
+}

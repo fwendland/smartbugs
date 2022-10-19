@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "tool": "maian",
+  "start": 1654161877.2624812,
+  "end": 1654161956.0905955,
+  "duration": 78.82811427116394,
+  "exit_code": 0
+}

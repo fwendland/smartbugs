@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "securify",
+  "start": 1654182041.3830838,
+  "end": 1654182058.932803,
+  "duration": 17.549719095230103,
+  "exit_code": 0
+}

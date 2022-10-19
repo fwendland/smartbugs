@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mul.sol",
+  "tool": "honeybadger",
+  "start": 1654122531.554291,
+  "end": 1654122536.7420723,
+  "duration": 5.18778133392334,
+  "exit_code": 0
+}

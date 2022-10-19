@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "duration": 1805.8489134311676,
+  "end": 1654015622.1007621,
+  "exit_code": null,
+  "start": 1654013816.2518487,
+  "tool": "manticore"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_add.sol",
+  "tool": "slither",
+  "start": 1654186391.2599535,
+  "end": 1654186396.021871,
+  "duration": 4.761917591094971,
+  "exit_code": 2
+}

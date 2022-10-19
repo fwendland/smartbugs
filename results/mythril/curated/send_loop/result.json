@@ -1,0 +1,25 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [
+      {
+        "address": 431,
+        "code": "refundAddresses[x].send(refunds[refundAddresses[x]])",
+        "debug": "",
+        "description": "Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.\nConsecutive calls: \nCall at address: 431\nCall at address: 431\nCall at address: 431\n",
+        "filename": "/data/send_loop.sol",
+        "function": "refundAll()",
+        "lineno": 24,
+        "title": "Multiple Calls",
+        "type": "Information"
+      }
+    ],
+    "success": true
+  },
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "duration": 5.406702995300293,
+  "end": 1654179447.9233103,
+  "exit_code": 0,
+  "start": 1654179442.5166073,
+  "tool": "mythril"
+}

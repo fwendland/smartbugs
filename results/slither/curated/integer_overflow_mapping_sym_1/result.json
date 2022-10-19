@@ -1,0 +1,72 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "IntegerOverflowMappingSym1.init (/data/integer_overflow_mapping_sym_1.sol#14-17) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "IntegerOverflowMappingSym1",
+            "source_mapping": {
+              "filename": "/data/integer_overflow_mapping_sym_1.sol",
+              "length": 190,
+              "lines": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "start": 262
+            },
+            "type": "contract"
+          },
+          "name": "init",
+          "source_mapping": {
+            "filename": "/data/integer_overflow_mapping_sym_1.sol",
+            "length": 108,
+            "lines": [
+              14,
+              15,
+              16,
+              17
+            ],
+            "start": 342
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/integer_overflow_mapping_sym_1.sol:\n\t- pragma solidity^0.4.11 (/data/integer_overflow_mapping_sym_1.sol#9): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.11",
+          "source_mapping": {
+            "filename": "/data/integer_overflow_mapping_sym_1.sol",
+            "length": 24,
+            "lines": [
+              9
+            ],
+            "start": 236
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "duration": 4.258403301239014,
+  "end": 1654186395.6851587,
+  "exit_code": 2,
+  "start": 1654186391.4267554,
+  "tool": "slither"
+}

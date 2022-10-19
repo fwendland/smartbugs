@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_multitx_multifunc_feasible.sol",
+  "duration": 24.392351150512695,
+  "end": 1654166399.3941002,
+  "exit_code": 0,
+  "start": 1654166375.001749,
+  "tool": "manticore"
+}

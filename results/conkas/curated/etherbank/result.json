@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "21",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x14c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "21",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x14c",
+      "vuln_type": "Transaction Ordering Dependence"
+    }
+  ],
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "duration": 6.843158006668091,
+  "end": 1654008671.5103292,
+  "exit_code": 0,
+  "start": 1654008664.6671712,
+  "tool": "conkas"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "oyente",
+  "start": 1654181864.416405,
+  "end": 1654181867.708596,
+  "duration": 3.2921910285949707,
+  "exit_code": 0
+}

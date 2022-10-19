@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "tool": "oyente",
+  "start": 1654181749.9723792,
+  "end": 1654181754.6712916,
+  "duration": 4.6989123821258545,
+  "exit_code": 0
+}

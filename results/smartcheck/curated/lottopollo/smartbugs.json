@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "smartcheck",
+  "start": 1654186535.5677779,
+  "end": 1654186540.7279143,
+  "duration": 5.160136461257935,
+  "exit_code": 0
+}

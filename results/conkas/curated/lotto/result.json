@@ -1,0 +1,34 @@
+{
+  "analysis": [
+    {
+      "line_number": "27",
+      "maybe_in_function": "0x1846f51a",
+      "pc": "0x1b2",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "27",
+      "maybe_in_function": "0x1846f51a",
+      "pc": "0x1b2",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "20",
+      "maybe_in_function": "0x8f1c0585",
+      "pc": "0x229",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "20",
+      "maybe_in_function": "0x8f1c0585",
+      "pc": "0x229",
+      "vuln_type": "Unchecked Low Level Call"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "duration": 7.327494382858276,
+  "end": 1654106837.746104,
+  "exit_code": 0,
+  "start": 1654106830.4186096,
+  "tool": "conkas"
+}

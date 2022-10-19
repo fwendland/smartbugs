@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "osiris",
+  "start": 1654180874.689613,
+  "end": 1654180878.9288156,
+  "duration": 4.239202499389648,
+  "exit_code": 0
+}

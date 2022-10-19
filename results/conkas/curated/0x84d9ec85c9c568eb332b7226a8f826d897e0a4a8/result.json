@@ -1,0 +1,76 @@
+{
+  "analysis": [
+    {
+      "line_number": "56",
+      "maybe_in_function": "execute(address,uint256,bytes)",
+      "pc": "0x46b",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "56",
+      "maybe_in_function": "execute(address,uint256,bytes)",
+      "pc": "0x46b",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "54",
+      "maybe_in_function": "execute(address,uint256,bytes)",
+      "pc": "0x17b",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "54",
+      "maybe_in_function": "execute(address,uint256,bytes)",
+      "pc": "0x537",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "88",
+      "maybe_in_function": "writeIndex(uint256,string,string,uint256,uint256)",
+      "pc": "0x66f",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "56",
+      "maybe_in_function": "execute(address,uint256,bytes)",
+      "pc": "0xd1f",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "88",
+      "maybe_in_function": "writeIndex(uint256,string,string,uint256,uint256)",
+      "pc": "0x691",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "87",
+      "maybe_in_function": "writeIndex(uint256,string,string,uint256,uint256)",
+      "pc": "0x173",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "56",
+      "maybe_in_function": "execute(address,uint256,bytes)",
+      "pc": "0xd1f",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "88",
+      "maybe_in_function": "writeIndex(uint256,string,string,uint256,uint256)",
+      "pc": "0x67d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "62",
+      "maybe_in_function": "writeIndex(uint256,string,string,uint256,uint256)",
+      "pc": "0xd9f",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+  "duration": 326.6209976673126,
+  "end": 1654107157.082188,
+  "exit_code": 0,
+  "start": 1654106830.4611902,
+  "tool": "conkas"
+}

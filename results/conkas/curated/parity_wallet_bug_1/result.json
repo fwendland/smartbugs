@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "duration": 6.612128019332886,
+  "end": 1654105995.322753,
+  "exit_code": 1,
+  "start": 1654105988.710625,
+  "tool": "conkas"
+}

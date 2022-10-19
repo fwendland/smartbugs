@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "duration": 46.78705334663391,
+  "end": 1654168227.4914703,
+  "exit_code": 0,
+  "start": 1654168180.704417,
+  "tool": "manticore"
+}

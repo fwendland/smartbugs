@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "slither",
+  "start": 1654186400.1655283,
+  "end": 1654186403.6007311,
+  "duration": 3.4352028369903564,
+  "exit_code": 14
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "smartcheck",
+  "start": 1654186515.639689,
+  "end": 1654186521.6979632,
+  "duration": 6.058274269104004,
+  "exit_code": 0
+}

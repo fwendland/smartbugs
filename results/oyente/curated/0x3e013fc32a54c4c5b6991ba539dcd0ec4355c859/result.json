@@ -1,0 +1,48 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 23,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 29,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 38,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 20,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "61.4%",
+      "file": "/data/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "MultiplicatorX4",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+  "duration": 10.891284704208374,
+  "end": 1654181880.6658766,
+  "exit_code": 1,
+  "start": 1654181869.774592,
+  "tool": "oyente"
+}

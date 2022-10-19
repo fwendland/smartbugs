@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/unprotected0.sol",
+      "name": "Unprotected"
+    }
+  ],
+  "contract": "dataset/access_control/unprotected0.sol",
+  "duration": 3.969757318496704,
+  "end": 1654122270.2856896,
+  "exit_code": 0,
+  "start": 1654122266.3159323,
+  "tool": "honeybadger"
+}

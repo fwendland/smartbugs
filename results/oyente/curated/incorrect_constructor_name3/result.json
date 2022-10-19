@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "95.2%",
+      "file": "/data/incorrect_constructor_name3.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Missing",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/access_control/incorrect_constructor_name3.sol",
+  "duration": 3.611144542694092,
+  "end": 1654181740.939261,
+  "exit_code": 0,
+  "start": 1654181737.3281164,
+  "tool": "oyente"
+}

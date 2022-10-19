@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "mythril",
+  "start": 1654177339.6156366,
+  "end": 1654177345.989585,
+  "duration": 6.373948335647583,
+  "exit_code": 0
+}

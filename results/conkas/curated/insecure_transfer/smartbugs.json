@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "tool": "conkas",
+  "start": 1654092831.8357685,
+  "end": 1654092837.7686183,
+  "duration": 5.932849884033203,
+  "exit_code": 0
+}

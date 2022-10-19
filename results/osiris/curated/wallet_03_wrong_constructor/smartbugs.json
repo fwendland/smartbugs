@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "osiris",
+  "start": 1654180874.7080197,
+  "end": 1654180878.424237,
+  "duration": 3.716217279434204,
+  "exit_code": 0
+}

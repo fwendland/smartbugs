@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "honeybadger",
+  "start": 1654123369.9105787,
+  "end": 1654123375.2446022,
+  "duration": 5.334023475646973,
+  "exit_code": 0
+}

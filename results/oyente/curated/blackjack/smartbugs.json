@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "oyente",
+  "start": 1654181780.396644,
+  "end": 1654181791.984025,
+  "duration": 11.58738088607788,
+  "exit_code": 0
+}

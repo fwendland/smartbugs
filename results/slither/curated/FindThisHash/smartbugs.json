@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "tool": "slither",
+  "start": 1654186412.6504061,
+  "end": 1654186415.6219032,
+  "duration": 2.971497058868408,
+  "exit_code": 5
+}

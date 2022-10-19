@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "manticore",
+  "start": 1654164567.368924,
+  "end": 1654166369.9615133,
+  "duration": 1802.592589378357,
+  "exit_code": null
+}

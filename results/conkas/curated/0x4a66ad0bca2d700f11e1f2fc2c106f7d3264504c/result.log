@@ -1,0 +1,9 @@
+Analysing /data/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol:EBU...
+Vulnerability: Integer Overflow. Maybe in function: transfer(address[],uint256[]). PC: 0x1bf. Line number: 13.
+If a = 32
+and b = 1
+Vulnerability: Integer Overflow. Maybe in function: transfer(address[],uint256[]). PC: 0x394. Line number: 19.
+If a = 32
+and b = 3618502788666131106986593281521497120414687020801267626233049500247285301242
+Vulnerability: Unchecked Low Level Call. Maybe in function: transfer(address[],uint256[]). PC: 0x447. Line number: 19.
+Vulnerability: Reentrancy. Maybe in function: transfer(address[],uint256[]). PC: 0x447. Line number: 19.

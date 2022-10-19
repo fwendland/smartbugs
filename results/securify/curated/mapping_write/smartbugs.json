@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "securify",
+  "start": 1654182041.3901513,
+  "end": 1654182115.0450258,
+  "duration": 73.65487456321716,
+  "exit_code": 0
+}

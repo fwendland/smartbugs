@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/simple_suicide.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 138.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "3",
+      "file": "/data/simple_suicide.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/simple_suicide.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/simple_suicide.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "duration": 3.475928544998169,
+  "end": 1654186580.2287974,
+  "exit_code": 1,
+  "start": 1654186576.752869,
+  "tool": "solhint"
+}

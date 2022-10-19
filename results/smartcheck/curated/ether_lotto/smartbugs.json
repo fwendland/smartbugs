@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "smartcheck",
+  "start": 1654186535.5661464,
+  "end": 1654186540.6545885,
+  "duration": 5.088442087173462,
+  "exit_code": 0
+}

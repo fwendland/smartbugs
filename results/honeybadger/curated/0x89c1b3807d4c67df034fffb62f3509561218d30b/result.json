@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "name": "TownCrier"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+  "duration": 144.34717106819153,
+  "end": 1654123548.364339,
+  "exit_code": 0,
+  "start": 1654123404.017168,
+  "tool": "honeybadger"
+}

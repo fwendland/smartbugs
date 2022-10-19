@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+      "name": "Ownable"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+      "name": "Token"
+    },
+    {
+      "errors": [
+        {
+          "column": 13,
+          "line": 72,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+      "name": "TokenBank"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+  "duration": 10.805637121200562,
+  "end": 1654181200.3337572,
+  "exit_code": 0,
+  "start": 1654181189.52812,
+  "tool": "osiris"
+}

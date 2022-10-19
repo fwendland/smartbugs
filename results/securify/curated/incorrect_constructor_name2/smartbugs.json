@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "tool": "securify",
+  "start": 1654182041.3800702,
+  "end": 1654182058.7170606,
+  "duration": 17.336990356445312,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "slither",
+  "start": 1654186412.6451635,
+  "end": 1654186416.0535002,
+  "duration": 3.408336639404297,
+  "exit_code": 7
+}

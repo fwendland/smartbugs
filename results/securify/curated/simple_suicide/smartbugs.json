@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "securify",
+  "start": 1654182041.3345456,
+  "end": 1654182051.7724078,
+  "duration": 10.437862157821655,
+  "exit_code": 0
+}

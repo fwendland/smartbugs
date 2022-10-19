@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "smartcheck",
+  "start": 1654186535.56707,
+  "end": 1654186540.7978873,
+  "duration": 5.2308173179626465,
+  "exit_code": 0
+}

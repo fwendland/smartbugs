@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "oyente",
+  "start": 1654181737.3354895,
+  "end": 1654181741.3375902,
+  "duration": 4.002100706100464,
+  "exit_code": 0
+}

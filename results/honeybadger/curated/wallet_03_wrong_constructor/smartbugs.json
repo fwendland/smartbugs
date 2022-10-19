@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.3300853,
+  "end": 1654122273.8297644,
+  "duration": 7.499679088592529,
+  "exit_code": 0
+}

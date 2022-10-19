@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "conkas",
+  "start": 1654106760.3433096,
+  "end": 1654106765.2696624,
+  "duration": 4.9263527393341064,
+  "exit_code": 0
+}

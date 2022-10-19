@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+  "tool": "oyente",
+  "start": 1654007545.42132,
+  "end": 1654007556.5136225,
+  "duration": 11.092302560806274,
+  "exit_code": 1
+}

@@ -1,0 +1,54 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 31,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 20,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 33,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 28,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 28,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "66.6%",
+      "file": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "SimpleWallet",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+  "duration": 15.261865139007568,
+  "end": 1654181885.0914147,
+  "exit_code": 1,
+  "start": 1654181869.8295496,
+  "tool": "oyente"
+}

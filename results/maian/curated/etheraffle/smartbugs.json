@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "maian",
+  "start": 1654162490.5955093,
+  "end": 1654162693.8946345,
+  "duration": 203.29912519454956,
+  "exit_code": 0
+}

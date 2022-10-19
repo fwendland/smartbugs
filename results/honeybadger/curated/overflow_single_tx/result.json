@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/overflow_single_tx.sol",
+      "name": "IntegerOverflowSingleTransaction"
+    }
+  ],
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "duration": 4.918233394622803,
+  "end": 1654122536.4284673,
+  "exit_code": 0,
+  "start": 1654122531.5102339,
+  "tool": "honeybadger"
+}

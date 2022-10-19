@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "tool": "conkas",
+  "start": 1654092831.8213367,
+  "end": 1654092836.6487808,
+  "duration": 4.827444076538086,
+  "exit_code": 0
+}

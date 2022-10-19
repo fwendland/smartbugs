@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "conkas",
+  "start": 1654105988.7281,
+  "end": 1654105999.218439,
+  "duration": 10.490339040756226,
+  "exit_code": 0
+}

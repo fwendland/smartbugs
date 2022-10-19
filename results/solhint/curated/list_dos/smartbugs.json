@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/list_dos.sol",
+  "tool": "solhint",
+  "start": 1654186599.7187846,
+  "end": 1654186602.496694,
+  "duration": 2.777909517288208,
+  "exit_code": 1
+}

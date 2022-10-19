@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "21",
+      "maybe_in_function": "withdrawAll(address)",
+      "pc": "0x1af",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/access_control/phishable.sol",
+  "duration": 6.3617706298828125,
+  "end": 1654105995.0826383,
+  "exit_code": 0,
+  "start": 1654105988.7208676,
+  "tool": "conkas"
+}

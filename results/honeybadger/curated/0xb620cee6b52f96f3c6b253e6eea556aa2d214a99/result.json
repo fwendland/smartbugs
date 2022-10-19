@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 2,
+          "line": 33,
+          "message": "hidden_state_update"
+        }
+      ],
+      "file": "/data/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+      "name": "DrainMe"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+  "duration": 48.756518602371216,
+  "end": 1654123452.8852873,
+  "exit_code": 0,
+  "start": 1654123404.1287687,
+  "tool": "honeybadger"
+}

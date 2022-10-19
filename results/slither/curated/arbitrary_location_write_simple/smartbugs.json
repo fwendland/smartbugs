@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "slither",
+  "start": 1654186381.993076,
+  "end": 1654186387.3088555,
+  "duration": 5.315779447555542,
+  "exit_code": 9
+}

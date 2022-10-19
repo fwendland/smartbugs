@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+  "tool": "osiris",
+  "start": 1654181188.7913284,
+  "end": 1654181231.818479,
+  "duration": 43.02715063095093,
+  "exit_code": 0
+}

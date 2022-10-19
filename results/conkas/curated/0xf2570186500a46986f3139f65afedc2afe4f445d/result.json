@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "18",
+      "maybe_in_function": "makeOldFucks(uint32)",
+      "pc": "0x15d",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "18",
+      "maybe_in_function": "makeOldFucks(uint32)",
+      "pc": "0x15d",
+      "vuln_type": "Unchecked Low Level Call"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+  "duration": 9.35532832145691,
+  "end": 1654106839.7659445,
+  "exit_code": 0,
+  "start": 1654106830.4106162,
+  "tool": "conkas"
+}

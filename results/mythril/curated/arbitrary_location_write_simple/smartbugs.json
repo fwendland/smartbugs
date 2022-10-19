@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "mythril",
+  "start": 1654177339.5206723,
+  "end": 1654177346.688276,
+  "duration": 7.1676037311553955,
+  "exit_code": 0
+}

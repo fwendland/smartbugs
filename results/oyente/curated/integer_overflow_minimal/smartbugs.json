@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_minimal.sol",
+  "tool": "oyente",
+  "start": 1654181750.015203,
+  "end": 1654181753.3560996,
+  "duration": 3.3408966064453125,
+  "exit_code": 0
+}

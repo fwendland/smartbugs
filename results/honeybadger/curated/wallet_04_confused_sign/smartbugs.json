@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.4284806,
+  "end": 1654122274.290596,
+  "duration": 7.862115383148193,
+  "exit_code": 0
+}

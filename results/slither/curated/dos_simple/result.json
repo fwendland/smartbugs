@@ -1,0 +1,71 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosOneFunc.ifillArray (/data/dos_simple.sol#14-26) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosOneFunc",
+            "source_mapping": {
+              "filename": "/data/dos_simple.sol",
+              "length": 422,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27
+              ],
+              "start": 198
+            },
+            "type": "contract"
+          },
+          "name": "ifillArray",
+          "source_mapping": {
+            "filename": "/data/dos_simple.sol",
+            "length": 363,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ],
+            "start": 255
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_simple.sol",
+  "duration": 2.3936636447906494,
+  "end": 1654186409.8316796,
+  "exit_code": 1,
+  "start": 1654186407.438016,
+  "tool": "slither"
+}

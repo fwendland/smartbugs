@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "mythril",
+  "start": 1654179708.4087093,
+  "end": 1654179831.6228654,
+  "duration": 123.21415615081787,
+  "exit_code": 0
+}

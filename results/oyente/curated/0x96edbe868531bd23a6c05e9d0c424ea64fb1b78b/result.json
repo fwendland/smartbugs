@@ -1,0 +1,80 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 91,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 91,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 95,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "21.3%",
+      "file": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "LogFile",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 17,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 60,
+          "message": "Timestamp Dependency."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 63,
+          "message": "Re-Entrancy Vulnerability."
+        },
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 66,
+          "message": "Re-Entrancy Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "98.1%",
+      "file": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "PENNY_BY_PENNY",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": true,
+      "timestamp_dependency": true,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+  "duration": 12.145496606826782,
+  "end": 1654007557.5375905,
+  "exit_code": 1,
+  "start": 1654007545.392094,
+  "tool": "oyente"
+}

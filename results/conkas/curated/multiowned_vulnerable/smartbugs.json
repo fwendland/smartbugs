@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "conkas",
+  "start": 1654105988.6897686,
+  "end": 1654105995.4279726,
+  "duration": 6.738204002380371,
+  "exit_code": 0
+}

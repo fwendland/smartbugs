@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "20",
+      "maybe_in_function": "set(uint256,uint256)",
+      "pc": "0x188",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "28",
+      "maybe_in_function": "withdraw()",
+      "pc": "0x232",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "24",
+      "maybe_in_function": "get(uint256)",
+      "pc": "0x28b",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/access_control/mapping_write.sol",
+  "duration": 7.651705741882324,
+  "end": 1654105996.2604954,
+  "exit_code": 0,
+  "start": 1654105988.6087897,
+  "tool": "conkas"
+}

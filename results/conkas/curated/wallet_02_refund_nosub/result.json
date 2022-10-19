@@ -1,0 +1,40 @@
+{
+  "analysis": [
+    {
+      "line_number": "24",
+      "maybe_in_function": "deposit()",
+      "pc": "0x3a3",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "43",
+      "maybe_in_function": "0x4ddaf8f2",
+      "pc": "0x27f",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "30",
+      "maybe_in_function": "withdraw(uint256)",
+      "pc": "0x176",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "36",
+      "maybe_in_function": "refund()",
+      "pc": "0x308",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "36",
+      "maybe_in_function": "refund()",
+      "pc": "0x308",
+      "vuln_type": "Transaction Ordering Dependence"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "duration": 7.2027904987335205,
+  "end": 1654105995.9070807,
+  "exit_code": 0,
+  "start": 1654105988.7042902,
+  "tool": "conkas"
+}

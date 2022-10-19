@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "tool": "maian",
+  "start": 1654163588.726404,
+  "end": 1654163723.6866763,
+  "duration": 134.9602723121643,
+  "exit_code": 0
+}

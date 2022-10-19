@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "manticore",
+  "start": 1654173690.8416905,
+  "end": 1654173695.6414113,
+  "duration": 4.799720764160156,
+  "exit_code": 0
+}

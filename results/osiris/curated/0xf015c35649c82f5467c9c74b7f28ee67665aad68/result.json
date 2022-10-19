@@ -1,0 +1,52 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 83,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 83,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 31,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 32,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 16,
+          "line": 29,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
+      "name": "MY_BANK"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
+  "duration": 59.53956365585327,
+  "end": 1654007459.1208584,
+  "exit_code": 0,
+  "start": 1654007399.5812948,
+  "tool": "osiris"
+}

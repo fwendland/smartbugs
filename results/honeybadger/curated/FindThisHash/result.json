@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/FindThisHash.sol",
+      "name": "FindThisHash"
+    }
+  ],
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "duration": 76.98373651504517,
+  "end": 1654123357.7457364,
+  "exit_code": 0,
+  "start": 1654123280.7619998,
+  "tool": "honeybadger"
+}

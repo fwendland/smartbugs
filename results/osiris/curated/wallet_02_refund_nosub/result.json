@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 10,
+          "line": 30,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 10,
+          "line": 43,
+          "message": "concurrency_bug"
+        }
+      ],
+      "file": "/data/wallet_02_refund_nosub.sol",
+      "name": "Wallet"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "duration": 3.816594123840332,
+  "end": 1654180878.5146427,
+  "exit_code": 0,
+  "start": 1654180874.6980486,
+  "tool": "osiris"
+}

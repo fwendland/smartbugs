@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 5,
+          "line": 14,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 7,
+          "line": 27,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 10,
+          "line": 24,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 10,
+          "line": 24,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/reentrance.sol",
+      "name": "Reentrance"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrance.sol",
+  "duration": 9.305095195770264,
+  "end": 1654007408.9351618,
+  "exit_code": 0,
+  "start": 1654007399.6300666,
+  "tool": "osiris"
+}

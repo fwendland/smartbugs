@@ -1,0 +1,154 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "9",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "31",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/lottopollo.sol",
+      "level": "Error",
+      "line": "32",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "duration": 2.762709140777588,
+  "end": 1654186619.1853602,
+  "exit_code": 1,
+  "start": 1654186616.422651,
+  "tool": "solhint"
+}

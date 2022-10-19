@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.4486136,
+  "end": 1654122273.485138,
+  "duration": 7.036524295806885,
+  "exit_code": 0
+}

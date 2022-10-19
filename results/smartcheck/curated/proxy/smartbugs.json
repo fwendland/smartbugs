@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.809726,
+  "end": 1654186487.1384358,
+  "duration": 7.328709840774536,
+  "exit_code": 0
+}

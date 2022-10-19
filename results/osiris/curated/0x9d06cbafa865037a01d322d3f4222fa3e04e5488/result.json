@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 27,
+          "line": 44,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 54,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 11,
+          "line": 65,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 11,
+          "line": 65,
+          "message": "concurrency_bug"
+        }
+      ],
+      "file": "/data/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+      "name": "Delta"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+  "duration": 16.843754291534424,
+  "end": 1654181206.3097546,
+  "exit_code": 0,
+  "start": 1654181189.4660003,
+  "tool": "osiris"
+}

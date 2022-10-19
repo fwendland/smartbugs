@@ -1,0 +1,16 @@
+Analysing /data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol:Proxy...
+Vulnerability: Unchecked Low Level Call. Maybe in function: proxy(address,bytes). PC: 0x22d. Line number: 14.
+Vulnerability: Reentrancy. Maybe in function: proxy(address,bytes). PC: 0x22d. Line number: 14.
+Vulnerability: Integer Overflow. Maybe in function: proxy(address,bytes). PC: 0xd5. Line number: 12.
+If a = 31
+and b = 115792089237316195423570985008687907853269984665640564039457584007913129639912
+Analysing /data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol:VaultProxy...
+Vulnerability: Reentrancy. Maybe in function: withdraw(uint256). PC: 0x38c. Line number: 39.
+Vulnerability: Unchecked Low Level Call. Maybe in function: proxy(address,bytes). PC: 0x503. Line number: 14.
+Vulnerability: Integer Overflow. Maybe in function: Vault(). PC: 0x562. Line number: 33.
+If a = 32132047039402446868952318293769777176183513056486269933060497502678432492704
+and b = 92727722880420192482182629970936501760626520043488686547725015827971667206116
+Vulnerability: Reentrancy. Maybe in function: proxy(address,bytes). PC: 0x503. Line number: 14.
+Vulnerability: Integer Overflow. Maybe in function: proxy(address,bytes). PC: 0x1ee. Line number: 12.
+If a = 31
+and b = 115792089237316195423570985008687907853269984665640564039457584007913129639912

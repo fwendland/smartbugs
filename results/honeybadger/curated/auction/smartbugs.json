@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "honeybadger",
+  "start": 1654123022.5096602,
+  "end": 1654123027.8846984,
+  "duration": 5.375038146972656,
+  "exit_code": 0
+}

@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "duration": 3.8097918033599854,
+  "end": 1654173694.6562,
+  "exit_code": 0,
+  "start": 1654173690.8464081,
+  "tool": "manticore"
+}

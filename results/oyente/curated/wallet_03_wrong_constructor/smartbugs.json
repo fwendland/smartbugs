@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "oyente",
+  "start": 1654181737.283253,
+  "end": 1654181742.0781658,
+  "duration": 4.794912815093994,
+  "exit_code": 1
+}

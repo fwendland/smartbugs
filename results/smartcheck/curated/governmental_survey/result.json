@@ -1,0 +1,114 @@
+{
+  "analysis": [
+    {
+      "column": 27,
+      "content": "throw",
+      "line": 19,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 29,
+      "content": "throw",
+      "line": 23,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 6,
+      "content": "throw",
+      "line": 32,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 8,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "if(msg.value<1ether)throw;",
+      "line": 19,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "if(msg.value<jackpot/2)throw;",
+      "line": 23,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "if(block.timestamp<lastInvestmentTimestamp+ONE_MINUTE)throw;",
+      "line": 31,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "send(jackpot)",
+      "line": 34,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 10,
+      "content": "send(this.balance-1ether)",
+      "line": 35,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 2,
+      "content": "functionGovernmental(){owner=msg.sender;if(msg.value<1ether)throw;}",
+      "line": 17,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functioninvest(){if(msg.value<jackpot/2)throw;lastInvestor=msg.sender;jackpot+=msg.value/2;lastInvestmentTimestamp=block.timestamp;}",
+      "line": 22,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionresetInvestment(){if(block.timestamp<lastInvestmentTimestamp+ONE_MINUTE)throw;lastInvestor.send(jackpot);owner.send(this.balance-1ether);lastInvestor=0;jackpot=1ether;lastInvestmentTimestamp=0;}",
+      "line": 30,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionattack(addresstarget,uintcount){if(0<=count&&count<1023){this.attack.gas(msg.gas-2000)(target,count+1);}else{Governmental(target).resetInvestment();}}",
+      "line": 45,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "duration": 5.044418573379517,
+  "end": 1654186540.6099734,
+  "exit_code": 0,
+  "start": 1654186535.5655549,
+  "tool": "smartcheck"
+}

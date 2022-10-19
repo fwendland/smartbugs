@@ -1,0 +1,64 @@
+{
+  "analysis": [
+    {
+      "line_number": "60",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x4fc",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "102",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xf54",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "185",
+      "maybe_in_function": "entryDetails(uint256)",
+      "pc": "0xa36",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "74",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xb34",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "119",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x10dc",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "74",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xb34",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "102",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xf54",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "119",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x10dc",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "60",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x4fc",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "duration": 268.5957372188568,
+  "end": 1654106757.3992112,
+  "exit_code": 0,
+  "start": 1654106488.803474,
+  "tool": "conkas"
+}

@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/arbitrary_location_write_simple.sol",
+      "name": "Wallet"
+    }
+  ],
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "duration": 7.036524295806885,
+  "end": 1654122273.485138,
+  "exit_code": 0,
+  "start": 1654122266.4486136,
+  "tool": "honeybadger"
+}

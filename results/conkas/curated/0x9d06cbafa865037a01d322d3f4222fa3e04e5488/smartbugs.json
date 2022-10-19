@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+  "tool": "conkas",
+  "start": 1654106830.3863192,
+  "end": 1654107040.9389818,
+  "duration": 210.5526626110077,
+  "exit_code": 0
+}

@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
+      "name": "LogFile"
+    },
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 57,
+          "message": "straw_man_contract"
+        }
+      ],
+      "file": "/data/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
+      "name": "PRIVATE_ETH_CELL"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
+  "duration": 212.54449224472046,
+  "end": 1654003895.2315092,
+  "exit_code": 0,
+  "start": 1654003682.687017,
+  "tool": "honeybadger"
+}

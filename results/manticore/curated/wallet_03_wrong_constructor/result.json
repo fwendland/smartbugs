@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "duration": 558.5855598449707,
+  "end": 1654165125.996941,
+  "exit_code": 0,
+  "start": 1654164567.4113812,
+  "tool": "manticore"
+}

@@ -1,0 +1,514 @@
+{
+  "analysis": [
+    {
+      "check": "constable-states",
+      "confidence": "High",
+      "description": "ERC20._totalSupply should be constant (/data/ERC20.sol#84)\n",
+      "elements": [
+        {
+          "name": "_totalSupply",
+          "source_mapping": {
+            "filename": "/data/ERC20.sol",
+            "length": 28,
+            "lines": [
+              84
+            ],
+            "start": 2195
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "ERC20.balanceOf (/data/ERC20.sol#90-92) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "ERC20",
+            "source_mapping": {
+              "filename": "/data/ERC20.sol",
+              "length": 1717,
+              "lines": [
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "start": 1869
+            },
+            "type": "contract"
+          },
+          "name": "balanceOf",
+          "source_mapping": {
+            "filename": "/data/ERC20.sol",
+            "length": 98,
+            "lines": [
+              90,
+              91,
+              92
+            ],
+            "start": 2307
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "ERC20.allowance (/data/ERC20.sol#95-98) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "ERC20",
+            "source_mapping": {
+              "filename": "/data/ERC20.sol",
+              "length": 1717,
+              "lines": [
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "start": 1869
+            },
+            "type": "contract"
+          },
+          "name": "allowance",
+          "source_mapping": {
+            "filename": "/data/ERC20.sol",
+            "length": 125,
+            "lines": [
+              95,
+              96,
+              97,
+              98
+            ],
+            "start": 2410
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "ERC20.transfer (/data/ERC20.sol#100-108) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "ERC20",
+            "source_mapping": {
+              "filename": "/data/ERC20.sol",
+              "length": 1717,
+              "lines": [
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "start": 1869
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/ERC20.sol",
+            "length": 316,
+            "lines": [
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108
+            ],
+            "start": 2539
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "ERC20.approve (/data/ERC20.sol#110-116) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "ERC20",
+            "source_mapping": {
+              "filename": "/data/ERC20.sol",
+              "length": 1717,
+              "lines": [
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "start": 1869
+            },
+            "type": "contract"
+          },
+          "name": "approve",
+          "source_mapping": {
+            "filename": "/data/ERC20.sol",
+            "length": 256,
+            "lines": [
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116
+            ],
+            "start": 2892
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "ERC20.transferFrom (/data/ERC20.sol#118-128) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "ERC20",
+            "source_mapping": {
+              "filename": "/data/ERC20.sol",
+              "length": 1717,
+              "lines": [
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "start": 1869
+            },
+            "type": "contract"
+          },
+          "name": "transferFrom",
+          "source_mapping": {
+            "filename": "/data/ERC20.sol",
+            "length": 432,
+            "lines": [
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ],
+            "start": 3152
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "unused-state",
+      "confidence": "High",
+      "description": "ERC20._totalSupply (/data/ERC20.sol#84) is never used in ERC20\n",
+      "elements": [
+        {
+          "name": "_totalSupply",
+          "source_mapping": {
+            "filename": "/data/ERC20.sol",
+            "length": 28,
+            "lines": [
+              84
+            ],
+            "start": 2195
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/front_running/ERC20.sol",
+  "duration": 3.2219135761260986,
+  "end": 1654186415.8346663,
+  "exit_code": 7,
+  "start": 1654186412.6127527,
+  "tool": "slither"
+}

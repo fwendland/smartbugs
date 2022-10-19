@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "tool": "securify",
+  "start": 1654182775.4714985,
+  "end": 1654182784.3495436,
+  "duration": 8.878045082092285,
+  "exit_code": 0
+}

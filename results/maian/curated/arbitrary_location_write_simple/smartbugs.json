@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "maian",
+  "start": 1654161877.2174754,
+  "end": 1654161945.575101,
+  "duration": 68.35762548446655,
+  "exit_code": 0
+}

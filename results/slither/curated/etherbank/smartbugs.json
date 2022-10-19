@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "slither",
+  "start": 1653999783.3505452,
+  "end": 1653999794.450696,
+  "duration": 11.10015082359314,
+  "exit_code": 7
+}

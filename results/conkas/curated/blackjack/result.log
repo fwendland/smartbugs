@@ -1,0 +1,12 @@
+Analysing /data/blackjack.sol:BlackJack...
+Vulnerability: Integer Overflow. Maybe in function: hit(). PC: 0x4d4. Line number: 135.
+If a = 255
+and b = 7470457257061396883745549771422935534461263837700830180825945641804083329885
+Vulnerability: Integer Underflow. Maybe in function: hit(). PC: 0x4af. Line number: 135.
+If a = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+and b = 1
+Vulnerability: Time Manipulation. Maybe in function: hit(). PC: 0x1d11. Line number: 21.
+Vulnerability: Integer Overflow. Maybe in function: hit(). PC: 0x776. Line number: 138.
+If a = 32
+and b = 18092513943330655534932966407607485602073435104006338131165247501236426506221
+Analysing /data/blackjack.sol:Deck...

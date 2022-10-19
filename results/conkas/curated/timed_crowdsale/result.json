@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "11",
+      "maybe_in_function": "isSaleFinished()",
+      "pc": "0x6f",
+      "vuln_type": "Time Manipulation"
+    }
+  ],
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "duration": 5.173046588897705,
+  "end": 1654106826.827921,
+  "exit_code": 0,
+  "start": 1654106821.6548743,
+  "tool": "conkas"
+}

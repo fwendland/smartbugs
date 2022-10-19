@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "manticore",
+  "start": 1654171791.756615,
+  "end": 1654171810.022925,
+  "duration": 18.26630997657776,
+  "exit_code": 0
+}

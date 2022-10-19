@@ -1,0 +1,379 @@
+{
+  "analysis": [
+    {
+      "check": "reentrancy-eth",
+      "confidence": "Medium",
+      "description": "Reentrancy in Reentrance.withdrawBalance (/data/reentrancy_simple.sol#20-28):\n\tExternal calls:\n\t- ! (msg.sender.call.value(userBalance[msg.sender])()) (/data/reentrancy_simple.sol#24-26)\n\tState variables written after the call(s):\n\t- userBalance (/data/reentrancy_simple.sol#27)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrance",
+            "source_mapping": {
+              "filename": "/data/reentrancy_simple.sol",
+              "length": 617,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 182
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 349,
+            "lines": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 447
+          },
+          "type": "function"
+        },
+        {
+          "expression": "! (msg.sender.call.value(userBalance[msg.sender])())",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 91,
+            "lines": [
+              24,
+              25,
+              26
+            ],
+            "start": 660
+          },
+          "type": "external_calls"
+        },
+        {
+          "expression": "userBalance[msg.sender] = 0",
+          "name": "userBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 27,
+            "lines": [
+              27
+            ],
+            "start": 761
+          },
+          "type": "variables_written"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/reentrancy_simple.sol#25:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+      "elements": [
+        {
+          "expression": "None",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 5,
+            "lines": [
+              25
+            ],
+            "start": 734
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Reentrance.getBalance (/data/reentrancy_simple.sol#12-14) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrance",
+            "source_mapping": {
+              "filename": "/data/reentrancy_simple.sol",
+              "length": 617,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 182
+            },
+            "type": "contract"
+          },
+          "name": "getBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 93,
+            "lines": [
+              12,
+              13,
+              14
+            ],
+            "start": 254
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Reentrance.addToBalance (/data/reentrancy_simple.sol#16-18) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrance",
+            "source_mapping": {
+              "filename": "/data/reentrancy_simple.sol",
+              "length": 617,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 182
+            },
+            "type": "contract"
+          },
+          "name": "addToBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 86,
+            "lines": [
+              16,
+              17,
+              18
+            ],
+            "start": 354
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Reentrance.withdrawBalance (/data/reentrancy_simple.sol#20-28) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrance",
+            "source_mapping": {
+              "filename": "/data/reentrancy_simple.sol",
+              "length": 617,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 182
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 349,
+            "lines": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 447
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/reentrancy_simple.sol:\n\t- pragma solidity^0.4.15 (/data/reentrancy_simple.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.15",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 155
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in Reentrance.withdrawBalance (/data/reentrancy_simple.sol#20-28):\n\t-! (msg.sender.call.value(userBalance[msg.sender])()) /data/reentrancy_simple.sol#24-26\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrance",
+            "source_mapping": {
+              "filename": "/data/reentrancy_simple.sol",
+              "length": 617,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 182
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 349,
+            "lines": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 447
+          },
+          "type": "function"
+        },
+        {
+          "expression": "! (msg.sender.call.value(userBalance[msg.sender])())",
+          "source_mapping": {
+            "filename": "/data/reentrancy_simple.sol",
+            "length": 91,
+            "lines": [
+              24,
+              25,
+              26
+            ],
+            "start": 660
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_simple.sol",
+  "duration": 10.055082559585571,
+  "end": 1653999793.400758,
+  "exit_code": 7,
+  "start": 1653999783.3456755,
+  "tool": "slither"
+}

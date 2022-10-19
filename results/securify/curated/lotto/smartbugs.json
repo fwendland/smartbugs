@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "securify",
+  "start": 1654183751.045603,
+  "end": 1654185411.6701698,
+  "duration": 1660.6245667934418,
+  "exit_code": 1
+}

@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 17,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 7,
+          "level": "Warning",
+          "line": 14,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "57.6%",
+      "file": "/data/lottopollo.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "lottopollo",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "duration": 2.495213031768799,
+  "end": 1654181866.9476213,
+  "exit_code": 1,
+  "start": 1654181864.4524083,
+  "tool": "oyente"
+}

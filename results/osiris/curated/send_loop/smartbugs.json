@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "osiris",
+  "start": 1654181065.7309768,
+  "end": 1654181078.9355466,
+  "duration": 13.204569816589355,
+  "exit_code": 0
+}

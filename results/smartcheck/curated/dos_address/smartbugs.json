@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "tool": "smartcheck",
+  "start": 1654186508.2142465,
+  "end": 1654186513.5443563,
+  "duration": 5.3301098346710205,
+  "exit_code": 0
+}

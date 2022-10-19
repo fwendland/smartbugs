@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "solhint",
+  "start": 1654186599.6983097,
+  "end": 1654186602.2157123,
+  "duration": 2.5174026489257812,
+  "exit_code": 1
+}

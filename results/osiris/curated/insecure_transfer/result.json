@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 18,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/insecure_transfer.sol",
+      "name": "IntegerOverflowAdd"
+    }
+  ],
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "duration": 4.147385835647583,
+  "end": 1654180934.7993586,
+  "exit_code": 0,
+  "start": 1654180930.6519728,
+  "tool": "osiris"
+}

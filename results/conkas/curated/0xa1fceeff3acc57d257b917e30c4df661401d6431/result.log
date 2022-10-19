@@ -1,0 +1,3 @@
+Analysing /data/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol:AirDropContract...
+Vulnerability: Unchecked Low Level Call. Maybe in function: transfer(address,address[],uint256[]). PC: 0x355. Line number: 31.
+Vulnerability: Reentrancy. Maybe in function: transfer(address,address[],uint256[]). PC: 0x355. Line number: 31.

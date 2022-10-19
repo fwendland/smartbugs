@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "tool": "solhint",
+  "start": 1654186622.0854042,
+  "end": 1654186625.2686925,
+  "duration": 3.183288335800171,
+  "exit_code": 1
+}

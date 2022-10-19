@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "tool": "oyente",
+  "start": 1654181749.9998376,
+  "end": 1654181753.7744148,
+  "duration": 3.7745771408081055,
+  "exit_code": 0
+}

@@ -1,0 +1,1458 @@
+{
+  "analysis": [
+    {
+      "check": "reentrancy-eth",
+      "confidence": "Medium",
+      "description": "Reentrancy in PENNY_BY_PENNY.Collect (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#55-69):\n\tExternal calls:\n\t- msg.sender.call.value(_am)() (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#63-67)\n\tState variables written after the call(s):\n\t- Acc (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#65)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PENNY_BY_PENNY",
+            "source_mapping": {
+              "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+              "length": 1308,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 397,
+            "lines": [
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69
+            ],
+            "start": 933
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(_am)()",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 152,
+            "lines": [
+              63,
+              64,
+              65,
+              66,
+              67
+            ],
+            "start": 1162
+          },
+          "type": "external_calls"
+        },
+        {
+          "expression": "acc.balance -= _am",
+          "name": "Acc",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 16,
+            "lines": [
+              65
+            ],
+            "start": 1225
+          },
+          "type": "variables_written"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#28:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+      "elements": [
+        {
+          "expression": "None",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 5,
+            "lines": [
+              28
+            ],
+            "start": 416
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#35:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+      "elements": [
+        {
+          "expression": "None",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 5,
+            "lines": [
+              35
+            ],
+            "start": 535
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "PENNY_BY_PENNY.SetMinSum (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#25-30) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PENNY_BY_PENNY",
+            "source_mapping": {
+              "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+              "length": 1308,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "SetMinSum",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 105,
+            "lines": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "start": 346
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "PENNY_BY_PENNY.SetLogFile (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#32-37) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PENNY_BY_PENNY",
+            "source_mapping": {
+              "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+              "length": 1308,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "SetLogFile",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 115,
+            "lines": [
+              32,
+              33,
+              34,
+              35,
+              36,
+              37
+            ],
+            "start": 461
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "PENNY_BY_PENNY.Initialized (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#39-43) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PENNY_BY_PENNY",
+            "source_mapping": {
+              "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+              "length": 1308,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Initialized",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 73,
+            "lines": [
+              39,
+              40,
+              41,
+              42,
+              43
+            ],
+            "start": 586
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "PENNY_BY_PENNY.Collect (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#55-69) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PENNY_BY_PENNY",
+            "source_mapping": {
+              "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+              "length": 1308,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 397,
+            "lines": [
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69
+            ],
+            "start": 933
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "PENNY_BY_PENNY.fallback (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#71-76) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PENNY_BY_PENNY",
+            "source_mapping": {
+              "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+              "length": 1308,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 63,
+            "lines": [
+              71,
+              72,
+              73,
+              74,
+              75,
+              76
+            ],
+            "start": 1340
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "LogFile.AddMessage (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#95-103) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "LogFile",
+            "source_mapping": {
+              "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+              "length": 433,
+              "lines": [
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104
+              ],
+              "start": 1413
+            },
+            "type": "contract"
+          },
+          "name": "AddMessage",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 227,
+            "lines": [
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103
+            ],
+            "start": 1617
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol:\n\t- pragma solidity^0.4.19 (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.19",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 76
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in PENNY_BY_PENNY.Collect (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#55-69):\n\t-msg.sender.call.value(_am)() /data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#63-67\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PENNY_BY_PENNY",
+            "source_mapping": {
+              "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+              "length": 1308,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 397,
+            "lines": [
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69
+            ],
+            "start": 933
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(_am)()",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 152,
+            "lines": [
+              63,
+              64,
+              65,
+              66,
+              67
+            ],
+            "start": 1162
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Contract 'PENNY_BY_PENNY' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#9-78) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "PENNY_BY_PENNY",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 1308,
+            "lines": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78
+            ],
+            "start": 102
+          },
+          "target": "contract"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'PENNY_BY_PENNY.SetMinSum' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#25-30) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "SetMinSum",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 105,
+            "lines": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "start": 346
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_val' of PENNY_BY_PENNY.SetMinSum (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#25) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_val",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 9,
+            "lines": [
+              25
+            ],
+            "start": 365
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'PENNY_BY_PENNY.SetLogFile' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#32-37) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "SetLogFile",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 115,
+            "lines": [
+              32,
+              33,
+              34,
+              35,
+              36,
+              37
+            ],
+            "start": 461
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_log' of PENNY_BY_PENNY.SetLogFile (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#32) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_log",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 12,
+            "lines": [
+              32
+            ],
+            "start": 481
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'PENNY_BY_PENNY.Initialized' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#39-43) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Initialized",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 73,
+            "lines": [
+              39,
+              40,
+              41,
+              42,
+              43
+            ],
+            "start": 586
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'PENNY_BY_PENNY.Put' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#45-53) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Put",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 254,
+            "lines": [
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53
+            ],
+            "start": 669
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_lockTime' of PENNY_BY_PENNY.Put (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#45) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_lockTime",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 14,
+            "lines": [
+              45
+            ],
+            "start": 682
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'PENNY_BY_PENNY.Collect' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#55-69) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 397,
+            "lines": [
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69
+            ],
+            "start": 933
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_am' of PENNY_BY_PENNY.Collect (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#55) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_am",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 8,
+            "lines": [
+              55
+            ],
+            "start": 950
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'PENNY_BY_PENNY.Acc' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#17) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Acc",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 38,
+            "lines": [
+              17
+            ],
+            "start": 219
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'PENNY_BY_PENNY.MinSum' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#19) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "MinSum",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 18,
+            "lines": [
+              19
+            ],
+            "start": 268
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'PENNY_BY_PENNY.Log' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#21) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Log",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 11,
+            "lines": [
+              21
+            ],
+            "start": 297
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'LogFile.AddMessage' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#95-103) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "AddMessage",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 227,
+            "lines": [
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103
+            ],
+            "start": 1617
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_adr' of LogFile.AddMessage (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#95) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_adr",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 12,
+            "lines": [
+              95
+            ],
+            "start": 1637
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_val' of LogFile.AddMessage (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#95) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_val",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 9,
+            "lines": [
+              95
+            ],
+            "start": 1650
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_data' of LogFile.AddMessage (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#95) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_data",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 12,
+            "lines": [
+              95
+            ],
+            "start": 1660
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'LogFile.History' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#91) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "History",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 24,
+            "lines": [
+              91
+            ],
+            "start": 1556
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'LogFile.LastMsg' (/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol#93) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "LastMsg",
+          "source_mapping": {
+            "filename": "/data/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "length": 15,
+            "lines": [
+              93
+            ],
+            "start": 1591
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+  "duration": 11.071399450302124,
+  "end": 1653999794.7046905,
+  "exit_code": 30,
+  "start": 1653999783.633291,
+  "tool": "slither"
+}

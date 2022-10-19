@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "42.0%",
+      "file": "/data/dos_simple.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "DosOneFunc",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_simple.sol",
+  "duration": 2.7571139335632324,
+  "end": 1654181837.0174866,
+  "exit_code": 0,
+  "start": 1654181834.2603726,
+  "tool": "oyente"
+}

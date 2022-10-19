@@ -1,0 +1,3 @@
+Analysing /data/0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol:EBU...
+Vulnerability: Reentrancy. Maybe in function: transfer(address,address,address[],uint256[]). PC: 0x2dc. Line number: 16.
+Vulnerability: Unchecked Low Level Call. Maybe in function: transfer(address,address,address[],uint256[]). PC: 0x2dc. Line number: 16.

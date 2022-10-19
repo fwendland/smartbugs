@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "honeybadger",
+  "start": 1654122732.183813,
+  "end": 1654123020.445844,
+  "duration": 288.26203083992004,
+  "exit_code": 0
+}

@@ -1,0 +1,40 @@
+WARNING:root:You are using evm version 1.8.2. The supported version is 1.7.3
+WARNING:root:You are using solc version 0.4.26, The latest supported version is 0.4.19
+INFO:root:contract /data/list_dos.sol:Government:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 41.9%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  True
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 True
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/data/list_dos.sol:39:32: Warning: Integer Underflow.
+             creditorAddresses[creditorAddresses.length - 1
+Integer Underflow occurs if:
+    creditorAddresses.length = 0
+    lastTimeOfNewCredit = 115792089237316195423570985008687907853269984665640564039457584007913129596736
+INFO:symExec:/data/list_dos.sol:35:14: Warning: Integer Overflow.
+         if (lastTimeOfNewCredit + TWELVE_HOURS
+Integer Overflow occurs if:
+    lastTimeOfNewCredit = 115792089237316195423570985008687907853269984665640564039457584007913129608000
+/data/list_dos.sol:16:6: Warning: Integer Overflow.
+     address[] public creditorAddresses
+/data/list_dos.sol:17:6: Warning: Integer Overflow.
+     uint[] public creditorAmounts
+INFO:symExec:/data/list_dos.sol:39:14: Warning: Callstack Depth Attack Vulnerability.
+             creditorAddresses[creditorAddresses.length - 1].send(profitFromCrash)
+/data/list_dos.sol:40:14: Warning: Callstack Depth Attack Vulnerability.
+             corruptElite.send(this.balance)
+/data/list_dos.sol:70:22: Warning: Callstack Depth Attack Vulnerability.
+                     buddy.send(amount * 5/100)
+/data/list_dos.sol:62:18: Warning: Callstack Depth Attack Vulnerability.
+                 corruptElite.send(amount * 5/100)
+/data/list_dos.sol:75:22: Warning: Callstack Depth Attack Vulnerability.
+                     creditorAddresses[lastCreditorPayedOut].send(creditorAmounts[lastCreditorPayedOut])
+INFO:symExec:/data/list_dos.sol:35:10: Warning: Timestamp Dependency.
+         if (lastTimeOfNewCredit + TWELVE_HOURS < block.timestamp) {
+         ^
+Spanning multiple lines.
+INFO:symExec:	====== Analysis Completed ======

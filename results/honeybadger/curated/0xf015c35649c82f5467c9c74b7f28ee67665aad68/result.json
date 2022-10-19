@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 32,
+          "message": "straw_man_contract"
+        }
+      ],
+      "file": "/data/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
+      "name": "MY_BANK"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
+  "duration": 214.3893826007843,
+  "end": 1654003897.1229038,
+  "exit_code": 0,
+  "start": 1654003682.7335212,
+  "tool": "honeybadger"
+}

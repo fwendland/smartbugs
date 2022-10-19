@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_multitx_onefunc_feasible.sol",
+  "tool": "slither",
+  "start": 1654186391.7047884,
+  "end": 1654186396.6853044,
+  "duration": 4.980515956878662,
+  "exit_code": 2
+}

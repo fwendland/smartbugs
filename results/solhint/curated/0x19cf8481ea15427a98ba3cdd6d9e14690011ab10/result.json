@@ -1,0 +1,1906 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "9",
+      "message": "Line length must be no more than 120 but current length is 126.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "35",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "36",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "37",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "38",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "39",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "41",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "42",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "43",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "44",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "45",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "46",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "48",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "49",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "50",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "51",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "53",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "54",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "55",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "56",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "57",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "59",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "60",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "61",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "63",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "64",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "65",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "67",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "68",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "69",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "71",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "72",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "73",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "75",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "76",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "77",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "78",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "79",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "93",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "96",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "98",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "100",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "103",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "104",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "105",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "107",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "108",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "109",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "110",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "111",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "112",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "114",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "115",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "117",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "118",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "119",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "120",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "121",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "122",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "124",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "125",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "126",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "128",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "134",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "136",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "137",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "138",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "139",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "141",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "142",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "143",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "165",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "167",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "168",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "169",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "170",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "172",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "180",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "181",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "182",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "183",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "184",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "185",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "186",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "188",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "189",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "190",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "192",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "195",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "196",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "201",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "202",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "204",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "205",
+      "message": "Expected indentation of 8 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "206",
+      "message": "Expected indentation of 8 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "207",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "209",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "211",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "212",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "11",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "213",
+      "message": "Expected indentation of 8 spaces but found 10",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "214",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "215",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "216",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "218",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "220",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "221",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "223",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "224",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "225",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "226",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "227",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "229",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "230",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "232",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "245",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "246",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "13",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "247",
+      "message": "Expected indentation of 16 spaces but found 12",
+      "type": "indent"
+    },
+    {
+      "column": "13",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "248",
+      "message": "Expected indentation of 16 spaces but found 12",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "249",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "250",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "285",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "287",
+      "message": "Line length must be no more than 120 but current length is 123.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "289",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "291",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "292",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "293",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "294",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "295",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "296",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "298",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "300",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "302",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "303",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "304",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "305",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "306",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "307",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "308",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "310",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "311",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "312",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "314",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "315",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "316",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "317",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "318",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "320",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "321",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "322",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "326",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "327",
+      "message": "Expected indentation of 8 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "328",
+      "message": "Expected indentation of 12 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "329",
+      "message": "Expected indentation of 12 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "330",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "330",
+      "message": "Expected indentation of 12 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "338",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "340",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "341",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "342",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "343",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "344",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "346",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "347",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "349",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "351",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "352",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "353",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "354",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "355",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "356",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "357",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "358",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "360",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "361",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "361",
+      "message": "Line length must be no more than 120 but current length is 192.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "362",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "366",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "367",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "368",
+      "message": "Expected indentation of 12 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "369",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "370",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "371",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "372",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "373",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "374",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "375",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "376",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "379",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "380",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "381",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "382",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "383",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "384",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "385",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "386",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "387",
+      "message": "Expected indentation of 4 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "11",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "395",
+      "message": "Expected indentation of 12 spaces but found 10",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "403",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "423",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "424",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "425",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "426",
+      "message": "Expected indentation of 12 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "427",
+      "message": "Expected indentation of 12 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "428",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "429",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "432",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "433",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "8",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "437",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "440",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "441",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "8",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "442",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "443",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "444",
+      "message": "Expected indentation of 4 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "446",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "8",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "447",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "448",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "449",
+      "message": "Expected indentation of 4 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "8",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "451",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "452",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "453",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "457",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "461",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "465",
+      "message": "Expected indentation of 12 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "483",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "496",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "498",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "499",
+      "message": "Line length must be no more than 120 but current length is 156.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "499",
+      "message": "Expected indentation of 8 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "level": "Error",
+      "line": "500",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+  "duration": 10.020025491714478,
+  "end": 1654186631.8016782,
+  "exit_code": 1,
+  "start": 1654186621.7816527,
+  "tool": "solhint"
+}

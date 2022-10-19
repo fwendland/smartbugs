@@ -1,0 +1,58 @@
+{
+  "analysis": [
+    {
+      "column": 2,
+      "content": "functionrandomGen()constantreturns(uintrandomNumber){returnblock.timestamp;}",
+      "line": 25,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionrandomGen()constantreturns(uintrandomNumber){returnblock.timestamp;}",
+      "line": 25,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functiondraw(uintseed){uintrandomNumber=randomGen();payOut(randomNumber);}",
+      "line": 29,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "addressleader;",
+      "line": 9,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "uinttimestamp;",
+      "line": 10,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "duration": 5.160136461257935,
+  "end": 1654186540.7279143,
+  "exit_code": 0,
+  "start": 1654186535.5677779,
+  "tool": "smartcheck"
+}

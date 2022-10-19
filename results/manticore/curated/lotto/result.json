@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "duration": 49.35394906997681,
+  "end": 1654175544.7108355,
+  "exit_code": 0,
+  "start": 1654175495.3568864,
+  "tool": "manticore"
+}

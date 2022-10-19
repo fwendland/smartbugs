@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.6503973,
+  "end": 1654186486.727137,
+  "duration": 7.07673978805542,
+  "exit_code": 0
+}

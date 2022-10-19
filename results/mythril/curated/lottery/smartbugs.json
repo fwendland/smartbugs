@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "mythril",
+  "start": 1654177637.8379433,
+  "end": 1654177645.1577384,
+  "duration": 7.31979513168335,
+  "exit_code": 0
+}

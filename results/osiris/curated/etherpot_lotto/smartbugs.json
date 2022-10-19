@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "osiris",
+  "start": 1654181189.5471969,
+  "end": 1654181250.1422818,
+  "duration": 60.59508490562439,
+  "exit_code": 0
+}

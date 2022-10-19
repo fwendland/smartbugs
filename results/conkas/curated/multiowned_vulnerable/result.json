@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "57",
+      "maybe_in_function": "withdrawAll()",
+      "pc": "0x315",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "duration": 6.738204002380371,
+  "end": 1654105995.4279726,
+  "exit_code": 0,
+  "start": 1654105988.6897686,
+  "tool": "conkas"
+}

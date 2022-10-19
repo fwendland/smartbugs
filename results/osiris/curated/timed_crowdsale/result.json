@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/timed_crowdsale.sol",
+      "name": "TimedCrowdsale"
+    }
+  ],
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "duration": 2.468984603881836,
+  "end": 1654181184.8044457,
+  "exit_code": 0,
+  "start": 1654181182.3354611,
+  "tool": "osiris"
+}

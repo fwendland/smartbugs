@@ -1,0 +1,79 @@
+{
+  "analysis": {
+    "/data/etherbank.sol:EtherBank": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            20
+          ],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            9
+          ],
+          "warnings": [
+            17,
+            13
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            20
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            20
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            20
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            20
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            20
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "duration": 60.330092668533325,
+  "end": 1654007667.1829817,
+  "exit_code": 0,
+  "start": 1654007606.852889,
+  "tool": "securify"
+}

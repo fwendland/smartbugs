@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 20,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 25,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 25,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+      "name": "keepMyEther"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+  "duration": 11.463711738586426,
+  "end": 1654181200.9652193,
+  "exit_code": 0,
+  "start": 1654181189.5015075,
+  "tool": "osiris"
+}

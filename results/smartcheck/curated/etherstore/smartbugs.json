@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "tool": "smartcheck",
+  "start": 1654008603.189885,
+  "end": 1654008614.9210658,
+  "duration": 11.731180906295776,
+  "exit_code": 0
+}

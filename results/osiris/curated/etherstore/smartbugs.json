@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "tool": "osiris",
+  "start": 1654007399.6371431,
+  "end": 1654007403.902912,
+  "duration": 4.265768766403198,
+  "exit_code": 0
+}

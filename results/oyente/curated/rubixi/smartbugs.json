@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "oyente",
+  "start": 1654181737.2398958,
+  "end": 1654181747.1926198,
+  "duration": 9.952723979949951,
+  "exit_code": 1
+}

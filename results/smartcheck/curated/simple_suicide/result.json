@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 8,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionsudicideAnyone(){selfdestruct(msg.sender);}",
+      "line": 12,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "duration": 7.682085037231445,
+  "end": 1654186487.4963098,
+  "exit_code": 0,
+  "start": 1654186479.8142247,
+  "tool": "smartcheck"
+}

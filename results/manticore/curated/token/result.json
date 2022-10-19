@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/arithmetic/token.sol",
+  "duration": 204.56831407546997,
+  "end": 1654166579.5378983,
+  "exit_code": 0,
+  "start": 1654166374.9695842,
+  "tool": "manticore"
+}

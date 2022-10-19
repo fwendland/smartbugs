@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/reentrance.sol",
+      "name": "Reentrance"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrance.sol",
+  "duration": 6.148518085479736,
+  "end": 1654003688.8956418,
+  "exit_code": 0,
+  "start": 1654003682.7471237,
+  "tool": "honeybadger"
+}

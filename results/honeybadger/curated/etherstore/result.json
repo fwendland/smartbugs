@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/etherstore.sol",
+      "name": "EtherStore"
+    }
+  ],
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "duration": 9.350619316101074,
+  "end": 1654003692.023705,
+  "exit_code": 0,
+  "start": 1654003682.6730857,
+  "tool": "honeybadger"
+}

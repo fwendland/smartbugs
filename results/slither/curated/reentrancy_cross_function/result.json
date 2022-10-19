@@ -1,0 +1,390 @@
+{
+  "analysis": [
+    {
+      "check": "reentrancy-eth",
+      "confidence": "Medium",
+      "description": "Reentrancy in Reentrancy_cross_function.withdrawBalance (/data/reentrancy_cross_function.sol#21-27):\n\tExternal calls:\n\t- (success) = msg.sender.call.value(amountToWithdraw)() (/data/reentrancy_cross_function.sol#24)\n\tState variables written after the call(s):\n\t- userBalances (/data/reentrancy_cross_function.sol#26)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrancy_cross_function",
+            "source_mapping": {
+              "filename": "/data/reentrancy_cross_function.sol",
+              "length": 662,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 168
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 345,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ],
+            "start": 483
+          },
+          "type": "function"
+        },
+        {
+          "expression": "(success) = msg.sender.call.value(amountToWithdraw)()",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 62,
+            "lines": [
+              24
+            ],
+            "start": 622
+          },
+          "type": "external_calls"
+        },
+        {
+          "expression": "userBalances[msg.sender] = 0",
+          "name": "userBalances",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 28,
+            "lines": [
+              26
+            ],
+            "start": 793
+          },
+          "type": "variables_written"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "erc20-interface",
+      "confidence": "High",
+      "description": "Reentrancy_cross_function (/data/reentrancy_cross_function.sol#9-28) has incorrect ERC20 function interface(s):\n\t-transfer (/data/reentrancy_cross_function.sol#14-19)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrancy_cross_function",
+            "source_mapping": {
+              "filename": "/data/reentrancy_cross_function.sol",
+              "length": 662,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 168
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 198,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 279
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Medium"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Reentrancy_cross_function.transfer (/data/reentrancy_cross_function.sol#14-19) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrancy_cross_function",
+            "source_mapping": {
+              "filename": "/data/reentrancy_cross_function.sol",
+              "length": 662,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 168
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 198,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 279
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Reentrancy_cross_function.withdrawBalance (/data/reentrancy_cross_function.sol#21-27) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrancy_cross_function",
+            "source_mapping": {
+              "filename": "/data/reentrancy_cross_function.sol",
+              "length": 662,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 168
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 345,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ],
+            "start": 483
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/reentrancy_cross_function.sol:\n\t- pragma solidity^0.4.0 (/data/reentrancy_cross_function.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.0",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 23,
+            "lines": [
+              7
+            ],
+            "start": 143
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in Reentrancy_cross_function.withdrawBalance (/data/reentrancy_cross_function.sol#21-27):\n\t-(success) = msg.sender.call.value(amountToWithdraw)() /data/reentrancy_cross_function.sol#24\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrancy_cross_function",
+            "source_mapping": {
+              "filename": "/data/reentrancy_cross_function.sol",
+              "length": 662,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 168
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 345,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ],
+            "start": 483
+          },
+          "type": "function"
+        },
+        {
+          "expression": "(success) = msg.sender.call.value(amountToWithdraw)()",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 62,
+            "lines": [
+              24
+            ],
+            "start": 622
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Contract 'Reentrancy_cross_function' (/data/reentrancy_cross_function.sol#9-28) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "Reentrancy_cross_function",
+          "source_mapping": {
+            "filename": "/data/reentrancy_cross_function.sol",
+            "length": 662,
+            "lines": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 168
+          },
+          "target": "contract"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_cross_function.sol",
+  "duration": 6.804518699645996,
+  "end": 1653999790.6261284,
+  "exit_code": 7,
+  "start": 1653999783.8216097,
+  "tool": "slither"
+}

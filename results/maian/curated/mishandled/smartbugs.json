@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "tool": "maian",
+  "start": 1654163588.757941,
+  "end": 1654163683.5139232,
+  "duration": 94.75598216056824,
+  "exit_code": 0
+}

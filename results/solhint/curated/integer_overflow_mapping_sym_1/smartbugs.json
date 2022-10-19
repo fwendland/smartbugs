@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "tool": "solhint",
+  "start": 1654186586.409555,
+  "end": 1654186590.384518,
+  "duration": 3.9749629497528076,
+  "exit_code": 1
+}

@@ -1,0 +1,25 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/modifier_reentrancy.sol",
+      "name": "Bank"
+    },
+    {
+      "errors": [],
+      "file": "/data/modifier_reentrancy.sol",
+      "name": "ModifierEntrancy"
+    },
+    {
+      "errors": [],
+      "file": "/data/modifier_reentrancy.sol",
+      "name": "attack"
+    }
+  ],
+  "contract": "dataset/reentrancy/modifier_reentrancy.sol",
+  "duration": 11.50023627281189,
+  "end": 1654003694.2328606,
+  "exit_code": 0,
+  "start": 1654003682.7326243,
+  "tool": "honeybadger"
+}

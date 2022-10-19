@@ -1,0 +1,80 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Overflow_Add.add (/data/overflow_simple_add.sol#12-15) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Overflow_Add",
+            "source_mapping": {
+              "filename": "/data/overflow_simple_add.sol",
+              "length": 169,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "start": 176
+            },
+            "type": "contract"
+          },
+          "name": "add",
+          "source_mapping": {
+            "filename": "/data/overflow_simple_add.sol",
+            "length": 109,
+            "lines": [
+              12,
+              13,
+              14,
+              15
+            ],
+            "start": 234
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Contract 'Overflow_Add' (/data/overflow_simple_add.sol#9-16) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "Overflow_Add",
+          "source_mapping": {
+            "filename": "/data/overflow_simple_add.sol",
+            "length": 169,
+            "lines": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "start": 176
+          },
+          "target": "contract"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/arithmetic/overflow_simple_add.sol",
+  "duration": 5.398631572723389,
+  "end": 1654186397.1037853,
+  "exit_code": 2,
+  "start": 1654186391.7051537,
+  "tool": "slither"
+}

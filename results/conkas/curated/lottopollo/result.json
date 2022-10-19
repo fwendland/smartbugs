@@ -1,0 +1,46 @@
+{
+  "analysis": [
+    {
+      "line_number": "14",
+      "maybe_in_function": "draw(uint256)",
+      "pc": "0x113",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "13",
+      "maybe_in_function": "draw(uint256)",
+      "pc": "0xe3",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "draw(uint256)",
+      "pc": "0x1a1",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "draw(uint256)",
+      "pc": "0x1a1",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "22",
+      "maybe_in_function": "draw(uint256)",
+      "pc": "0x204",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "25",
+      "maybe_in_function": "draw(uint256)",
+      "pc": "0xa8",
+      "vuln_type": "Time Manipulation"
+    }
+  ],
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "duration": 5.453566074371338,
+  "end": 1654106827.1141512,
+  "exit_code": 0,
+  "start": 1654106821.6605852,
+  "tool": "conkas"
+}

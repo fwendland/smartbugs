@@ -1,0 +1,552 @@
+{
+  "analysis": [
+    {
+      "check": "arbitrary-send",
+      "confidence": "Medium",
+      "description": "FreeEth.GetFreebie (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#15-23) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(this.balance) (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#21)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "FreeEth",
+            "source_mapping": {
+              "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "length": 2933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "GetFreebie",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 1161,
+            "lines": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ],
+            "start": 204
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.transfer(this.balance)",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 33,
+            "lines": [
+              21
+            ],
+            "start": 1203
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "FreeEth.fallback (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#13) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "FreeEth",
+            "source_mapping": {
+              "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "length": 2933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 27,
+            "lines": [
+              13
+            ],
+            "start": 168
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "FreeEth.GetFreebie (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#15-23) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "FreeEth",
+            "source_mapping": {
+              "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "length": 2933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "GetFreebie",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 1161,
+            "lines": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ],
+            "start": 204
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "FreeEth.withdraw (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#25-31) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "FreeEth",
+            "source_mapping": {
+              "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "length": 2933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 1449,
+            "lines": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "start": 1375
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "FreeEth.Command (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#33-40) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "FreeEth",
+            "source_mapping": {
+              "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "length": 2933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Command",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 199,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ],
+            "start": 2834
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol:\n\t- pragma solidity^0.4.19 (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.19",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 76
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in FreeEth.Command (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#33-40):\n\t-adr.call.value(msg.value)(data) /data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#39\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "FreeEth",
+            "source_mapping": {
+              "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+              "length": 2933,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Command",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 199,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ],
+            "start": 2834
+          },
+          "type": "function"
+        },
+        {
+          "expression": "adr.call.value(msg.value)(data)",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 31,
+            "lines": [
+              39
+            ],
+            "start": 2995
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'FreeEth.GetFreebie' (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#15-23) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "GetFreebie",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 1161,
+            "lines": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ],
+            "start": 204
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'FreeEth.Command' (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#33-40) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Command",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 199,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ],
+            "start": 2834
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'FreeEth.Owner' (/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol#11) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Owner",
+          "source_mapping": {
+            "filename": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+            "length": 33,
+            "lines": [
+              11
+            ],
+            "start": 125
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+  "duration": 8.833581686019897,
+  "end": 1654186444.4267695,
+  "exit_code": 10,
+  "start": 1654186435.5931878,
+  "tool": "slither"
+}

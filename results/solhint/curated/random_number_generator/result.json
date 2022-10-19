@@ -1,0 +1,82 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 132.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "3",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/random_number_generator.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "duration": 3.086707592010498,
+  "end": 1654186596.2660336,
+  "exit_code": 1,
+  "start": 1654186593.179326,
+  "tool": "solhint"
+}

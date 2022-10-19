@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "tool": "slither",
+  "start": 1654186430.1497407,
+  "end": 1654186433.1650498,
+  "duration": 3.0153090953826904,
+  "exit_code": 2
+}

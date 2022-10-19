@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/reentrancy/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol",
+  "duration": 190.24723291397095,
+  "end": 1654004376.54473,
+  "exit_code": 0,
+  "start": 1654004186.297497,
+  "tool": "maian"
+}

@@ -1,0 +1,25 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [
+      {
+        "address": 232,
+        "code": "/blog.positive.com",
+        "debug": "storage_1: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\ncalldata_Lottery_0: 0x561e91a100000000000000000000000000000000000000000000000000000000\ncalldatasize_Lottery: 0x4\ncallvalue: 0x0\n",
+        "description": "A possible integer overflow exists in the function `makeBet()`.\nThe addition or multiplication may result in a value higher than the maximum representable integer.",
+        "filename": "/data/lottery.sol",
+        "function": "makeBet()",
+        "lineno": 2,
+        "title": "Integer Overflow ",
+        "type": "Warning"
+      }
+    ],
+    "success": true
+  },
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "duration": 7.31979513168335,
+  "end": 1654177645.1577384,
+  "exit_code": 0,
+  "start": 1654177637.8379433,
+  "tool": "mythril"
+}

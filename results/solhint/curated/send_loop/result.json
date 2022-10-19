@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "column": "1",
+      "file": "/data/send_loop.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "1",
+      "file": "/data/send_loop.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 4 spaces but found 0",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/send_loop.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Line length must be no more than 120 but current length is 125.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/send_loop.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Line length must be no more than 120 but current length is 141.",
+      "type": "max-line-length"
+    }
+  ],
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "duration": 2.689939022064209,
+  "end": 1654186602.409127,
+  "exit_code": 1,
+  "start": 1654186599.719188,
+  "tool": "solhint"
+}

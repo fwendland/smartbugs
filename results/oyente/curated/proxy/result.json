@@ -1,0 +1,30 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 3,
+          "level": "Warning",
+          "line": 17,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "34.5%",
+      "file": "/data/proxy.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "Proxy",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/access_control/proxy.sol",
+  "duration": 4.300214767456055,
+  "end": 1654181741.8936558,
+  "exit_code": 0,
+  "start": 1654181737.593441,
+  "tool": "oyente"
+}

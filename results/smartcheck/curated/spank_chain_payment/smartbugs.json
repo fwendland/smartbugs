@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "tool": "smartcheck",
+  "start": 1654008603.3007762,
+  "end": 1654008615.9634125,
+  "duration": 12.662636280059814,
+  "exit_code": 0
+}

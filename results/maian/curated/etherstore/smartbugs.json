@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "tool": "maian",
+  "start": 1654004186.3367205,
+  "end": 1654004324.2409642,
+  "duration": 137.90424370765686,
+  "exit_code": 0
+}

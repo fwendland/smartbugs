@@ -1,0 +1,40 @@
+{
+  "analysis": [
+    {
+      "line_number": "25",
+      "maybe_in_function": "deposit()",
+      "pc": "0x197",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "18",
+      "maybe_in_function": "withdrawAll()",
+      "pc": "0xf7",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "18",
+      "maybe_in_function": "withdrawAll()",
+      "pc": "0xf7",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "26",
+      "maybe_in_function": "deposit()",
+      "pc": "0x1a7",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "16",
+      "maybe_in_function": "withdrawAll()",
+      "pc": "0xc8",
+      "vuln_type": "Integer_Underflow"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_dao.sol",
+  "duration": 5.893864393234253,
+  "end": 1654008670.5435061,
+  "exit_code": 0,
+  "start": 1654008664.6496418,
+  "tool": "conkas"
+}

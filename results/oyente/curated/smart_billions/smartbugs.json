@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "oyente",
+  "start": 1654181780.3830864,
+  "end": 1654181831.611214,
+  "duration": 51.22812747955322,
+  "exit_code": 1
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "smartcheck",
+  "start": 1654186499.7240481,
+  "end": 1654186506.014763,
+  "duration": 6.290714979171753,
+  "exit_code": 0
+}

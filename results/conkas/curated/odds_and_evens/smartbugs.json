@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "conkas",
+  "start": 1654106801.2114036,
+  "end": 1654106806.0160396,
+  "duration": 4.804636001586914,
+  "exit_code": 0
+}

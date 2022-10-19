@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.428437,
+  "end": 1654122272.7134013,
+  "duration": 6.284964323043823,
+  "exit_code": 0
+}

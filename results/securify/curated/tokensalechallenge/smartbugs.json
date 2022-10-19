@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "tool": "securify",
+  "start": 1654182411.637406,
+  "end": 1654182429.138755,
+  "duration": 17.501348972320557,
+  "exit_code": 0
+}

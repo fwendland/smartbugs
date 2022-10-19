@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 22,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 16,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 27,
+          "message": "Timestamp Dependency."
+        }
+      ],
+      "evm_code_coverage": "93.3%",
+      "file": "/data/timelock.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "TimeLock",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": true,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/arithmetic/timelock.sol",
+  "duration": 5.482419490814209,
+  "end": 1654181755.5142384,
+  "exit_code": 1,
+  "start": 1654181750.0318189,
+  "tool": "oyente"
+}

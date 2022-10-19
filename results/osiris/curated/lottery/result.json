@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 18,
+          "line": 46,
+          "message": "concurrency_bug"
+        }
+      ],
+      "file": "/data/lottery.sol",
+      "name": "Lottery"
+    }
+  ],
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "duration": 4.844941854476929,
+  "end": 1654181014.8586228,
+  "exit_code": 0,
+  "start": 1654181010.013681,
+  "tool": "osiris"
+}

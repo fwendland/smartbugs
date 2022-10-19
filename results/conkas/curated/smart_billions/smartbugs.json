@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "conkas",
+  "start": 1654106488.8065383,
+  "end": 1654106503.7823348,
+  "duration": 14.975796461105347,
+  "exit_code": 0
+}

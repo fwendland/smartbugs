@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "tool": "solhint",
+  "start": 1654186622.017414,
+  "end": 1654186630.8625424,
+  "duration": 8.845128297805786,
+  "exit_code": 1
+}

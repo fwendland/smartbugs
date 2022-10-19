@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "maian",
+  "start": 1654163338.6128724,
+  "end": 1654163412.338558,
+  "duration": 73.72568559646606,
+  "exit_code": 0
+}

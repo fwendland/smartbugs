@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "duration": 350.0981390476227,
+  "end": 1654162488.5594718,
+  "exit_code": 0,
+  "start": 1654162138.4613328,
+  "tool": "maian"
+}

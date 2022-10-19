@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "duration": 121.90794396400452,
+  "end": 1654004308.2464082,
+  "exit_code": 0,
+  "start": 1654004186.3384643,
+  "tool": "maian"
+}

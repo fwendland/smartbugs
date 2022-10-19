@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "smartcheck",
+  "start": 1654186508.2071729,
+  "end": 1654186513.449945,
+  "duration": 5.242772102355957,
+  "exit_code": 0
+}

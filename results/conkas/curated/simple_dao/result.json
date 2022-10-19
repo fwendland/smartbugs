@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "19",
+      "maybe_in_function": "withdraw(uint256)",
+      "pc": "0x237",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "13",
+      "maybe_in_function": "donate(address)",
+      "pc": "0x1bc",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "19",
+      "maybe_in_function": "withdraw(uint256)",
+      "pc": "0x237",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "duration": 4.955018758773804,
+  "end": 1654008669.5159526,
+  "exit_code": 0,
+  "start": 1654008664.5609338,
+  "tool": "conkas"
+}

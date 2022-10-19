@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "slither",
+  "start": 1654186412.6127527,
+  "end": 1654186415.8346663,
+  "duration": 3.2219135761260986,
+  "exit_code": 7
+}

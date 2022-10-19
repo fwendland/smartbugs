@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "securify",
+  "start": 1654183669.0401502,
+  "end": 1654183681.0090828,
+  "duration": 11.968932628631592,
+  "exit_code": 0
+}

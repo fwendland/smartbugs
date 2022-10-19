@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name3.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.352791,
+  "end": 1654122270.1918428,
+  "duration": 3.8390517234802246,
+  "exit_code": 0
+}

@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/mishandled.sol",
+      "name": "SendBack"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "duration": 4.003610849380493,
+  "end": 1654123408.0739965,
+  "exit_code": 0,
+  "start": 1654123404.0703857,
+  "tool": "honeybadger"
+}

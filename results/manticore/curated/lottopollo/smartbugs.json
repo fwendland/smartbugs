@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "manticore",
+  "start": 1654173690.8353038,
+  "end": 1654173708.3968527,
+  "duration": 17.561548948287964,
+  "exit_code": 0
+}

@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/wallet_02_refund_nosub.sol",
+      "name": "Wallet"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "duration": 8.913830280303955,
+  "end": 1654122275.3734798,
+  "exit_code": 0,
+  "start": 1654122266.4596496,
+  "tool": "honeybadger"
+}

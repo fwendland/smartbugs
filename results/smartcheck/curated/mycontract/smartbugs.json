@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.8141236,
+  "end": 1654186486.5662,
+  "duration": 6.7520763874053955,
+  "exit_code": 0
+}

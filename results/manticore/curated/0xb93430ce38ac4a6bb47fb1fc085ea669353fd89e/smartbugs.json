@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
+  "tool": "manticore",
+  "start": 1654013816.2382193,
+  "end": 1654015622.2384806,
+  "duration": 1806.0002613067627,
+  "exit_code": null
+}

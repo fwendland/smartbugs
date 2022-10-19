@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/mishandled.sol",
+      "name": "SendBack"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "duration": 10.782975435256958,
+  "end": 1654181200.4108922,
+  "exit_code": 0,
+  "start": 1654181189.6279168,
+  "tool": "osiris"
+}

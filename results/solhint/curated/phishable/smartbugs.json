@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "solhint",
+  "start": 1654186576.7291274,
+  "end": 1654186579.6106048,
+  "duration": 2.8814773559570312,
+  "exit_code": 1
+}

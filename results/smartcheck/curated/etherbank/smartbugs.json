@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "smartcheck",
+  "start": 1654008603.4522045,
+  "end": 1654008614.7858498,
+  "duration": 11.333645343780518,
+  "exit_code": 0
+}

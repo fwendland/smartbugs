@@ -1,0 +1,25 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/modifier_reentrancy.sol",
+      "name": "Bank"
+    },
+    {
+      "errors": [],
+      "file": "/data/modifier_reentrancy.sol",
+      "name": "ModifierEntrancy"
+    },
+    {
+      "errors": [],
+      "file": "/data/modifier_reentrancy.sol",
+      "name": "attack"
+    }
+  ],
+  "contract": "dataset/reentrancy/modifier_reentrancy.sol",
+  "duration": 4.474412441253662,
+  "end": 1654007403.7945812,
+  "exit_code": 0,
+  "start": 1654007399.3201687,
+  "tool": "osiris"
+}

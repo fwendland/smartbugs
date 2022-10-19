@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "tool": "maian",
+  "start": 1654161877.2366765,
+  "end": 1654161939.5361238,
+  "duration": 62.29944729804993,
+  "exit_code": 0
+}

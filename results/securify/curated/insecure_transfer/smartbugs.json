@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "tool": "securify",
+  "start": 1654182411.6376152,
+  "end": 1654182425.2123725,
+  "duration": 13.57475733757019,
+  "exit_code": 0
+}

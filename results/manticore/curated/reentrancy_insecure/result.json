@@ -1,0 +1,27 @@
+{
+  "analysis": [
+    [
+      {
+        "code": "msg.sender.call.value(amountToWithdraw)(\"\")",
+        "line": 17,
+        "name": "Potential reentrancy vulnerability"
+      },
+      {
+        "code": "msg.sender.call.value(amountToWithdraw)(\"\")",
+        "line": 17,
+        "name": "Reentrancy multi-million ether bug"
+      },
+      {
+        "code": "msg.sender.call.value(amountToWithdraw)(\"\")",
+        "line": 17,
+        "name": "Reachable external call to sender"
+      }
+    ]
+  ],
+  "contract": "dataset/reentrancy/reentrancy_insecure.sol",
+  "duration": 23.764604091644287,
+  "end": 1654004800.545724,
+  "exit_code": 0,
+  "start": 1654004776.7811198,
+  "tool": "manticore"
+}

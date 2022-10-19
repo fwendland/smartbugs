@@ -1,0 +1,50 @@
+{
+  "analysis": [
+    {
+      "column": 19,
+      "content": "call()",
+      "line": 12,
+      "name": "SOLIDITY_CALL_WITHOUT_DATA",
+      "patternId": "om991k",
+      "severity": 2
+    },
+    {
+      "column": 11,
+      "content": "call()",
+      "line": 17,
+      "name": "SOLIDITY_CALL_WITHOUT_DATA",
+      "patternId": "om991k",
+      "severity": 2
+    },
+    {
+      "column": 11,
+      "content": "call()",
+      "line": 17,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 19,
+      "content": "call()",
+      "line": 12,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 11,
+      "content": "call()",
+      "line": 17,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "duration": 10.28225827217102,
+  "end": 1654186553.155958,
+  "exit_code": 0,
+  "start": 1654186542.8736997,
+  "tool": "smartcheck"
+}

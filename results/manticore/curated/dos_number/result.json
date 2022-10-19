@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "duration": 1803.096848487854,
+  "end": 1654171789.3147664,
+  "exit_code": null,
+  "start": 1654169986.217918,
+  "tool": "manticore"
+}

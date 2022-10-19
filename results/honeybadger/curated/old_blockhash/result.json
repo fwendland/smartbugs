@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/old_blockhash.sol",
+      "name": "PredictTheBlockHashChallenge"
+    }
+  ],
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 3.2819504737854004,
+  "end": 1654122735.458245,
+  "exit_code": 0,
+  "start": 1654122732.1762946,
+  "tool": "honeybadger"
+}

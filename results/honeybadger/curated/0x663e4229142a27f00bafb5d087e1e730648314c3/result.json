@@ -1,0 +1,75 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "ClockAuction"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "ClockAuctionBase"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "ERC721Metadata"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "Ownable"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaAccessControl"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaAuction"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaBase"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaBreeding"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaCore"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaMinting"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaOwnership"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "Pausable"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "SaleClockAuction"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+  "duration": 1802.352839231491,
+  "end": 1654125206.3849657,
+  "exit_code": null,
+  "start": 1654123404.0321264,
+  "tool": "honeybadger"
+}

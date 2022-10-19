@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "18",
+      "maybe_in_function": "0xdef92d68",
+      "pc": "0x20d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "30",
+      "maybe_in_function": "0x4c4f50f3",
+      "pc": "0x1dc",
+      "vuln_type": "Integer_Underflow"
+    }
+  ],
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "duration": 105.28826475143433,
+  "end": 1654092937.172803,
+  "exit_code": 0,
+  "start": 1654092831.8845382,
+  "tool": "conkas"
+}

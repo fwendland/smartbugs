@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/denial_of_service/auction.sol",
+  "duration": 58.376460790634155,
+  "end": 1654163289.9018314,
+  "exit_code": 0,
+  "start": 1654163231.5253706,
+  "tool": "maian"
+}

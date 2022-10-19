@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "slither",
+  "start": 1654186407.433353,
+  "end": 1654186410.4833114,
+  "duration": 3.0499584674835205,
+  "exit_code": 2
+}

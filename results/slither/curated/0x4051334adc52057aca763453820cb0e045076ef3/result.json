@@ -1,0 +1,240 @@
+{
+  "analysis": [
+    {
+      "check": "calls-loop",
+      "confidence": "Medium",
+      "description": "airdrop.transfer has external calls inside a loop:\n\t- caddress.call(id,from,_tos[i],v) (/data/0x4051334adc52057aca763453820cb0e045076ef3.sol#16)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "airdrop",
+            "source_mapping": {
+              "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+              "length": 407,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "start": 103
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+            "length": 378,
+            "lines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 130
+          },
+          "type": "function"
+        },
+        {
+          "expression": "caddress.call(id,from,_tos[i],v)",
+          "source_mapping": {
+            "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+            "length": 32,
+            "lines": [
+              16
+            ],
+            "start": 438
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "airdrop.transfer (/data/0x4051334adc52057aca763453820cb0e045076ef3.sol#11-19) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "airdrop",
+            "source_mapping": {
+              "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+              "length": 407,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "start": 103
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+            "length": 378,
+            "lines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 130
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in airdrop.transfer (/data/0x4051334adc52057aca763453820cb0e045076ef3.sol#11-19):\n\t-caddress.call(id,from,_tos[i],v) /data/0x4051334adc52057aca763453820cb0e045076ef3.sol#16\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "airdrop",
+            "source_mapping": {
+              "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+              "length": 407,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "start": 103
+            },
+            "type": "contract"
+          },
+          "name": "transfer",
+          "source_mapping": {
+            "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+            "length": 378,
+            "lines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 130
+          },
+          "type": "function"
+        },
+        {
+          "expression": "caddress.call(id,from,_tos[i],v)",
+          "source_mapping": {
+            "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+            "length": 32,
+            "lines": [
+              16
+            ],
+            "start": 438
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Contract 'airdrop' (/data/0x4051334adc52057aca763453820cb0e045076ef3.sol#9-20) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "airdrop",
+          "source_mapping": {
+            "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+            "length": 407,
+            "lines": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 103
+          },
+          "target": "contract"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_tos' of airdrop.transfer (/data/0x4051334adc52057aca763453820cb0e045076ef3.sol#11) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_tos",
+          "source_mapping": {
+            "filename": "/data/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+            "length": 14,
+            "lines": [
+              11
+            ],
+            "start": 178
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x4051334adc52057aca763453820cb0e045076ef3.sol",
+  "duration": 9.933954238891602,
+  "end": 1654186445.6629612,
+  "exit_code": 5,
+  "start": 1654186435.729007,
+  "tool": "slither"
+}

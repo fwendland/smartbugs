@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 24,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 18,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 30,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/overflow_single_tx.sol",
+      "name": "IntegerOverflowSingleTransaction"
+    }
+  ],
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "duration": 29.893198490142822,
+  "end": 1654180960.6182463,
+  "exit_code": 0,
+  "start": 1654180930.7250478,
+  "tool": "osiris"
+}

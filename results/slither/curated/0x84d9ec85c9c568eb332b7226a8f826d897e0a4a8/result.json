@@ -1,0 +1,814 @@
+{
+  "analysis": [
+    {
+      "check": "shadowing-local",
+      "confidence": "High",
+      "description": "WedIndex.writeIndex.indexdate (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:\n\t- WedIndex.indexdate (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#67)\n",
+      "elements": [
+        {
+          "name": "indexdate",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 14,
+            "lines": [
+              87
+            ],
+            "start": 2640
+          },
+          "type": "variable"
+        },
+        {
+          "name": "indexdate",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 21,
+            "lines": [
+              67
+            ],
+            "start": 2142
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "shadowing-local",
+      "confidence": "High",
+      "description": "WedIndex.writeIndex.wedaddress (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:\n\t- WedIndex.wedaddress (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#65)\n",
+      "elements": [
+        {
+          "name": "wedaddress",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 17,
+            "lines": [
+              87
+            ],
+            "start": 2656
+          },
+          "type": "variable"
+        },
+        {
+          "name": "wedaddress",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 24,
+            "lines": [
+              65
+            ],
+            "start": 2080
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "shadowing-local",
+      "confidence": "High",
+      "description": "WedIndex.writeIndex.partnernames (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:\n\t- WedIndex.partnernames (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#66)\n",
+      "elements": [
+        {
+          "name": "partnernames",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 19,
+            "lines": [
+              87
+            ],
+            "start": 2675
+          },
+          "type": "variable"
+        },
+        {
+          "name": "partnernames",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 26,
+            "lines": [
+              66
+            ],
+            "start": 2110
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "shadowing-local",
+      "confidence": "High",
+      "description": "WedIndex.writeIndex.weddingdate (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:\n\t- WedIndex.weddingdate (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#68)\n",
+      "elements": [
+        {
+          "name": "weddingdate",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 16,
+            "lines": [
+              87
+            ],
+            "start": 2696
+          },
+          "type": "variable"
+        },
+        {
+          "name": "weddingdate",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 23,
+            "lines": [
+              68
+            ],
+            "start": 2169
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "shadowing-local",
+      "confidence": "High",
+      "description": "WedIndex.writeIndex.displaymultisig (local variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87) shadows:\n\t- WedIndex.displaymultisig (state variable @ /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#69)\n",
+      "elements": [
+        {
+          "name": "displaymultisig",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 20,
+            "lines": [
+              87
+            ],
+            "start": 2714
+          },
+          "type": "variable"
+        },
+        {
+          "name": "displaymultisig",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 27,
+            "lines": [
+              69
+            ],
+            "start": 2198
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "constable-states",
+      "confidence": "High",
+      "description": "WedIndex.displaymultisig should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#69)\nWedIndex.indexdate should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#67)\nWedIndex.partnernames should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#66)\nWedIndex.wedaddress should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#65)\nWedIndex.weddingdate should be constant (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#68)\n",
+      "elements": [
+        {
+          "name": "displaymultisig",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 27,
+            "lines": [
+              69
+            ],
+            "start": 2198
+          },
+          "type": "variable"
+        },
+        {
+          "name": "indexdate",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 21,
+            "lines": [
+              67
+            ],
+            "start": 2142
+          },
+          "type": "variable"
+        },
+        {
+          "name": "partnernames",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 26,
+            "lines": [
+              66
+            ],
+            "start": 2110
+          },
+          "type": "variable"
+        },
+        {
+          "name": "wedaddress",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 24,
+            "lines": [
+              65
+            ],
+            "start": 2080
+          },
+          "type": "variable"
+        },
+        {
+          "name": "weddingdate",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 23,
+            "lines": [
+              68
+            ],
+            "start": 2169
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Owned.changeOwner (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#38-40) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Owned",
+            "source_mapping": {
+              "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+              "length": 1444,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
+              ],
+              "start": 541
+            },
+            "type": "contract"
+          },
+          "name": "changeOwner",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 87,
+            "lines": [
+              38,
+              39,
+              40
+            ],
+            "start": 1127
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Owned.acceptOwnership (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#45-49) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Owned",
+            "source_mapping": {
+              "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+              "length": 1444,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
+              ],
+              "start": 541
+            },
+            "type": "contract"
+          },
+          "name": "acceptOwnership",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 112,
+            "lines": [
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "start": 1492
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54-57) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Owned",
+            "source_mapping": {
+              "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+              "length": 1444,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
+              ],
+              "start": 541
+            },
+            "type": "contract"
+          },
+          "name": "execute",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 160,
+            "lines": [
+              54,
+              55,
+              56,
+              57
+            ],
+            "start": 1823
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "WedIndex.numberOfIndex (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#81-83) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WedIndex",
+            "source_mapping": {
+              "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+              "length": 1048,
+              "lines": [
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94
+              ],
+              "start": 2010
+            },
+            "type": "contract"
+          },
+          "name": "numberOfIndex",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 97,
+            "lines": [
+              81,
+              82,
+              83
+            ],
+            "start": 2440
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "WedIndex.writeIndex (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#87-90) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WedIndex",
+            "source_mapping": {
+              "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+              "length": 1048,
+              "lines": [
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94
+              ],
+              "start": 2010
+            },
+            "type": "contract"
+          },
+          "name": "writeIndex",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 304,
+            "lines": [
+              87,
+              88,
+              89,
+              90
+            ],
+            "start": 2620
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol:\n\t- pragma solidity^0.4.16 (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.16",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 76
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54-57):\n\t-_dst.call.value(_value)(_data) /data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#56\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Owned",
+            "source_mapping": {
+              "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+              "length": 1444,
+              "lines": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
+              ],
+              "start": 541
+            },
+            "type": "contract"
+          },
+          "name": "execute",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 160,
+            "lines": [
+              54,
+              55,
+              56,
+              57
+            ],
+            "start": 1823
+          },
+          "type": "function"
+        },
+        {
+          "expression": "_dst.call.value(_value)(_data)",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 30,
+            "lines": [
+              56
+            ],
+            "start": 1946
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Owned.Owned' (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#29-31) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Owned",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 52,
+            "lines": [
+              29,
+              30,
+              31
+            ],
+            "start": 839
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_newOwner' of Owned.changeOwner (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#38) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_newOwner",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 17,
+            "lines": [
+              38
+            ],
+            "start": 1148
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_dst' of Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_dst",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 12,
+            "lines": [
+              54
+            ],
+            "start": 1840
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 11,
+            "lines": [
+              54
+            ],
+            "start": 1854
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_data' of Owned.execute (/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol#54) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_data",
+          "source_mapping": {
+            "filename": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "length": 11,
+            "lines": [
+              54
+            ],
+            "start": 1867
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+  "duration": 7.882813930511475,
+  "end": 1654186443.4884186,
+  "exit_code": 18,
+  "start": 1654186435.6056046,
+  "tool": "slither"
+}

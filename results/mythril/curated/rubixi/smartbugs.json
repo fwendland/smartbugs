@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "mythril",
+  "start": 1654177339.6341698,
+  "end": 1654177432.8857105,
+  "duration": 93.25154066085815,
+  "exit_code": 0
+}

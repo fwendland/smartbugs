@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/auction.sol",
+      "name": "DosAuction"
+    }
+  ],
+  "contract": "dataset/denial_of_service/auction.sol",
+  "duration": 2.6342835426330566,
+  "end": 1654181068.3920615,
+  "exit_code": 0,
+  "start": 1654181065.757778,
+  "tool": "osiris"
+}

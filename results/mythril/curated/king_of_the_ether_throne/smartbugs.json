@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "tool": "mythril",
+  "start": 1654179708.2862644,
+  "end": 1654180426.740878,
+  "duration": 718.4546136856079,
+  "exit_code": 0
+}

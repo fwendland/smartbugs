@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "mythril",
+  "start": 1654179442.5432606,
+  "end": 1654179445.9790664,
+  "duration": 3.4358057975769043,
+  "exit_code": 0
+}

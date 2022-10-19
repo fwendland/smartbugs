@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "8",
+      "file": "/data/incorrect_constructor_name2.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "duration": 4.848578929901123,
+  "end": 1654186581.7590582,
+  "exit_code": 1,
+  "start": 1654186576.9104793,
+  "tool": "solhint"
+}

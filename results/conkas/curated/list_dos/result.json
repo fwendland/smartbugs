@@ -1,0 +1,172 @@
+{
+  "analysis": [
+    {
+      "line_number": "39",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x54d",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "70",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x892",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "70",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x892",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "35",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x4a4",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "39",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x54d",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "39",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x54d",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "121",
+      "maybe_in_function": "getCreditorAmounts()",
+      "pc": "0x2bb",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "35",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x49e",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "43",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x5e9",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "117",
+      "maybe_in_function": "getCreditorAddresses()",
+      "pc": "0x394",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "101",
+      "maybe_in_function": "totalPayedOut()",
+      "pc": "0xc91",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "40",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x5bc",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "82",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xb3c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "82",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xb3c",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "56",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x6ce",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "118",
+      "maybe_in_function": "getCreditorAddresses()",
+      "pc": "0xd4d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "creditorAmounts(uint256)",
+      "pc": "0xde7",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "75",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x9f9",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "62",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x7d1",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "62",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x7d1",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "16",
+      "maybe_in_function": "creditorAddresses(uint256)",
+      "pc": "0xd1b",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "40",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x5bc",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "95",
+      "maybe_in_function": "totalDebt()",
+      "pc": "0xe38",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "37",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x4d4",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "37",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x4d4",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "39",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x4e5",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "122",
+      "maybe_in_function": "getCreditorAmounts()",
+      "pc": "0xcd6",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/denial_of_service/list_dos.sol",
+  "duration": 38.953243017196655,
+  "end": 1654106799.2951186,
+  "exit_code": 0,
+  "start": 1654106760.3418756,
+  "tool": "conkas"
+}

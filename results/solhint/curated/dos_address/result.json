@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "11",
+      "file": "/data/dos_address.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 12 spaces but found 10",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "duration": 2.2622530460357666,
+  "end": 1654186601.982201,
+  "exit_code": 1,
+  "start": 1654186599.719948,
+  "tool": "solhint"
+}

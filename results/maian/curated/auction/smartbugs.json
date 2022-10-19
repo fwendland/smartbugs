@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "maian",
+  "start": 1654163231.5253706,
+  "end": 1654163289.9018314,
+  "duration": 58.376460790634155,
+  "exit_code": 0
+}

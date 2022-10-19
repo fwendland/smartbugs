@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "tool": "securify",
+  "start": 1654245043.2318308,
+  "end": 1654245046.8712826,
+  "duration": 3.639451742172241,
+  "exit_code": 1
+}

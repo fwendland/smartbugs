@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "22",
+      "maybe_in_function": "0x263e5d3c",
+      "pc": "0x1d4",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "duration": 16.785560607910156,
+  "end": 1654106777.1228986,
+  "exit_code": 0,
+  "start": 1654106760.337338,
+  "tool": "conkas"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "slither",
+  "start": 1654186381.926982,
+  "end": 1654186386.1403682,
+  "duration": 4.213386297225952,
+  "exit_code": 4
+}

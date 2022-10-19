@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "smartcheck",
+  "start": 1654186508.1199577,
+  "end": 1654186513.3311772,
+  "duration": 5.211219549179077,
+  "exit_code": 0
+}

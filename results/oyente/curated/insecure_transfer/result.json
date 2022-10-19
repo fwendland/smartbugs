@@ -1,0 +1,30 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 18,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "99.6%",
+      "file": "/data/insecure_transfer.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "IntegerOverflowAdd",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "duration": 4.6989123821258545,
+  "end": 1654181754.6712916,
+  "exit_code": 0,
+  "start": 1654181749.9723792,
+  "tool": "oyente"
+}

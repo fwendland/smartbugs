@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "smartcheck",
+  "start": 1654186542.8813448,
+  "end": 1654186553.988281,
+  "duration": 11.10693621635437,
+  "exit_code": 0
+}

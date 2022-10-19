@@ -1,0 +1,48 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 38,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 44,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 35,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 35,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "62.0%",
+      "file": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "WhaleGiveaway2",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+  "duration": 5.431514739990234,
+  "end": 1654181875.1994998,
+  "exit_code": 1,
+  "start": 1654181869.767985,
+  "tool": "oyente"
+}

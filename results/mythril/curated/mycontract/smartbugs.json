@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "mythril",
+  "start": 1654177339.6135101,
+  "end": 1654177343.9675815,
+  "duration": 4.354071378707886,
+  "exit_code": 0
+}

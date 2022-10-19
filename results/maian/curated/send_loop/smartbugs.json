@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "maian",
+  "start": 1654163231.4986458,
+  "end": 1654163273.590112,
+  "duration": 42.091466188430786,
+  "exit_code": 0
+}

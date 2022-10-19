@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "tool": "manticore",
+  "start": 1654164567.3832426,
+  "end": 1654164578.6478531,
+  "duration": 11.264610528945923,
+  "exit_code": 0
+}

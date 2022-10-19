@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "solhint",
+  "start": 1654186616.949585,
+  "end": 1654186619.465244,
+  "duration": 2.5156590938568115,
+  "exit_code": 0
+}

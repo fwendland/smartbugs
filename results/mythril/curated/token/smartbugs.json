@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "mythril",
+  "start": 1654177615.6331825,
+  "end": 1654177620.7878218,
+  "duration": 5.15463924407959,
+  "exit_code": 0
+}

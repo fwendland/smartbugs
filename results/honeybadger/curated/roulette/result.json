@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/roulette.sol",
+      "name": "Roulette"
+    }
+  ],
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "duration": 31.510392665863037,
+  "end": 1654123402.0406425,
+  "exit_code": 0,
+  "start": 1654123370.5302498,
+  "tool": "honeybadger"
+}

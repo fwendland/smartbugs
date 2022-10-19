@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "conkas",
+  "start": 1654106488.789115,
+  "end": 1654106527.7359905,
+  "duration": 38.94687557220459,
+  "exit_code": 0
+}

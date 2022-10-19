@@ -1,0 +1,344 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "SimpleWallet.fallback (/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#19-21) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "SimpleWallet",
+            "source_mapping": {
+              "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+              "length": 632,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "start": 103
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 58,
+            "lines": [
+              19,
+              20,
+              21
+            ],
+            "start": 291
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "SimpleWallet.withdrawAll (/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#23-25) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "SimpleWallet",
+            "source_mapping": {
+              "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+              "length": 632,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "start": 103
+            },
+            "type": "contract"
+          },
+          "name": "withdrawAll",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 88,
+            "lines": [
+              23,
+              24,
+              25
+            ],
+            "start": 359
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "SimpleWallet.sendMoney (/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#31-34) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "SimpleWallet",
+            "source_mapping": {
+              "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+              "length": 632,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "start": 103
+            },
+            "type": "contract"
+          },
+          "name": "sendMoney",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 174,
+            "lines": [
+              31,
+              32,
+              33,
+              34
+            ],
+            "start": 559
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in SimpleWallet.sendMoney (/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#31-34):\n\t-_target.call.value(_value)(_data) /data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#33\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "SimpleWallet",
+            "source_mapping": {
+              "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+              "length": 632,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "start": 103
+            },
+            "type": "contract"
+          },
+          "name": "sendMoney",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 174,
+            "lines": [
+              31,
+              32,
+              33,
+              34
+            ],
+            "start": 559
+          },
+          "type": "function"
+        },
+        {
+          "expression": "_target.call.value(_value)(_data)",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 33,
+            "lines": [
+              33
+            ],
+            "start": 693
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of SimpleWallet.withdraw (/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#27) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 11,
+            "lines": [
+              27
+            ],
+            "start": 475
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_target' of SimpleWallet.sendMoney (/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#31) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_target",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 15,
+            "lines": [
+              31
+            ],
+            "start": 578
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of SimpleWallet.sendMoney (/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#31) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 11,
+            "lines": [
+              31
+            ],
+            "start": 595
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_data' of SimpleWallet.sendMoney (/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol#31) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_data",
+          "source_mapping": {
+            "filename": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+            "length": 11,
+            "lines": [
+              31
+            ],
+            "start": 608
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+  "duration": 11.044623374938965,
+  "end": 1654186446.8032563,
+  "exit_code": 8,
+  "start": 1654186435.758633,
+  "tool": "slither"
+}

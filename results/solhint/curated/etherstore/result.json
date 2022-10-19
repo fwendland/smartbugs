@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/etherstore.sol",
+      "level": "Error",
+      "line": "31",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "duration": 5.090762376785278,
+  "end": 1654082646.2602894,
+  "exit_code": 1,
+  "start": 1654082641.169527,
+  "tool": "solhint"
+}

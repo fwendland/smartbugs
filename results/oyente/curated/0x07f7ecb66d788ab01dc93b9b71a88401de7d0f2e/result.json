@@ -1,0 +1,48 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 45,
+          "level": "Warning",
+          "line": 153,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 202,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 213,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 201,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "81.8%",
+      "file": "/data/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "PoCGame",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
+  "duration": 10.82846450805664,
+  "end": 1654181880.59309,
+  "exit_code": 1,
+  "start": 1654181869.7646255,
+  "tool": "oyente"
+}

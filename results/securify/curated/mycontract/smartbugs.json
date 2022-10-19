@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "securify",
+  "start": 1654182041.3811624,
+  "end": 1654182058.1456363,
+  "duration": 16.764473915100098,
+  "exit_code": 0
+}

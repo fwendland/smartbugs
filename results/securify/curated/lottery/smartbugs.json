@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "securify",
+  "start": 1654182775.470985,
+  "end": 1654182845.5311954,
+  "duration": 70.06021046638489,
+  "exit_code": 0
+}

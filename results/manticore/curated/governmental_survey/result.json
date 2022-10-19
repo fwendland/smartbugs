@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "duration": 1802.1983380317688,
+  "end": 1654175493.0184684,
+  "exit_code": null,
+  "start": 1654173690.8201303,
+  "tool": "manticore"
+}

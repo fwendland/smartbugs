@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "duration": 5.4463183879852295,
+  "end": 1654164572.835219,
+  "exit_code": 0,
+  "start": 1654164567.3889005,
+  "tool": "manticore"
+}

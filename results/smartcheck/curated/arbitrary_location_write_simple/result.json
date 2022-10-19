@@ -1,0 +1,50 @@
+{
+  "analysis": [
+    {
+      "column": 9,
+      "content": "bonusCodes.length--",
+      "line": 28,
+      "name": "SOLIDITY_ARRAY_LENGTH_MANIPULATION",
+      "patternId": "872bdd",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "private",
+      "line": 10,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "private",
+      "line": 11,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "public",
+      "line": 18,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "91h3sa",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "duration": 7.564475059509277,
+  "end": 1654186487.3703706,
+  "exit_code": 0,
+  "start": 1654186479.8058956,
+  "tool": "smartcheck"
+}

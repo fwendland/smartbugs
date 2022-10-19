@@ -1,0 +1,37 @@
+{
+  "analysis": [
+    [
+      {
+        "code": "msg.sender.call.value(userBalance[msg.sender])()",
+        "line": 24,
+        "name": "Reachable ether leak to sender"
+      },
+      {
+        "code": "msg.sender.call.value(userBalance[msg.sender])()",
+        "line": 24,
+        "name": "Reentrancy multi-million ether bug"
+      },
+      {
+        "code": "msg.sender.call.value(userBalance[msg.sender])()",
+        "line": 24,
+        "name": "Potential reentrancy vulnerability"
+      },
+      {
+        "code": "userBalance[u]",
+        "line": 13,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "msg.sender.call.value(userBalance[msg.sender])()",
+        "line": 24,
+        "name": "Reachable external call to sender"
+      }
+    ]
+  ],
+  "contract": "dataset/reentrancy/reentrancy_simple.sol",
+  "duration": 46.16701364517212,
+  "end": 1654004823.015126,
+  "exit_code": 0,
+  "start": 1654004776.8481123,
+  "tool": "manticore"
+}

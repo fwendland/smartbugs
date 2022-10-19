@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "tool": "mythril",
+  "start": 1654177637.8718474,
+  "end": 1654177641.97214,
+  "duration": 4.100292682647705,
+  "exit_code": 0
+}

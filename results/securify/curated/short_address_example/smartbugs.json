@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "securify",
+  "start": 1654183661.1073906,
+  "end": 1654183667.1201317,
+  "duration": 6.0127410888671875,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.3753207,
+  "end": 1654122278.2310054,
+  "duration": 11.855684757232666,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "maian",
+  "start": 1654163438.3003902,
+  "end": 1654163476.6439352,
+  "duration": 38.34354496002197,
+  "exit_code": 0
+}

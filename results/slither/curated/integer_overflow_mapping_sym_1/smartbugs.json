@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "tool": "slither",
+  "start": 1654186391.4267554,
+  "end": 1654186395.6851587,
+  "duration": 4.258403301239014,
+  "exit_code": 2
+}

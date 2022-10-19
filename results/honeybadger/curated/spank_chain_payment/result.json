@@ -1,0 +1,30 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/spank_chain_payment.sol",
+      "name": "ECTools"
+    },
+    {
+      "errors": [],
+      "file": "/data/spank_chain_payment.sol",
+      "name": "HumanStandardToken"
+    },
+    {
+      "errors": [],
+      "file": "/data/spank_chain_payment.sol",
+      "name": "LedgerChannel"
+    },
+    {
+      "errors": [],
+      "file": "/data/spank_chain_payment.sol",
+      "name": "StandardToken"
+    }
+  ],
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "duration": 405.8289351463318,
+  "end": 1654004088.526801,
+  "exit_code": 0,
+  "start": 1654003682.697866,
+  "tool": "honeybadger"
+}

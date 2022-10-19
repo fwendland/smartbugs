@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/integer_overflow_mapping_sym_1.sol",
+      "name": "IntegerOverflowMappingSym1"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "duration": 4.474166393280029,
+  "end": 1654122536.0138917,
+  "exit_code": 0,
+  "start": 1654122531.5397253,
+  "tool": "honeybadger"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "manticore",
+  "start": 1654168180.7037492,
+  "end": 1654168875.2647417,
+  "duration": 694.5609924793243,
+  "exit_code": 0
+}

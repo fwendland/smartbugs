@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "maian",
+  "start": 1654162490.6360998,
+  "end": 1654162543.9996316,
+  "duration": 53.363531827926636,
+  "exit_code": 0
+}

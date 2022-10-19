@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "oyente",
+  "start": 1654181737.5721674,
+  "end": 1654181742.2356532,
+  "duration": 4.663485765457153,
+  "exit_code": 0
+}

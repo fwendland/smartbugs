@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/list_dos.sol",
+  "tool": "honeybadger",
+  "start": 1654123022.5544658,
+  "end": 1654123131.282916,
+  "duration": 108.72845029830933,
+  "exit_code": 0
+}

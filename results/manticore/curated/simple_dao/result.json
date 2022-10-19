@@ -1,0 +1,62 @@
+{
+  "analysis": [
+    [
+      {
+        "code": "msg.sender.call.value(amount)()",
+        "line": 19,
+        "name": "Reachable external call to sender"
+      },
+      {
+        "code": "msg.sender.call.value(amount)()",
+        "line": 19,
+        "name": "Reachable ether leak to sender"
+      },
+      {
+        "code": "msg.sender.call.value(amount)()",
+        "line": 19,
+        "name": "Returned value at CALL instruction is not used"
+      },
+      {
+        "code": "mapping (address => uint) public credit",
+        "line": 10,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "msg.sender.call.value(amount)()",
+        "line": 19,
+        "name": "Reentrancy multi-million ether bug"
+      },
+      {
+        "code": "msg.sender.call.value(amount)()",
+        "line": 19,
+        "name": "Potential reentrancy vulnerability"
+      },
+      {
+        "code": "credit[to]",
+        "line": 25,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "credit[msg.sender]-=amount",
+        "line": 20,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "credit[to] += msg.value",
+        "line": 13,
+        "name": "Potentially reading uninitialized storage"
+      },
+      {
+        "code": "credit[msg.sender]",
+        "line": 17,
+        "name": "Potentially reading uninitialized storage"
+      }
+    ]
+  ],
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "duration": 89.04760909080505,
+  "end": 1654004865.769848,
+  "exit_code": 0,
+  "start": 1654004776.722239,
+  "tool": "manticore"
+}

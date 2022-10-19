@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+  "duration": 3.8816182613372803,
+  "end": 1654186625.884298,
+  "exit_code": 0,
+  "start": 1654186622.0026798,
+  "tool": "solhint"
+}

@@ -1,0 +1,56 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 10,
+          "line": 120,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 73,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 18,
+          "line": 73,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 6,
+          "line": 119,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 19,
+          "line": 73,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 10,
+          "line": 120,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 14,
+          "line": 141,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 10,
+          "line": 109,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/etherpot_lotto.sol",
+      "name": "Lotto"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "duration": 60.59508490562439,
+  "end": 1654181250.1422818,
+  "exit_code": 0,
+  "start": 1654181189.5471969,
+  "tool": "osiris"
+}

@@ -1,0 +1,72 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "IntegerOverflowMinimal.run (/data/integer_overflow_minimal.sol#15-18) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "IntegerOverflowMinimal",
+            "source_mapping": {
+              "filename": "/data/integer_overflow_minimal.sol",
+              "length": 171,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "start": 329
+            },
+            "type": "contract"
+          },
+          "name": "run",
+          "source_mapping": {
+            "filename": "/data/integer_overflow_minimal.sol",
+            "length": 103,
+            "lines": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "start": 395
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/integer_overflow_minimal.sol:\n\t- pragma solidity^0.4.19 (/data/integer_overflow_minimal.sol#10): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.19",
+          "source_mapping": {
+            "filename": "/data/integer_overflow_minimal.sol",
+            "length": 24,
+            "lines": [
+              10
+            ],
+            "start": 303
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_minimal.sol",
+  "duration": 4.79052209854126,
+  "end": 1654186396.3663588,
+  "exit_code": 2,
+  "start": 1654186391.5758367,
+  "tool": "slither"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "smartcheck",
+  "start": 1654186499.7707286,
+  "end": 1654186505.9991667,
+  "duration": 6.228438138961792,
+  "exit_code": 0
+}

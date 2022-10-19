@@ -1,0 +1,496 @@
+{
+  "analysis": [
+    {
+      "line_number": "1269",
+      "maybe_in_function": "cancelAuctionWhenPaused(uint256)",
+      "pc": "0x10c2",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1343",
+      "maybe_in_function": "cancelAuctionWhenPaused(uint256)",
+      "pc": "0x13b4",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1496",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x786",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1223",
+      "maybe_in_function": "cancelAuctionWhenPaused(uint256)",
+      "pc": "0x12ee",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1374",
+      "maybe_in_function": "cancelAuctionWhenPaused(uint256)",
+      "pc": "0x1577",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1235",
+      "maybe_in_function": "createAuction(uint256,uint256,uint256,uint256,address)",
+      "pc": "0xfe8",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1205",
+      "maybe_in_function": "createAuction(uint256,uint256,uint256,uint256,address)",
+      "pc": "0xcf9",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1214",
+      "maybe_in_function": "createAuction(uint256,uint256,uint256,uint256,address)",
+      "pc": "0xe4c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1496",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x786",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "516",
+      "maybe_in_function": "getMetadata(uint256,string)",
+      "pc": "0x7e",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "526",
+      "maybe_in_function": "getMetadata(uint256,string)",
+      "pc": "0x273",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "522",
+      "maybe_in_function": "getMetadata(uint256,string)",
+      "pc": "0x1db",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "527",
+      "maybe_in_function": "getMetadata(uint256,string)",
+      "pc": "0x2b6",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "528",
+      "maybe_in_function": "getMetadata(uint256,string)",
+      "pc": "0x2f9",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "697",
+      "maybe_in_function": "totalSupply()",
+      "pc": "0x1934",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "2058",
+      "maybe_in_function": "setSiringAuctionAddress(address)",
+      "pc": "0x189b",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "2199",
+      "maybe_in_function": "withdrawERC20Balance(address,address)",
+      "pc": "0x1be8",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "907",
+      "maybe_in_function": "isPregnant(uint256)",
+      "pc": "0x196b",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "819",
+      "maybe_in_function": "setGeneScienceAddress(address)",
+      "pc": "0x1ddf",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "385",
+      "maybe_in_function": "getWizzTypeOf(uint256)",
+      "pc": "0xcdd",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "392",
+      "maybe_in_function": "getWizzTypeOf(uint256)",
+      "pc": "0x3740",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "697",
+      "maybe_in_function": "balanceOf(address)",
+      "pc": "0x14bc",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "985",
+      "maybe_in_function": "canBreedWith(uint256,uint256)",
+      "pc": "0x1a2e",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "397",
+      "maybe_in_function": "getWizzTypeOf(uint256)",
+      "pc": "0x3818",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "984",
+      "maybe_in_function": "canBreedWith(uint256,uint256)",
+      "pc": "0x1a0e",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "907",
+      "maybe_in_function": "isPregnant(uint256)",
+      "pc": "0x14ef",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "819",
+      "maybe_in_function": "setGeneScienceAddress(address)",
+      "pc": "0x16cd",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "2433",
+      "maybe_in_function": "init()",
+      "pc": "0x1c4e",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2439",
+      "maybe_in_function": "init()",
+      "pc": "0x1d12",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "697",
+      "maybe_in_function": "tokensOfOwner(address)",
+      "pc": "0x1ef4",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "907",
+      "maybe_in_function": "isPregnant(uint256)",
+      "pc": "0x1f27",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2429",
+      "maybe_in_function": "init()",
+      "pc": "0x1c25",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2432",
+      "maybe_in_function": "init()",
+      "pc": "0x1c2e",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2438",
+      "maybe_in_function": "init()",
+      "pc": "0x1cf5",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2435",
+      "maybe_in_function": "init()",
+      "pc": "0x1c8e",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2441",
+      "maybe_in_function": "init()",
+      "pc": "0x1d76",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2434",
+      "maybe_in_function": "init()",
+      "pc": "0x1c75",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2199",
+      "maybe_in_function": "withdrawERC20Balance(address,address)",
+      "pc": "0x21af",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "2437",
+      "maybe_in_function": "init()",
+      "pc": "0x1cd0",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2440",
+      "maybe_in_function": "init()",
+      "pc": "0x1d2f",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "2058",
+      "maybe_in_function": "setSiringAuctionAddress(address)",
+      "pc": "0x1e5b",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "819",
+      "maybe_in_function": "setGeneScienceAddress(address)",
+      "pc": "0x23a6",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "2436",
+      "maybe_in_function": "init()",
+      "pc": "0x1cb3",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "697",
+      "maybe_in_function": "totalSupply()",
+      "pc": "0x1af1",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "2058",
+      "maybe_in_function": "setSiringAuctionAddress(address)",
+      "pc": "0x1a58",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "2199",
+      "maybe_in_function": "withdrawERC20Balance(address,address)",
+      "pc": "0x1dac",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "907",
+      "maybe_in_function": "bidOnSiringAuction(uint256,uint256)",
+      "pc": "0x1b24",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "819",
+      "maybe_in_function": "setGeneScienceAddress(address)",
+      "pc": "0x1fa3",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "385",
+      "maybe_in_function": "getWizzTypeOf(uint256)",
+      "pc": "0x1662",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "697",
+      "maybe_in_function": "tokensOfOwner(address)",
+      "pc": "0x11ad",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "392",
+      "maybe_in_function": "approve(address,uint256)",
+      "pc": "0x2368",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "1496",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0xc47",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1374",
+      "maybe_in_function": "cancelAuction(uint256)",
+      "pc": "0x1b2a",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1798",
+      "maybe_in_function": "createPanda(uint256,uint256)",
+      "pc": "0xa45",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "1798",
+      "maybe_in_function": "createPanda(uint256,uint256)",
+      "pc": "0xa3b",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "1343",
+      "maybe_in_function": "cancelAuction(uint256)",
+      "pc": "0x1967",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1825",
+      "maybe_in_function": "packageCount()",
+      "pc": "0x10c7",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "1214",
+      "maybe_in_function": "createAuction(uint256,uint256,uint256,uint256,address)",
+      "pc": "0x14e0",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1496",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0xc47",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "1800",
+      "maybe_in_function": "createPanda(uint256,uint256)",
+      "pc": "0xa76",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "1800",
+      "maybe_in_function": "createPanda(uint256,uint256)",
+      "pc": "0xa6c",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "1269",
+      "maybe_in_function": "cancelAuction(uint256)",
+      "pc": "0x1756",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1818",
+      "maybe_in_function": "surprisePanda()",
+      "pc": "0x786",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "1824",
+      "maybe_in_function": "packageCount()",
+      "pc": "0x10b8",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "1235",
+      "maybe_in_function": "createAuction(uint256,uint256,uint256,uint256,address)",
+      "pc": "0x167c",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1808",
+      "maybe_in_function": "surprisePanda()",
+      "pc": "0x67f",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "1496",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0xc80",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1961",
+      "maybe_in_function": "withdrawERC20Balance(address,address)",
+      "pc": "0x900",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1235",
+      "maybe_in_function": "createAuction(uint256,address,uint256,uint256,uint256,address)",
+      "pc": "0x1917",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1205",
+      "maybe_in_function": "createAuction(uint256,address,uint256,uint256,uint256,address)",
+      "pc": "0x1657",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1214",
+      "maybe_in_function": "createAuction(uint256,address,uint256,uint256,uint256,address)",
+      "pc": "0x17aa",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1496",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0xc80",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "1269",
+      "maybe_in_function": "getAuction(uint256)",
+      "pc": "0x10b2",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1496",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x867",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1343",
+      "maybe_in_function": "getAuction(uint256)",
+      "pc": "0x13a4",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1223",
+      "maybe_in_function": "getAuction(uint256)",
+      "pc": "0x12de",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1374",
+      "maybe_in_function": "getAuction(uint256)",
+      "pc": "0x1567",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1386",
+      "maybe_in_function": "getAuction(uint256)",
+      "pc": "0x1578",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "1235",
+      "maybe_in_function": "createAuction(uint256,uint256,uint256,uint256,address)",
+      "pc": "0xfd8",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "1214",
+      "maybe_in_function": "createAuction(uint256,uint256,uint256,uint256,address)",
+      "pc": "0xe3c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "1496",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x867",
+      "vuln_type": "Unchecked Low Level Call"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+  "duration": 295.4759910106659,
+  "end": 1654107125.8806574,
+  "exit_code": 0,
+  "start": 1654106830.4046664,
+  "tool": "conkas"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.5310776,
+  "end": 1654186484.5678544,
+  "duration": 5.036776781082153,
+  "exit_code": 0
+}

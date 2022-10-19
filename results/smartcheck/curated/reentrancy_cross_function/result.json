@@ -1,0 +1,50 @@
+{
+  "analysis": [
+    {
+      "column": 38,
+      "content": "call.value(amountToWithdraw)(\"\")",
+      "line": 24,
+      "name": "SOLIDITY_CALL_WITHOUT_DATA",
+      "patternId": "111ppp",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 30,
+      "content": "private",
+      "line": 12,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 38,
+      "content": "call.value(amountToWithdraw)(\"\")",
+      "line": 24,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 4,
+      "content": "functiontransfer(addressto,uintamount){if(userBalances[msg.sender]>=amount){userBalances[to]+=amount;userBalances[msg.sender]-=amount;}}",
+      "line": 14,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_cross_function.sol",
+  "duration": 10.218170166015625,
+  "end": 1654008613.557976,
+  "exit_code": 0,
+  "start": 1654008603.3398058,
+  "tool": "smartcheck"
+}

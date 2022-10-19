@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/timelock.sol",
+  "tool": "conkas",
+  "start": 1654092831.8492448,
+  "end": 1654092837.5602074,
+  "duration": 5.710962533950806,
+  "exit_code": 0
+}

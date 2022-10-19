@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "tool": "manticore",
+  "start": 1654175495.2217536,
+  "end": 1654175509.9677625,
+  "duration": 14.74600887298584,
+  "exit_code": 0
+}

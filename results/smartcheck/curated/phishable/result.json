@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "column": 17,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "tx.origin",
+      "line": 20,
+      "name": "SOLIDITY_TX_ORIGIN",
+      "patternId": "12e802",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "public",
+      "line": 16,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "91h3sa",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "constructor(address_owner){owner=_owner;}",
+      "line": 12,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/access_control/phishable.sol",
+  "duration": 7.618612766265869,
+  "end": 1654186487.4290981,
+  "exit_code": 0,
+  "start": 1654186479.8104854,
+  "tool": "smartcheck"
+}

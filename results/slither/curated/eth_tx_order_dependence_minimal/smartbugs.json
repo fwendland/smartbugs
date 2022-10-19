@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "slither",
+  "start": 1654186412.6523917,
+  "end": 1654186416.1252527,
+  "duration": 3.4728610515594482,
+  "exit_code": 4
+}

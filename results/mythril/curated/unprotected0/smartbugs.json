@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "mythril",
+  "start": 1654177339.5935998,
+  "end": 1654177344.2157967,
+  "duration": 4.622196912765503,
+  "exit_code": 0
+}

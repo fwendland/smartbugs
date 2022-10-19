@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/unchecked_low_level_calls/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+  "duration": 102.39113402366638,
+  "end": 1654163691.164025,
+  "exit_code": 0,
+  "start": 1654163588.772891,
+  "tool": "maian"
+}

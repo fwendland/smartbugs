@@ -1,0 +1,54 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 40,
+          "level": "Warning",
+          "line": 58,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 61,
+          "level": "Warning",
+          "line": 58,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 21,
+          "level": "Warning",
+          "line": 58,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 40,
+          "level": "Warning",
+          "line": 58,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 61,
+          "level": "Warning",
+          "line": 58,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "73.0%",
+      "file": "/data/lottery.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "Lottery",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "duration": 6.116390705108643,
+  "end": 1654181786.5707514,
+  "exit_code": 0,
+  "start": 1654181780.4543607,
+  "tool": "oyente"
+}

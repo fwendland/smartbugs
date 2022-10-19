@@ -1,0 +1,5 @@
+2022-06-02 13:11:37,292: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 13:11:37,293: [14] m.main:INFO: Beginning analysis
+2022-06-02 13:11:37,297: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 13:11:47,779: [14] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03' -> 87903029871075914254377627908054574944891091886930582284385770809450030037083
+2022-06-02 13:11:57,601: [14] m.e.manticore:INFO: Starting symbolic transaction: 0

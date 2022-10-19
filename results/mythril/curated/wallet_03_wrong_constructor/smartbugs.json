@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "mythril",
+  "start": 1654177339.5934637,
+  "end": 1654177345.9152067,
+  "duration": 6.321743011474609,
+  "exit_code": 0
+}

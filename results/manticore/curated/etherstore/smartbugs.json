@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "tool": "manticore",
+  "start": 1654013816.1858153,
+  "end": 1654014150.7004077,
+  "duration": 334.5145924091339,
+  "exit_code": 0
+}

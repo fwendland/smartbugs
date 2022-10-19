@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "tool": "conkas",
+  "start": 1654008664.6796157,
+  "end": 1654008676.377875,
+  "duration": 11.698259353637695,
+  "exit_code": 0
+}

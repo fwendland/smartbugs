@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "mythril",
+  "start": 1654179605.5105913,
+  "end": 1654179609.7485723,
+  "duration": 4.237981081008911,
+  "exit_code": 0
+}

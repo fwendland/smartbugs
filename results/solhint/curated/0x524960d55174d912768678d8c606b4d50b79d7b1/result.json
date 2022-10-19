@@ -1,0 +1,106 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+  "duration": 8.569584846496582,
+  "end": 1654186630.5904262,
+  "exit_code": 1,
+  "start": 1654186622.0208414,
+  "tool": "solhint"
+}

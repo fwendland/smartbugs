@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "95.7%",
+      "file": "/data/guess_the_random_number.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "GuessTheRandomNumberChallenge",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "duration": 2.6916048526763916,
+  "end": 1654181783.1486812,
+  "exit_code": 0,
+  "start": 1654181780.4570763,
+  "tool": "oyente"
+}

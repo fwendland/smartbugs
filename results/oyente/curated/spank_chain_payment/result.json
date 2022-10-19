@@ -1,0 +1,146 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 62,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 91,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 116,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 139,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 98,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 167,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "22.2%",
+      "file": "/data/spank_chain_payment.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "ECTools",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 233,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 236,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 235,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 189,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 6,
+          "level": "Warning",
+          "line": 252,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 198,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "55.3%",
+      "file": "/data/spank_chain_payment.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "HumanStandardToken",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_bug": false,
+      "errors": [],
+      "evm_code_coverage": "0/0",
+      "file": "/data/spank_chain_payment.sol",
+      "money_concurrency_bug": false,
+      "name": "LedgerChannel",
+      "reentrancy_bug": false,
+      "time_dependency_bug": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 189,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 198,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "99.9%",
+      "file": "/data/spank_chain_payment.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "StandardToken",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "duration": 17.25677800178528,
+  "end": 1654007562.516328,
+  "exit_code": 0,
+  "start": 1654007545.25955,
+  "tool": "oyente"
+}

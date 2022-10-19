@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "tool": "mythril",
+  "start": 1654179653.2014315,
+  "end": 1654179657.007268,
+  "duration": 3.8058364391326904,
+  "exit_code": 0
+}

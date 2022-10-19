@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "tool": "manticore",
+  "start": 1654004776.722239,
+  "end": 1654004865.769848,
+  "duration": 89.04760909080505,
+  "exit_code": 0
+}

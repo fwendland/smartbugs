@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "tool": "securify",
+  "start": 1654182041.3433304,
+  "end": 1654182131.772623,
+  "duration": 90.42929267883301,
+  "exit_code": 0
+}

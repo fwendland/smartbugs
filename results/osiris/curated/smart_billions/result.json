@@ -1,0 +1,71 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/smart_billions.sol",
+      "name": "SafeMath"
+    },
+    {
+      "errors": [
+        {
+          "column": 47,
+          "line": 339,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 379,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 26,
+          "line": 344,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 29,
+          "line": 345,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 364,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 23,
+          "line": 723,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 381,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 15,
+          "line": 486,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 13,
+          "line": 382,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 13,
+          "line": 372,
+          "message": "concurrency_bug"
+        }
+      ],
+      "file": "/data/smart_billions.sol",
+      "name": "SmartBillions"
+    }
+  ],
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "duration": 53.587350368499756,
+  "end": 1654181063.5915568,
+  "exit_code": 0,
+  "start": 1654181010.0042064,
+  "tool": "osiris"
+}

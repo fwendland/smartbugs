@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "securify",
+  "start": 1654182041.409887,
+  "end": 1654182129.703613,
+  "duration": 88.29372596740723,
+  "exit_code": 0
+}

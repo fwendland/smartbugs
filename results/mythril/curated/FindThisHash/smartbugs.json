@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "tool": "mythril",
+  "start": 1654179605.4922378,
+  "end": 1654179640.451192,
+  "duration": 34.958954095840454,
+  "exit_code": 0
+}

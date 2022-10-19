@@ -1,0 +1,279 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.deposit (/data/wallet_02_refund_nosub.sol#23-26) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/wallet_02_refund_nosub.sol",
+              "length": 851,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 426
+            },
+            "type": "contract"
+          },
+          "name": "deposit",
+          "source_mapping": {
+            "filename": "/data/wallet_02_refund_nosub.sol",
+            "length": 160,
+            "lines": [
+              23,
+              24,
+              25,
+              26
+            ],
+            "start": 583
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.withdraw (/data/wallet_02_refund_nosub.sol#28-32) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/wallet_02_refund_nosub.sol",
+              "length": 851,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 426
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/wallet_02_refund_nosub.sol",
+            "length": 178,
+            "lines": [
+              28,
+              29,
+              30,
+              31,
+              32
+            ],
+            "start": 750
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.refund (/data/wallet_02_refund_nosub.sol#34-37) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/wallet_02_refund_nosub.sol",
+              "length": 851,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 426
+            },
+            "type": "contract"
+          },
+          "name": "refund",
+          "source_mapping": {
+            "filename": "/data/wallet_02_refund_nosub.sol",
+            "length": 127,
+            "lines": [
+              34,
+              35,
+              36,
+              37
+            ],
+            "start": 935
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.migrateTo (/data/wallet_02_refund_nosub.sol#41-44) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/wallet_02_refund_nosub.sol",
+              "length": 851,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 426
+            },
+            "type": "contract"
+          },
+          "name": "migrateTo",
+          "source_mapping": {
+            "filename": "/data/wallet_02_refund_nosub.sol",
+            "length": 123,
+            "lines": [
+              41,
+              42,
+              43,
+              44
+            ],
+            "start": 1150
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "duration": 5.957698106765747,
+  "end": 1654186388.041837,
+  "exit_code": 4,
+  "start": 1654186382.0841389,
+  "tool": "slither"
+}

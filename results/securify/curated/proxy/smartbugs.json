@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "securify",
+  "start": 1654182041.3875797,
+  "end": 1654182057.8144403,
+  "duration": 16.426860570907593,
+  "exit_code": 0
+}

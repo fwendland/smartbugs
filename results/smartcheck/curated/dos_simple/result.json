@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 8,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "address[]listAddresses;",
+      "line": 12,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_simple.sol",
+  "duration": 5.144060850143433,
+  "end": 1654186513.3450136,
+  "exit_code": 0,
+  "start": 1654186508.2009528,
+  "tool": "smartcheck"
+}

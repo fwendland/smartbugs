@@ -1,0 +1,54 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 14,
+          "level": "Warning",
+          "line": 36,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 38,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 41,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 50,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 41,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "99.1%",
+      "file": "/data/odds_and_evens.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "OddsAndEvens",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "duration": 2.9558217525482178,
+  "end": 1654181848.418204,
+  "exit_code": 1,
+  "start": 1654181845.4623823,
+  "tool": "oyente"
+}

@@ -1,0 +1,250 @@
+{
+  "analysis": [
+    {
+      "column": 8,
+      "content": "transfers.length=transfers.length+data.length",
+      "line": 73,
+      "name": "SOLIDITY_ARRAY_LENGTH_MANIPULATION",
+      "patternId": "872bdd",
+      "severity": 1
+    },
+    {
+      "column": 20,
+      "content": "throw",
+      "line": 69,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 76,
+      "content": "throw",
+      "line": 96,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 68,
+      "content": "throw",
+      "line": 102,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionbalanceOf(address)constantreturns(uint);",
+      "line": 36,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionhasTerminated()constantreturns(bool){if(transfers.length==0)returnfalse;if(next<transfers.length)returnfalse;returntrue;}",
+      "line": 116,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionnTransfers()constantreturns(uint){returntransfers.length;}",
+      "line": 122,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functiongas()internalconstantreturns(uint_gas){assembly{_gas:=gas}}",
+      "line": 126,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "for(uinti=0;i<data.length;i++){addressaddr=address(data[i]&(D160-1));uintamount=data[i]/D160;transfers[offset+i].addr=addr;transfers[offset+i].amount=amount;acc+=amount;}",
+      "line": 74,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "d3j11j",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "while((mNext<transfers.length)&&(gas()>150000)){uintamount=transfers[mNext].amount;addressaddr=transfers[mNext].addr;if(amount>0){if(!token.transfer(addr,transfers[mNext].amount))throw;}mNext++;}",
+      "line": 98,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "k4o1l4",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functiongas()internalconstantreturns(uint_gas){assembly{_gas:=gas}}",
+      "line": 126,
+      "name": "SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN",
+      "patternId": "58bdd3",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "for(uinti=0;i<data.length;i++){addressaddr=address(data[i]&(D160-1));uintamount=data[i]/D160;transfers[offset+i].addr=addr;transfers[offset+i].amount=amount;acc+=amount;}",
+      "line": 74,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "f6f853",
+      "severity": 2
+    },
+    {
+      "column": 8,
+      "content": "while((mNext<transfers.length)&&(gas()>150000)){uintamount=transfers[mNext].amount;addressaddr=transfers[mNext].addr;if(amount>0){if(!token.transfer(addr,transfers[mNext].amount))throw;}mNext++;}",
+      "line": 98,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "38f6c7",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": ">=",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(next>0)throw;",
+      "line": 69,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if((mNext==0)&&(token.balanceOf(this)!=totalToDistribute))throw;",
+      "line": 96,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "if(!token.transfer(addr,transfers[mNext].amount))throw;",
+      "line": 102,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "call.value(_value)(_data)",
+      "line": 30,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 8,
+      "content": "assembly{_gas:=gas}",
+      "line": 127,
+      "name": "SOLIDITY_USING_INLINE_ASSEMBLY",
+      "patternId": "109cd5",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionOwned(){owner=msg.sender;}",
+      "line": 10,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionchangeOwner(address_newOwner)onlyOwner{owner=_newOwner;}",
+      "line": 21,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionexecute(address_dst,uint_value,bytes_data)onlyOwner{_dst.call.value(_value)(_data);}",
+      "line": 28,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functiontransfer(address,uint)returns(bool);",
+      "line": 35,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionbalanceOf(address)constantreturns(uint);",
+      "line": 36,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionTokenSender(address_token){token=Token(_token);}",
+      "line": 53,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionfill(uint[]data)onlyOwner{if(next>0)throw;uintacc;uintoffset=transfers.length;transfers.length=transfers.length+data.length;for(uinti=0;i<data.length;i++){addressaddr=address(data[i]&(D160-1));uintamount=data[i]/D160;transfers[offset+i].addr=addr;transfers[offset+i].amount=amount;acc+=amount;}totalToDistribute+=acc;}",
+      "line": 66,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionrun()onlyOwner{if(transfers.length==0)return;uintmNext=next;next=transfers.length;if((mNext==0)&&(token.balanceOf(this)!=totalToDistribute))throw;while((mNext<transfers.length)&&(gas()>150000)){uintamount=transfers[mNext].amount;addressaddr=transfers[mNext].addr;if(amount>0){if(!token.transfer(addr,transfers[mNext].amount))throw;}mNext++;}next=mNext;}",
+      "line": 87,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionhasTerminated()constantreturns(bool){if(transfers.length==0)returnfalse;if(next<transfers.length)returnfalse;returntrue;}",
+      "line": 116,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionnTransfers()constantreturns(uint){returntransfers.length;}",
+      "line": 122,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantD160=0x0010000000000000000000000000000000000000000;",
+      "line": 58,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+  "duration": 9.881879329681396,
+  "end": 1654186552.6795986,
+  "exit_code": 0,
+  "start": 1654186542.7977192,
+  "tool": "smartcheck"
+}

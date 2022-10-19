@@ -1,0 +1,51 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 138,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 138,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 118,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 13,
+          "line": 132,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 174,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 13,
+          "line": 110,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/king_of_the_ether_throne.sol",
+      "name": "KingOfTheEtherThrone"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "duration": 52.70580291748047,
+  "end": 1654181241.799828,
+  "exit_code": 0,
+  "start": 1654181189.0940251,
+  "tool": "osiris"
+}

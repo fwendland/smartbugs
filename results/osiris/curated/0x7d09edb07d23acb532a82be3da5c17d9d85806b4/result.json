@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 199,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 198,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 210,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 198,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+      "name": "PoCGame"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+  "duration": 25.410341024398804,
+  "end": 1654181214.9424658,
+  "exit_code": 0,
+  "start": 1654181189.5321248,
+  "tool": "osiris"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "tool": "conkas",
+  "start": 1654247589.4849014,
+  "end": 1654247594.9537766,
+  "duration": 5.468875169754028,
+  "exit_code": 0
+}

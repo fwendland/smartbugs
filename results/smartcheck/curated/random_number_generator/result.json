@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 10,
+      "content": "private",
+      "line": 12,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "duration": 6.12195086479187,
+  "end": 1654186505.8939729,
+  "exit_code": 0,
+  "start": 1654186499.772022,
+  "tool": "smartcheck"
+}

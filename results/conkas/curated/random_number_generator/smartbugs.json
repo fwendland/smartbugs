@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "tool": "conkas",
+  "start": 1654106488.7971005,
+  "end": 1654106494.3108876,
+  "duration": 5.513787031173706,
+  "exit_code": 0
+}

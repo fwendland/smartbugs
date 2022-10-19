@@ -1,0 +1,50 @@
+{
+  "analysis": [
+    {
+      "column": 3,
+      "content": "functionbalanceOf(address_owner)publicconstantreturns(uintbalance){returnbalances[_owner];}",
+      "line": 27,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "balances[msg.sender]-_value>=0",
+      "line": 20,
+      "name": "SOLIDITY_UINT_CANT_BE_NEGATIVE",
+      "patternId": "733fdd",
+      "severity": 2
+    },
+    {
+      "column": 3,
+      "content": "functionToken(uint_initialSupply){balances[msg.sender]=totalSupply=_initialSupply;}",
+      "line": 14,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 3,
+      "content": "mapping(address=>uint)balances;",
+      "line": 11,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/arithmetic/token.sol",
+  "duration": 7.328262567520142,
+  "end": 1654186497.6964972,
+  "exit_code": 0,
+  "start": 1654186490.3682346,
+  "tool": "smartcheck"
+}

@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "duration": 7.044034481048584,
+  "end": 1654186497.3577926,
+  "exit_code": 0,
+  "start": 1654186490.3137581,
+  "tool": "smartcheck"
+}

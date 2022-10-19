@@ -1,0 +1,71 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "name": "SafeMath"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "name": "StandardToken"
+    },
+    {
+      "errors": [
+        {
+          "column": 24,
+          "line": 329,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 15,
+          "line": 427,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 478,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 29,
+          "line": 458,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 20,
+          "line": 439,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 262,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 477,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 439,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 10,
+          "line": 433,
+          "message": "concurrency_bug"
+        }
+      ],
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "name": "daoPOLSKAtokens"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+  "duration": 58.47461223602295,
+  "end": 1654181248.0345173,
+  "exit_code": 0,
+  "start": 1654181189.559905,
+  "tool": "osiris"
+}

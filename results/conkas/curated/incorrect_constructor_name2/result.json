@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "30",
+      "maybe_in_function": "withdraw()",
+      "pc": "0x13f",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "duration": 4.977230787277222,
+  "end": 1654105993.6870477,
+  "exit_code": 0,
+  "start": 1654105988.709817,
+  "tool": "conkas"
+}

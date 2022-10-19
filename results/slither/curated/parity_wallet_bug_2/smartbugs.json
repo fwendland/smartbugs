@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_2.sol",
+  "tool": "slither",
+  "start": 1654186381.8939855,
+  "end": 1654186387.69717,
+  "duration": 5.803184509277344,
+  "exit_code": 52
+}

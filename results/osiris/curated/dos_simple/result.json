@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/dos_simple.sol",
+      "name": "DosOneFunc"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_simple.sol",
+  "duration": 6.213295221328735,
+  "end": 1654181071.9507675,
+  "exit_code": 0,
+  "start": 1654181065.7374723,
+  "tool": "osiris"
+}

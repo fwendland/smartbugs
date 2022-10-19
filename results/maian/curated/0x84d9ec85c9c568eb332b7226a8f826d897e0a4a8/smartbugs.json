@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+  "tool": "maian",
+  "start": 1654163588.7024925,
+  "end": 1654163778.2264094,
+  "duration": 189.52391695976257,
+  "exit_code": 0
+}

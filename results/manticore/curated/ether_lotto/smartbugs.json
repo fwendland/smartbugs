@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "manticore",
+  "start": 1654173690.8277392,
+  "end": 1654173717.4760957,
+  "duration": 26.648356437683105,
+  "exit_code": 0
+}

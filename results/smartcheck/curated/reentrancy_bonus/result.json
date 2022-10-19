@@ -1,0 +1,58 @@
+{
+  "analysis": [
+    {
+      "column": 37,
+      "content": "call.value(amountToWithdraw)(\"\")",
+      "line": 19,
+      "name": "SOLIDITY_CALL_WITHOUT_DATA",
+      "patternId": "111ppp",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 30,
+      "content": "private",
+      "line": 12,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 30,
+      "content": "private",
+      "line": 13,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 30,
+      "content": "private",
+      "line": 14,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 37,
+      "content": "call.value(amountToWithdraw)(\"\")",
+      "line": 19,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "duration": 11.665322065353394,
+  "end": 1654008614.9800098,
+  "exit_code": 0,
+  "start": 1654008603.3146877,
+  "tool": "smartcheck"
+}

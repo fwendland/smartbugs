@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "tool": "conkas",
+  "start": 1654247608.0766346,
+  "end": 1654247613.577252,
+  "duration": 5.500617265701294,
+  "exit_code": 0
+}

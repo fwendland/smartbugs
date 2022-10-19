@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 13,
+          "line": 38,
+          "message": "balance_disorder"
+        }
+      ],
+      "file": "/data/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+      "name": "MultiplicatorX4"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+  "duration": 63.94484996795654,
+  "end": 1654123467.9952383,
+  "exit_code": 0,
+  "start": 1654123404.0503883,
+  "tool": "honeybadger"
+}

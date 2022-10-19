@@ -1,0 +1,78 @@
+{
+  "analysis": {
+    "/data/reentrancy_cross_function.sol:Reentrancy_cross_function": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            23
+          ],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            13
+          ],
+          "warnings": [
+            20
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            23
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            23
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            23
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            23
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            23
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/reentrancy/reentrancy_cross_function.sol",
+  "duration": 54.54623055458069,
+  "end": 1654007661.014438,
+  "exit_code": 0,
+  "start": 1654007606.4682074,
+  "tool": "securify"
+}

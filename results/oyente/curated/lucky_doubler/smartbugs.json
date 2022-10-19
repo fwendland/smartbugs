@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "oyente",
+  "start": 1654181780.451968,
+  "end": 1654181790.3740542,
+  "duration": 9.922086238861084,
+  "exit_code": 1
+}

@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "duration": 5.718064785003662,
+  "end": 1654082647.303961,
+  "exit_code": 0,
+  "start": 1654082641.5858963,
+  "tool": "solhint"
+}

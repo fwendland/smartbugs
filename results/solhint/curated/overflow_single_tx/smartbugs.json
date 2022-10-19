@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "tool": "solhint",
+  "start": 1654186586.4243987,
+  "end": 1654186590.1239724,
+  "duration": 3.6995737552642822,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "tool": "conkas",
+  "start": 1654106488.7803626,
+  "end": 1654106494.1233413,
+  "duration": 5.3429787158966064,
+  "exit_code": 0
+}

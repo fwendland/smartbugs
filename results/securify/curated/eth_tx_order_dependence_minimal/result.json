@@ -1,0 +1,88 @@
+{
+  "analysis": {
+    "/data/eth_tx_order_dependence_minimal.sol:EthTxOrderDependenceMinimal": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            30,
+            22
+          ],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            10,
+            26,
+            11,
+            9,
+            17
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            30,
+            22
+          ],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            22
+          ],
+          "warnings": [
+            30
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            30,
+            22
+          ],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            30,
+            22
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            30
+          ],
+          "violations": [],
+          "warnings": [
+            22
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "duration": 75.10059213638306,
+  "end": 1654183587.3222928,
+  "exit_code": 0,
+  "start": 1654183512.2217007,
+  "tool": "securify"
+}

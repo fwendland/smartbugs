@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "solhint",
+  "start": 1654186586.422548,
+  "end": 1654186590.965693,
+  "duration": 4.543144941329956,
+  "exit_code": 1
+}

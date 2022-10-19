@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/dos_number.sol",
+      "name": "DosNumber"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "duration": 255.7231776714325,
+  "end": 1654123278.2730353,
+  "exit_code": 0,
+  "start": 1654123022.5498576,
+  "tool": "honeybadger"
+}

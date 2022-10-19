@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+      "name": "SimpleWallet"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+  "duration": 17.964734315872192,
+  "end": 1654123422.048724,
+  "exit_code": 0,
+  "start": 1654123404.0839896,
+  "tool": "honeybadger"
+}

@@ -1,0 +1,98 @@
+{
+  "analysis": {
+    "/data/lucky_doubler.sol:LuckyDoubler": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [
+            73
+          ],
+          "violations": [
+            101
+          ],
+          "warnings": [
+            59,
+            118
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            59,
+            73,
+            101
+          ],
+          "violations": [
+            118
+          ],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            101
+          ],
+          "violations": [
+            118
+          ],
+          "warnings": [
+            59,
+            73
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [
+            101,
+            118
+          ],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            59,
+            73
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            59,
+            73,
+            101,
+            118
+          ],
+          "warnings": []
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            59,
+            73,
+            101,
+            118
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "duration": 76.46489453315735,
+  "end": 1654182851.915006,
+  "exit_code": 0,
+  "start": 1654182775.4501114,
+  "tool": "securify"
+}

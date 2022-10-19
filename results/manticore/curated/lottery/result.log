@@ -1,0 +1,54 @@
+2022-06-02 11:09:43,901: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 11:09:43,902: [14] m.main:INFO: Beginning analysis
+2022-06-02 11:09:43,907: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 11:09:45,046: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 11:09:53,478: [14] m.c.worker:ERROR: Exception in state 5: ManticoreError('Forking on unfeasible constraint set')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 137, in run
+    current_state.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/state.py", line 8, in execute
+    return self._platform.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 3106, in execute
+    self.current_vm.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 1322, in execute
+    raise Concretize("Symbolic PC", expression=expression, setstate=setstate, policy="ALL")
+manticore.core.state.Concretize
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 158, in run
+    m._fork(current_state, exc.expression, exc.policy, exc.setstate, exc.values)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/manticore.py", line 518, in _fork
+    raise ManticoreError("Forking on unfeasible constraint set")
+manticore.exceptions.ManticoreError: Forking on unfeasible constraint set
+ 
+2022-06-02 11:09:56,859: [14] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01' -> 80084422859880547211683076133703299733277748156566366325829078699459944778998
+2022-06-02 11:10:03,974: [14] m.e.manticore:INFO: 1 alive states, 3 terminated states
+2022-06-02 11:10:04,461: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-06-02 11:10:13,049: [14] m.c.worker:ERROR: Exception in state 11: ManticoreError('Forking on unfeasible constraint set')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 137, in run
+    current_state.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/state.py", line 8, in execute
+    return self._platform.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 3106, in execute
+    self.current_vm.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 1322, in execute
+    raise Concretize("Symbolic PC", expression=expression, setstate=setstate, policy="ALL")
+manticore.core.state.Concretize
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 158, in run
+    m._fork(current_state, exc.expression, exc.policy, exc.setstate, exc.values)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/manticore.py", line 518, in _fork
+    raise ManticoreError("Forking on unfeasible constraint set")
+manticore.exceptions.ManticoreError: Forking on unfeasible constraint set
+ 
+2022-06-02 11:10:23,560: [14] m.e.manticore:INFO: 1 alive states, 5 terminated states
+2022-06-02 11:10:24,150: [89] m.c.manticore:INFO: Generated testcase No. 0 - STOP(3 txs)
+2022-06-02 11:10:24,151: [89] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 11:10:26,705: [14] m.c.manticore:INFO: Results in /mcore_8w0e4xq2
+2022-06-02 11:10:26,706: [14] m.c.manticore:INFO: Total time: 22.23177170753479

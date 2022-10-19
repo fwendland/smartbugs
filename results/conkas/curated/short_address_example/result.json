@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "21",
+      "maybe_in_function": "sendCoin(address,uint256)",
+      "pc": "0x1ef",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "duration": 4.451423406600952,
+  "end": 1654106819.2887063,
+  "exit_code": 0,
+  "start": 1654106814.837283,
+  "tool": "conkas"
+}

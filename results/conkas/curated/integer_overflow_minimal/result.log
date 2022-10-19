@@ -1,0 +1,4 @@
+Analysing /data/integer_overflow_minimal.sol:IntegerOverflowMinimal...
+Vulnerability: Integer Underflow. Maybe in function: run(uint256). PC: 0xae. Line number: 17.
+If a = 0
+and b = 1

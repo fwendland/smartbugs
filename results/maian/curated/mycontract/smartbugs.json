@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "maian",
+  "start": 1654161877.276609,
+  "end": 1654161954.633482,
+  "duration": 77.35687303543091,
+  "exit_code": 0
+}

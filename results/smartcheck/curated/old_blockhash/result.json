@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "mapping(address=>guess)guesses;",
+      "line": 18,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 6.228438138961792,
+  "end": 1654186505.9991667,
+  "exit_code": 0,
+  "start": 1654186499.7707286,
+  "tool": "smartcheck"
+}

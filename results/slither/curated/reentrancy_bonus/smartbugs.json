@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "tool": "slither",
+  "start": 1653999783.4135745,
+  "end": 1653999789.0087948,
+  "duration": 5.595220327377319,
+  "exit_code": 7
+}

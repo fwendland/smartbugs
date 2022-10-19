@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "12",
+      "maybe_in_function": "callAddress(address)",
+      "pc": "0xac",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "12",
+      "maybe_in_function": "callAddress(address)",
+      "pc": "0xac",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol",
+  "duration": 21.41414499282837,
+  "end": 1654106851.8725245,
+  "exit_code": 0,
+  "start": 1654106830.4583795,
+  "tool": "conkas"
+}

@@ -1,0 +1,64 @@
+{
+  "analysis": [
+    {
+      "line_number": "162",
+      "maybe_in_function": "deliver(uint64,bytes32,uint64,bytes32)",
+      "pc": "0xc1d",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "162",
+      "maybe_in_function": "deliver(uint64,bytes32,uint64,bytes32)",
+      "pc": "0xc1d",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "162",
+      "maybe_in_function": "deliver(uint64,bytes32,uint64,bytes32)",
+      "pc": "0xc1d",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "129",
+      "maybe_in_function": "request(uint8,address,bytes4,uint256,bytes32[])",
+      "pc": "0x16eb",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "41",
+      "maybe_in_function": "requests(uint256)",
+      "pc": "0x1adc",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "94",
+      "maybe_in_function": "withdraw()",
+      "pc": "0xa3d",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "137",
+      "maybe_in_function": "request(uint8,address,bytes4,uint256,bytes32[])",
+      "pc": "0x199d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "175",
+      "maybe_in_function": "deliver(uint64,bytes32,uint64,bytes32)",
+      "pc": "0xd6b",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "100",
+      "maybe_in_function": "request(uint8,address,bytes4,uint256,bytes32[])",
+      "pc": "0x3c0",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+  "duration": 23.546385049819946,
+  "end": 1654106853.9777358,
+  "exit_code": 0,
+  "start": 1654106830.4313507,
+  "tool": "conkas"
+}

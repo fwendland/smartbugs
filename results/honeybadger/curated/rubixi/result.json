@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/rubixi.sol",
+      "name": "Rubixi"
+    }
+  ],
+  "contract": "dataset/access_control/rubixi.sol",
+  "duration": 105.66790699958801,
+  "end": 1654122371.9795434,
+  "exit_code": 0,
+  "start": 1654122266.3116364,
+  "tool": "honeybadger"
+}

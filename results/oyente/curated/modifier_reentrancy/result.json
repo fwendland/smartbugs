@@ -1,0 +1,75 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 33,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 32,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "86.6%",
+      "file": "/data/modifier_reentrancy.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "Bank",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "53.7%",
+      "file": "/data/modifier_reentrancy.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "ModifierEntrancy",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 44,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 39,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "89.8%",
+      "file": "/data/modifier_reentrancy.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "attack",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/reentrancy/modifier_reentrancy.sol",
+  "duration": 6.988978624343872,
+  "end": 1654007552.189528,
+  "exit_code": 0,
+  "start": 1654007545.2005494,
+  "tool": "oyente"
+}

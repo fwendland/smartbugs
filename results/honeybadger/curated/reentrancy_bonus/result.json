@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/reentrancy_bonus.sol",
+      "name": "Reentrancy_bonus"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "duration": 6.073853254318237,
+  "end": 1654003688.6811733,
+  "exit_code": 0,
+  "start": 1654003682.60732,
+  "tool": "honeybadger"
+}

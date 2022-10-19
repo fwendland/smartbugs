@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 47,
+          "message": "straw_man_contract"
+        }
+      ],
+      "file": "/data/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+      "name": "ETH_FUND"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+      "name": "Log"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+  "duration": 206.33460140228271,
+  "end": 1654003889.0433104,
+  "exit_code": 0,
+  "start": 1654003682.708709,
+  "tool": "honeybadger"
+}

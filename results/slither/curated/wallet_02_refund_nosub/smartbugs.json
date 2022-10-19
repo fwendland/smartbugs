@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "tool": "slither",
+  "start": 1654186382.0841389,
+  "end": 1654186388.041837,
+  "duration": 5.957698106765747,
+  "exit_code": 4
+}

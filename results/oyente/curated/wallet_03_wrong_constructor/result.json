@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 24,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 30,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 38,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "96.4%",
+      "file": "/data/wallet_03_wrong_constructor.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "Wallet",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "duration": 4.794912815093994,
+  "end": 1654181742.0781658,
+  "exit_code": 1,
+  "start": 1654181737.283253,
+  "tool": "oyente"
+}

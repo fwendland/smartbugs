@@ -1,0 +1,940 @@
+{
+  "analysis": [
+    {
+      "check": "reentrancy-eth",
+      "confidence": "Medium",
+      "description": "Reentrancy in Private_Bank.CashOut (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#33-46):\n\tExternal calls:\n\t- msg.sender.call.value(_am)() (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#40-44)\n\tState variables written after the call(s):\n\t- balances (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#42)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Private_Bank",
+            "source_mapping": {
+              "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+              "length": 860,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "CashOut",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 342,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46
+            ],
+            "start": 572
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(_am)()",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 169,
+            "lines": [
+              40,
+              41,
+              42,
+              43,
+              44
+            ],
+            "start": 729
+          },
+          "type": "external_calls"
+        },
+        {
+          "expression": "balances[msg.sender] -= _am",
+          "name": "balances",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 25,
+            "lines": [
+              42
+            ],
+            "start": 792
+          },
+          "type": "variables_written"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "constable-states",
+      "confidence": "High",
+      "description": "Private_Bank.MinDeposit should be constant (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#13)\n",
+      "elements": [
+        {
+          "name": "MinDeposit",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 32,
+            "lines": [
+              13
+            ],
+            "start": 182
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Private_Bank.Deposit (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#22-31) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Private_Bank",
+            "source_mapping": {
+              "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+              "length": 860,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Deposit",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 221,
+            "lines": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "start": 341
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Private_Bank.CashOut (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#33-46) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Private_Bank",
+            "source_mapping": {
+              "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+              "length": 860,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "CashOut",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 342,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46
+            ],
+            "start": 572
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Private_Bank.fallback (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#48) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Private_Bank",
+            "source_mapping": {
+              "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+              "length": 860,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 27,
+            "lines": [
+              48
+            ],
+            "start": 924
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Log.AddMessage (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#67-75) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Log",
+            "source_mapping": {
+              "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+              "length": 434,
+              "lines": [
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76
+              ],
+              "start": 964
+            },
+            "type": "contract"
+          },
+          "name": "AddMessage",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 227,
+            "lines": [
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75
+            ],
+            "start": 1169
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol:\n\t- pragma solidity^0.4.19 (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.19",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 76
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in Private_Bank.CashOut (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#33-46):\n\t-msg.sender.call.value(_am)() /data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#40-44\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Private_Bank",
+            "source_mapping": {
+              "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+              "length": 860,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "CashOut",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 342,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46
+            ],
+            "start": 572
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(_am)()",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 169,
+            "lines": [
+              40,
+              41,
+              42,
+              43,
+              44
+            ],
+            "start": 729
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Contract 'Private_Bank' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#9-50) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "Private_Bank",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 860,
+            "lines": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50
+            ],
+            "start": 102
+          },
+          "target": "contract"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Private_Bank.Private_Bank' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#17-20) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Private_Bank",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 80,
+            "lines": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 251
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_log' of Private_Bank.Private_Bank (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#17) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_log",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 12,
+            "lines": [
+              17
+            ],
+            "start": 273
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Private_Bank.Deposit' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#22-31) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Deposit",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 221,
+            "lines": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "start": 341
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Private_Bank.CashOut' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#33-46) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "CashOut",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 342,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46
+            ],
+            "start": 572
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_am' of Private_Bank.CashOut (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#33) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_am",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 8,
+            "lines": [
+              33
+            ],
+            "start": 589
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'Private_Bank.MinDeposit' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#13) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "MinDeposit",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 32,
+            "lines": [
+              13
+            ],
+            "start": 182
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'Private_Bank.TransferLog' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#15) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "TransferLog",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 15,
+            "lines": [
+              15
+            ],
+            "start": 225
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Log.AddMessage' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#67-75) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "AddMessage",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 227,
+            "lines": [
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75
+            ],
+            "start": 1169
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_adr' of Log.AddMessage (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#67) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_adr",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 12,
+            "lines": [
+              67
+            ],
+            "start": 1189
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_val' of Log.AddMessage (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#67) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_val",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 9,
+            "lines": [
+              67
+            ],
+            "start": 1202
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_data' of Log.AddMessage (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#67) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_data",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 12,
+            "lines": [
+              67
+            ],
+            "start": 1212
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'Log.History' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#63) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "History",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 24,
+            "lines": [
+              63
+            ],
+            "start": 1108
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'Log.LastMsg' (/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol#65) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "LastMsg",
+          "source_mapping": {
+            "filename": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "length": 15,
+            "lines": [
+              65
+            ],
+            "start": 1143
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+  "duration": 5.635318279266357,
+  "end": 1653999789.1329262,
+  "exit_code": 22,
+  "start": 1653999783.497608,
+  "tool": "slither"
+}

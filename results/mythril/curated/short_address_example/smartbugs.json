@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "mythril",
+  "start": 1654179645.569463,
+  "end": 1654179651.2651577,
+  "duration": 5.6956946849823,
+  "exit_code": 0
+}

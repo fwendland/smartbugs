@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "slither",
+  "start": 1654186382.0885756,
+  "end": 1654186386.881623,
+  "duration": 4.7930474281311035,
+  "exit_code": 29
+}

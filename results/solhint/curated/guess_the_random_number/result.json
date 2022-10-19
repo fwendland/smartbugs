@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "duration": 2.416715621948242,
+  "end": 1654186595.6016533,
+  "exit_code": 0,
+  "start": 1654186593.1849377,
+  "tool": "solhint"
+}

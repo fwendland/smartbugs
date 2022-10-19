@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/modifier_reentrancy.sol",
+  "tool": "oyente",
+  "start": 1654007545.2005494,
+  "end": 1654007552.189528,
+  "duration": 6.988978624343872,
+  "exit_code": 0
+}

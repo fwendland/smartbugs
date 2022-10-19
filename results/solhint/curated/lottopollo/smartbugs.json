@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "solhint",
+  "start": 1654186616.422651,
+  "end": 1654186619.1853602,
+  "duration": 2.762709140777588,
+  "exit_code": 1
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_insecure.sol",
+  "tool": "mythril",
+  "start": 1654006855.0572026,
+  "end": 1654006858.9565535,
+  "duration": 3.899350881576538,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "slither",
+  "start": 1654186381.8304563,
+  "end": 1654186388.2054553,
+  "duration": 6.374999046325684,
+  "exit_code": 5
+}

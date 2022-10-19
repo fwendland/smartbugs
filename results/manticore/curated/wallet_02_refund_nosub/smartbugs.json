@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "tool": "manticore",
+  "start": 1654164567.4054008,
+  "end": 1654164701.3660586,
+  "duration": 133.9606578350067,
+  "exit_code": 0
+}

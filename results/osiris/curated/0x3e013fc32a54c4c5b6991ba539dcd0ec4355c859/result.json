@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 26,
+          "line": 38,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 38,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 20,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 29,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+      "name": "MultiplicatorX4"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+  "duration": 52.46403932571411,
+  "end": 1654181242.0981328,
+  "exit_code": 0,
+  "start": 1654181189.6340935,
+  "tool": "osiris"
+}

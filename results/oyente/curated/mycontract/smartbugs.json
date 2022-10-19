@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "oyente",
+  "start": 1654181737.5909252,
+  "end": 1654181741.711091,
+  "duration": 4.120165824890137,
+  "exit_code": 0
+}

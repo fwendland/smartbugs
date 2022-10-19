@@ -1,0 +1,90 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/auction.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/denial_of_service/auction.sol",
+  "duration": 2.5174026489257812,
+  "end": 1654186602.2157123,
+  "exit_code": 1,
+  "start": 1654186599.6983097,
+  "tool": "solhint"
+}

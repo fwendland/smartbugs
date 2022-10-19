@@ -1,0 +1,154 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "7",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "9",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/short_address_example.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "duration": 2.572960615158081,
+  "end": 1654186614.9255145,
+  "exit_code": 1,
+  "start": 1654186612.3525538,
+  "tool": "solhint"
+}

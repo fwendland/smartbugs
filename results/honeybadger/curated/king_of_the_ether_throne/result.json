@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/king_of_the_ether_throne.sol",
+      "name": "KingOfTheEtherThrone"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "duration": 277.6346085071564,
+  "end": 1654123681.733842,
+  "exit_code": 0,
+  "start": 1654123404.0992334,
+  "tool": "honeybadger"
+}

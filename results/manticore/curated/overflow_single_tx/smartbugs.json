@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "tool": "manticore",
+  "start": 1654166375.0212853,
+  "end": 1654166587.9205892,
+  "duration": 212.89930391311646,
+  "exit_code": 0
+}

@@ -1,0 +1,30 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 17,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "99.2%",
+      "file": "/data/integer_overflow_add.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "IntegerOverflowAdd",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_add.sol",
+  "duration": 3.4851303100585938,
+  "end": 1654181753.4942522,
+  "exit_code": 0,
+  "start": 1654181750.009122,
+  "tool": "oyente"
+}

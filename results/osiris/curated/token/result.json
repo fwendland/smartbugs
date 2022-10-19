@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 6,
+          "line": 23,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 14,
+          "line": 20,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 6,
+          "line": 22,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/token.sol",
+      "name": "Token"
+    }
+  ],
+  "contract": "dataset/arithmetic/token.sol",
+  "duration": 3.260676622390747,
+  "end": 1654180933.9054823,
+  "exit_code": 0,
+  "start": 1654180930.6448057,
+  "tool": "osiris"
+}

@@ -1,0 +1,181 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Missing.missing (/data/incorrect_constructor_name2.sol#18-22) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Missing",
+            "source_mapping": {
+              "filename": "/data/incorrect_constructor_name2.sol",
+              "length": 375,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "start": 194
+            },
+            "type": "contract"
+          },
+          "name": "missing",
+          "source_mapping": {
+            "filename": "/data/incorrect_constructor_name2.sol",
+            "length": 73,
+            "lines": [
+              18,
+              19,
+              20,
+              21,
+              22
+            ],
+            "start": 359
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Missing.fallback (/data/incorrect_constructor_name2.sol#24) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Missing",
+            "source_mapping": {
+              "filename": "/data/incorrect_constructor_name2.sol",
+              "length": 375,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "start": 194
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/incorrect_constructor_name2.sol",
+            "length": 22,
+            "lines": [
+              24
+            ],
+            "start": 438
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Missing.withdraw (/data/incorrect_constructor_name2.sol#26-31) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Missing",
+            "source_mapping": {
+              "filename": "/data/incorrect_constructor_name2.sol",
+              "length": 375,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "start": 194
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/incorrect_constructor_name2.sol",
+            "length": 101,
+            "lines": [
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "start": 466
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "duration": 6.022718906402588,
+  "end": 1654186388.1339912,
+  "exit_code": 3,
+  "start": 1654186382.1112723,
+  "tool": "slither"
+}

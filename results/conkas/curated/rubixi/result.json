@@ -1,0 +1,88 @@
+{
+  "analysis": [
+    {
+      "line_number": "74",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xd5c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "141",
+      "maybe_in_function": "nextPayoutWhenPyramidBalanceTotalsApproximately()",
+      "pc": "0x6cd",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "74",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0xd5c",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "159",
+      "maybe_in_function": "participantDetails(uint256)",
+      "pc": "0x8bd",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "95",
+      "maybe_in_function": "collectFeesInEther(uint256)",
+      "pc": "0xa54",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "85",
+      "maybe_in_function": "collectFeesInEther(uint256)",
+      "pc": "0x7de",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "103",
+      "maybe_in_function": "collectPercentOfFees(uint256)",
+      "pc": "0x689",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "85",
+      "maybe_in_function": "collectFeesInEther(uint256)",
+      "pc": "0x7de",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "85",
+      "maybe_in_function": "collectFeesInEther(uint256)",
+      "pc": "0x7de",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "103",
+      "maybe_in_function": "collectPercentOfFees(uint256)",
+      "pc": "0x689",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "103",
+      "maybe_in_function": "collectPercentOfFees(uint256)",
+      "pc": "0x689",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "153",
+      "maybe_in_function": "numberOfParticipantsWaitingForPayout()",
+      "pc": "0xaf5",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "90",
+      "maybe_in_function": "collectFeesInEther(uint256)",
+      "pc": "0x9dd",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/access_control/rubixi.sol",
+  "duration": 494.61286759376526,
+  "end": 1654106483.306457,
+  "exit_code": 0,
+  "start": 1654105988.6935894,
+  "tool": "conkas"
+}

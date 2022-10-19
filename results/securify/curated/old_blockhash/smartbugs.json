@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "securify",
+  "start": 1654182775.3257215,
+  "end": 1654182850.2448766,
+  "duration": 74.91915512084961,
+  "exit_code": 0
+}

@@ -1,0 +1,5450 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 134.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "9",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "34",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "41",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "47",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "52",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "54",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "55",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "56",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "58",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "62",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "63",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "66",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "67",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "69",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "70",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "71",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "72",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "73",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "74",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "75",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "76",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "77",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "78",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "79",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "80",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "81",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "82",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "83",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "84",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "85",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "86",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "87",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "88",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "91",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "92",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "94",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "95",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "98",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "99",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "100",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "102",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "103",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "104",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "105",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "106",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "107",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "108",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "109",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "110",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "111",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "112",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "113",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "116",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "117",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "119",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "120",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "121",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "122",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "123",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "124",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "125",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "126",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "127",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "128",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "132",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "133",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "134",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "135",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "139",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "140",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "141",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "142",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "143",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "144",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "147",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "148",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "149",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "150",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "151",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "152",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "153",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "154",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "155",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "156",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "157",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "158",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "159",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "160",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "161",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "162",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "167",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "168",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "169",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "170",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "171",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "173",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "174",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "175",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "176",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "177",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "178",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "179",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "180",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "182",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "184",
+      "message": "Line length must be no more than 120 but current length is 128.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "187",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "188",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "189",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "190",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "191",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "192",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "194",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "196",
+      "message": "Line length must be no more than 120 but current length is 128.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "197",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "198",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "199",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "200",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "201",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "202",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "203",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "205",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "206",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "207",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "209",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "210",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "211",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "212",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "213",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "215",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "8",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "216",
+      "message": "Expected indentation of 8 spaces but found 7",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "217",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "219",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "220",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "221",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "223",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "233",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "234",
+      "message": "Line length must be no more than 120 but current length is 194.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "234",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "235",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "236",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "238",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "239",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "240",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "241",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "242",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "243",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "244",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "245",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "246",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "247",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "248",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "249",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "252",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "253",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "254",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "256",
+      "message": "Line length must be no more than 120 but current length is 194.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "258",
+      "message": "Line length must be no more than 120 but current length is 125.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "259",
+      "message": "Line length must be no more than 120 but current length is 148.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "259",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "260",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "261",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "262",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "264",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "266",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "267",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "269",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "271",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "272",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "273",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "274",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "275",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "276",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "277",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "278",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "279",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "281",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "282",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "283",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "284",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "285",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "287",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "288",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "289",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "290",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "291",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "292",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "294",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "295",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "296",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "297",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "298",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "299",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "300",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "301",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "302",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "303",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "304",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "306",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "307",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "308",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "309",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "310",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "311",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "312",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "313",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "315",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "316",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "317",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "318",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "319",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "320",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "321",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "322",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "323",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "324",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "326",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "327",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "328",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "329",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "330",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "331",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "332",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "333",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "334",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "336",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "337",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "338",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "339",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "340",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "341",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "343",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "345",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "346",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "347",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "348",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "349",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "350",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "351",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "352",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "353",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "354",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "355",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "356",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "357",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "358",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "361",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "362",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "363",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "364",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "365",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "366",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "368",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "369",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "370",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "371",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "372",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "373",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "374",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "375",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "377",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "378",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "380",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "381",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "382",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "383",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "384",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "385",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "386",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "387",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "388",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "389",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "390",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "391",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "392",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "397",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "398",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "400",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "401",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "402",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "403",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "404",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "405",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "406",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "406",
+      "message": "Line length must be no more than 120 but current length is 129.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "407",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "408",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "410",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "411",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "413",
+      "message": "Line length must be no more than 120 but current length is 158.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "414",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "415",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "417",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "418",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "420",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "421",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "422",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "424",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "426",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "427",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "428",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "430",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "430",
+      "message": "Line length must be no more than 120 but current length is 162.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "431",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "433",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "436",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "437",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "439",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "441",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "442",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "444",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "445",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "446",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "447",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "448",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "449",
+      "message": "Line length must be no more than 120 but current length is 127.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "449",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "450",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "451",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "453",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "454",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "456",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "457",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "459",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "460",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "465",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "466",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "467",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "471",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "472",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "473",
+      "message": "Line length must be no more than 120 but current length is 123.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "473",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "474",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "475",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "476",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "477",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "478",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "479",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "481",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "482",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "483",
+      "message": "Line length must be no more than 120 but current length is 123.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "483",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "484",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "485",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "486",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "487",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "488",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "489",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "491",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "492",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "494",
+      "message": "Line length must be no more than 120 but current length is 129.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "495",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "496",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "497",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "498",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "499",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "500",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "501",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "502",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "503",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "506",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "507",
+      "message": "Line length must be no more than 120 but current length is 135.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "507",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "508",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "508",
+      "message": "Line length must be no more than 120 but current length is 141.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "509",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "510",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "512",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "513",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "514",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "515",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "516",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "517",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "518",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "519",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "520",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "521",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "522",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "523",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "524",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "525",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "526",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "528",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "529",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "531",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "533",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "534",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "535",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "536",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "538",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "539",
+      "message": "Line length must be no more than 120 but current length is 146.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "539",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "540",
+      "message": "Line length must be no more than 120 but current length is 146.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "540",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "541",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "543",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "545",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "546",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "550",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "551",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "552",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "553",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "554",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "555",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "556",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "557",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "558",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "559",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "560",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "561",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "562",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "563",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "565",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "566",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "567",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "569",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "570",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "571",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "572",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "573",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "574",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "575",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "576",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "577",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "578",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "579",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "580",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "581",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "582",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "583",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "585",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "586",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "589",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "590",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "591",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "592",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "593",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "594",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "595",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "596",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "597",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "601",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "602",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "603",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "604",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "605",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "606",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "607",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "608",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "609",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "610",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "611",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "612",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "615",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "616",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "617",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "618",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "619",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "620",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "621",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "622",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "623",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "624",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "625",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "626",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "627",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "629",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "631",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "633",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "635",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "636",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "636",
+      "message": "Line length must be no more than 120 but current length is 142.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "637",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "640",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "643",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "645",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "646",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "647",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "648",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "649",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "650",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "651",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "652",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "653",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "654",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "656",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "657",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "662",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "663",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "664",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "665",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "666",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "667",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "668",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "669",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "670",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "671",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "672",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "673",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "675",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "676",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "677",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "678",
+      "message": "Line length must be no more than 120 but current length is 124.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "678",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "679",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "680",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "681",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "682",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "683",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "684",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "689",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "691",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "692",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "693",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "694",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "695",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "696",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "697",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "698",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "699",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "700",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "701",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "702",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "703",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "704",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "707",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "711",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "712",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "715",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "716",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "717",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "718",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "720",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "722",
+      "message": "Line length must be no more than 120 but current length is 131.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "722",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "723",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "725",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "727",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "728",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "729",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "730",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "732",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "734",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "737",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "738",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "739",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "741",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "742",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "743",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "744",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "745",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "747",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "748",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "749",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "751",
+      "message": "Line length must be no more than 120 but current length is 121.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "751",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "752",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "756",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "757",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "760",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "761",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "762",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "763",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "766",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "767",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "769",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "770",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "772",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "773",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "774",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "775",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "776",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "777",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "779",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "780",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "781",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "782",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "783",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "784",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "787",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "788",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "789",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "790",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "792",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "793",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "794",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "795",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "797",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "798",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "799",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "800",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "802",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "803",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "804",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "805",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "806",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "807",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "808",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "809",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "810",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "811",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "813",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "814",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "816",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "817",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "819",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "820",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "821",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "823",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "824",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "826",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "827",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "828",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "18",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "829",
+      "message": "Expected indentation of 16 spaces but found 17",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "830",
+      "message": "Expected indentation of 12 spaces but found 13",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "831",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "833",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "834",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "837",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "838",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "839",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "840",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "841",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "842",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "843",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "844",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "845",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "846",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "847",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "848",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "849",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "850",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "851",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "852",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "853",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "854",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "855",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "856",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "857",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "858",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "859",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "860",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "861",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "862",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "863",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "864",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "865",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "866",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "868",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "869",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "870",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "871",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "872",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "873",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "874",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "875",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "876",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "877",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "878",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "879",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "880",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "881",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "882",
+      "message": "Expected indentation of 8 spaces but found 9",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "883",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "884",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "885",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "886",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "887",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "888",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "889",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "890",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "891",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "892",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "14",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "893",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "10",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "894",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "895",
+      "message": "Expected indentation of 4 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/spank_chain_payment.sol",
+      "level": "Error",
+      "line": "896",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "duration": 9.814868688583374,
+  "end": 1654082650.9265423,
+  "exit_code": 1,
+  "start": 1654082641.1116736,
+  "tool": "solhint"
+}

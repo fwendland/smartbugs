@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "maian",
+  "start": 1654162490.6292748,
+  "end": 1654163229.1356466,
+  "duration": 738.5063717365265,
+  "exit_code": 0
+}

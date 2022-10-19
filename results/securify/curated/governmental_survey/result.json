@@ -1,0 +1,157 @@
+{
+  "analysis": {
+    "/data/governmental_survey.sol:Attacker": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            44
+          ],
+          "warnings": []
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            46,
+            49
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            46,
+            49
+          ]
+        }
+      }
+    },
+    "/data/governmental_survey.sol:Governmental": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            33,
+            34
+          ],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            14
+          ],
+          "warnings": [
+            14,
+            12,
+            10,
+            29,
+            13,
+            11,
+            21
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            33,
+            34
+          ],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            34
+          ],
+          "violations": [
+            33
+          ],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            33,
+            34
+          ],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            33,
+            34
+          ],
+          "warnings": [
+            10,
+            21
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            33,
+            34
+          ],
+          "violations": [],
+          "warnings": [
+            10,
+            21
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "duration": 78.78718638420105,
+  "end": 1654183747.7778406,
+  "exit_code": 0,
+  "start": 1654183668.9906542,
+  "tool": "securify"
+}

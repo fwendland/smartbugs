@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/mapping_write.sol",
+      "name": "Map"
+    }
+  ],
+  "contract": "dataset/access_control/mapping_write.sol",
+  "duration": 85.87689232826233,
+  "end": 1654122352.3653898,
+  "exit_code": 0,
+  "start": 1654122266.4884975,
+  "tool": "honeybadger"
+}

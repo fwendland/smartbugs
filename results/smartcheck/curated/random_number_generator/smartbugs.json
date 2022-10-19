@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "tool": "smartcheck",
+  "start": 1654186499.772022,
+  "end": 1654186505.8939729,
+  "duration": 6.12195086479187,
+  "exit_code": 0
+}

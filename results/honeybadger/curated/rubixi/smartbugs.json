@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/rubixi.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.3116364,
+  "end": 1654122371.9795434,
+  "duration": 105.66790699958801,
+  "exit_code": 0
+}

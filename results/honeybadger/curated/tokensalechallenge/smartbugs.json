@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "tool": "honeybadger",
+  "start": 1654122531.5566387,
+  "end": 1654122538.7972035,
+  "duration": 7.240564823150635,
+  "exit_code": 0
+}

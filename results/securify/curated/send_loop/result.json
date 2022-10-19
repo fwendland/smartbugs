@@ -1,0 +1,78 @@
+{
+  "analysis": {
+    "/data/send_loop.sol:Refunder": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            23
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            12
+          ],
+          "warnings": [
+            20
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            23
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [
+            23
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            23
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            23
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            23
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "duration": 13.134536743164062,
+  "end": 1654183454.7649214,
+  "exit_code": 0,
+  "start": 1654183441.6303847,
+  "tool": "securify"
+}

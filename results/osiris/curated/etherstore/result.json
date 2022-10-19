@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 17,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 24,
+          "line": 25,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 25,
+          "message": "time_dependency_bug"
+        },
+        {
+          "column": 17,
+          "line": 27,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/etherstore.sol",
+      "name": "EtherStore"
+    }
+  ],
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "duration": 4.265768766403198,
+  "end": 1654007403.902912,
+  "exit_code": 0,
+  "start": 1654007399.6371431,
+  "tool": "osiris"
+}

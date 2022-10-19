@@ -1,0 +1,73 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "100.0%",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "WalletEvents",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 329,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 321,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 7,
+          "level": "Warning",
+          "line": 309,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 31,
+          "level": "Warning",
+          "line": 321,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 23,
+          "level": "Warning",
+          "line": 310,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 316,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "18.4%",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "WalletLibrary",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/access_control/parity_wallet_bug_2.sol",
+  "duration": 9.74295425415039,
+  "end": 1654181747.3276184,
+  "exit_code": 0,
+  "start": 1654181737.584664,
+  "tool": "oyente"
+}

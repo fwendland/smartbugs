@@ -1,0 +1,395 @@
+{
+  "analysis": [
+    {
+      "check": "arbitrary-send",
+      "confidence": "Medium",
+      "description": "GuessTheRandomNumberChallenge.guess (/data/guess_the_random_number.sol#22-28) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(2000000000000000000) (/data/guess_the_random_number.sol#26)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "GuessTheRandomNumberChallenge",
+            "source_mapping": {
+              "filename": "/data/guess_the_random_number.sol",
+              "length": 560,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 171
+            },
+            "type": "contract"
+          },
+          "name": "guess",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 165,
+            "lines": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 564
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.transfer(2000000000000000000)",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 28,
+            "lines": [
+              26
+            ],
+            "start": 684
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "incorrect-equality",
+      "confidence": "High",
+      "description": "GuessTheRandomNumberChallenge.guess (/data/guess_the_random_number.sol#22-28) uses a dangerous strict equality:\n\t- n == answer\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "GuessTheRandomNumberChallenge",
+            "source_mapping": {
+              "filename": "/data/guess_the_random_number.sol",
+              "length": 560,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 171
+            },
+            "type": "contract"
+          },
+          "name": "guess",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 165,
+            "lines": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 564
+          },
+          "type": "function"
+        },
+        {
+          "expression": "n == answer",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 70,
+            "lines": [
+              25,
+              26,
+              27
+            ],
+            "start": 653
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Medium"
+    },
+    {
+      "check": "incorrect-equality",
+      "confidence": "High",
+      "description": "GuessTheRandomNumberChallenge.guess (/data/guess_the_random_number.sol#22-28) uses a dangerous strict equality:\n\t- n == answer\nGuessTheRandomNumberChallenge.isComplete (/data/guess_the_random_number.sol#18-20) uses a dangerous strict equality:\n\t- address(this).balance == 0\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "GuessTheRandomNumberChallenge",
+            "source_mapping": {
+              "filename": "/data/guess_the_random_number.sol",
+              "length": 560,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 171
+            },
+            "type": "contract"
+          },
+          "name": "isComplete",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 99,
+            "lines": [
+              18,
+              19,
+              20
+            ],
+            "start": 459
+          },
+          "type": "function"
+        },
+        {
+          "expression": "address(this).balance == 0",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 33,
+            "lines": [
+              19
+            ],
+            "start": 518
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Medium"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/guess_the_random_number.sol#15:\n\t- Usage of \"block.blockhash()\" should be replaced with \"blockhash()\"\n",
+      "elements": [
+        {
+          "expression": "answer = uint8(keccak256()(block.blockhash(block.number - 1),now))",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 65,
+            "lines": [
+              15
+            ],
+            "start": 381
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "GuessTheRandomNumberChallenge.isComplete (/data/guess_the_random_number.sol#18-20) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "GuessTheRandomNumberChallenge",
+            "source_mapping": {
+              "filename": "/data/guess_the_random_number.sol",
+              "length": 560,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 171
+            },
+            "type": "contract"
+          },
+          "name": "isComplete",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 99,
+            "lines": [
+              18,
+              19,
+              20
+            ],
+            "start": 459
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "GuessTheRandomNumberChallenge.guess (/data/guess_the_random_number.sol#22-28) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "GuessTheRandomNumberChallenge",
+            "source_mapping": {
+              "filename": "/data/guess_the_random_number.sol",
+              "length": 560,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "start": 171
+            },
+            "type": "contract"
+          },
+          "name": "guess",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 165,
+            "lines": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 564
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/guess_the_random_number.sol:\n\t- pragma solidity^0.4.21 (/data/guess_the_random_number.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.21",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 145
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'GuessTheRandomNumberChallenge.GuessTheRandomNumberChallenge' (/data/guess_the_random_number.sol#12-16) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "GuessTheRandomNumberChallenge",
+          "source_mapping": {
+            "filename": "/data/guess_the_random_number.sol",
+            "length": 218,
+            "lines": [
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "start": 235
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "duration": 3.317553997039795,
+  "end": 1654186403.3082438,
+  "exit_code": 8,
+  "start": 1654186399.9906898,
+  "tool": "slither"
+}

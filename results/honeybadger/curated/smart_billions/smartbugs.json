@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "honeybadger",
+  "start": 1654122732.165878,
+  "end": 1654123014.0265687,
+  "duration": 281.8606905937195,
+  "exit_code": 0
+}

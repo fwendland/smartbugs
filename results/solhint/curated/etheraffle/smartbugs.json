@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "solhint",
+  "start": 1654186593.179468,
+  "end": 1654186596.1411915,
+  "duration": 2.961723566055298,
+  "exit_code": 1
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "osiris",
+  "start": 1654181182.3194478,
+  "end": 1654181185.4206705,
+  "duration": 3.1012227535247803,
+  "exit_code": 0
+}

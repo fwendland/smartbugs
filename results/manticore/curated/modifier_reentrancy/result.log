@@ -1,0 +1,50 @@
+2022-05-31 13:46:20,383: [14] m.main:INFO: Registered plugins: DetectExternalCallAndLeak, DetectIntegerOverflow, DetectReentrancySimple, DetectInvalid, DetectSuicidal, DetectReentrancyAdvanced, DetectUninitializedStorage, DetectEnvInstruction, DetectDelegatecall, DetectUnusedRetVal, DetectUninitializedMemory
+2022-05-31 13:46:20,384: [14] m.main:INFO: Beginning analysis
+2022-05-31 13:46:20,399: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-05-31 13:46:21,384: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-05-31 13:46:23,621: [14] m.e.manticore:INFO: 1 alive states, 3 terminated states
+2022-05-31 13:46:24,102: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-05-31 13:46:27,240: [14] m.e.manticore:INFO: 1 alive states, 6 terminated states
+2022-05-31 13:46:27,960: [1456] m.c.manticore:INFO: Generated testcase No. 1 - RETURN(1 txs)
+2022-05-31 13:46:27,965: [1455] m.c.manticore:INFO: Generated testcase No. 0 - RETURN(3 txs)
+2022-05-31 13:46:27,974: [1459] m.c.manticore:INFO: Generated testcase No. 2 - REVERT(2 txs)
+2022-05-31 13:46:27,979: [1454] m.c.manticore:INFO: Generated testcase No. 3 - REVERT(2 txs)
+2022-05-31 13:46:27,994: [1466] m.c.manticore:INFO: Generated testcase No. 5 - REVERT(3 txs)
+2022-05-31 13:46:27,994: [1461] m.c.manticore:INFO: Generated testcase No. 4 - RETURN(2 txs)
+2022-05-31 13:46:27,999: [1464] m.c.manticore:INFO: Generated testcase No. 6 - REVERT(3 txs)
+2022-05-31 13:46:30,717: [14] m.c.manticore:INFO: Results in /mcore_lvxkx22a
+2022-05-31 13:46:32,858: [1916] m.main:INFO: Registered plugins: DetectReentrancyAdvanced, DetectReentrancySimple, DetectInvalid, DetectUnusedRetVal, DetectUninitializedStorage, DetectExternalCallAndLeak, DetectSuicidal, DetectEnvInstruction, DetectUninitializedMemory, DetectDelegatecall, DetectIntegerOverflow
+2022-05-31 13:46:32,859: [1916] m.main:INFO: Beginning analysis
+2022-05-31 13:46:32,887: [1916] m.e.manticore:INFO: Starting symbolic create contract
+2022-05-31 13:46:35,518: [1916] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-05-31 13:46:41,403: [1916] m.e.manticore:INFO: 1 alive states, 5 terminated states
+2022-05-31 13:46:42,719: [1916] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-05-31 13:46:50,240: [1916] m.e.manticore:INFO: 1 alive states, 10 terminated states
+2022-05-31 13:46:51,953: [3540] m.c.manticore:INFO: Generated testcase No. 0 - RETURN(3 txs)
+2022-05-31 13:46:52,156: [3553] m.c.manticore:INFO: Generated testcase No. 1 - RETURN(1 txs)
+2022-05-31 13:46:52,210: [3555] m.c.manticore:INFO: Generated testcase No. 2 - REVERT(2 txs)
+2022-05-31 13:46:52,219: [3549] m.c.manticore:INFO: Generated testcase No. 3 - REVERT(2 txs)
+2022-05-31 13:46:52,229: [3557] m.c.manticore:INFO: Generated testcase No. 4 - REVERT(2 txs)
+2022-05-31 13:46:52,246: [3542] m.c.manticore:INFO: Generated testcase No. 5 - REVERT(2 txs)
+2022-05-31 13:46:52,291: [3554] m.c.manticore:INFO: Generated testcase No. 6 - RETURN(2 txs)
+2022-05-31 13:46:55,780: [3553] m.c.manticore:INFO: Generated testcase No. 7 - REVERT(3 txs)
+2022-05-31 13:46:56,760: [3549] m.c.manticore:INFO: Generated testcase No. 8 - REVERT(3 txs)
+2022-05-31 13:46:56,787: [3555] m.c.manticore:INFO: Generated testcase No. 9 - REVERT(3 txs)
+2022-05-31 13:46:56,813: [3557] m.c.manticore:INFO: Generated testcase No. 10 - REVERT(3 txs)
+2022-05-31 13:47:02,632: [1916] m.c.manticore:INFO: Results in /mcore_sj3kf0et
+2022-05-31 13:47:05,939: [4106] m.main:INFO: Registered plugins: DetectDelegatecall, DetectReentrancyAdvanced, DetectIntegerOverflow, DetectSuicidal, DetectReentrancySimple, DetectInvalid, DetectExternalCallAndLeak, DetectUninitializedMemory, DetectEnvInstruction, DetectUnusedRetVal, DetectUninitializedStorage
+2022-05-31 13:47:05,940: [4106] m.main:INFO: Beginning analysis
+2022-05-31 13:47:05,973: [4106] m.e.manticore:INFO: Starting symbolic create contract
+2022-05-31 13:47:09,019: [4106] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-05-31 13:47:22,897: [4106] m.e.manticore:INFO: 0 alive states, 9 terminated states
+2022-05-31 13:47:24,426: [4106] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-05-31 13:47:25,105: [5320] m.c.manticore:INFO: Generated testcase No. 0 - RETURN(1 txs)
+2022-05-31 13:47:25,119: [5321] m.c.manticore:INFO: Generated testcase No. 1 - REVERT(2 txs)
+2022-05-31 13:47:25,199: [5341] m.c.manticore:INFO: Generated testcase No. 3 - REVERT(2 txs)
+2022-05-31 13:47:25,204: [5333] m.c.manticore:INFO: Generated testcase No. 2 - REVERT(2 txs)
+2022-05-31 13:47:25,222: [5357] m.c.manticore:INFO: Generated testcase No. 4 - REVERT(2 txs)
+2022-05-31 13:47:25,255: [5325] m.c.manticore:INFO: Generated testcase No. 6 - REVERT(2 txs)
+2022-05-31 13:47:25,280: [5359] m.c.manticore:INFO: Generated testcase No. 5 - REVERT(2 txs)
+2022-05-31 13:47:25,339: [5380] m.c.manticore:INFO: Generated testcase No. 7 - REVERT(2 txs)
+2022-05-31 13:47:25,390: [5365] m.c.manticore:INFO: Generated testcase No. 8 - REVERT(2 txs)
+2022-05-31 13:47:30,862: [4106] m.c.manticore:INFO: Results in /mcore_at28nec4

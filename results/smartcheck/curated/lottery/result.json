@@ -1,0 +1,170 @@
+{
+  "analysis": [
+    {
+      "column": 9,
+      "content": "suicide",
+      "line": 66,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "27cb59",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "throw",
+      "line": 30,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "throw",
+      "line": 48,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 39,
+      "content": "throw",
+      "line": 55,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 39,
+      "content": "throw",
+      "line": 64,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "49bd2a",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "for(uinti=0;i<bets.length;i++){GetBet(bets[i].betAmount,bets[i].blockNumber,bets[i].won);}",
+      "line": 57,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "d3j11j",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "for(uinti=0;i<bets.length;i++){GetBet(bets[i].betAmount,bets[i].blockNumber,bets[i].won);}",
+      "line": 57,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "f6f853",
+      "severity": 2
+    },
+    {
+      "column": 18,
+      "content": "^",
+      "line": 9,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "private",
+      "line": 20,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 11,
+      "content": "private",
+      "line": 21,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "{throw;}",
+      "line": 29,
+      "name": "SOLIDITY_REDUNDANT_FALLBACK_REJECT",
+      "patternId": "b85a32",
+      "severity": 1
+    },
+    {
+      "column": 13,
+      "content": "if(!msg.sender.send(msg.value)){throw;}",
+      "line": 46,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "if(msg.sender!=organizer){throw;}",
+      "line": 55,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 9,
+      "content": "if(msg.sender!=organizer){throw;}",
+      "line": 64,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 28,
+      "content": "send(msg.value)",
+      "line": 46,
+      "name": "SOLIDITY_SEND",
+      "patternId": 430636,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functionLottery(){organizer=msg.sender;}",
+      "line": 24,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "function(){throw;}",
+      "line": 29,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functionmakeBet(){boolwon=(block.number%2)==0;bets.push(Bet(msg.value,block.number,won));if(won){if(!msg.sender.send(msg.value)){throw;}}}",
+      "line": 34,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetBets(){if(msg.sender!=organizer){throw;}for(uinti=0;i<bets.length;i++){GetBet(bets[i].betAmount,bets[i].blockNumber,bets[i].won);}}",
+      "line": 54,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiondestroy(){if(msg.sender!=organizer){throw;}suicide(organizer);}",
+      "line": 63,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "duration": 6.111414909362793,
+  "end": 1654186505.8410914,
+  "exit_code": 0,
+  "start": 1654186499.7296765,
+  "tool": "smartcheck"
+}

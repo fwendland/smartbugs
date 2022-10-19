@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "manticore",
+  "start": 1654168180.721217,
+  "end": 1654169984.1686015,
+  "duration": 1803.447384595871,
+  "exit_code": null
+}

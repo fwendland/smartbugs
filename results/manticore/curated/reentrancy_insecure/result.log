@@ -1,0 +1,21 @@
+2022-05-31 13:46:21,097: [14] m.main:INFO: Registered plugins: DetectUnusedRetVal, DetectInvalid, DetectDelegatecall, DetectUninitializedMemory, DetectExternalCallAndLeak, DetectReentrancySimple, DetectSuicidal, DetectUninitializedStorage, DetectIntegerOverflow, DetectReentrancyAdvanced, DetectEnvInstruction
+2022-05-31 13:46:21,098: [14] m.main:INFO: Beginning analysis
+2022-05-31 13:46:21,112: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-05-31 13:46:22,066: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-05-31 13:46:23,633: [320] m.e.detectors:WARNING: Reachable external call to sender
+2022-05-31 13:46:25,722: [330] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:25,752: [330] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:26,453: [14] m.e.manticore:INFO: 1 alive states, 3 terminated states
+2022-05-31 13:46:27,028: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-05-31 13:46:29,622: [970] m.e.detectors:WARNING: Reachable external call to sender
+2022-05-31 13:46:32,870: [965] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:32,913: [965] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:34,065: [14] m.e.manticore:INFO: 1 alive states, 6 terminated states
+2022-05-31 13:46:34,870: [1595] m.c.manticore:INFO: Generated testcase No. 0 - STOP(3 txs)
+2022-05-31 13:46:34,901: [1596] m.c.manticore:INFO: Generated testcase No. 1 - RETURN(1 txs)
+2022-05-31 13:46:34,919: [1598] m.c.manticore:INFO: Generated testcase No. 2 - REVERT(2 txs)
+2022-05-31 13:46:34,921: [1601] m.c.manticore:INFO: Generated testcase No. 3 - REVERT(2 txs)
+2022-05-31 13:46:34,939: [1604] m.c.manticore:INFO: Generated testcase No. 4 - STOP(2 txs)
+2022-05-31 13:46:34,941: [1611] m.c.manticore:INFO: Generated testcase No. 5 - REVERT(3 txs)
+2022-05-31 13:46:34,944: [1615] m.c.manticore:INFO: Generated testcase No. 6 - REVERT(3 txs)
+2022-05-31 13:46:37,636: [14] m.c.manticore:INFO: Results in /mcore_kq1up0u3

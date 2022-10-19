@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "tool": "osiris",
+  "start": 1654181119.9201472,
+  "end": 1654181172.526493,
+  "duration": 52.606345891952515,
+  "exit_code": 0
+}

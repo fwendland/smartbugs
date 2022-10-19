@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "osiris",
+  "start": 1654181009.9260006,
+  "end": 1654181062.7536423,
+  "duration": 52.82764172554016,
+  "exit_code": 0
+}

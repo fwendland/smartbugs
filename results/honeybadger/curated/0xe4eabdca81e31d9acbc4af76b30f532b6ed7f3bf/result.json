@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 3470,
+          "line": 25,
+          "message": "hidden_transfer"
+        }
+      ],
+      "file": "/data/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+      "name": "Honey"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+  "duration": 66.64167833328247,
+  "end": 1654123470.711829,
+  "exit_code": 0,
+  "start": 1654123404.0701506,
+  "tool": "honeybadger"
+}

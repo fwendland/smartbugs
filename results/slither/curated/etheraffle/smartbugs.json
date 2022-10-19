@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "slither",
+  "start": 1654186400.066613,
+  "end": 1654186403.8693829,
+  "duration": 3.802769899368286,
+  "exit_code": 13
+}

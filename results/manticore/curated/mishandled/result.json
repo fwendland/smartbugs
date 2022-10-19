@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "duration": 20.31948971748352,
+  "end": 1654175515.6548584,
+  "exit_code": 0,
+  "start": 1654175495.3353686,
+  "tool": "manticore"
+}

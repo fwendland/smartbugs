@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 25,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/integer_overflow_multitx_multifunc_feasible.sol",
+      "name": "IntegerOverflowMultiTxMultiFuncFeasible"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_multitx_multifunc_feasible.sol",
+  "duration": 3.24808406829834,
+  "end": 1654180933.447475,
+  "exit_code": 0,
+  "start": 1654180930.199391,
+  "tool": "osiris"
+}

@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "21",
+      "maybe_in_function": "airDrop()",
+      "pc": "0x173",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "47",
+      "maybe_in_function": "call(address)",
+      "pc": "0x283",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/reentrancy/modifier_reentrancy.sol",
+  "duration": 11.331295013427734,
+  "end": 1654008676.0410116,
+  "exit_code": 0,
+  "start": 1654008664.7097166,
+  "tool": "conkas"
+}

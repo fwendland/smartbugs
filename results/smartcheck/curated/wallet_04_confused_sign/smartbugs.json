@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.654641,
+  "end": 1654186487.2686617,
+  "duration": 7.614020824432373,
+  "exit_code": 0
+}

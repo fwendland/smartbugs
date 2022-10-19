@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "osiris",
+  "start": 1654180874.695811,
+  "end": 1654180890.7237155,
+  "duration": 16.027904510498047,
+  "exit_code": 0
+}

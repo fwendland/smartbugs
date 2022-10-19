@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "oyente",
+  "start": 1654181737.5829246,
+  "end": 1654181741.586205,
+  "duration": 4.003280401229858,
+  "exit_code": 0
+}

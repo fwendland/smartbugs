@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "tool": "conkas",
+  "start": 1654106821.6548743,
+  "end": 1654106826.827921,
+  "duration": 5.173046588897705,
+  "exit_code": 0
+}

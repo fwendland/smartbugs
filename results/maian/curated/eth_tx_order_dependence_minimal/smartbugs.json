@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "maian",
+  "start": 1654163338.3836677,
+  "end": 1654163390.3116403,
+  "duration": 51.92797255516052,
+  "exit_code": 0
+}

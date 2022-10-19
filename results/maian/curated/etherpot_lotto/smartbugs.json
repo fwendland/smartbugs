@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "maian",
+  "start": 1654163588.7659514,
+  "end": 1654163689.526574,
+  "duration": 100.76062250137329,
+  "exit_code": 0
+}

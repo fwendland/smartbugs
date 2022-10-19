@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "conkas",
+  "start": 1654106760.3180041,
+  "end": 1654106766.1422117,
+  "duration": 5.824207544326782,
+  "exit_code": 0
+}

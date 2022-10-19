@@ -1,0 +1,60 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 81,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 66,
+          "level": "Warning",
+          "line": 129,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 131,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 33,
+          "level": "Warning",
+          "line": 148,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 93,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 121,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "80.5%",
+      "file": "/data/etheraffle.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "Ethraffle_v4b",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "duration": 38.603760957717896,
+  "end": 1654181819.053917,
+  "exit_code": 1,
+  "start": 1654181780.450156,
+  "tool": "oyente"
+}

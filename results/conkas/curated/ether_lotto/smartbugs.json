@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "conkas",
+  "start": 1654106821.6496117,
+  "end": 1654106827.2728872,
+  "duration": 5.623275518417358,
+  "exit_code": 0
+}

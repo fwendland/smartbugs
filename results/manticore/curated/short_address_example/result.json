@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "duration": 88.15414094924927,
+  "end": 1654173688.3574617,
+  "exit_code": 0,
+  "start": 1654173600.2033207,
+  "tool": "manticore"
+}

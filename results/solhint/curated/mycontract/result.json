@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/access_control/mycontract.sol",
+  "duration": 4.179896354675293,
+  "end": 1654186581.0428615,
+  "exit_code": 0,
+  "start": 1654186576.862965,
+  "tool": "solhint"
+}

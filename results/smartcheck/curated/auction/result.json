@@ -1,0 +1,50 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 33,
+      "content": "send(currentBid)",
+      "line": 23,
+      "name": "SOLIDITY_SEND",
+      "patternId": 430636,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "functionbid()payable{require(msg.value>currentBid);if(currentFrontrunner!=0){require(currentFrontrunner.send(currentBid));}currentFrontrunner=msg.sender;currentBid=msg.value;}",
+      "line": 15,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "addresscurrentFrontrunner;",
+      "line": 11,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 2,
+      "content": "uintcurrentBid;",
+      "line": 12,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/denial_of_service/auction.sol",
+  "duration": 5.211219549179077,
+  "end": 1654186513.3311772,
+  "exit_code": 0,
+  "start": 1654186508.1199577,
+  "tool": "smartcheck"
+}

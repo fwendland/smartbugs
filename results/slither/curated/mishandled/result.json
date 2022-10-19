@@ -1,0 +1,75 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "SendBack.withdrawBalance (/data/mishandled.sol#10-15) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "SendBack",
+            "source_mapping": {
+              "filename": "/data/mishandled.sol",
+              "length": 269,
+              "lines": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "start": 177
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/mishandled.sol",
+            "length": 199,
+            "lines": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "start": 245
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/mishandled.sol:\n\t- pragma solidity^0.4.0 (/data/mishandled.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.0",
+          "source_mapping": {
+            "filename": "/data/mishandled.sol",
+            "length": 23,
+            "lines": [
+              7
+            ],
+            "start": 153
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "duration": 15.727215051651001,
+  "end": 1654186451.4890137,
+  "exit_code": 2,
+  "start": 1654186435.7617986,
+  "tool": "slither"
+}

@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        }
+      ],
+      "file": "/data/dos_address.sol",
+      "name": "DosGas"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "duration": 12.916477918624878,
+  "end": 1654181078.6553018,
+  "exit_code": 0,
+  "start": 1654181065.738824,
+  "tool": "osiris"
+}

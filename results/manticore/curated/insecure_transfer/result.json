@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "duration": 28.851621389389038,
+  "end": 1654166403.9485624,
+  "exit_code": 0,
+  "start": 1654166375.096941,
+  "tool": "manticore"
+}

@@ -1,0 +1,13 @@
+2022-06-02 10:39:39,009: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 10:39:39,009: [14] m.main:INFO: Beginning analysis
+2022-06-02 10:39:39,012: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 10:39:39,565: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 10:39:41,000: [14] m.e.manticore:INFO: 1 alive states, 1 terminated states
+2022-06-02 10:39:41,130: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-06-02 10:39:42,742: [14] m.e.manticore:INFO: 1 alive states, 1 terminated states
+2022-06-02 10:39:42,931: [14] m.e.manticore:INFO: Starting symbolic transaction: 2
+2022-06-02 10:39:45,368: [14] m.e.manticore:INFO: 1 alive states, 1 terminated states
+2022-06-02 10:39:45,704: [91] m.c.manticore:INFO: Generated testcase No. 0 - STOP(4 txs)
+2022-06-02 10:39:45,705: [91] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 10:39:48,845: [14] m.c.manticore:INFO: Results in /mcore__kyfexx2
+2022-06-02 10:39:48,846: [14] m.c.manticore:INFO: Total time: 5.908364295959473

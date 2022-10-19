@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "conkas",
+  "start": 1654106830.461954,
+  "end": 1654106881.6133091,
+  "duration": 51.151355028152466,
+  "exit_code": 0
+}

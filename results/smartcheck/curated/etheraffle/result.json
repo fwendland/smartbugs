@@ -1,0 +1,122 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "gaps.length--",
+      "line": 76,
+      "name": "SOLIDITY_ARRAY_LENGTH_MANIPULATION",
+      "patternId": "872bdd",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "gaps.length=0",
+      "line": 159,
+      "name": "SOLIDITY_ARRAY_LENGTH_MANIPULATION",
+      "patternId": "872bdd",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "for(uinti=0;i<totalTickets;i++){if(msg.sender==contestants[i].addr&&raffleId==contestants[i].raffleId){refund+=pricePerTicket;contestants[i]=Contestant(address(0),0);gaps.push(i);TicketRefund(raffleId,msg.sender,i);}}",
+      "line": 128,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "d3j11j",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "for(uinti=0;i<totalTickets;i++){if(raffleId==contestants[i].raffleId){TicketRefund(raffleId,contestants[i].addr,i);contestants[i].addr.transfer(pricePerTicket);}}",
+      "line": 147,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "d3j11j",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "while(moneySent>=pricePerTicket&&nextTicket<totalTickets){uintcurrTicket=0;if(gaps.length>0){currTicket=gaps[gaps.length-1];gaps.length--;}else{currTicket=nextTicket++;}contestants[currTicket]=Contestant(msg.sender,raffleId);TicketPurchase(raffleId,msg.sender,currTicket);moneySent-=pricePerTicket;}",
+      "line": 72,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "k4o1l4",
+      "severity": 1
+    },
+    {
+      "column": 15,
+      "content": "moneySent>=pricePerTicket&&nextTicket<totalTickets",
+      "line": 72,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "17f23a",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "^",
+      "line": 8,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "for(uinti=0;i<totalTickets;i++){if(raffleId==contestants[i].raffleId){TicketRefund(raffleId,contestants[i].addr,i);contestants[i].addr.transfer(pricePerTicket);}}",
+      "line": 147,
+      "name": "SOLIDITY_TRANSFER_IN_LOOP",
+      "patternId": "8jdj43",
+      "severity": 2
+    },
+    {
+      "column": 27,
+      "content": "keccak256(seed1,seed2,seed3)",
+      "line": 104,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "901eae",
+      "severity": 1
+    },
+    {
+      "column": 24,
+      "content": "public",
+      "line": 60,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "91h3sa",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "addressfeeAddress;",
+      "line": 43,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintnextTicket=0;",
+      "line": 50,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "mapping(uint=>Contestant)contestants;",
+      "line": 51,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uint[]gaps;",
+      "line": 52,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "duration": 5.566985130310059,
+  "end": 1654186505.1605704,
+  "exit_code": 0,
+  "start": 1654186499.5935853,
+  "tool": "smartcheck"
+}

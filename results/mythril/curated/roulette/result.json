@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [],
+    "success": true
+  },
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "duration": 52.38228750228882,
+  "end": 1654179705.3711061,
+  "exit_code": 0,
+  "start": 1654179652.9888186,
+  "tool": "mythril"
+}

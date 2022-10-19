@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "tool": "osiris",
+  "start": 1654181189.6258755,
+  "end": 1654181200.8315485,
+  "duration": 11.205672979354858,
+  "exit_code": 0
+}

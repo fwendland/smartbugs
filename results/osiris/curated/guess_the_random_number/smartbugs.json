@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "tool": "osiris",
+  "start": 1654181010.0150766,
+  "end": 1654181012.6684046,
+  "duration": 2.6533279418945312,
+  "exit_code": 0
+}

@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/parity_wallet_bug_2.sol",
+      "name": "WalletEvents"
+    },
+    {
+      "errors": [
+        {
+          "column": 22,
+          "line": 169,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 316,
+          "message": "truncation_bugs"
+        }
+      ],
+      "file": "/data/parity_wallet_bug_2.sol",
+      "name": "WalletLibrary"
+    }
+  ],
+  "contract": "dataset/access_control/parity_wallet_bug_2.sol",
+  "duration": 53.65437698364258,
+  "end": 1654180928.3630369,
+  "exit_code": 0,
+  "start": 1654180874.70866,
+  "tool": "osiris"
+}

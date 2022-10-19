@@ -1,0 +1,81 @@
+{
+  "analysis": {
+    "/data/etherstore.sol:EtherStore": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            26
+          ],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            13,
+            12
+          ],
+          "warnings": [
+            11,
+            15,
+            19
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            26
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            26
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            26
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            26
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            26
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "duration": 226.89300060272217,
+  "end": 1654007833.468323,
+  "exit_code": 0,
+  "start": 1654007606.5753224,
+  "tool": "securify"
+}

@@ -1,0 +1,77 @@
+{
+  "analysis": {
+    "/data/guess_the_random_number.sol:GuessTheRandomNumberChallenge": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            25
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            17,
+            21
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            25
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            25
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            25
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            25
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            25
+          ],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "duration": 8.878045082092285,
+  "end": 1654182784.3495436,
+  "exit_code": 0,
+  "start": 1654182775.4714985,
+  "tool": "securify"
+}

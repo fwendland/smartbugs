@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "maian",
+  "start": 1654161877.2184813,
+  "end": 1654161957.9475539,
+  "duration": 80.72907257080078,
+  "exit_code": 0
+}

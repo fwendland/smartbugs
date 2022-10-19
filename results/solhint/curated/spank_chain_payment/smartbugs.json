@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "tool": "solhint",
+  "start": 1654082641.1116736,
+  "end": 1654082650.9265423,
+  "duration": 9.814868688583374,
+  "exit_code": 1
+}

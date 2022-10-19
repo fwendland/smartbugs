@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "mythril",
+  "start": 1654179653.187606,
+  "end": 1654179657.714643,
+  "duration": 4.527036905288696,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "osiris",
+  "start": 1654180874.6862175,
+  "end": 1654180910.351169,
+  "duration": 35.66495156288147,
+  "exit_code": 0
+}

@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/arithmetic/integer_overflow_benign_1.sol",
+  "duration": 4.402080774307251,
+  "end": 1654092836.2424998,
+  "exit_code": 0,
+  "start": 1654092831.840419,
+  "tool": "conkas"
+}

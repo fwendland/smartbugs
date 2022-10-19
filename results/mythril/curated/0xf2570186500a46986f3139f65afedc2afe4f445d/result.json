@@ -1,0 +1,47 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [
+      {
+        "address": 349,
+        "code": "fuck.call(bytes4(sha3(\"giveBlockReward()\")))",
+        "debug": "",
+        "description": "This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.",
+        "filename": "/data/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+        "function": "makeOldFucks(uint32)",
+        "lineno": 18,
+        "title": "Message call to external contract",
+        "type": "Informational"
+      },
+      {
+        "address": 349,
+        "code": "fuck.call(bytes4(sha3(\"giveBlockReward()\")))",
+        "debug": "",
+        "description": "Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.\nConsecutive calls: \nCall at address: 349\nCall at address: 349\nCall at address: 349\nCall at address: 349\nCall at address: 349\nCall at address: 349\nCall at address: 349\nCall at address: 349\n",
+        "filename": "/data/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+        "function": "makeOldFucks(uint32)",
+        "lineno": 18,
+        "title": "Multiple Calls",
+        "type": "Information"
+      },
+      {
+        "address": 349,
+        "code": "fuck.call(bytes4(sha3(\"giveBlockReward()\")))",
+        "debug": "",
+        "description": "The return value of an external call is not checked. Note that execution continue even if the called contract throws.",
+        "filename": "/data/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+        "function": "makeOldFucks(uint32)",
+        "lineno": 18,
+        "title": "Unchecked CALL return value",
+        "type": "Informational"
+      }
+    ],
+    "success": true
+  },
+  "contract": "dataset/unchecked_low_level_calls/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+  "duration": 8.933489322662354,
+  "end": 1654179717.3304136,
+  "exit_code": 0,
+  "start": 1654179708.3969243,
+  "tool": "mythril"
+}

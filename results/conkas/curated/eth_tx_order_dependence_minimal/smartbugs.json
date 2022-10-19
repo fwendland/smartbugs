@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "conkas",
+  "start": 1654106801.3315024,
+  "end": 1654106805.604364,
+  "duration": 4.272861480712891,
+  "exit_code": 0
+}

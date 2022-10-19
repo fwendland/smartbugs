@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "honeybadger",
+  "start": 1654122732.1627414,
+  "end": 1654122786.2532258,
+  "duration": 54.090484380722046,
+  "exit_code": 0
+}

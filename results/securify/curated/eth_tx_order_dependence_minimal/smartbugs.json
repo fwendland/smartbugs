@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "securify",
+  "start": 1654183512.2217007,
+  "end": 1654183587.3222928,
+  "duration": 75.10059213638306,
+  "exit_code": 0
+}

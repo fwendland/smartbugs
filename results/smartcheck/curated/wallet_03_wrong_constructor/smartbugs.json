@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.647701,
+  "end": 1654186485.7950773,
+  "duration": 6.147376298904419,
+  "exit_code": 0
+}

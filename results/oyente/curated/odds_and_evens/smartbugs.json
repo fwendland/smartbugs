@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "oyente",
+  "start": 1654181845.4623823,
+  "end": 1654181848.418204,
+  "duration": 2.9558217525482178,
+  "exit_code": 1
+}

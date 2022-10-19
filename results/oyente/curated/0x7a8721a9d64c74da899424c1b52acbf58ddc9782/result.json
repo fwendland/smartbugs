@@ -1,0 +1,68 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 75,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 79,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 75,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "21.3%",
+      "file": "/data/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "Log",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 55,
+          "message": "Re-Entrancy Vulnerability."
+        },
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 52,
+          "message": "Re-Entrancy Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "97.8%",
+      "file": "/data/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "PrivateDeposit",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": true,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/reentrancy/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
+  "duration": 8.683874130249023,
+  "end": 1654007554.080037,
+  "exit_code": 1,
+  "start": 1654007545.396163,
+  "tool": "oyente"
+}

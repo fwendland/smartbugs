@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/arithmetic/timelock.sol",
+  "duration": 429.1587462425232,
+  "end": 1654166804.242482,
+  "exit_code": 0,
+  "start": 1654166375.0837357,
+  "tool": "manticore"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "conkas",
+  "start": 1654105988.697994,
+  "end": 1654105993.0915904,
+  "duration": 4.393596410751343,
+  "exit_code": 0
+}

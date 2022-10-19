@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_simple.sol",
+  "tool": "osiris",
+  "start": 1654181065.7374723,
+  "end": 1654181071.9507675,
+  "duration": 6.213295221328735,
+  "exit_code": 0
+}

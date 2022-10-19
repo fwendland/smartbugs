@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "osiris",
+  "start": 1654181182.3238442,
+  "end": 1654181185.7538843,
+  "duration": 3.430040121078491,
+  "exit_code": 0
+}

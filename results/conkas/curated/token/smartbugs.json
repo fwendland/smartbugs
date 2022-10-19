@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "conkas",
+  "start": 1654092831.817206,
+  "end": 1654092836.6008186,
+  "duration": 4.7836127281188965,
+  "exit_code": 0
+}

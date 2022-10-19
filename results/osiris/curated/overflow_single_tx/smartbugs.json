@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "tool": "osiris",
+  "start": 1654180930.7250478,
+  "end": 1654180960.6182463,
+  "duration": 29.893198490142822,
+  "exit_code": 0
+}

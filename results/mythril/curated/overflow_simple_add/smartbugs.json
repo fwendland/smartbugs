@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_simple_add.sol",
+  "tool": "mythril",
+  "start": 1654177615.9983652,
+  "end": 1654177620.86152,
+  "duration": 4.863154888153076,
+  "exit_code": 0
+}

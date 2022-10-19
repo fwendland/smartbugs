@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "conkas",
+  "start": 1654106814.837283,
+  "end": 1654106819.2887063,
+  "duration": 4.451423406600952,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "tool": "oyente",
+  "start": 1654181864.333822,
+  "end": 1654181866.7042906,
+  "duration": 2.3704686164855957,
+  "exit_code": 0
+}

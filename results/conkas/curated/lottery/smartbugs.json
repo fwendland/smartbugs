@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "conkas",
+  "start": 1654247600.1595452,
+  "end": 1654247605.114087,
+  "duration": 4.954541921615601,
+  "exit_code": 0
+}

@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "duration": 1803.447384595871,
+  "end": 1654169984.1686015,
+  "exit_code": null,
+  "start": 1654168180.721217,
+  "tool": "manticore"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "slither",
+  "start": 1654186381.873623,
+  "end": 1654186386.9488473,
+  "duration": 5.07522439956665,
+  "exit_code": 7
+}

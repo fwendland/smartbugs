@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "17",
+      "maybe_in_function": "forward(address,bytes)",
+      "pc": "0x94",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/access_control/proxy.sol",
+  "duration": 10.490339040756226,
+  "end": 1654105999.218439,
+  "exit_code": 0,
+  "start": 1654105988.7281,
+  "tool": "conkas"
+}

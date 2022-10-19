@@ -1,0 +1,554 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 127.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "35",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "36",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "37",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "40",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "41",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "46",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "47",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "48",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "50",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "51",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "56",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "57",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "58",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "60",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "61",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "67",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "68",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "69",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "70",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "76",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "77",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "78",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "80",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "82",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "84",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "86",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "87",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "88",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "90",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "91",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "92",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "95",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "96",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "97",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "98",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "100",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "101",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "102",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "104",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "105",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "106",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "107",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "108",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "110",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "111",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "113",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "114",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "115",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "116",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "118",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "119",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "120",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "121",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "123",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "124",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "125",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "126",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "127",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/ERC20.sol",
+      "level": "Error",
+      "line": "128",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/front_running/ERC20.sol",
+  "duration": 2.400228500366211,
+  "end": 1654186606.9892123,
+  "exit_code": 1,
+  "start": 1654186604.5889838,
+  "tool": "solhint"
+}

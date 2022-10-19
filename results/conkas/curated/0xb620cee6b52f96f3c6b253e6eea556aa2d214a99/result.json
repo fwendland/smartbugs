@@ -1,0 +1,100 @@
+{
+  "analysis": [
+    {
+      "line_number": "73",
+      "maybe_in_function": "becomePlayer()",
+      "pc": "0x8a9",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "137",
+      "maybe_in_function": "claimPrize()",
+      "pc": "0xb3b",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "100",
+      "maybe_in_function": "callFirstTarget()",
+      "pc": "0x5ea",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "106",
+      "maybe_in_function": "callSecondTarget()",
+      "pc": "0x6a9",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "110",
+      "maybe_in_function": "setSeed(uint256,uint256)",
+      "pc": "0x722",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "100",
+      "maybe_in_function": "callFirstTarget()",
+      "pc": "0x5ea",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "106",
+      "maybe_in_function": "callSecondTarget()",
+      "pc": "0x6a9",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "73",
+      "maybe_in_function": "becomePlayer()",
+      "pc": "0x8b3",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "133",
+      "maybe_in_function": "winPrize()",
+      "pc": "0xc6a",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "86",
+      "maybe_in_function": "manipulateSecret()",
+      "pc": "0xe4f",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "133",
+      "maybe_in_function": "winPrize()",
+      "pc": "0xc6a",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "27",
+      "maybe_in_function": "seed(uint256)",
+      "pc": "0xb93",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "28",
+      "maybe_in_function": "balance(uint256)",
+      "pc": "0x873",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "81",
+      "maybe_in_function": "manipulateSecret()",
+      "pc": "0xa5d",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "118",
+      "maybe_in_function": "guessSeed(uint256)",
+      "pc": "0xd02",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+  "duration": 28.455276489257812,
+  "end": 1654106858.900141,
+  "exit_code": 0,
+  "start": 1654106830.4448645,
+  "tool": "conkas"
+}

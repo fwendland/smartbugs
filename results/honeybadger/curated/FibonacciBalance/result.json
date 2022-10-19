@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/FibonacciBalance.sol",
+      "name": "FibonacciBalance"
+    },
+    {
+      "errors": [],
+      "file": "/data/FibonacciBalance.sol",
+      "name": "FibonacciLib"
+    }
+  ],
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "duration": 14.718985080718994,
+  "end": 1654122281.1927564,
+  "exit_code": 0,
+  "start": 1654122266.4737713,
+  "tool": "honeybadger"
+}

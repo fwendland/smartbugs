@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "manticore",
+  "start": 1654168180.724151,
+  "end": 1654169984.1676085,
+  "duration": 1803.4434576034546,
+  "exit_code": null
+}

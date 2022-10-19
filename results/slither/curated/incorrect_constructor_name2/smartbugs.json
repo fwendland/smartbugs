@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "tool": "slither",
+  "start": 1654186382.1112723,
+  "end": 1654186388.1339912,
+  "duration": 6.022718906402588,
+  "exit_code": 3
+}

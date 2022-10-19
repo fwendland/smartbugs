@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+  "tool": "solhint",
+  "start": 1654082641.0189667,
+  "end": 1654082650.86497,
+  "duration": 9.846003293991089,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "tool": "osiris",
+  "start": 1654180874.6615314,
+  "end": 1654180878.0335295,
+  "duration": 3.3719980716705322,
+  "exit_code": 0
+}

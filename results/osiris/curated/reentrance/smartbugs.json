@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrance.sol",
+  "tool": "osiris",
+  "start": 1654007399.6300666,
+  "end": 1654007408.9351618,
+  "duration": 9.305095195770264,
+  "exit_code": 0
+}

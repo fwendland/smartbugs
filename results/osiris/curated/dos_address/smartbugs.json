@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "tool": "osiris",
+  "start": 1654181065.738824,
+  "end": 1654181078.6553018,
+  "duration": 12.916477918624878,
+  "exit_code": 0
+}

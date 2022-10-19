@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "securify",
+  "start": 1654183441.6504302,
+  "end": 1654183449.1018867,
+  "duration": 7.451456546783447,
+  "exit_code": 0
+}

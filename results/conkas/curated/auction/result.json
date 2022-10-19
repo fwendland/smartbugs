@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "23",
+      "maybe_in_function": "bid()",
+      "pc": "0xf4",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "23",
+      "maybe_in_function": "bid()",
+      "pc": "0xf4",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/denial_of_service/auction.sol",
+  "duration": 4.9263527393341064,
+  "end": 1654106765.2696624,
+  "exit_code": 0,
+  "start": 1654106760.3433096,
+  "tool": "conkas"
+}

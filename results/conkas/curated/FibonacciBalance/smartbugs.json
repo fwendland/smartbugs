@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/FibonacciBalance.sol",
+  "tool": "conkas",
+  "start": 1654105988.6896157,
+  "end": 1654106007.4910038,
+  "duration": 18.801388025283813,
+  "exit_code": 0
+}

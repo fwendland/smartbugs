@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "securify",
+  "start": 1654182775.4501114,
+  "end": 1654182851.915006,
+  "duration": 76.46489453315735,
+  "exit_code": 0
+}

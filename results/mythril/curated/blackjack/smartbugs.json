@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "mythril",
+  "start": 1654177637.826886,
+  "end": 1654177641.2049475,
+  "duration": 3.378061532974243,
+  "exit_code": 0
+}

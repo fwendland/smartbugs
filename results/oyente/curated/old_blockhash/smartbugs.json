@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "oyente",
+  "start": 1654181780.455979,
+  "end": 1654181784.512274,
+  "duration": 4.056294918060303,
+  "exit_code": 0
+}

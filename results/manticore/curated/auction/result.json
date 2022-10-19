@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/denial_of_service/auction.sol",
+  "duration": 31.28761625289917,
+  "end": 1654170017.561397,
+  "exit_code": 0,
+  "start": 1654169986.2737808,
+  "tool": "manticore"
+}

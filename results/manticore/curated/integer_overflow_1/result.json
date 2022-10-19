@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_1.sol",
+  "duration": 10.3653724193573,
+  "end": 1654166385.341135,
+  "exit_code": 0,
+  "start": 1654166374.9757626,
+  "tool": "manticore"
+}

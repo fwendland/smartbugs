@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "tool": "mythril",
+  "start": 1654179605.4877353,
+  "end": 1654179611.7226217,
+  "duration": 6.234886407852173,
+  "exit_code": 0
+}

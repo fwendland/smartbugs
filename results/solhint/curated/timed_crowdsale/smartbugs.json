@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "tool": "solhint",
+  "start": 1654186616.7440722,
+  "end": 1654186619.0480492,
+  "duration": 2.3039770126342773,
+  "exit_code": 1
+}

@@ -1,0 +1,66 @@
+{
+  "analysis": [
+    {
+      "column": 26,
+      "content": "sha3",
+      "line": 43,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "187b5a",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "^",
+      "line": 8,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "varrandom=uint(sha3(block.timestamp))%2",
+      "line": 43,
+      "name": "SOLIDITY_VAR",
+      "patternId": "d28aa7",
+      "severity": 2
+    },
+    {
+      "column": 4,
+      "content": "functionEtherLotto(){bank=msg.sender;}",
+      "line": 27,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functionplay()payable{assert(msg.value==TICKET_AMOUNT);pot+=msg.value;varrandom=uint(sha3(block.timestamp))%2;if(random==0){bank.transfer(FEE_AMOUNT);msg.sender.transfer(pot-FEE_AMOUNT);pot=0;}}",
+      "line": 33,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantTICKET_AMOUNT=10;",
+      "line": 15,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantFEE_AMOUNT=1;",
+      "line": 18,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "duration": 5.088442087173462,
+  "end": 1654186540.6545885,
+  "exit_code": 0,
+  "start": 1654186535.5661464,
+  "tool": "smartcheck"
+}

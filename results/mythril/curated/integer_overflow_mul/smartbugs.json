@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mul.sol",
+  "tool": "mythril",
+  "start": 1654177615.891859,
+  "end": 1654177628.6154222,
+  "duration": 12.723563194274902,
+  "exit_code": 0
+}

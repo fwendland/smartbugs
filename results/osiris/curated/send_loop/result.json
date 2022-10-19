@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 24,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 21,
+          "line": 24,
+          "message": "concurrency_bug"
+        }
+      ],
+      "file": "/data/send_loop.sol",
+      "name": "Refunder"
+    }
+  ],
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "duration": 13.204569816589355,
+  "end": 1654181078.9355466,
+  "exit_code": 0,
+  "start": 1654181065.7309768,
+  "tool": "osiris"
+}

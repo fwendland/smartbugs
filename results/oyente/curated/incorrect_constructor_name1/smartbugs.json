@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name1.sol",
+  "tool": "oyente",
+  "start": 1654181737.577627,
+  "end": 1654181741.7503846,
+  "duration": 4.172757625579834,
+  "exit_code": 0
+}

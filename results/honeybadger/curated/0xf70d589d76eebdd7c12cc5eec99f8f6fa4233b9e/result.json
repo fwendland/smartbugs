@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 3470,
+          "line": 25,
+          "message": "hidden_transfer"
+        }
+      ],
+      "file": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+      "name": "WhaleGiveaway2"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+  "duration": 63.00679683685303,
+  "end": 1654123467.065693,
+  "exit_code": 0,
+  "start": 1654123404.058896,
+  "tool": "honeybadger"
+}

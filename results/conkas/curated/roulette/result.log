@@ -1,0 +1,4 @@
+Analysing /data/roulette.sol:Roulette...
+Vulnerability: Time Manipulation. Maybe in function: _fallthrough. PC: 0x6e. Line number: 20.
+Vulnerability: Time Manipulation. Maybe in function: _fallthrough. PC: 0x63. Line number: 18.
+Vulnerability: Time Manipulation. Maybe in function: _fallthrough. PC: 0x84. Line number: 21.

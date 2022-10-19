@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/lottery.sol",
+      "name": "Lottery"
+    }
+  ],
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "duration": 6.551024913787842,
+  "end": 1654122738.706285,
+  "exit_code": 0,
+  "start": 1654122732.15526,
+  "tool": "honeybadger"
+}

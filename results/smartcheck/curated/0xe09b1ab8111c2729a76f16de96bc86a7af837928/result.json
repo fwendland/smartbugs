@@ -1,0 +1,178 @@
+{
+  "analysis": [
+    {
+      "column": 8,
+      "content": "bet.player=address(0)",
+      "line": 360,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "a91b18",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functiongetBetInfo(uintticketID)constantexternalreturns(uint,uint256,bool,address){Betstoragebet=bets[ticketID];return(bet.amount,bet.blockNumber,bet.betMask,bet.player);}",
+      "line": 265,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functiongetContractBalance()constantexternalreturns(uint){returnaddress(this).balance;}",
+      "line": 274,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "functiongetCollateralBalance()constantpublicreturns(uint){if(address(this).balance>lockedInBets+jackpotSize+devFeeSize)returnaddress(this).balance-lockedInBets-jackpotSize-devFeeSize;return0;}",
+      "line": 282,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "for(uinti=0;i<length;i++){clearProcessedBet(toCleanTicketIDs[i]);}",
+      "line": 343,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "f6f853",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 12,
+      "content": "private",
+      "line": 44,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(blockNumber<block.number&&blockNumber>=block.number-BET_EXPIRATION_BLOCKS){uint256random=uint256(keccak256(abi.encodePacked(blockhash(blockNumber),ticketReveal)));boolmaskRes=(random%2)!=0;uintjackpotRes=random%JACKPOT_MODULO;uinttossWinAmount=bet.amount*WIN_X/1000;uinttossWin=0;uintjackpotWin=0;if(bet.betMask==maskRes){tossWin=tossWinAmount;}if(jackpotRes==0){jackpotWin=jackpotSize;jackpotSize=0;}if(jackpotWin>0){emitJackpotPayment(bet.player,ticketID,jackpotWin);}if(tossWin+jackpotWin>0){payout(bet.player,tossWin+jackpotWin,ticketID,maskRes,jackpotRes);}else{loseWager(bet.player,bet.amount,ticketID,maskRes,jackpotRes);}lockedInBets-=tossWinAmount;bet.amount=0;}else{revert();}",
+      "line": 171,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 14,
+      "content": "call.value(donate_amount)(bytes4(keccak256(\"donate()\")))",
+      "line": 150,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 8,
+      "content": "sendRefund(ticketID)",
+      "line": 235,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 15,
+      "content": "public",
+      "line": 110,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "91h3sa",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantDONATING_X=20;",
+      "line": 26,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantJACKPOT_FEE=10;",
+      "line": 29,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantJACKPOT_MODULO=1000;",
+      "line": 30,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantDEV_FEE=20;",
+      "line": 31,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantWIN_X=1900;",
+      "line": 32,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantMIN_BET=0.01ether;",
+      "line": 35,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantMAX_BET=1ether;",
+      "line": 36,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uintconstantBET_EXPIRATION_BLOCKS=250;",
+      "line": 38,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "mapping(uint=>Bet)bets;",
+      "line": 66,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "mapping(address=>uint)donateAmount;",
+      "line": 67,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+  "duration": 21.66014862060547,
+  "end": 1654186564.5651286,
+  "exit_code": 0,
+  "start": 1654186542.90498,
+  "tool": "smartcheck"
+}

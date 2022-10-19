@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "oyente",
+  "start": 1654181869.7830417,
+  "end": 1654181878.6201463,
+  "duration": 8.837104558944702,
+  "exit_code": 1
+}

@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/access_control/phishable.sol",
+  "duration": 72.83267068862915,
+  "end": 1654161949.9595976,
+  "exit_code": 0,
+  "start": 1654161877.126927,
+  "tool": "maian"
+}

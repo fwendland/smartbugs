@@ -1,0 +1,266 @@
+{
+  "analysis": [
+    {
+      "check": "uninitialized-state",
+      "confidence": "High",
+      "description": "Refunder.refunds (/data/send_loop.sol#13) is never initialized. It is used in:\n\t- refundAll (/data/send_loop.sol#21-26)\n",
+      "elements": [
+        {
+          "name": "refunds",
+          "source_mapping": {
+            "filename": "/data/send_loop.sol",
+            "length": 40,
+            "lines": [
+              13
+            ],
+            "start": 296
+          },
+          "type": "variable"
+        },
+        {
+          "contract": {
+            "name": "Refunder",
+            "source_mapping": {
+              "filename": "/data/send_loop.sol",
+              "length": 653,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 236
+            },
+            "type": "contract"
+          },
+          "name": "refundAll",
+          "source_mapping": {
+            "filename": "/data/send_loop.sol",
+            "length": 357,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ],
+            "start": 529
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "uninitialized-local",
+      "confidence": "Medium",
+      "description": "x in Refunder.refundAll (/data/send_loop.sol#22) is a local variable never initialiazed\n",
+      "elements": [
+        {
+          "name": "x",
+          "source_mapping": {
+            "filename": "/data/send_loop.sol",
+            "length": 6,
+            "lines": [
+              22
+            ],
+            "start": 571
+          },
+          "type": "variable"
+        },
+        {
+          "contract": {
+            "name": "Refunder",
+            "source_mapping": {
+              "filename": "/data/send_loop.sol",
+              "length": 653,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 236
+            },
+            "type": "contract"
+          },
+          "name": "refundAll",
+          "source_mapping": {
+            "filename": "/data/send_loop.sol",
+            "length": 357,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ],
+            "start": 529
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Medium"
+    },
+    {
+      "check": "calls-loop",
+      "confidence": "Medium",
+      "description": "Refunder.refundAll has external calls inside a loop:\n\t- require(bool)(refundAddresses[x].send(refunds[refundAddresses[x]])) (/data/send_loop.sol#24)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Refunder",
+            "source_mapping": {
+              "filename": "/data/send_loop.sol",
+              "length": 653,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 236
+            },
+            "type": "contract"
+          },
+          "name": "refundAll",
+          "source_mapping": {
+            "filename": "/data/send_loop.sol",
+            "length": 357,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ],
+            "start": 529
+          },
+          "type": "function"
+        },
+        {
+          "expression": "require(bool)(refundAddresses[x].send(refunds[refundAddresses[x]]))",
+          "source_mapping": {
+            "filename": "/data/send_loop.sol",
+            "length": 61,
+            "lines": [
+              24
+            ],
+            "start": 741
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Low"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Refunder.refundAll (/data/send_loop.sol#21-26) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Refunder",
+            "source_mapping": {
+              "filename": "/data/send_loop.sol",
+              "length": 653,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 236
+            },
+            "type": "contract"
+          },
+          "name": "refundAll",
+          "source_mapping": {
+            "filename": "/data/send_loop.sol",
+            "length": 357,
+            "lines": [
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ],
+            "start": 529
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "duration": 3.14805269241333,
+  "end": 1654186410.5715685,
+  "exit_code": 4,
+  "start": 1654186407.4235158,
+  "tool": "slither"
+}

@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 66,
+          "message": "straw_man_contract"
+        }
+      ],
+      "file": "/data/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+      "name": "MONEY_BOX"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+  "duration": 218.0724859237671,
+  "end": 1654003900.7452953,
+  "exit_code": 0,
+  "start": 1654003682.6728094,
+  "tool": "honeybadger"
+}

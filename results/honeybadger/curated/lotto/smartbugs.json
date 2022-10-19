@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "honeybadger",
+  "start": 1654123404.0312796,
+  "end": 1654123409.2258966,
+  "duration": 5.194617033004761,
+  "exit_code": 0
+}

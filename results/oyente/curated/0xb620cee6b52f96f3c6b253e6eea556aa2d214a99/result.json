@@ -1,0 +1,78 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 40,
+          "level": "Warning",
+          "line": 86,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 1,
+          "level": "Warning",
+          "line": 22,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 1,
+          "level": "Warning",
+          "line": 27,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 2,
+          "level": "Warning",
+          "line": 110,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 1,
+          "level": "Warning",
+          "line": 14,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 1,
+          "level": "Warning",
+          "line": 28,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 2,
+          "level": "Warning",
+          "line": 100,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 2,
+          "level": "Warning",
+          "line": 106,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 2,
+          "level": "Warning",
+          "line": 133,
+          "message": "Re-Entrancy Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "90.1%",
+      "file": "/data/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "DrainMe",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": true,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+  "duration": 17.294701099395752,
+  "end": 1654181887.1449678,
+  "exit_code": 1,
+  "start": 1654181869.8502667,
+  "tool": "oyente"
+}

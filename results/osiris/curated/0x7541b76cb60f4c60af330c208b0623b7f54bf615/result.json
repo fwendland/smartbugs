@@ -1,0 +1,52 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 83,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 83,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 31,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 16,
+          "line": 29,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 17,
+          "line": 32,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+      "name": "U_BANK"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+  "duration": 63.73799538612366,
+  "end": 1654007463.4028578,
+  "exit_code": 0,
+  "start": 1654007399.6648624,
+  "tool": "osiris"
+}

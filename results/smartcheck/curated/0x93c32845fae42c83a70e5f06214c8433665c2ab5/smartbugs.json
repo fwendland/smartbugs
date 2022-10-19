@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+  "tool": "smartcheck",
+  "start": 1654008603.3234563,
+  "end": 1654008614.1243687,
+  "duration": 10.800912380218506,
+  "exit_code": 0
+}

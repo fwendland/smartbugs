@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "duration": 7.07673454284668,
+  "end": 1654105995.8096638,
+  "exit_code": 0,
+  "start": 1654105988.7329292,
+  "tool": "conkas"
+}

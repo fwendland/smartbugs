@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "conkas",
+  "start": 1654092831.8843067,
+  "end": 1654093032.5784144,
+  "duration": 200.6941077709198,
+  "exit_code": 0
+}

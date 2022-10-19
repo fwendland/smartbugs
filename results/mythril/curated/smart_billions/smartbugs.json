@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "mythril",
+  "start": 1654243086.102346,
+  "end": 1654244889.7103124,
+  "duration": 1803.6079664230347,
+  "exit_code": null
+}

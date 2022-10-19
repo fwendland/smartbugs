@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/insecure_transfer.sol",
+  "tool": "osiris",
+  "start": 1654180930.6519728,
+  "end": 1654180934.7993586,
+  "duration": 4.147385835647583,
+  "exit_code": 0
+}

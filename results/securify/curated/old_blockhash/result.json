@@ -1,0 +1,78 @@
+{
+  "analysis": {
+    "/data/old_blockhash.sol:PredictTheBlockHashChallenge": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            38
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            23
+          ],
+          "warnings": [
+            31
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            38
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            38
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            38
+          ],
+          "violations": [],
+          "warnings": []
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            38
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            38
+          ],
+          "violations": [],
+          "warnings": []
+        }
+      }
+    }
+  },
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 74.91915512084961,
+  "end": 1654182850.2448766,
+  "exit_code": 0,
+  "start": 1654182775.3257215,
+  "tool": "securify"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "slither",
+  "start": 1654186430.15037,
+  "end": 1654186432.753058,
+  "duration": 2.6026880741119385,
+  "exit_code": 4
+}

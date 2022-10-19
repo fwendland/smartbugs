@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/governmental_survey.sol",
+      "name": "Attacker"
+    },
+    {
+      "errors": [],
+      "file": "/data/governmental_survey.sol",
+      "name": "Governmental"
+    }
+  ],
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "duration": 7.306393384933472,
+  "end": 1654123377.8523629,
+  "exit_code": 0,
+  "start": 1654123370.5459695,
+  "tool": "honeybadger"
+}

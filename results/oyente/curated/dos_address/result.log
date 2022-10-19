@@ -1,0 +1,19 @@
+WARNING:root:You are using evm version 1.8.2. The supported version is 1.7.3
+WARNING:root:You are using solc version 0.4.26, The latest supported version is 0.4.19
+INFO:root:contract /data/dos_address.sol:DosGas:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 69.1%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/data/dos_address.sol:9:1: Warning: Integer Overflow.
+contract DosGas {
+^
+Spanning multiple lines.
+Integer Overflow occurs if:
+    creditorAddresses.length = 84989742379591774280093353808660524390935280455609450389977292875243815997093
+INFO:symExec:	====== Analysis Completed ======

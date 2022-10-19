@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "tool": "maian",
+  "start": 1654162138.0776339,
+  "end": 1654162194.4560666,
+  "duration": 56.378432750701904,
+  "exit_code": 0
+}

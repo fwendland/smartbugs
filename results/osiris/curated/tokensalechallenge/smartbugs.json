@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "tool": "osiris",
+  "start": 1654180930.6550932,
+  "end": 1654180946.446535,
+  "duration": 15.791441917419434,
+  "exit_code": 0
+}

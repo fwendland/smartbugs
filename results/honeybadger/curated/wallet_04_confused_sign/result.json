@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/wallet_04_confused_sign.sol",
+      "name": "Wallet"
+    }
+  ],
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "duration": 7.862115383148193,
+  "end": 1654122274.290596,
+  "exit_code": 0,
+  "start": 1654122266.4284806,
+  "tool": "honeybadger"
+}

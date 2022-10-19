@@ -1,0 +1,114 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "13",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/simple_dao.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "duration": 9.217571020126343,
+  "end": 1654082650.490261,
+  "exit_code": 1,
+  "start": 1654082641.27269,
+  "tool": "solhint"
+}

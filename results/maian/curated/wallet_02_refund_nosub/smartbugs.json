@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "tool": "maian",
+  "start": 1654161877.2443647,
+  "end": 1654161956.7863843,
+  "duration": 79.5420196056366,
+  "exit_code": 0
+}

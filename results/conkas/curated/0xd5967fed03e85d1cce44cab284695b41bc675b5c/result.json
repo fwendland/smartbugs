@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "16",
+      "maybe_in_function": "transfer(address,address,address[],uint256)",
+      "pc": "0x28c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "16",
+      "maybe_in_function": "transfer(address,address,address[],uint256)",
+      "pc": "0x241",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "16",
+      "maybe_in_function": "transfer(address,address,address[],uint256)",
+      "pc": "0x28c",
+      "vuln_type": "Unchecked Low Level Call"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol",
+  "duration": 8.877071857452393,
+  "end": 1654106839.1878994,
+  "exit_code": 0,
+  "start": 1654106830.3108275,
+  "tool": "conkas"
+}

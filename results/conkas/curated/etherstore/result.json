@@ -1,0 +1,40 @@
+{
+  "analysis": [
+    {
+      "line_number": "29",
+      "maybe_in_function": "withdrawFunds(uint256)",
+      "pc": "0x313",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "25",
+      "maybe_in_function": "withdrawFunds(uint256)",
+      "pc": "0x23e",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "25",
+      "maybe_in_function": "withdrawFunds(uint256)",
+      "pc": "0x247",
+      "vuln_type": "Time Manipulation"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "depositFunds()",
+      "pc": "0x37b",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "27",
+      "maybe_in_function": "withdrawFunds(uint256)",
+      "pc": "0x274",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "duration": 11.698259353637695,
+  "end": 1654008676.377875,
+  "exit_code": 0,
+  "start": 1654008664.6796157,
+  "tool": "conkas"
+}

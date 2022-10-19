@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+  "tool": "slither",
+  "start": 1654186435.7733943,
+  "end": 1654186447.8506982,
+  "duration": 12.077303886413574,
+  "exit_code": 105
+}

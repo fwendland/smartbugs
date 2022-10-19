@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "tool": "smartcheck",
+  "start": 1654186515.7092836,
+  "end": 1654186521.4645023,
+  "duration": 5.755218744277954,
+  "exit_code": 0
+}

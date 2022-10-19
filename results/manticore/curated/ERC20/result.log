@@ -1,0 +1,66 @@
+2022-06-02 12:09:54,412: [15] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 12:09:54,413: [15] m.main:INFO: Beginning analysis
+2022-06-02 12:09:54,417: [15] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 12:13:32,596: [15] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00' -> 32434096268151414502930714319429211172703610272722345406708838912687411675598
+2022-06-02 12:13:34,997: [15] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 12:17:25,950: [15] m.c.worker:ERROR: Exception in state 5: ManticoreError('Forking on unfeasible constraint set')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 137, in run
+    current_state.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/state.py", line 8, in execute
+    return self._platform.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 3106, in execute
+    self.current_vm.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 1322, in execute
+    raise Concretize("Symbolic PC", expression=expression, setstate=setstate, policy="ALL")
+manticore.core.state.Concretize
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 158, in run
+    m._fork(current_state, exc.expression, exc.policy, exc.setstate, exc.values)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/manticore.py", line 518, in _fork
+    raise ManticoreError("Forking on unfeasible constraint set")
+manticore.exceptions.ManticoreError: Forking on unfeasible constraint set
+ 
+2022-06-02 12:18:22,082: [15] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00' -> 73138091548938366139099779971772605061518111956507126412222883840269740007539
+2022-06-02 12:19:56,544: [15] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01' -> 27376155845717860833342594873357525089589924219251518322086369159840883582034
+2022-06-02 12:23:59,053: [15] m.e.manticore:INFO: 3 alive states, 1 terminated states
+2022-06-02 12:26:42,489: [79] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 12:26:42,816: [78] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 12:26:43,278: [79] m.c.manticore:INFO: Generated testcase No. 0 - RETURN(2 txs)
+2022-06-02 12:26:43,857: [78] m.c.manticore:INFO: Generated testcase No. 1 - RETURN(2 txs)
+2022-06-02 12:27:15,631: [77] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-06-02 12:27:37,865: [77] m.c.manticore:INFO: Generated testcase No. 2 - RETURN(2 txs)
+2022-06-02 12:31:04,790: [15] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+Traceback (most recent call last):
+  File "/usr/local/bin/manticore", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/__main__.py", line 42, in main
+    ethereum_main(args, logger)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/cli.py", line 145, in ethereum_main
+    m.finalize(only_alive_states=args.only_alive_testcases)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/manticore.py", line 177, in newFunction
+    return func(self, *args, **kw)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1811, in finalize
+    "{:x}: {:2.2f}%\n".format(int(address), self.global_coverage(address))
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1888, in global_coverage
+    runtime_bytecode = state.solve_one(code)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/state.py", line 483, in solve_one
+    return self.solve_one_n(expr, constrain=constrain)[0]
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/state.py", line 494, in solve_one_n
+    return self.solve_one_n_batched(exprs, constrain)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/state.py", line 509, in solve_one_n_batched
+    values = self._solver.get_value_in_batch(self._constraints, exprs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/smtlib/solver.py", line 791, in get_value_in_batch
+    raise SolverError("Timeout")
+manticore.exceptions.SolverError: Timeout
+2022-06-02 12:34:15,179: [105] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 12:34:15,179: [105] m.main:INFO: Beginning analysis
+2022-06-02 12:34:15,183: [105] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 12:34:15,830: [105] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 12:34:15,983: [105] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2022-06-02 12:34:16,029: [105] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-06-02 12:34:16,213: [105] m.c.manticore:INFO: Results in /mcore_umg3gnmk
+2022-06-02 12:34:16,214: [105] m.c.manticore:INFO: Total time: 0.3801279067993164

@@ -1,0 +1,435 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 39,
+          "line": 1381,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 1350,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 35,
+          "line": 1344,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 20,
+          "line": 1496,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 1307,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 13,
+          "line": 1295,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 1343,
+          "message": "time_dependency_bug"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "ClockAuction"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "ClockAuctionBase"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "ERC721Metadata"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "Ownable"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaAccessControl"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 392,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 397,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 16,
+          "line": 697,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 51,
+          "line": 945,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 29,
+          "line": 948,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 16,
+          "line": 907,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 9,
+          "line": 1152,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaAuction"
+    },
+    {
+      "errors": [
+        {
+          "column": 5,
+          "line": 303,
+          "message": "division_bugs"
+        },
+        {
+          "column": 24,
+          "line": 508,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 5,
+          "line": 303,
+          "message": "truncation_bugs"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaBase"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 392,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 397,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 16,
+          "line": 697,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 51,
+          "line": 945,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 29,
+          "line": 948,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 9,
+          "line": 1152,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaBreeding"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 392,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 397,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 16,
+          "line": 697,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 24,
+          "line": 2432,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 32,
+          "line": 2436,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 13,
+          "line": 940,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 16,
+          "line": 907,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 13,
+          "line": 2467,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 1152,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaCore"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 392,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 397,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 16,
+          "line": 697,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 51,
+          "line": 945,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 29,
+          "line": 948,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 16,
+          "line": 907,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 9,
+          "line": 1152,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaMinting"
+    },
+    {
+      "errors": [
+        {
+          "column": 39,
+          "line": 725,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 39,
+          "line": 725,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 5,
+          "line": 718,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 392,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 397,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 16,
+          "line": 697,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 24,
+          "line": 508,
+          "message": "truncation_bugs"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "PandaOwnership"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "Pausable"
+    },
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 1813,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 1818,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 39,
+          "line": 1381,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 25,
+          "line": 1781,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 20,
+          "line": 1496,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 1343,
+          "message": "time_dependency_bug"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "SaleClockAuction"
+    },
+    {
+      "errors": [
+        {
+          "column": 41,
+          "line": 1386,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 39,
+          "line": 1381,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 1350,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 13,
+          "line": 1348,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 13,
+          "line": 1597,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 35,
+          "line": 1344,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 20,
+          "line": 1496,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 20,
+          "line": 1496,
+          "message": "concurrency_bug"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "SaleClockAuctionERC20"
+    },
+    {
+      "errors": [
+        {
+          "column": 39,
+          "line": 1381,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 1350,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 35,
+          "line": 1344,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 20,
+          "line": 1496,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 1307,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 13,
+          "line": 1295,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 1343,
+          "message": "time_dependency_bug"
+        }
+      ],
+      "file": "/data/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+      "name": "SiringClockAuction"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+  "duration": 512.7877895832062,
+  "end": 1654181702.0735168,
+  "exit_code": 0,
+  "start": 1654181189.2857273,
+  "tool": "osiris"
+}

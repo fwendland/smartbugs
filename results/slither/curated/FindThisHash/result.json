@@ -1,0 +1,179 @@
+{
+  "analysis": [
+    {
+      "check": "arbitrary-send",
+      "confidence": "Medium",
+      "description": "FindThisHash.solve (/data/FindThisHash.sol#14-19) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(1000000000000000000000) (/data/FindThisHash.sol#18)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "FindThisHash",
+            "source_mapping": {
+              "filename": "/data/FindThisHash.sol",
+              "length": 432,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "start": 135
+            },
+            "type": "contract"
+          },
+          "name": "solve",
+          "source_mapping": {
+            "filename": "/data/FindThisHash.sol",
+            "length": 242,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 323
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.transfer(1000000000000000000000)",
+          "source_mapping": {
+            "filename": "/data/FindThisHash.sol",
+            "length": 31,
+            "lines": [
+              18
+            ],
+            "start": 527
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/FindThisHash.sol#17:\n\t- Usage of \"sha3()\" should be replaced with \"keccak256()\"\n",
+      "elements": [
+        {
+          "expression": "require(bool)(hash == sha3()(solution))",
+          "source_mapping": {
+            "filename": "/data/FindThisHash.sol",
+            "length": 31,
+            "lines": [
+              17
+            ],
+            "start": 486
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "FindThisHash.solve (/data/FindThisHash.sol#14-19) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "FindThisHash",
+            "source_mapping": {
+              "filename": "/data/FindThisHash.sol",
+              "length": 432,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "start": 135
+            },
+            "type": "contract"
+          },
+          "name": "solve",
+          "source_mapping": {
+            "filename": "/data/FindThisHash.sol",
+            "length": 242,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "start": 323
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/FindThisHash.sol:\n\t- pragma solidity^0.4.22 (/data/FindThisHash.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.22",
+          "source_mapping": {
+            "filename": "/data/FindThisHash.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 109
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Constant 'FindThisHash.hash' (/data/FindThisHash.sol#10) is not in UPPER_CASE_WITH_UNDERSCORES\n",
+      "elements": [
+        {
+          "convention": "UPPER_CASE_WITH_UNDERSCORES",
+          "name": "hash",
+          "source_mapping": {
+            "filename": "/data/FindThisHash.sol",
+            "length": 97,
+            "lines": [
+              10
+            ],
+            "start": 163
+          },
+          "target": "variable_constant"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "duration": 2.971497058868408,
+  "end": 1654186415.6219032,
+  "exit_code": 5,
+  "start": 1654186412.6504061,
+  "tool": "slither"
+}

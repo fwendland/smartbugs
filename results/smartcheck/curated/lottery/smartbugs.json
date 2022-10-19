@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "smartcheck",
+  "start": 1654186499.7296765,
+  "end": 1654186505.8410914,
+  "duration": 6.111414909362793,
+  "exit_code": 0
+}

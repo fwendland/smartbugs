@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "tool": "slither",
+  "start": 1654186391.3978498,
+  "end": 1654186395.1954625,
+  "duration": 3.7976126670837402,
+  "exit_code": 5
+}

@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "duration": 3.06123423576355,
+  "end": 1654186402.7015615,
+  "exit_code": 0,
+  "start": 1654186399.6403272,
+  "tool": "slither"
+}

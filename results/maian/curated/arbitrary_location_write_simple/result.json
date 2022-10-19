@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "duration": 68.35762548446655,
+  "end": 1654161945.575101,
+  "exit_code": 0,
+  "start": 1654161877.2174754,
+  "tool": "maian"
+}

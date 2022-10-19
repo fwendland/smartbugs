@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "tool": "oyente",
+  "start": 1654181737.532849,
+  "end": 1654181741.3567505,
+  "duration": 3.823901414871216,
+  "exit_code": 1
+}

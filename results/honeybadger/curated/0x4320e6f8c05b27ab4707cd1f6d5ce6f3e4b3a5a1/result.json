@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 58,
+          "message": "straw_man_contract"
+        }
+      ],
+      "file": "/data/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+      "name": "ACCURAL_DEPOSIT"
+    },
+    {
+      "errors": [],
+      "file": "/data/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+      "name": "LogFile"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+  "duration": 219.66163682937622,
+  "end": 1654003902.3894405,
+  "exit_code": 0,
+  "start": 1654003682.7278037,
+  "tool": "honeybadger"
+}

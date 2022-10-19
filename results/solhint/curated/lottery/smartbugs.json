@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "solhint",
+  "start": 1654186593.1952853,
+  "end": 1654186595.8623319,
+  "duration": 2.667046546936035,
+  "exit_code": 1
+}

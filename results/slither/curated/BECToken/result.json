@@ -1,0 +1,1100 @@
+{
+  "analysis": [
+    {
+      "check": "constable-states",
+      "confidence": "High",
+      "description": "BecToken.decimals should be constant (/data/BECToken.sol#292)\nBecToken.name should be constant (/data/BECToken.sol#289)\nBecToken.symbol should be constant (/data/BECToken.sol#290)\nBecToken.version should be constant (/data/BECToken.sol#291)\n",
+      "elements": [
+        {
+          "name": "decimals",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 26,
+            "lines": [
+              292
+            ],
+            "start": 8803
+          },
+          "type": "variable"
+        },
+        {
+          "name": "name",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 34,
+            "lines": [
+              289
+            ],
+            "start": 8692
+          },
+          "type": "variable"
+        },
+        {
+          "name": "symbol",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 28,
+            "lines": [
+              290
+            ],
+            "start": 8732
+          },
+          "type": "variable"
+        },
+        {
+          "name": "version",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 31,
+            "lines": [
+              291
+            ],
+            "start": 8766
+          },
+          "type": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "BasicToken.balanceOf (/data/BECToken.sol#81-83) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BasicToken",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 968,
+              "lines": [
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84
+              ],
+              "start": 1449
+            },
+            "type": "contract"
+          },
+          "name": "balanceOf",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 111,
+            "lines": [
+              81,
+              82,
+              83
+            ],
+            "start": 2304
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "ERC20Basic.balanceOf (/data/BECToken.sol#46) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "ERC20Basic",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 267,
+              "lines": [
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ],
+              "start": 1090
+            },
+            "type": "contract"
+          },
+          "name": "balanceOf",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 66,
+            "lines": [
+              46
+            ],
+            "start": 1144
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "ERC20.allowance (/data/BECToken.sol#91) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "ERC20",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 363,
+              "lines": [
+                90,
+                91,
+                92,
+                93,
+                94,
+                95
+              ],
+              "start": 2508
+            },
+            "type": "contract"
+          },
+          "name": "allowance",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 85,
+            "lines": [
+              91
+            ],
+            "start": 2541
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "StandardToken.allowance (/data/BECToken.sol#150-152) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "StandardToken",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 2112,
+              "lines": [
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153
+              ],
+              "start": 3141
+            },
+            "type": "contract"
+          },
+          "name": "allowance",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 140,
+            "lines": [
+              150,
+              151,
+              152
+            ],
+            "start": 5111
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Ownable.transferOwnership (/data/BECToken.sol#189-193) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Ownable",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 782,
+              "lines": [
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171,
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195
+              ],
+              "start": 5445
+            },
+            "type": "contract"
+          },
+          "name": "transferOwnership",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 169,
+            "lines": [
+              189,
+              190,
+              191,
+              192,
+              193
+            ],
+            "start": 6055
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Pausable.pause (/data/BECToken.sol#227-230) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Pausable",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 745,
+              "lines": [
+                201,
+                202,
+                203,
+                204,
+                205,
+                206,
+                207,
+                208,
+                209,
+                210,
+                211,
+                212,
+                213,
+                214,
+                215,
+                216,
+                217,
+                218,
+                219,
+                220,
+                221,
+                222,
+                223,
+                224,
+                225,
+                226,
+                227,
+                228,
+                229,
+                230,
+                231,
+                232,
+                233,
+                234,
+                235,
+                236,
+                237,
+                238,
+                239
+              ],
+              "start": 6342
+            },
+            "type": "contract"
+          },
+          "name": "pause",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 85,
+            "lines": [
+              227,
+              228,
+              229,
+              230
+            ],
+            "start": 6831
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Pausable.unpause (/data/BECToken.sol#235-238) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Pausable",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 745,
+              "lines": [
+                201,
+                202,
+                203,
+                204,
+                205,
+                206,
+                207,
+                208,
+                209,
+                210,
+                211,
+                212,
+                213,
+                214,
+                215,
+                216,
+                217,
+                218,
+                219,
+                220,
+                221,
+                222,
+                223,
+                224,
+                225,
+                226,
+                227,
+                228,
+                229,
+                230,
+                231,
+                232,
+                233,
+                234,
+                235,
+                236,
+                237,
+                238,
+                239
+              ],
+              "start": 6342
+            },
+            "type": "contract"
+          },
+          "name": "unpause",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 87,
+            "lines": [
+              235,
+              236,
+              237,
+              238
+            ],
+            "start": 6998
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "PausableToken.batchTransfer (/data/BECToken.sol#261-274) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PausableToken",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 1044,
+              "lines": [
+                247,
+                248,
+                249,
+                250,
+                251,
+                252,
+                253,
+                254,
+                255,
+                256,
+                257,
+                258,
+                259,
+                260,
+                261,
+                262,
+                263,
+                264,
+                265,
+                266,
+                267,
+                268,
+                269,
+                270,
+                271,
+                272,
+                273,
+                274,
+                275
+              ],
+              "start": 7183
+            },
+            "type": "contract"
+          },
+          "name": "batchTransfer",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 553,
+            "lines": [
+              261,
+              262,
+              263,
+              264,
+              265,
+              266,
+              267,
+              268,
+              269,
+              270,
+              271,
+              272,
+              273,
+              274
+            ],
+            "start": 7672
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "BecToken.fallback (/data/BECToken.sol#302-305) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BecToken",
+            "source_mapping": {
+              "filename": "/data/BECToken.sol",
+              "length": 882,
+              "lines": [
+                282,
+                283,
+                284,
+                285,
+                286,
+                287,
+                288,
+                289,
+                290,
+                291,
+                292,
+                293,
+                294,
+                295,
+                296,
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                303,
+                304,
+                305,
+                306
+              ],
+              "start": 8331
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 95,
+            "lines": [
+              302,
+              303,
+              304,
+              305
+            ],
+            "start": 9116
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/BECToken.sol:\n\t- pragma solidity^0.4.16 (/data/BECToken.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.16",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 141
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_owner' of BasicToken.balanceOf (/data/BECToken.sol#81) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_owner",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              81
+            ],
+            "start": 2323
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_to' of BasicToken.transfer (/data/BECToken.sol#65) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_to",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 11,
+            "lines": [
+              65
+            ],
+            "start": 1727
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of BasicToken.transfer (/data/BECToken.sol#65) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              65
+            ],
+            "start": 1740
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_owner' of StandardToken.allowance (/data/BECToken.sol#150) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_owner",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              150
+            ],
+            "start": 5130
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_spender' of StandardToken.allowance (/data/BECToken.sol#150) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_spender",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 16,
+            "lines": [
+              150
+            ],
+            "start": 5146
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_from' of StandardToken.transferFrom (/data/BECToken.sol#116) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_from",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 13,
+            "lines": [
+              116
+            ],
+            "start": 3555
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_to' of StandardToken.transferFrom (/data/BECToken.sol#116) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_to",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 11,
+            "lines": [
+              116
+            ],
+            "start": 3570
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of StandardToken.transferFrom (/data/BECToken.sol#116) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              116
+            ],
+            "start": 3583
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_spender' of StandardToken.approve (/data/BECToken.sol#138) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_spender",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 16,
+            "lines": [
+              138
+            ],
+            "start": 4626
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of StandardToken.approve (/data/BECToken.sol#138) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              138
+            ],
+            "start": 4644
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Ownable.Ownable' (/data/BECToken.sol#171-173) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Ownable",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 48,
+            "lines": [
+              171,
+              172,
+              173
+            ],
+            "start": 5697
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_to' of PausableToken.transfer (/data/BECToken.sol#249) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_to",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 11,
+            "lines": [
+              249
+            ],
+            "start": 7256
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of PausableToken.transfer (/data/BECToken.sol#249) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              249
+            ],
+            "start": 7269
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_from' of PausableToken.transferFrom (/data/BECToken.sol#253) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_from",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 13,
+            "lines": [
+              253
+            ],
+            "start": 7392
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_to' of PausableToken.transferFrom (/data/BECToken.sol#253) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_to",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 11,
+            "lines": [
+              253
+            ],
+            "start": 7407
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of PausableToken.transferFrom (/data/BECToken.sol#253) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              253
+            ],
+            "start": 7420
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_spender' of PausableToken.approve (/data/BECToken.sol#257) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_spender",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 16,
+            "lines": [
+              257
+            ],
+            "start": 7549
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of PausableToken.approve (/data/BECToken.sol#257) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              257
+            ],
+            "start": 7567
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_receivers' of PausableToken.batchTransfer (/data/BECToken.sol#261) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_receivers",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 20,
+            "lines": [
+              261
+            ],
+            "start": 7695
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_value' of PausableToken.batchTransfer (/data/BECToken.sol#261) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_value",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 14,
+            "lines": [
+              261
+            ],
+            "start": 7717
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'BecToken.BecToken' (/data/BECToken.sol#297-300) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "BecToken",
+          "source_mapping": {
+            "filename": "/data/BECToken.sol",
+            "length": 171,
+            "lines": [
+              297,
+              298,
+              299,
+              300
+            ],
+            "start": 8939
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "duration": 4.652221441268921,
+  "end": 1654186396.0725584,
+  "exit_code": 32,
+  "start": 1654186391.420337,
+  "tool": "slither"
+}

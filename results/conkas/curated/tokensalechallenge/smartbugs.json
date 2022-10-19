@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "tool": "conkas",
+  "start": 1654092831.8725848,
+  "end": 1654092850.8424025,
+  "duration": 18.969817638397217,
+  "exit_code": 0
+}

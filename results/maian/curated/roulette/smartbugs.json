@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "maian",
+  "start": 1654163479.583612,
+  "end": 1654163525.294352,
+  "duration": 45.710740089416504,
+  "exit_code": 0
+}

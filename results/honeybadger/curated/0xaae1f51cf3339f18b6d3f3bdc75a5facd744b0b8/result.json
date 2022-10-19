@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 57,
+          "message": "straw_man_contract"
+        }
+      ],
+      "file": "/data/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+      "name": "DEP_BANK"
+    },
+    {
+      "errors": [],
+      "file": "/data/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+      "name": "LogFile"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+  "duration": 211.984192609787,
+  "end": 1654003894.6929445,
+  "exit_code": 0,
+  "start": 1654003682.708752,
+  "tool": "honeybadger"
+}

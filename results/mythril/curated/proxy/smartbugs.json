@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "mythril",
+  "start": 1654177339.5451994,
+  "end": 1654177358.779989,
+  "duration": 19.234789609909058,
+  "exit_code": 0
+}

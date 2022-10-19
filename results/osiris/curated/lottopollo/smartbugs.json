@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "osiris",
+  "start": 1654181182.332117,
+  "end": 1654181184.8760462,
+  "duration": 2.543929100036621,
+  "exit_code": 0
+}

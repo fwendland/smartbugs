@@ -1,0 +1,47 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [
+      {
+        "address": 240,
+        "code": "target.call.value(msg.value)()",
+        "debug": "",
+        "description": "This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.",
+        "filename": "/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+        "function": "go()",
+        "lineno": 16,
+        "title": "Message call to external contract",
+        "type": "Informational"
+      },
+      {
+        "address": 240,
+        "code": "target.call.value(msg.value)()",
+        "debug": "",
+        "description": "Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.\nConsecutive calls: \nCall at address: 349\n",
+        "filename": "/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+        "function": "go()",
+        "lineno": 16,
+        "title": "Multiple Calls",
+        "type": "Information"
+      },
+      {
+        "address": 240,
+        "code": "target.call.value(msg.value)()",
+        "debug": "",
+        "description": "The return value of an external call is not checked. Note that execution continue even if the called contract throws.",
+        "filename": "/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+        "function": "go()",
+        "lineno": 16,
+        "title": "Unchecked CALL return value",
+        "type": "Informational"
+      }
+    ],
+    "success": true
+  },
+  "contract": "dataset/unchecked_low_level_calls/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+  "duration": 4.714519500732422,
+  "end": 1654179713.0026774,
+  "exit_code": 0,
+  "start": 1654179708.288158,
+  "tool": "mythril"
+}

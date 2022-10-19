@@ -1,0 +1,98 @@
+{
+  "analysis": [
+    {
+      "column": 26,
+      "content": "0x0486cF65A2F2F3A392CBEa398AFB7F5f0B72FF46",
+      "line": 15,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 26,
+      "content": "call.value(_am)()",
+      "line": 54,
+      "name": "SOLIDITY_CALL_WITHOUT_DATA",
+      "patternId": "om991k",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(intitalized)revert();",
+      "line": 22,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "if(intitalized)revert();",
+      "line": 29,
+      "name": "SOLIDITY_REVERT_REQUIRE",
+      "patternId": "c56b12",
+      "severity": 1
+    },
+    {
+      "column": 26,
+      "content": "call.value(_am)()",
+      "line": 54,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "public",
+      "line": 63,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "91h3sa",
+      "severity": 1
+    },
+    {
+      "column": 47,
+      "content": "string_data",
+      "line": 87,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "341gim",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "LogFileLog=LogFile(0x0486cF65A2F2F3A392CBEa398AFB7F5f0B72FF46);",
+      "line": 15,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "boolintitalized;",
+      "line": 17,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "MessageLastMsg;",
+      "line": 85,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/reentrancy/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol",
+  "duration": 12.331910848617554,
+  "end": 1654008615.495841,
+  "exit_code": 0,
+  "start": 1654008603.1639302,
+  "tool": "smartcheck"
+}

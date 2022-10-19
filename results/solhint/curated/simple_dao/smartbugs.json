@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "tool": "solhint",
+  "start": 1654082641.27269,
+  "end": 1654082650.490261,
+  "duration": 9.217571020126343,
+  "exit_code": 1
+}

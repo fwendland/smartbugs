@@ -1,0 +1,105 @@
+2022-05-31 13:46:20,601: [14] m.main:INFO: Registered plugins: DetectUnusedRetVal, DetectReentrancySimple, DetectExternalCallAndLeak, DetectEnvInstruction, DetectSuicidal, DetectUninitializedStorage, DetectReentrancyAdvanced, DetectInvalid, DetectDelegatecall, DetectUninitializedMemory, DetectIntegerOverflow
+2022-05-31 13:46:20,601: [14] m.main:INFO: Beginning analysis
+2022-05-31 13:46:20,620: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-05-31 13:46:22,339: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-05-31 13:46:25,724: [328] m.e.detectors:WARNING: Reachable external call to sender
+2022-05-31 13:46:26,500: [328] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:26,554: [328] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:28,065: [328] m.e.detectors:WARNING: Returned value at CALL instruction is not used
+2022-05-31 13:46:28,433: [14] m.e.manticore:INFO: 6 alive states, 4 terminated states
+2022-05-31 13:46:29,950: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-05-31 13:46:39,188: [1566] m.e.detectors:WARNING: Potentially reading uninitialized storage
+2022-05-31 13:46:42,942: [1585] m.e.detectors:WARNING: Potentially reading uninitialized storage
+2022-05-31 13:46:43,779: [1576] m.e.detectors:WARNING: Reachable external call to sender
+2022-05-31 13:46:45,046: [1576] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:45,139: [1576] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:46,871: [1566] m.e.detectors:WARNING: Potentially reading uninitialized storage
+2022-05-31 13:46:47,409: [1564] m.e.detectors:WARNING: Potentially reading uninitialized storage
+2022-05-31 13:46:47,509: [1576] m.e.detectors:WARNING: Returned value at CALL instruction is not used
+2022-05-31 13:46:47,769: [1571] m.e.detectors:WARNING: Reachable external call to sender
+2022-05-31 13:46:49,124: [1576] m.e.detectors:WARNING: Reachable external call to sender
+2022-05-31 13:46:50,266: [1571] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:50,316: [1564] m.e.detectors:WARNING: Reachable ether leak to sender
+2022-05-31 13:46:50,430: [1571] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:51,952: [1582] m.e.detectors:WARNING: Reachable external call to sender
+2022-05-31 13:46:51,952: [1566] m.e.detectors:WARNING: Reachable external call to sender
+2022-05-31 13:46:52,348: [1576] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:52,697: [1564] m.e.detectors:WARNING: Potentially reading uninitialized storage
+2022-05-31 13:46:52,762: [1576] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:53,379: [1571] m.e.detectors:WARNING: Returned value at CALL instruction is not used
+2022-05-31 13:46:54,235: [1564] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:54,391: [1566] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:54,527: [1564] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:54,576: [1566] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:54,577: [1582] m.e.detectors:WARNING: Potential reentrancy vulnerability
+2022-05-31 13:46:54,746: [1582] m.e.detectors:WARNING: Reentrancy multi-million ether bug
+2022-05-31 13:46:58,754: [1566] m.e.detectors:WARNING: Returned value at CALL instruction is not used
+2022-05-31 13:46:58,864: [1576] m.e.detectors:WARNING: Returned value at CALL instruction is not used
+2022-05-31 13:46:59,430: [1582] m.e.detectors:WARNING: Returned value at CALL instruction is not used
+2022-05-31 13:47:00,027: [1564] m.e.detectors:WARNING: Returned value at CALL instruction is not used
+2022-05-31 13:47:00,400: [14] m.e.manticore:INFO: 36 alive states, 28 terminated states
+2022-05-31 13:47:02,262: [8036] m.c.manticore:INFO: Generated testcase No. 0 - STOP(3 txs)
+2022-05-31 13:47:02,284: [8044] m.c.manticore:INFO: Generated testcase No. 3 - STOP(3 txs)
+2022-05-31 13:47:02,286: [8045] m.c.manticore:INFO: Generated testcase No. 1 - STOP(3 txs)
+2022-05-31 13:47:02,297: [8043] m.c.manticore:INFO: Generated testcase No. 4 - STOP(3 txs)
+2022-05-31 13:47:02,299: [8052] m.c.manticore:INFO: Generated testcase No. 5 - STOP(3 txs)
+2022-05-31 13:47:02,303: [8037] m.c.manticore:INFO: Generated testcase No. 2 - RETURN(3 txs)
+2022-05-31 13:47:02,314: [8041] m.c.manticore:INFO: Generated testcase No. 6 - RETURN(3 txs)
+2022-05-31 13:47:02,323: [8049] m.c.manticore:INFO: Generated testcase No. 7 - STOP(3 txs)
+2022-05-31 13:47:06,700: [8045] m.c.manticore:INFO: Generated testcase No. 8 - RETURN(3 txs)
+2022-05-31 13:47:06,905: [8049] m.c.manticore:INFO: Generated testcase No. 9 - RETURN(3 txs)
+2022-05-31 13:47:07,109: [8044] m.c.manticore:INFO: Generated testcase No. 10 - STOP(3 txs)
+2022-05-31 13:47:07,495: [8052] m.c.manticore:INFO: Generated testcase No. 11 - STOP(3 txs)
+2022-05-31 13:47:07,528: [8043] m.c.manticore:INFO: Generated testcase No. 12 - RETURN(3 txs)
+2022-05-31 13:47:07,892: [8036] m.c.manticore:INFO: Generated testcase No. 13 - STOP(3 txs)
+2022-05-31 13:47:07,906: [8041] m.c.manticore:INFO: Generated testcase No. 14 - RETURN(3 txs)
+2022-05-31 13:47:08,996: [8037] m.c.manticore:INFO: Generated testcase No. 15 - STOP(3 txs)
+2022-05-31 13:47:13,317: [8044] m.c.manticore:INFO: Generated testcase No. 16 - RETURN(3 txs)
+2022-05-31 13:47:13,848: [8036] m.c.manticore:INFO: Generated testcase No. 17 - STOP(3 txs)
+2022-05-31 13:47:14,067: [8052] m.c.manticore:INFO: Generated testcase No. 18 - STOP(3 txs)
+2022-05-31 13:47:14,120: [8049] m.c.manticore:INFO: Generated testcase No. 19 - RETURN(3 txs)
+2022-05-31 13:47:14,387: [8045] m.c.manticore:INFO: Generated testcase No. 20 - STOP(3 txs)
+2022-05-31 13:47:14,404: [8037] m.c.manticore:INFO: Generated testcase No. 21 - RETURN(3 txs)
+2022-05-31 13:47:14,871: [8043] m.c.manticore:INFO: Generated testcase No. 22 - RETURN(3 txs)
+2022-05-31 13:47:16,176: [8041] m.c.manticore:INFO: Generated testcase No. 23 - RETURN(3 txs)
+2022-05-31 13:47:19,083: [8036] m.c.manticore:INFO: Generated testcase No. 24 - STOP(3 txs)
+2022-05-31 13:47:20,332: [8052] m.c.manticore:INFO: Generated testcase No. 25 - STOP(3 txs)
+2022-05-31 13:47:21,107: [8044] m.c.manticore:INFO: Generated testcase No. 26 - STOP(3 txs)
+2022-05-31 13:47:21,304: [8049] m.c.manticore:INFO: Generated testcase No. 27 - STOP(3 txs)
+2022-05-31 13:47:21,606: [8037] m.c.manticore:INFO: Generated testcase No. 28 - STOP(3 txs)
+2022-05-31 13:47:22,789: [8043] m.c.manticore:INFO: Generated testcase No. 29 - STOP(3 txs)
+2022-05-31 13:47:23,291: [8045] m.c.manticore:INFO: Generated testcase No. 30 - STOP(3 txs)
+2022-05-31 13:47:25,621: [8041] m.c.manticore:INFO: Generated testcase No. 31 - STOP(3 txs)
+2022-05-31 13:47:27,794: [8052] m.c.manticore:INFO: Generated testcase No. 32 - STOP(3 txs)
+2022-05-31 13:47:29,190: [8049] m.c.manticore:INFO: Generated testcase No. 33 - RETURN(3 txs)
+2022-05-31 13:47:29,383: [8036] m.c.manticore:INFO: Generated testcase No. 34 - STOP(3 txs)
+2022-05-31 13:47:29,410: [8044] m.c.manticore:INFO: Generated testcase No. 35 - STOP(3 txs)
+2022-05-31 13:47:30,286: [8045] m.c.manticore:INFO: Generated testcase No. 36 - RETURN(1 txs)
+2022-05-31 13:47:30,936: [8043] m.c.manticore:INFO: Generated testcase No. 37 - REVERT(2 txs)
+2022-05-31 13:47:31,096: [8037] m.c.manticore:INFO: Generated testcase No. 38 - REVERT(2 txs)
+2022-05-31 13:47:33,534: [8041] m.c.manticore:INFO: Generated testcase No. 39 - REVERT(2 txs)
+2022-05-31 13:47:34,136: [8052] m.c.manticore:INFO: Generated testcase No. 40 - STOP(2 txs)
+2022-05-31 13:47:34,361: [8045] m.c.manticore:INFO: Generated testcase No. 41 - STOP(2 txs)
+2022-05-31 13:47:35,500: [8043] m.c.manticore:INFO: Generated testcase No. 42 - RETURN(2 txs)
+2022-05-31 13:47:35,547: [8036] m.c.manticore:INFO: Generated testcase No. 43 - STOP(2 txs)
+2022-05-31 13:47:35,683: [8037] m.c.manticore:INFO: Generated testcase No. 44 - RETURN(2 txs)
+2022-05-31 13:47:36,144: [8049] m.c.manticore:INFO: Generated testcase No. 45 - STOP(2 txs)
+2022-05-31 13:47:36,698: [8044] m.c.manticore:INFO: Generated testcase No. 46 - REVERT(3 txs)
+2022-05-31 13:47:38,401: [8052] m.c.manticore:INFO: Generated testcase No. 47 - REVERT(3 txs)
+2022-05-31 13:47:38,401: [8041] m.c.manticore:INFO: Generated testcase No. 48 - REVERT(3 txs)
+2022-05-31 13:47:38,595: [8045] m.c.manticore:INFO: Generated testcase No. 49 - REVERT(3 txs)
+2022-05-31 13:47:40,443: [8043] m.c.manticore:INFO: Generated testcase No. 50 - REVERT(3 txs)
+2022-05-31 13:47:41,534: [8036] m.c.manticore:INFO: Generated testcase No. 51 - REVERT(3 txs)
+2022-05-31 13:47:41,916: [8049] m.c.manticore:INFO: Generated testcase No. 52 - REVERT(3 txs)
+2022-05-31 13:47:42,110: [8037] m.c.manticore:INFO: Generated testcase No. 53 - REVERT(3 txs)
+2022-05-31 13:47:42,859: [8044] m.c.manticore:INFO: Generated testcase No. 54 - REVERT(3 txs)
+2022-05-31 13:47:45,334: [8041] m.c.manticore:INFO: Generated testcase No. 55 - REVERT(3 txs)
+2022-05-31 13:47:45,477: [8045] m.c.manticore:INFO: Generated testcase No. 56 - REVERT(3 txs)
+2022-05-31 13:47:46,147: [8052] m.c.manticore:INFO: Generated testcase No. 57 - REVERT(3 txs)
+2022-05-31 13:47:46,479: [8043] m.c.manticore:INFO: Generated testcase No. 58 - REVERT(3 txs)
+2022-05-31 13:47:47,026: [8049] m.c.manticore:INFO: Generated testcase No. 59 - REVERT(3 txs)
+2022-05-31 13:47:47,319: [8037] m.c.manticore:INFO: Generated testcase No. 60 - REVERT(3 txs)
+2022-05-31 13:47:48,962: [8044] m.c.manticore:INFO: Generated testcase No. 61 - REVERT(3 txs)
+2022-05-31 13:47:49,095: [8036] m.c.manticore:INFO: Generated testcase No. 62 - REVERT(3 txs)
+2022-05-31 13:47:50,701: [8041] m.c.manticore:INFO: Generated testcase No. 63 - REVERT(3 txs)
+2022-05-31 13:47:57,197: [14] m.c.manticore:INFO: Results in /mcore_zjyzcvc2

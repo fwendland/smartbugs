@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "manticore",
+  "start": 1654175495.3568864,
+  "end": 1654175544.7108355,
+  "duration": 49.35394906997681,
+  "exit_code": 0
+}

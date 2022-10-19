@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "tool": "mythril",
+  "start": 1654006855.0751085,
+  "end": 1654006862.175949,
+  "duration": 7.1008405685424805,
+  "exit_code": 0
+}

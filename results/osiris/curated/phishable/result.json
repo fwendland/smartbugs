@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/phishable.sol",
+      "name": "Phishable"
+    }
+  ],
+  "contract": "dataset/access_control/phishable.sol",
+  "duration": 2.550830602645874,
+  "end": 1654180877.1970162,
+  "exit_code": 0,
+  "start": 1654180874.6461856,
+  "tool": "osiris"
+}

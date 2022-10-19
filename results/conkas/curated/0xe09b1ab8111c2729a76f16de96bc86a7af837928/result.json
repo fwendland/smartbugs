@@ -1,0 +1,76 @@
+{
+  "analysis": [
+    {
+      "line_number": "213",
+      "maybe_in_function": "donateForContractHealth()",
+      "pc": "0x1ac0",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "103",
+      "maybe_in_function": "refund(uint256)",
+      "pc": "0xfe6",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "313",
+      "maybe_in_function": "refund(uint256)",
+      "pc": "0x28e3",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "369",
+      "maybe_in_function": "transferAnyERC20Token(address,address,uint256)",
+      "pc": "0x26af",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "286",
+      "maybe_in_function": "getCollateralBalance()",
+      "pc": "0xf82",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "315",
+      "maybe_in_function": "refund(uint256)",
+      "pc": "0x2906",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "287",
+      "maybe_in_function": "getCollateralBalance()",
+      "pc": "0xfc4",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "324",
+      "maybe_in_function": "withdrawDonation(uint256)",
+      "pc": "0x2b3c",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "340",
+      "maybe_in_function": "clearStorage(uint256[])",
+      "pc": "0x66b",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "313",
+      "maybe_in_function": "refund(uint256)",
+      "pc": "0x28e3",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "142",
+      "maybe_in_function": "getCollateralBalance()",
+      "pc": "0xbff",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+  "duration": 24.559430837631226,
+  "end": 1654106855.046482,
+  "exit_code": 0,
+  "start": 1654106830.4870512,
+  "tool": "conkas"
+}

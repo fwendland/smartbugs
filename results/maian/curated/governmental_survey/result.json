@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "duration": 107.02198791503906,
+  "end": 1654163586.5826445,
+  "exit_code": 0,
+  "start": 1654163479.5606565,
+  "tool": "maian"
+}

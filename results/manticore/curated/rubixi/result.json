@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/access_control/rubixi.sol",
+  "duration": 1803.871327161789,
+  "end": 1654166371.2754965,
+  "exit_code": null,
+  "start": 1654164567.4041693,
+  "tool": "manticore"
+}

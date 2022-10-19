@@ -1,0 +1,250 @@
+{
+  "analysis": [
+    {
+      "check": "reentrancy-eth",
+      "confidence": "Medium",
+      "description": "Reentrancy in Reentrancy_insecure.withdrawBalance (/data/reentrancy_insecure.sol#14-20):\n\tExternal calls:\n\t- (success) = msg.sender.call.value(amountToWithdraw)() (/data/reentrancy_insecure.sol#17)\n\tState variables written after the call(s):\n\t- userBalances (/data/reentrancy_insecure.sol#19)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrancy_insecure",
+            "source_mapping": {
+              "filename": "/data/reentrancy_insecure.sol",
+              "length": 463,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "start": 168
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_insecure.sol",
+            "length": 356,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 273
+          },
+          "type": "function"
+        },
+        {
+          "expression": "(success) = msg.sender.call.value(amountToWithdraw)()",
+          "source_mapping": {
+            "filename": "/data/reentrancy_insecure.sol",
+            "length": 62,
+            "lines": [
+              17
+            ],
+            "start": 412
+          },
+          "type": "external_calls"
+        },
+        {
+          "expression": "userBalances[msg.sender] = 0",
+          "name": "userBalances",
+          "source_mapping": {
+            "filename": "/data/reentrancy_insecure.sol",
+            "length": 28,
+            "lines": [
+              19
+            ],
+            "start": 594
+          },
+          "type": "variables_written"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Reentrancy_insecure.withdrawBalance (/data/reentrancy_insecure.sol#14-20) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrancy_insecure",
+            "source_mapping": {
+              "filename": "/data/reentrancy_insecure.sol",
+              "length": 463,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "start": 168
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_insecure.sol",
+            "length": 356,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 273
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/reentrancy_insecure.sol:\n\t- pragma solidity^0.4.0 (/data/reentrancy_insecure.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.0",
+          "source_mapping": {
+            "filename": "/data/reentrancy_insecure.sol",
+            "length": 23,
+            "lines": [
+              7
+            ],
+            "start": 143
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in Reentrancy_insecure.withdrawBalance (/data/reentrancy_insecure.sol#14-20):\n\t-(success) = msg.sender.call.value(amountToWithdraw)() /data/reentrancy_insecure.sol#17\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Reentrancy_insecure",
+            "source_mapping": {
+              "filename": "/data/reentrancy_insecure.sol",
+              "length": 463,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "start": 168
+            },
+            "type": "contract"
+          },
+          "name": "withdrawBalance",
+          "source_mapping": {
+            "filename": "/data/reentrancy_insecure.sol",
+            "length": 356,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 273
+          },
+          "type": "function"
+        },
+        {
+          "expression": "(success) = msg.sender.call.value(amountToWithdraw)()",
+          "source_mapping": {
+            "filename": "/data/reentrancy_insecure.sol",
+            "length": 62,
+            "lines": [
+              17
+            ],
+            "start": 412
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Contract 'Reentrancy_insecure' (/data/reentrancy_insecure.sol#9-21) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "Reentrancy_insecure",
+          "source_mapping": {
+            "filename": "/data/reentrancy_insecure.sol",
+            "length": 463,
+            "lines": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "start": 168
+          },
+          "target": "contract"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_insecure.sol",
+  "duration": 6.350226163864136,
+  "end": 1653999789.9664059,
+  "exit_code": 5,
+  "start": 1653999783.6161797,
+  "tool": "slither"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "tool": "conkas",
+  "start": 1654092831.8845382,
+  "end": 1654092937.172803,
+  "duration": 105.28826475143433,
+  "exit_code": 0
+}

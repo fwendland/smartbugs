@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "conkas",
+  "start": 1654106488.7730694,
+  "end": 1654106518.5948813,
+  "duration": 29.82181191444397,
+  "exit_code": 0
+}

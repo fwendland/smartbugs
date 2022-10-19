@@ -1,0 +1,50 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/old_blockhash.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 122.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/old_blockhash.sol",
+      "level": "Error",
+      "line": "9",
+      "message": "Line length must be no more than 120 but current length is 122.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/old_blockhash.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Line length must be no more than 120 but current length is 194.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "7",
+      "file": "/data/old_blockhash.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/old_blockhash.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 2.547520160675049,
+  "end": 1654186595.7203887,
+  "exit_code": 1,
+  "start": 1654186593.1728685,
+  "tool": "solhint"
+}

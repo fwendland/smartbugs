@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "duration": 39.96496343612671,
+  "end": 1654170026.2237961,
+  "exit_code": 0,
+  "start": 1654169986.2588327,
+  "tool": "manticore"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "mythril",
+  "start": 1654177339.57291,
+  "end": 1654177359.843067,
+  "duration": 20.270156860351562,
+  "exit_code": 0
+}

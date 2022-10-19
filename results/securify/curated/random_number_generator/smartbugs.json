@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "tool": "securify",
+  "start": 1654182775.468021,
+  "end": 1654182779.9556437,
+  "duration": 4.4876227378845215,
+  "exit_code": 0
+}

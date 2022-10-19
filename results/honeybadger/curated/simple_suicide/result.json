@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/simple_suicide.sol",
+      "name": "SimpleSuicide"
+    }
+  ],
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "duration": 6.284964323043823,
+  "end": 1654122272.7134013,
+  "exit_code": 0,
+  "start": 1654122266.428437,
+  "tool": "honeybadger"
+}

@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "column": 5,
+      "content": "functionadd(uintvalue)returns(bool){sellerBalance+=value;}",
+      "line": 12,
+      "name": "SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN",
+      "patternId": "47acc2",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 10,
+      "content": "private",
+      "line": 10,
+      "name": "SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA",
+      "patternId": "5616b2",
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functionadd(uintvalue)returns(bool){sellerBalance+=value;}",
+      "line": 12,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_1.sol",
+  "duration": 6.767353057861328,
+  "end": 1654186497.1436625,
+  "exit_code": 0,
+  "start": 1654186490.3763094,
+  "tool": "smartcheck"
+}

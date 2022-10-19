@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [],
+    "success": true
+  },
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "duration": 6.373948335647583,
+  "end": 1654177345.989585,
+  "exit_code": 0,
+  "start": 1654177339.6156366,
+  "tool": "mythril"
+}

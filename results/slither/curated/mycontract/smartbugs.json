@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "slither",
+  "start": 1654186381.9488616,
+  "end": 1654186388.6731105,
+  "duration": 6.724248886108398,
+  "exit_code": 4
+}

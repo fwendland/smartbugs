@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_add.sol",
+  "tool": "securify",
+  "start": 1654182411.7046545,
+  "end": 1654182423.654801,
+  "duration": 11.950146436691284,
+  "exit_code": 0
+}

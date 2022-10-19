@@ -1,0 +1,1338 @@
+{
+  "analysis": [
+    {
+      "check": "reentrancy-eth",
+      "confidence": "Medium",
+      "description": "Reentrancy in BANK_SAFE.Collect (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#47-60):\n\tExternal calls:\n\t- msg.sender.call.value(_am)() (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#54-58)\n\tState variables written after the call(s):\n\t- balances (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#56)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BANK_SAFE",
+            "source_mapping": {
+              "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+              "length": 1087,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 366,
+            "lines": [
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "start": 740
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(_am)()",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 161,
+            "lines": [
+              54,
+              55,
+              56,
+              57,
+              58
+            ],
+            "start": 929
+          },
+          "type": "external_calls"
+        },
+        {
+          "expression": "balances[msg.sender] -= _am",
+          "name": "balances",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 25,
+            "lines": [
+              56
+            ],
+            "start": 992
+          },
+          "type": "variables_written"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#22:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+      "elements": [
+        {
+          "expression": "None",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 5,
+            "lines": [
+              22
+            ],
+            "start": 330
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "deprecated-standards",
+      "confidence": "High",
+      "description": "Deprecated standard detected @ /data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#29:\n\t- Usage of \"throw\" should be replaced with \"revert()\"\n",
+      "elements": [
+        {
+          "expression": "None",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 5,
+            "lines": [
+              29
+            ],
+            "start": 449
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "BANK_SAFE.SetMinSum (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#19-24) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BANK_SAFE",
+            "source_mapping": {
+              "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+              "length": 1087,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "SetMinSum",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 105,
+            "lines": [
+              19,
+              20,
+              21,
+              22,
+              23,
+              24
+            ],
+            "start": 260
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "BANK_SAFE.SetLogFile (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#26-31) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BANK_SAFE",
+            "source_mapping": {
+              "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+              "length": 1087,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "SetLogFile",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 115,
+            "lines": [
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "start": 375
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "BANK_SAFE.Initialized (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#33-37) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BANK_SAFE",
+            "source_mapping": {
+              "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+              "length": 1087,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Initialized",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 73,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37
+            ],
+            "start": 500
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "BANK_SAFE.Collect (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#47-60) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BANK_SAFE",
+            "source_mapping": {
+              "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+              "length": 1087,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 366,
+            "lines": [
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "start": 740
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "BANK_SAFE.fallback (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#62-67) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BANK_SAFE",
+            "source_mapping": {
+              "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+              "length": 1087,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 66,
+            "lines": [
+              62,
+              63,
+              64,
+              65,
+              66,
+              67
+            ],
+            "start": 1116
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "LogFile.AddMessage (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#87-95) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "LogFile",
+            "source_mapping": {
+              "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+              "length": 433,
+              "lines": [
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96
+              ],
+              "start": 1193
+            },
+            "type": "contract"
+          },
+          "name": "AddMessage",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 227,
+            "lines": [
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95
+            ],
+            "start": 1397
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol:\n\t- pragma solidity^0.4.19 (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.19",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 76
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in BANK_SAFE.Collect (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#47-60):\n\t-msg.sender.call.value(_am)() /data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#54-58\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "BANK_SAFE",
+            "source_mapping": {
+              "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+              "length": 1087,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 366,
+            "lines": [
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "start": 740
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(_am)()",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 161,
+            "lines": [
+              54,
+              55,
+              56,
+              57,
+              58
+            ],
+            "start": 929
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Contract 'BANK_SAFE' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#9-69) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "BANK_SAFE",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 1087,
+            "lines": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69
+            ],
+            "start": 102
+          },
+          "target": "contract"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'BANK_SAFE.SetMinSum' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#19-24) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "SetMinSum",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 105,
+            "lines": [
+              19,
+              20,
+              21,
+              22,
+              23,
+              24
+            ],
+            "start": 260
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_val' of BANK_SAFE.SetMinSum (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#19) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_val",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 9,
+            "lines": [
+              19
+            ],
+            "start": 279
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'BANK_SAFE.SetLogFile' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#26-31) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "SetLogFile",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 115,
+            "lines": [
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "start": 375
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_log' of BANK_SAFE.SetLogFile (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#26) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_log",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 12,
+            "lines": [
+              26
+            ],
+            "start": 395
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'BANK_SAFE.Initialized' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#33-37) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Initialized",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 73,
+            "lines": [
+              33,
+              34,
+              35,
+              36,
+              37
+            ],
+            "start": 500
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'BANK_SAFE.Deposit' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#39-45) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Deposit",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 147,
+            "lines": [
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ],
+            "start": 583
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'BANK_SAFE.Collect' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#47-60) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Collect",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 366,
+            "lines": [
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "start": 740
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_am' of BANK_SAFE.Collect (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#47) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_am",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 8,
+            "lines": [
+              47
+            ],
+            "start": 757
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'BANK_SAFE.MinSum' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#13) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "MinSum",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 18,
+            "lines": [
+              13
+            ],
+            "start": 182
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'BANK_SAFE.Log' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#15) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Log",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 11,
+            "lines": [
+              15
+            ],
+            "start": 211
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'LogFile.AddMessage' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#87-95) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "AddMessage",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 227,
+            "lines": [
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95
+            ],
+            "start": 1397
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_adr' of LogFile.AddMessage (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#87) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_adr",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 12,
+            "lines": [
+              87
+            ],
+            "start": 1417
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_val' of LogFile.AddMessage (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#87) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_val",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 9,
+            "lines": [
+              87
+            ],
+            "start": 1430
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_data' of LogFile.AddMessage (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#87) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_data",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 12,
+            "lines": [
+              87
+            ],
+            "start": 1440
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'LogFile.History' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#83) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "History",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 24,
+            "lines": [
+              83
+            ],
+            "start": 1336
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'LogFile.LastMsg' (/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol#85) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "LastMsg",
+          "source_mapping": {
+            "filename": "/data/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "length": 15,
+            "lines": [
+              85
+            ],
+            "start": 1371
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+  "duration": 8.050660371780396,
+  "end": 1653999791.8589005,
+  "exit_code": 28,
+  "start": 1653999783.8082402,
+  "tool": "slither"
+}

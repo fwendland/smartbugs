@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/roulette.sol",
+      "name": "Roulette"
+    }
+  ],
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "duration": 3.1012227535247803,
+  "end": 1654181185.4206705,
+  "exit_code": 0,
+  "start": 1654181182.3194478,
+  "tool": "osiris"
+}

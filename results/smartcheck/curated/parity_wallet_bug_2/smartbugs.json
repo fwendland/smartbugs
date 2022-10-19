@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_2.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.8026161,
+  "end": 1654186487.6317935,
+  "duration": 7.829177379608154,
+  "exit_code": 0
+}

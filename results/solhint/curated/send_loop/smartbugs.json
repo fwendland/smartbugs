@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "tool": "solhint",
+  "start": 1654186599.719188,
+  "end": 1654186602.409127,
+  "duration": 2.689939022064209,
+  "exit_code": 1
+}

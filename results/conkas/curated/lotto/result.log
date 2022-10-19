@@ -1,0 +1,5 @@
+Analysing /data/lotto.sol:Lotto...
+Vulnerability: Unchecked Low Level Call. Maybe in function: 0x1846f51a. PC: 0x1b2. Line number: 27.
+Vulnerability: Reentrancy. Maybe in function: 0x1846f51a. PC: 0x1b2. Line number: 27.
+Vulnerability: Reentrancy. Maybe in function: 0x8f1c0585. PC: 0x229. Line number: 20.
+Vulnerability: Unchecked Low Level Call. Maybe in function: 0x8f1c0585. PC: 0x229. Line number: 20.

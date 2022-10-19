@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "osiris",
+  "start": 1654180930.6448057,
+  "end": 1654180933.9054823,
+  "duration": 3.260676622390747,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "tool": "maian",
+  "start": 1654004185.5604994,
+  "end": 1654004333.2275336,
+  "duration": 147.66703414916992,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/timelock.sol",
+  "tool": "mythril",
+  "start": 1654177616.0004818,
+  "end": 1654177623.0779738,
+  "duration": 7.077491998672485,
+  "exit_code": 0
+}

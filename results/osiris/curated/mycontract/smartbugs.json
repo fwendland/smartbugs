@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "osiris",
+  "start": 1654180874.6955183,
+  "end": 1654180878.239615,
+  "duration": 3.5440967082977295,
+  "exit_code": 0
+}

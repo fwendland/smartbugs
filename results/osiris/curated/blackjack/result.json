@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 3,
+          "line": 135,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 3,
+          "line": 138,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 3,
+          "line": 135,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/blackjack.sol",
+      "name": "BlackJack"
+    },
+    {
+      "errors": [],
+      "file": "/data/blackjack.sol",
+      "name": "Deck"
+    }
+  ],
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "duration": 53.08165407180786,
+  "end": 1654181063.0434558,
+  "exit_code": 0,
+  "start": 1654181009.9618018,
+  "tool": "osiris"
+}

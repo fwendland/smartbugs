@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "tool": "solhint",
+  "start": 1654186604.564193,
+  "end": 1654186606.6269832,
+  "duration": 2.0627901554107666,
+  "exit_code": 0
+}

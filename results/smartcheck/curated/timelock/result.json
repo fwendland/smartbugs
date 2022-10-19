@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": 17,
+      "content": "^",
+      "line": 8,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/arithmetic/timelock.sol",
+  "duration": 5.1526312828063965,
+  "end": 1654186495.5241718,
+  "exit_code": 0,
+  "start": 1654186490.3715405,
+  "tool": "smartcheck"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "slither",
+  "start": 1654186382.0863698,
+  "end": 1654186386.7446234,
+  "duration": 4.6582536697387695,
+  "exit_code": 6
+}

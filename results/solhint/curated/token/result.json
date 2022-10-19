@@ -1,0 +1,146 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "7",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "9",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "24",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "6",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Expected indentation of 8 spaces but found 5",
+      "type": "indent"
+    },
+    {
+      "column": "4",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 4 spaces but found 3",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/token.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 0 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/arithmetic/token.sol",
+  "duration": 4.543144941329956,
+  "end": 1654186590.965693,
+  "exit_code": 1,
+  "start": 1654186586.422548,
+  "tool": "solhint"
+}

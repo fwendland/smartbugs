@@ -1,0 +1,57 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 74,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 74,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 13,
+          "line": 28,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 42,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 43,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 16,
+          "line": 40,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+      "name": "Private_Bank"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+  "duration": 60.738813638687134,
+  "end": 1654007460.4013019,
+  "exit_code": 0,
+  "start": 1654007399.6624882,
+  "tool": "osiris"
+}

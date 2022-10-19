@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/front_running/odds_and_evens.sol",
+  "duration": 73.72568559646606,
+  "end": 1654163412.338558,
+  "exit_code": 0,
+  "start": 1654163338.6128724,
+  "tool": "maian"
+}

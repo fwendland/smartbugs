@@ -1,0 +1,66 @@
+{
+  "analysis": [
+    {
+      "column": 21,
+      "content": "0x96a65609a7b84e8842732deb08f56c3e21ac6f8a",
+      "line": 13,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 7,
+      "content": "0xaa27f8c1160886aacba64b2319d8d5469ef2af79",
+      "line": 19,
+      "name": "SOLIDITY_ADDRESS_HARDCODED",
+      "patternId": "adc165",
+      "severity": 1
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 19,
+      "content": "call(\"register\",\"CentraToken\")",
+      "line": 21,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 19,
+      "content": "call(\"register\",\"CentraToken\")",
+      "line": 21,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 23,
+      "content": "call(bytes4(keccak256(\"transfer(address,uint256)\")),c2,k)",
+      "line": 22,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 1,
+      "content": "functiontransfer()returns(bool){addresscontract_address;contract_address=0x96a65609a7b84e8842732deb08f56c3e21ac6f8a;addressc1;addressc2;uint256k;k=1;c2=0xaa27f8c1160886aacba64b2319d8d5469ef2af79;contract_address.call(\"register\",\"CentraToken\");if(!contract_address.call(bytes4(keccak256(\"transfer(address,uint256)\")),c2,k))returnfalse;returntrue;}",
+      "line": 11,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+  "duration": 7.528409719467163,
+  "end": 1654186550.3189065,
+  "exit_code": 0,
+  "start": 1654186542.7904968,
+  "tool": "smartcheck"
+}

@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/reentrancy_insecure.sol",
+      "level": "Error",
+      "line": "17",
+      "message": "Line length must be no more than 120 but current length is 155.",
+      "type": "max-line-length"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_insecure.sol",
+  "duration": 4.026348829269409,
+  "end": 1654082645.489746,
+  "exit_code": 1,
+  "start": 1654082641.4633973,
+  "tool": "solhint"
+}

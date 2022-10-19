@@ -1,0 +1,97 @@
+{
+  "analysis": {
+    "/data/wallet_02_refund_nosub.sol:Wallet": {
+      "results": {
+        "DAO": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": []
+        },
+        "DAOConstantGas": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            29
+          ],
+          "warnings": [
+            42,
+            35
+          ]
+        },
+        "MissingInputValidation": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [
+            40
+          ],
+          "warnings": [
+            33,
+            27,
+            22
+          ]
+        },
+        "TODAmount": {
+          "conflicts": [],
+          "safe": [
+            35
+          ],
+          "violations": [
+            42
+          ],
+          "warnings": [
+            29
+          ]
+        },
+        "TODReceiver": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            42,
+            35,
+            29
+          ]
+        },
+        "TODTransfer": {
+          "conflicts": [],
+          "safe": [
+            29
+          ],
+          "violations": [],
+          "warnings": [
+            42,
+            35
+          ]
+        },
+        "UnhandledException": {
+          "conflicts": [],
+          "safe": [],
+          "violations": [],
+          "warnings": [
+            42,
+            35,
+            29
+          ]
+        },
+        "UnrestrictedEtherFlow": {
+          "conflicts": [],
+          "safe": [
+            35,
+            29
+          ],
+          "violations": [],
+          "warnings": [
+            42
+          ]
+        }
+      }
+    }
+  },
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "duration": 90.42929267883301,
+  "end": 1654182131.772623,
+  "exit_code": 0,
+  "start": 1654182041.3433304,
+  "tool": "securify"
+}

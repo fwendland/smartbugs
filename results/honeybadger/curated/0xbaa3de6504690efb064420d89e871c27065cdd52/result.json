@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+      "name": "Proxy"
+    },
+    {
+      "errors": [],
+      "file": "/data/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+      "name": "VaultProxy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+  "duration": 104.77524209022522,
+  "end": 1654123508.8517108,
+  "exit_code": 0,
+  "start": 1654123404.0764687,
+  "tool": "honeybadger"
+}

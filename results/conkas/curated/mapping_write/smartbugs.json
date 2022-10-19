@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "conkas",
+  "start": 1654105988.6087897,
+  "end": 1654105996.2604954,
+  "duration": 7.651705741882324,
+  "exit_code": 0
+}

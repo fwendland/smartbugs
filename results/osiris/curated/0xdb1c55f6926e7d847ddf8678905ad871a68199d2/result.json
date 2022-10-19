@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 30,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 30,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 39,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+      "name": "FreeEth"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+  "duration": 39.54632902145386,
+  "end": 1654181229.158102,
+  "exit_code": 0,
+  "start": 1654181189.611773,
+  "tool": "osiris"
+}

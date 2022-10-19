@@ -1,0 +1,52 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 83,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 83,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 17,
+          "line": 31,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 16,
+          "line": 29,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 17,
+          "line": 32,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+      "name": "X_WALLET"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+  "duration": 58.84073305130005,
+  "end": 1654007458.5040555,
+  "exit_code": 0,
+  "start": 1654007399.6633224,
+  "tool": "osiris"
+}

@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "24",
+      "maybe_in_function": "refundAll()",
+      "pc": "0x1af",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "24",
+      "maybe_in_function": "refundAll()",
+      "pc": "0x1af",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/denial_of_service/send_loop.sol",
+  "duration": 5.824207544326782,
+  "end": 1654106766.1422117,
+  "exit_code": 0,
+  "start": 1654106760.3180041,
+  "tool": "conkas"
+}

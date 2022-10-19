@@ -1,0 +1,34 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+      "level": "Error",
+      "line": "103",
+      "message": "Line length must be no more than 120 but current length is 177.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+      "level": "Error",
+      "line": "141",
+      "message": "Line length must be no more than 120 but current length is 131.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+      "level": "Error",
+      "line": "363",
+      "message": "Line length must be no more than 120 but current length is 125.",
+      "type": "max-line-length"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+  "duration": 5.9140541553497314,
+  "end": 1654186628.1208348,
+  "exit_code": 1,
+  "start": 1654186622.2067807,
+  "tool": "solhint"
+}

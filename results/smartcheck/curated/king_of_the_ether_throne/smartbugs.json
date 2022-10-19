@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "tool": "smartcheck",
+  "start": 1654186542.9020734,
+  "end": 1654186555.0079646,
+  "duration": 12.105891227722168,
+  "exit_code": 0
+}

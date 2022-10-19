@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.7016068,
+  "end": 1654186487.200751,
+  "duration": 7.4991443157196045,
+  "exit_code": 0
+}

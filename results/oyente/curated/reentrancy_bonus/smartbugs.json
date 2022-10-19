@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "tool": "oyente",
+  "start": 1654007545.2469132,
+  "end": 1654007549.6591566,
+  "duration": 4.412243366241455,
+  "exit_code": 0
+}

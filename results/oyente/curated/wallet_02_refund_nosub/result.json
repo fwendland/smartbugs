@@ -1,0 +1,42 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 24,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 30,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 43,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "95.2%",
+      "file": "/data/wallet_02_refund_nosub.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "Wallet",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/access_control/wallet_02_refund_nosub.sol",
+  "duration": 6.940877676010132,
+  "end": 1654181744.510269,
+  "exit_code": 1,
+  "start": 1654181737.5693913,
+  "tool": "oyente"
+}

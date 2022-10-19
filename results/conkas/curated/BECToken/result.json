@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "264",
+      "maybe_in_function": "batchTransfer(address[],uint256)",
+      "pc": "0x99c",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "264",
+      "maybe_in_function": "batchTransfer(address[],uint256)",
+      "pc": "0x633",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "duration": 200.6941077709198,
+  "end": 1654093032.5784144,
+  "exit_code": 0,
+  "start": 1654092831.8843067,
+  "tool": "conkas"
+}

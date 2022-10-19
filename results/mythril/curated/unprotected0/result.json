@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [],
+    "success": true
+  },
+  "contract": "dataset/access_control/unprotected0.sol",
+  "duration": 4.622196912765503,
+  "end": 1654177344.2157967,
+  "exit_code": 0,
+  "start": 1654177339.5935998,
+  "tool": "mythril"
+}

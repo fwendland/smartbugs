@@ -1,0 +1,225 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "TimeLock.deposit (/data/timelock.sol#15-18) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "TimeLock",
+            "source_mapping": {
+              "filename": "/data/timelock.sol",
+              "length": 685,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "start": 160
+            },
+            "type": "contract"
+          },
+          "name": "deposit",
+          "source_mapping": {
+            "filename": "/data/timelock.sol",
+            "length": 133,
+            "lines": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "start": 281
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "TimeLock.increaseLockTime (/data/timelock.sol#20-23) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "TimeLock",
+            "source_mapping": {
+              "filename": "/data/timelock.sol",
+              "length": 685,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "start": 160
+            },
+            "type": "contract"
+          },
+          "name": "increaseLockTime",
+          "source_mapping": {
+            "filename": "/data/timelock.sol",
+            "length": 157,
+            "lines": [
+              20,
+              21,
+              22,
+              23
+            ],
+            "start": 421
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "TimeLock.withdraw (/data/timelock.sol#25-31) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "TimeLock",
+            "source_mapping": {
+              "filename": "/data/timelock.sol",
+              "length": 685,
+              "lines": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "start": 160
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/timelock.sol",
+            "length": 257,
+            "lines": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "start": 585
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/timelock.sol:\n\t- pragma solidity^0.4.0 (/data/timelock.sol#8): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.0",
+          "source_mapping": {
+            "filename": "/data/timelock.sol",
+            "length": 23,
+            "lines": [
+              8
+            ],
+            "start": 133
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_secondsToIncrease' of TimeLock.increaseLockTime (/data/timelock.sol#20) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_secondsToIncrease",
+          "source_mapping": {
+            "filename": "/data/timelock.sol",
+            "length": 23,
+            "lines": [
+              20
+            ],
+            "start": 447
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/arithmetic/timelock.sol",
+  "duration": 4.342211723327637,
+  "end": 1654186395.1687257,
+  "exit_code": 5,
+  "start": 1654186390.826514,
+  "tool": "slither"
+}

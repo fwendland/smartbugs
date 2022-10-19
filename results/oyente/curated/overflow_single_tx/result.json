@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 30,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 36,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "56.5%",
+      "file": "/data/overflow_single_tx.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "IntegerOverflowSingleTransaction",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "duration": 3.7745771408081055,
+  "end": 1654181753.7744148,
+  "exit_code": 0,
+  "start": 1654181749.9998376,
+  "tool": "oyente"
+}

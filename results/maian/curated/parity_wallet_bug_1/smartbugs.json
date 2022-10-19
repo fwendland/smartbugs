@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "tool": "maian",
+  "start": 1654161877.1971188,
+  "end": 1654161936.266865,
+  "duration": 59.069746255874634,
+  "exit_code": 0
+}

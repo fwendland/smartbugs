@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/parity_wallet_bug_1.sol",
+  "tool": "solhint",
+  "start": 1654186576.951499,
+  "end": 1654186583.6887755,
+  "duration": 6.737276554107666,
+  "exit_code": 1
+}

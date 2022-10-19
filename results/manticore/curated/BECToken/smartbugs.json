@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "manticore",
+  "start": 1654166375.0952394,
+  "end": 1654168178.5767405,
+  "duration": 1803.4815011024475,
+  "exit_code": null
+}

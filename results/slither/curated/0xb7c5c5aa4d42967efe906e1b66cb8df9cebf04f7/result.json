@@ -1,0 +1,290 @@
+{
+  "analysis": [
+    {
+      "check": "reentrancy-eth",
+      "confidence": "Medium",
+      "description": "Reentrancy in keepMyEther.withdraw (/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#23-27):\n\tExternal calls:\n\t- msg.sender.call.value(balances[msg.sender])() (/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#25)\n\tState variables written after the call(s):\n\t- balances (/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#26)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "keepMyEther",
+            "source_mapping": {
+              "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+              "length": 338,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 311
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 168,
+            "lines": [
+              23,
+              24,
+              25,
+              26,
+              27
+            ],
+            "start": 479
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(balances[msg.sender])()",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 45,
+            "lines": [
+              25
+            ],
+            "start": 561
+          },
+          "type": "external_calls"
+        },
+        {
+          "expression": "balances[msg.sender] = 0",
+          "name": "balances",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 24,
+            "lines": [
+              26
+            ],
+            "start": 616
+          },
+          "type": "variables_written"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "keepMyEther.fallback (/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#19-21) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "keepMyEther",
+            "source_mapping": {
+              "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+              "length": 338,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 311
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 77,
+            "lines": [
+              19,
+              20,
+              21
+            ],
+            "start": 392
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "keepMyEther.withdraw (/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#23-27) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "keepMyEther",
+            "source_mapping": {
+              "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+              "length": 338,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 311
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 168,
+            "lines": [
+              23,
+              24,
+              25,
+              26,
+              27
+            ],
+            "start": 479
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol:\n\t- pragma solidity^0.4.23 (/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.23",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 76
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in keepMyEther.withdraw (/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#23-27):\n\t-msg.sender.call.value(balances[msg.sender])() /data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#25\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "keepMyEther",
+            "source_mapping": {
+              "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+              "length": 338,
+              "lines": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "start": 311
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 168,
+            "lines": [
+              23,
+              24,
+              25,
+              26,
+              27
+            ],
+            "start": 479
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.call.value(balances[msg.sender])()",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 45,
+            "lines": [
+              25
+            ],
+            "start": 561
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Contract 'keepMyEther' (/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol#16-28) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "keepMyEther",
+          "source_mapping": {
+            "filename": "/data/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "length": 338,
+            "lines": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 311
+          },
+          "target": "contract"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+  "duration": 10.569090604782104,
+  "end": 1654186446.1824186,
+  "exit_code": 6,
+  "start": 1654186435.613328,
+  "tool": "slither"
+}

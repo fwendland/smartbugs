@@ -1,0 +1,47 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 56,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+      "name": "Owned"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 88,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 88,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 56,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+      "name": "WedIndex"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+  "duration": 95.54828238487244,
+  "end": 1654181285.065352,
+  "exit_code": 0,
+  "start": 1654181189.5170696,
+  "tool": "osiris"
+}

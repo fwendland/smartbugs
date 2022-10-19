@@ -1,0 +1,9 @@
+{
+  "analysis": [],
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "duration": 9.606995820999146,
+  "end": 1654186631.786322,
+  "exit_code": 0,
+  "start": 1654186622.1793263,
+  "tool": "solhint"
+}

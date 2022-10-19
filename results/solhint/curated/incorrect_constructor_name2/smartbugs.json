@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/incorrect_constructor_name2.sol",
+  "tool": "solhint",
+  "start": 1654186576.9104793,
+  "end": 1654186581.7590582,
+  "duration": 4.848578929901123,
+  "exit_code": 1
+}

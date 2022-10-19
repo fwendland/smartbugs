@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "maian",
+  "start": 1654161877.126927,
+  "end": 1654161949.9595976,
+  "duration": 72.83267068862915,
+  "exit_code": 0
+}

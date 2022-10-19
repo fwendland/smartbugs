@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "tool": "manticore",
+  "start": 1654168180.7173193,
+  "end": 1654168185.4646912,
+  "duration": 4.7473719120025635,
+  "exit_code": 0
+}

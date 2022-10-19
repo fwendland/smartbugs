@@ -1,0 +1,7 @@
+2022-06-02 10:09:30,212: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-06-02 10:09:30,212: [14] m.main:INFO: Beginning analysis
+2022-06-02 10:09:30,216: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-06-02 10:09:30,884: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-06-02 10:09:33,164: [14] m.e.manticore:INFO: 0 alive states, 2 terminated states
+2022-06-02 10:09:33,316: [14] m.c.manticore:INFO: Results in /mcore_i7d6acg9
+2022-06-02 10:09:33,317: [14] m.c.manticore:INFO: Total time: 2.4245829582214355

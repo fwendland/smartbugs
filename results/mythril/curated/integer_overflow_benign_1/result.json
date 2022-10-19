@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "error": null,
+    "issues": [],
+    "success": true
+  },
+  "contract": "dataset/arithmetic/integer_overflow_benign_1.sol",
+  "duration": 4.660208463668823,
+  "end": 1654177620.2484272,
+  "exit_code": 0,
+  "start": 1654177615.5882187,
+  "tool": "mythril"
+}

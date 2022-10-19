@@ -1,0 +1,43 @@
+Analysing /data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol:ERC20...
+Nothing to analyse
+Analysing /data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol:MigrationAgent...
+Nothing to analyse
+Analysing /data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol:SafeMath...
+Analysing /data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol:StandardToken...
+Vulnerability: Integer Underflow. Maybe in function: transfer(address,uint256). PC: 0x9c0. Line number: 50.
+If a = 1369
+and b = 115792088805957048749160748294015666460955893887446253278955998262844907853307
+Analysing /data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol:daoPOLSKAtokens...
+Vulnerability: Reentrancy. Maybe in function: FundsTransfer(). PC: 0x1a2e. Line number: 433.
+Vulnerability: Reentrancy. Maybe in function: PartialFundsTransfer(uint256). PC: 0x199b. Line number: 439.
+Vulnerability: Integer Overflow. Maybe in function: setBonusCreationRate(uint256). PC: 0x17c6. Line number: 427.
+If a = 1
+and b = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+Vulnerability: Integer Overflow. Maybe in function: transferFrom(address,address,uint256). PC: 0x149a. Line number: 302.
+If a = 115792089237316195423570985008687907852929702298719625575975762656407651998166
+and b = 28948022309329048855892746252171976963147354982949671778114261954180098644172
+Vulnerability: Reentrancy. Maybe in function: finalize(). PC: 0x1da3. Line number: 465.
+Vulnerability: Integer Overflow. Maybe in function: _fallthrough. PC: 0x2f6. Line number: 329.
+If a = 1
+and b = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+Vulnerability: Integer Overflow. Maybe in function: setTokenInformation(string,string). PC: 0x841. Line number: 338.
+If a = 32
+and b = 115792089237316195423570985008687907853269984665640564039457584007913129639873
+Vulnerability: Integer Overflow. Maybe in function: transferFrom(address,address,uint256). PC: 0x144d. Line number: 300.
+If a = 115792089237316195423570985008687907852929702298719625575977594311271811256382
+and b = 57896044618658097711785492504343953926634992332820282019696887141646793536126
+Vulnerability: Unchecked Low Level Call. Maybe in function: PartialFundsTransfer(uint256). PC: 0x199b. Line number: 439.
+Vulnerability: Integer Overflow. Maybe in function: migrate(uint256). PC: 0x1b1a. Line number: 478.
+If a = 94990419104862929215864800367731063487398695136828100402794878032131996532995
+and b = 70141251107576580119482657362530115189266703428046215806939898608984178391821
+Vulnerability: Integer Underflow. Maybe in function: PartialFundsTransfer(uint256). PC: 0x1986. Line number: 439.
+If a = 0
+and b = 1
+Vulnerability: Integer Underflow. Maybe in function: burn(uint256). PC: 0x1876. Line number: 262.
+If a = 115792089237316195423570985008687907853269984665640564039457584007913129639934
+and b = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+Vulnerability: Integer Underflow. Maybe in function: migrate(uint256). PC: 0x1b0a. Line number: 477.
+If a = 115792089237316195423570985008687907853269984665640564039457584007913129639934
+and b = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+Analysing /data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol:tokenRecipient...
+Nothing to analyse

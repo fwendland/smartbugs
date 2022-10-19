@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 10,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_benign_1.sol",
+  "duration": 6.512762784957886,
+  "end": 1654186496.8870182,
+  "exit_code": 0,
+  "start": 1654186490.3742554,
+  "tool": "smartcheck"
+}

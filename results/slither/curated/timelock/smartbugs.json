@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/timelock.sol",
+  "tool": "slither",
+  "start": 1654186390.826514,
+  "end": 1654186395.1687257,
+  "duration": 4.342211723327637,
+  "exit_code": 5
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "smartcheck",
+  "start": 1654186499.668096,
+  "end": 1654186506.3154473,
+  "duration": 6.647351264953613,
+  "exit_code": 0
+}

@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.2%",
+      "file": "/data/mishandled.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "SendBack",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "duration": 4.172065734863281,
+  "end": 1654181873.9483533,
+  "exit_code": 0,
+  "start": 1654181869.7762876,
+  "tool": "oyente"
+}

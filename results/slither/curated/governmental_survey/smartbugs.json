@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "slither",
+  "start": 1654186430.1570115,
+  "end": 1654186433.0117953,
+  "duration": 2.854783773422241,
+  "exit_code": 13
+}

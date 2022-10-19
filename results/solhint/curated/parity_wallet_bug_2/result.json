@@ -1,0 +1,1938 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "26",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "29",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "30",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "31",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "34",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "37",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "39",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "40",
+      "message": "Line length must be no more than 120 but current length is 137.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "41",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "43",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "48",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "51",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "53",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "55",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "57",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "59",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "61",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "64",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "66",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "67",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "74",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "75",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "76",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "77",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "78",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "81",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "82",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "83",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "84",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "85",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "90",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "91",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "92",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "93",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "97",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "98",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "99",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "100",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "105",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "107",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "108",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "109",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "113",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "114",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "115",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "116",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "117",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "119",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "120",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "122",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "123",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "126",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "127",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "129",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "130",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "131",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "132",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "133",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "134",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "135",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "136",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "137",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "140",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "141",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "142",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "143",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "145",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "146",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "147",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "148",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "149",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "150",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "152",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "153",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "155",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "156",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "157",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "158",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "159",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "160",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "161",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "162",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "163",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "164",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "166",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "167",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "168",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "169",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "171",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "172",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "173",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "174",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "174",
+      "message": "Line length must be no more than 120 but current length is 122.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "175",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "176",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "178",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "179",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "180",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "181",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "182",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "183",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "186",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "187",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "188",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "190",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "191",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "192",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "194",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "195",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "196",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "199",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "202",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "203",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "204",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "207",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "208",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "209",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "210",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "212",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "213",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "214",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "216",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "217",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "218",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "221",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "226",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "227",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "228",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "229",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "233",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "234",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "235",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "241",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "243",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "245",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "246",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "247",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "248",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "249",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "11",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "250",
+      "message": "Expected indentation of 20 spaces but found 10",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "251",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "252",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "253",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "255",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "257",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "258",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "259",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "260",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "261",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "262",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "263",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "264",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "265",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "266",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "268",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "275",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "279",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "280",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "281",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "282",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "283",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "284",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "285",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "11",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "286",
+      "message": "Expected indentation of 20 spaces but found 10",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "287",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "289",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "290",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "291",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "292",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "293",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "297",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "299",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "301",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "303",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "305",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "307",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "309",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "310",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "311",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "312",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "314",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "316",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "317",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "319",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "321",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "322",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "323",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "324",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "325",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "326",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "328",
+      "message": "Expected indentation of 10 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "329",
+      "message": "Expected indentation of 10 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "330",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "331",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "332",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "334",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "335",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "336",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "338",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "339",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "340",
+      "message": "Expected indentation of 8 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "341",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "342",
+      "message": "Expected indentation of 10 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "343",
+      "message": "Expected indentation of 10 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "344",
+      "message": "Expected indentation of 10 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "345",
+      "message": "Indentation is incorrect",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "347",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "351",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "353",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "354",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "355",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "356",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "359",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "360",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "361",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "362",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "363",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "364",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "367",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "369",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "370",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "372",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "373",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "7",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "375",
+      "message": "Expected indentation of 12 spaces but found 6",
+      "type": "indent"
+    },
+    {
+      "column": "9",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "376",
+      "message": "Expected indentation of 16 spaces but found 8",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "377",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "5",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "379",
+      "message": "Expected indentation of 8 spaces but found 4",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "380",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "383",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "386",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "388",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "390",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "391",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "392",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "395",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "397",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "399",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "401",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "402",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/parity_wallet_bug_2.sol",
+      "level": "Error",
+      "line": "405",
+      "message": "Expected indentation of 4 spaces but found 2",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/access_control/parity_wallet_bug_2.sol",
+  "duration": 4.166727781295776,
+  "end": 1654186580.911814,
+  "exit_code": 1,
+  "start": 1654186576.7450862,
+  "tool": "solhint"
+}

@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/access_control/phishable.sol",
+  "duration": 309.5649604797363,
+  "end": 1654164876.9427822,
+  "exit_code": 0,
+  "start": 1654164567.3778217,
+  "tool": "manticore"
+}

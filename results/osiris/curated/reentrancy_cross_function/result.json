@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 13,
+          "line": 16,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 28,
+          "line": 24,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 28,
+          "line": 24,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/reentrancy_cross_function.sol",
+      "name": "Reentrancy_cross_function"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_cross_function.sol",
+  "duration": 3.391148805618286,
+  "end": 1654007402.728693,
+  "exit_code": 0,
+  "start": 1654007399.3375442,
+  "tool": "osiris"
+}

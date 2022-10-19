@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/etherstore.sol",
+  "tool": "slither",
+  "start": 1653999783.517838,
+  "end": 1653999789.8101668,
+  "duration": 6.292328834533691,
+  "exit_code": 7
+}

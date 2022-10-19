@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 17,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 10,
+          "line": 13,
+          "message": "time_dependency_bug"
+        },
+        {
+          "column": 5,
+          "line": 13,
+          "message": "time_dependency_bug"
+        }
+      ],
+      "file": "/data/lottopollo.sol",
+      "name": "lottopollo"
+    }
+  ],
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "duration": 2.543929100036621,
+  "end": 1654181184.8760462,
+  "exit_code": 0,
+  "start": 1654181182.332117,
+  "tool": "osiris"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "tool": "conkas",
+  "start": 1654106830.4296513,
+  "end": 1654106851.3094847,
+  "duration": 20.879833459854126,
+  "exit_code": 0
+}

@@ -1,0 +1,30 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 16,
+          "message": "Integer Underflow."
+        }
+      ],
+      "evm_code_coverage": "99.0%",
+      "file": "/data/integer_overflow_mapping_sym_1.sol",
+      "integer_overflow": false,
+      "integer_underflow": true,
+      "name": "IntegerOverflowMappingSym1",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "duration": 3.2893805503845215,
+  "end": 1654181753.1959217,
+  "exit_code": 0,
+  "start": 1654181749.906541,
+  "tool": "oyente"
+}

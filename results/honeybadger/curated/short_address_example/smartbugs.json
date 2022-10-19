@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "tool": "honeybadger",
+  "start": 1654123364.844952,
+  "end": 1654123368.3751762,
+  "duration": 3.530224084854126,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/token.sol",
+  "tool": "oyente",
+  "start": 1654181749.8970907,
+  "end": 1654181753.6092029,
+  "duration": 3.7121121883392334,
+  "exit_code": 0
+}

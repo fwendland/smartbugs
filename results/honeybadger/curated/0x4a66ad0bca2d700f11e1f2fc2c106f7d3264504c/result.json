@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+      "name": "EBU"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+  "duration": 10.328439235687256,
+  "end": 1654123414.338891,
+  "exit_code": 0,
+  "start": 1654123404.0104518,
+  "tool": "honeybadger"
+}

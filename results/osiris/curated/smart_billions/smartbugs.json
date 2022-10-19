@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/smart_billions.sol",
+  "tool": "osiris",
+  "start": 1654181010.0042064,
+  "end": 1654181063.5915568,
+  "duration": 53.587350368499756,
+  "exit_code": 0
+}

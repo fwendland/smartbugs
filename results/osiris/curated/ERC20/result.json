@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/ERC20.sol",
+      "name": "ERC20"
+    },
+    {
+      "errors": [],
+      "file": "/data/ERC20.sol",
+      "name": "SafeMath"
+    }
+  ],
+  "contract": "dataset/front_running/ERC20.sol",
+  "duration": 3.53350830078125,
+  "end": 1654181123.4748998,
+  "exit_code": 0,
+  "start": 1654181119.9413915,
+  "tool": "osiris"
+}

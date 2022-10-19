@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/ERC20.sol",
+  "tool": "securify",
+  "start": 1654183512.1534069,
+  "end": 1654183583.879909,
+  "duration": 71.72650218009949,
+  "exit_code": 0
+}

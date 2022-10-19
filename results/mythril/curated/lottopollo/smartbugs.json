@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/lottopollo.sol",
+  "tool": "mythril",
+  "start": 1654179652.7847598,
+  "end": 1654179657.466832,
+  "duration": 4.682072162628174,
+  "exit_code": 0
+}

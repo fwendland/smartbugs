@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "tool": "mythril",
+  "start": 1654177637.8348515,
+  "end": 1654177640.7766821,
+  "duration": 2.941830635070801,
+  "exit_code": 0
+}

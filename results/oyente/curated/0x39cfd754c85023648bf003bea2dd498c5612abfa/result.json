@@ -1,0 +1,56 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.5%",
+      "file": "/data/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Ownable",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.7%",
+      "file": "/data/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Token",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 72,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "99.9%",
+      "file": "/data/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "TokenBank",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+  "duration": 14.122825860977173,
+  "end": 1654181883.954823,
+  "exit_code": 0,
+  "start": 1654181869.8319972,
+  "tool": "oyente"
+}

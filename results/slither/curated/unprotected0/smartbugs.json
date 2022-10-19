@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/unprotected0.sol",
+  "tool": "slither",
+  "start": 1654186382.103961,
+  "end": 1654186387.6947696,
+  "duration": 5.590808629989624,
+  "exit_code": 4
+}

@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": true,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "duration": 738.5063717365265,
+  "end": 1654163229.1356466,
+  "exit_code": 0,
+  "start": 1654162490.6292748,
+  "tool": "maian"
+}

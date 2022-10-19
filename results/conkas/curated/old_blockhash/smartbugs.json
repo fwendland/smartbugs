@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "conkas",
+  "start": 1654106488.72879,
+  "end": 1654106494.2912629,
+  "duration": 5.562472820281982,
+  "exit_code": 0
+}

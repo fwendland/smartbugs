@@ -1,0 +1,66 @@
+{
+  "analysis": [
+    {
+      "column": 5,
+      "content": "functiongetBalance(addressaddr)constantreturns(uint){returnbalances[addr];}",
+      "line": 26,
+      "name": "SOLIDITY_DEPRECATED_CONSTRUCTIONS",
+      "patternId": "28fa69",
+      "severity": 1
+    },
+    {
+      "column": 17,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 18,
+      "content": "tx.origin",
+      "line": 15,
+      "name": "SOLIDITY_TX_ORIGIN",
+      "patternId": "12e802",
+      "severity": 2
+    },
+    {
+      "column": 5,
+      "content": "functionMyToken(){balances[tx.origin]=10000;}",
+      "line": 14,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functionsendCoin(addressto,uintamount)returns(boolsufficient){if(balances[msg.sender]<amount)returnfalse;balances[msg.sender]-=amount;balances[to]+=amount;Transfer(msg.sender,to,amount);returntrue;}",
+      "line": 18,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "functiongetBalance(addressaddr)constantreturns(uint){returnbalances[addr];}",
+      "line": 26,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1
+    },
+    {
+      "column": 5,
+      "content": "mapping(address=>uint)balances;",
+      "line": 10,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/short_addresses/short_address_example.sol",
+  "duration": 5.216047763824463,
+  "end": 1654186533.2542827,
+  "exit_code": 0,
+  "start": 1654186528.038235,
+  "tool": "smartcheck"
+}

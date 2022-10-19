@@ -1,0 +1,62 @@
+2022-05-31 16:16:59,541: [14] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-05-31 16:16:59,542: [14] m.main:INFO: Beginning analysis
+2022-05-31 16:16:59,545: [14] m.e.manticore:INFO: Starting symbolic create contract
+2022-05-31 16:17:57,386: [14] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-05-31 16:18:50,968: [14] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00' -> 73138091548938366139099779971772605061518111956507126412222883840269740007539
+2022-05-31 16:21:23,420: [14] m.e.manticore:INFO: 4 alive states, 4 terminated states
+2022-05-31 16:21:59,724: [14] m.e.manticore:INFO: Starting symbolic transaction: 1
+2022-05-31 16:38:04,150: [14] m.e.manticore:INFO: 16 alive states, 13 terminated states
+2022-05-31 16:38:51,792: [102] m.c.manticore:INFO: Generated testcase No. 0 - STOP(3 txs)
+2022-05-31 16:38:51,794: [102] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,838: [109] m.c.manticore:INFO: Generated testcase No. 3 - STOP(3 txs)
+2022-05-31 16:38:51,839: [109] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,846: [104] m.c.manticore:INFO: Generated testcase No. 1 - STOP(3 txs)
+2022-05-31 16:38:51,848: [104] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,855: [105] m.c.manticore:INFO: Generated testcase No. 2 - STOP(3 txs)
+2022-05-31 16:38:51,856: [105] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,863: [103] m.c.manticore:INFO: Generated testcase No. 4 - STOP(3 txs)
+2022-05-31 16:38:51,865: [103] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,867: [111] m.c.manticore:INFO: Generated testcase No. 5 - STOP(3 txs)
+2022-05-31 16:38:51,869: [111] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,882: [115] m.c.manticore:INFO: Generated testcase No. 6 - STOP(3 txs)
+2022-05-31 16:38:51,883: [115] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,915: [107] m.c.manticore:INFO: Generated testcase No. 7 - STOP(3 txs)
+2022-05-31 16:38:51,917: [108] m.c.manticore:INFO: Generated testcase No. 8 - STOP(3 txs)
+2022-05-31 16:38:51,917: [107] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,918: [108] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,943: [114] m.c.manticore:INFO: Generated testcase No. 9 - STOP(3 txs)
+2022-05-31 16:38:51,945: [114] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:51,984: [113] m.c.manticore:INFO: Generated testcase No. 10 - STOP(3 txs)
+2022-05-31 16:38:51,986: [113] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:38:52,001: [112] m.c.manticore:INFO: Generated testcase No. 11 - STOP(3 txs)
+2022-05-31 16:38:52,003: [112] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2022-05-31 16:40:49,671: [109] m.c.manticore:INFO: Generated testcase No. 12 - STOP(3 txs)
+2022-05-31 16:40:50,745: [111] m.c.manticore:INFO: Generated testcase No. 13 - STOP(3 txs)
+2022-05-31 16:40:52,485: [115] m.c.manticore:INFO: Generated testcase No. 14 - STOP(3 txs)
+2022-05-31 16:40:55,807: [108] m.c.manticore:INFO: Generated testcase No. 15 - STOP(3 txs)
+2022-05-31 16:43:32,747: [14] m.c.manticore:INFO: Results in /mcore_xvo_8021
+2022-05-31 16:43:32,747: [14] m.c.manticore:INFO: Total time: 1292.553566455841
+2022-05-31 16:43:33,719: [154] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2022-05-31 16:43:33,719: [154] m.main:INFO: Beginning analysis
+2022-05-31 16:43:33,723: [154] m.e.manticore:INFO: Starting symbolic create contract
+2022-05-31 16:43:35,409: [154] m.e.manticore:INFO: Starting symbolic transaction: 0
+2022-05-31 16:43:40,372: [154] m.c.worker:ERROR: Exception in state 8: ManticoreError('Forking on unfeasible constraint set')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 137, in run
+    current_state.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/state.py", line 8, in execute
+    return self._platform.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 3106, in execute
+    self.current_vm.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 1322, in execute
+    raise Concretize("Symbolic PC", expression=expression, setstate=setstate, policy="ALL")
+manticore.core.state.Concretize
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 158, in run
+    m._fork(current_state, exc.expression, exc.policy, exc.setstate, exc.values)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/manticore.py", line 518, in _fork
+    raise ManticoreError("Forking on unfeasible constraint set")
+manticore.exceptions.ManticoreError: Forking on unfeasible constraint set

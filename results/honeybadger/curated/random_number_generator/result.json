@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/random_number_generator.sol",
+      "name": "RandomNumberGenerator"
+    }
+  ],
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "duration": 2.6113691329956055,
+  "end": 1654122734.7946901,
+  "exit_code": 0,
+  "start": 1654122732.183321,
+  "tool": "honeybadger"
+}

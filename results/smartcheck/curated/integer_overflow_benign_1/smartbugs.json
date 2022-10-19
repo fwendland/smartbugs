@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/integer_overflow_benign_1.sol",
+  "tool": "smartcheck",
+  "start": 1654186490.3742554,
+  "end": 1654186496.8870182,
+  "duration": 6.512762784957886,
+  "exit_code": 0
+}

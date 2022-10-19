@@ -1,0 +1,94 @@
+{
+  "analysis": [
+    {
+      "line_number": "50",
+      "maybe_in_function": "transfer(address,uint256)",
+      "pc": "0x9c0",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "433",
+      "maybe_in_function": "FundsTransfer()",
+      "pc": "0x1a2e",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "439",
+      "maybe_in_function": "PartialFundsTransfer(uint256)",
+      "pc": "0x199b",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "427",
+      "maybe_in_function": "setBonusCreationRate(uint256)",
+      "pc": "0x17c6",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "302",
+      "maybe_in_function": "transferFrom(address,address,uint256)",
+      "pc": "0x149a",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "465",
+      "maybe_in_function": "finalize()",
+      "pc": "0x1da3",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "329",
+      "maybe_in_function": "_fallthrough",
+      "pc": "0x2f6",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "338",
+      "maybe_in_function": "setTokenInformation(string,string)",
+      "pc": "0x841",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "300",
+      "maybe_in_function": "transferFrom(address,address,uint256)",
+      "pc": "0x144d",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "439",
+      "maybe_in_function": "PartialFundsTransfer(uint256)",
+      "pc": "0x199b",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "478",
+      "maybe_in_function": "migrate(uint256)",
+      "pc": "0x1b1a",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "439",
+      "maybe_in_function": "PartialFundsTransfer(uint256)",
+      "pc": "0x1986",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "262",
+      "maybe_in_function": "burn(uint256)",
+      "pc": "0x1876",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "477",
+      "maybe_in_function": "migrate(uint256)",
+      "pc": "0x1b0a",
+      "vuln_type": "Integer_Underflow"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+  "duration": 133.10772466659546,
+  "end": 1654106963.5936399,
+  "exit_code": 0,
+  "start": 1654106830.4859152,
+  "tool": "conkas"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_bonus.sol",
+  "tool": "honeybadger",
+  "start": 1654003682.60732,
+  "end": 1654003688.6811733,
+  "duration": 6.073853254318237,
+  "exit_code": 0
+}

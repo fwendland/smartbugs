@@ -1,0 +1,261 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosGas.emptyCreditors (/data/dos_address.sol#14-20) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosGas",
+            "source_mapping": {
+              "filename": "/data/dos_address.sol",
+              "length": 647,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "start": 201
+            },
+            "type": "contract"
+          },
+          "name": "emptyCreditors",
+          "source_mapping": {
+            "filename": "/data/dos_address.sol",
+            "length": 212,
+            "lines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 280
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosGas.addCreditors (/data/dos_address.sol#22-27) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosGas",
+            "source_mapping": {
+              "filename": "/data/dos_address.sol",
+              "length": 647,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "start": 201
+            },
+            "type": "contract"
+          },
+          "name": "addCreditors",
+          "source_mapping": {
+            "filename": "/data/dos_address.sol",
+            "length": 164,
+            "lines": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ],
+            "start": 498
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosGas.iWin (/data/dos_address.sol#29-31) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosGas",
+            "source_mapping": {
+              "filename": "/data/dos_address.sol",
+              "length": 647,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "start": 201
+            },
+            "type": "contract"
+          },
+          "name": "iWin",
+          "source_mapping": {
+            "filename": "/data/dos_address.sol",
+            "length": 70,
+            "lines": [
+              29,
+              30,
+              31
+            ],
+            "start": 668
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "DosGas.numberCreditors (/data/dos_address.sol#33-35) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "DosGas",
+            "source_mapping": {
+              "filename": "/data/dos_address.sol",
+              "length": 647,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "start": 201
+            },
+            "type": "contract"
+          },
+          "name": "numberCreditors",
+          "source_mapping": {
+            "filename": "/data/dos_address.sol",
+            "length": 102,
+            "lines": [
+              33,
+              34,
+              35
+            ],
+            "start": 744
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "duration": 3.0019266605377197,
+  "end": 1654186410.4006362,
+  "exit_code": 4,
+  "start": 1654186407.3987095,
+  "tool": "slither"
+}

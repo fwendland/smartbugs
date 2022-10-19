@@ -1,0 +1,70 @@
+{
+  "analysis": [
+    {
+      "line_number": "139",
+      "maybe_in_function": "toEthereumSignedMessage(string)",
+      "pc": "0x443",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "116",
+      "maybe_in_function": "parseInt16Char(string)",
+      "pc": "0x334",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "159",
+      "maybe_in_function": "toEthereumSignedMessage(string)",
+      "pc": "0x13ab",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "155",
+      "maybe_in_function": "toEthereumSignedMessage(string)",
+      "pc": "0x1353",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "198",
+      "maybe_in_function": "transferFrom(address,address,uint256)",
+      "pc": "0x83c",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "252",
+      "maybe_in_function": "approveAndCall(address,uint256,bytes)",
+      "pc": "0x4be",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "259",
+      "maybe_in_function": "approveAndCall(address,uint256,bytes)",
+      "pc": "0xefe",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "189",
+      "maybe_in_function": "transfer(address,uint256)",
+      "pc": "0xc05",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "189",
+      "maybe_in_function": "transfer(address,uint256)",
+      "pc": "0x755",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "198",
+      "maybe_in_function": "transferFrom(address,address,uint256)",
+      "pc": "0x4db",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "duration": 235.41723775863647,
+  "end": 1654008900.0879457,
+  "exit_code": 0,
+  "start": 1654008664.670708,
+  "tool": "conkas"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/random_number_generator.sol",
+  "tool": "maian",
+  "start": 1654162490.570524,
+  "end": 1654162536.276131,
+  "duration": 45.70560693740845,
+  "exit_code": 0
+}

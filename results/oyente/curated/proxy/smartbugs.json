@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "oyente",
+  "start": 1654181737.593441,
+  "end": 1654181741.8936558,
+  "duration": 4.300214767456055,
+  "exit_code": 0
+}

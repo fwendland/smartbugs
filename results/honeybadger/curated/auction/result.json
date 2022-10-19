@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/auction.sol",
+      "name": "DosAuction"
+    }
+  ],
+  "contract": "dataset/denial_of_service/auction.sol",
+  "duration": 5.375038146972656,
+  "end": 1654123027.8846984,
+  "exit_code": 0,
+  "start": 1654123022.5096602,
+  "tool": "honeybadger"
+}

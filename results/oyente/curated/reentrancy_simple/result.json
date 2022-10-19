@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 17,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 24,
+          "message": "Re-Entrancy Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "98.4%",
+      "file": "/data/reentrancy_simple.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "Reentrance",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": true,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_simple.sol",
+  "duration": 4.636460781097412,
+  "end": 1654007549.867207,
+  "exit_code": 1,
+  "start": 1654007545.2307463,
+  "tool": "oyente"
+}

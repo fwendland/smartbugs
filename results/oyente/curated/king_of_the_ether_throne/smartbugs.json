@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+  "tool": "oyente",
+  "start": 1654181869.7589824,
+  "end": 1654181875.9459894,
+  "duration": 6.187006950378418,
+  "exit_code": 1
+}

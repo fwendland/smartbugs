@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/multiowned_vulnerable.sol",
+      "name": "MultiOwnable"
+    },
+    {
+      "errors": [],
+      "file": "/data/multiowned_vulnerable.sol",
+      "name": "TestContract"
+    }
+  ],
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "duration": 7.91317081451416,
+  "end": 1654122274.3753905,
+  "exit_code": 0,
+  "start": 1654122266.4622197,
+  "tool": "honeybadger"
+}

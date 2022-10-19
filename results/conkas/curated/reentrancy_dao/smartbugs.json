@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_dao.sol",
+  "tool": "conkas",
+  "start": 1654008664.6496418,
+  "end": 1654008670.5435061,
+  "duration": 5.893864393234253,
+  "exit_code": 0
+}

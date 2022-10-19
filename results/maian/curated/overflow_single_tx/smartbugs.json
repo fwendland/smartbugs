@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "tool": "maian",
+  "start": 1654162138.4676394,
+  "end": 1654162200.9639053,
+  "duration": 62.49626588821411,
+  "exit_code": 0
+}

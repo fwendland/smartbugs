@@ -1,0 +1,96 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": true,
+      "errors": [
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 170,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 180,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 183,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 22,
+          "level": "Warning",
+          "line": 184,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 185,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 23,
+          "level": "Warning",
+          "line": 175,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 185,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 24,
+          "level": "Warning",
+          "line": 174,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 22,
+          "level": "Warning",
+          "line": 184,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 17,
+          "level": "Warning",
+          "line": 119,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 13,
+          "level": "Warning",
+          "line": 102,
+          "message": "Callstack Depth Attack Vulnerability."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 74,
+          "message": "Callstack Depth Attack Vulnerability."
+        }
+      ],
+      "evm_code_coverage": "61.0%",
+      "file": "/data/lucky_doubler.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "LuckyDoubler",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "duration": 9.922086238861084,
+  "end": 1654181790.3740542,
+  "exit_code": 1,
+  "start": 1654181780.451968,
+  "tool": "oyente"
+}

@@ -1,0 +1,45 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "BasicToken"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "BecToken"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "Ownable"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "Pausable"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "PausableToken"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "SafeMath"
+    },
+    {
+      "errors": [],
+      "file": "/data/BECToken.sol",
+      "name": "StandardToken"
+    }
+  ],
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "duration": 198.02528882026672,
+  "end": 1654122729.5792048,
+  "exit_code": 0,
+  "start": 1654122531.553916,
+  "tool": "honeybadger"
+}

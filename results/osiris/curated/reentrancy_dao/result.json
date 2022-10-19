@@ -1,0 +1,41 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 25,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 26,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 16,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 31,
+          "line": 18,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 31,
+          "line": 18,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/reentrancy_dao.sol",
+      "name": "ReentrancyDAO"
+    }
+  ],
+  "contract": "dataset/reentrancy/reentrancy_dao.sol",
+  "duration": 4.7448508739471436,
+  "end": 1654007404.4176264,
+  "exit_code": 0,
+  "start": 1654007399.6727755,
+  "tool": "osiris"
+}

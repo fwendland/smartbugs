@@ -1,0 +1,74 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "level": "Error",
+      "line": "20",
+      "message": "Line length must be no more than 120 but current length is 246.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Line length must be no more than 120 but current length is 169.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Line length must be no more than 120 but current length is 147.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "level": "Error",
+      "line": "28",
+      "message": "Line length must be no more than 120 but current length is 123.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "level": "Error",
+      "line": "100",
+      "message": "Line length must be no more than 120 but current length is 151.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "level": "Error",
+      "line": "137",
+      "message": "Line length must be no more than 120 but current length is 121.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "level": "Error",
+      "line": "185",
+      "message": "Line length must be no more than 120 but current length is 132.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+      "level": "Error",
+      "line": "192",
+      "message": "Line length must be no more than 120 but current length is 182.",
+      "type": "max-line-length"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+  "duration": 14.814489841461182,
+  "end": 1654186637.113757,
+  "exit_code": 1,
+  "start": 1654186622.299267,
+  "tool": "solhint"
+}

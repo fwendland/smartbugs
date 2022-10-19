@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_03_wrong_constructor.sol",
+  "tool": "maian",
+  "start": 1654161877.2134323,
+  "end": 1654161963.2721767,
+  "duration": 86.05874443054199,
+  "exit_code": 0
+}

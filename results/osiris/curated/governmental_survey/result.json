@@ -1,0 +1,41 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/governmental_survey.sol",
+      "name": "Attacker"
+    },
+    {
+      "errors": [
+        {
+          "column": 27,
+          "line": 31,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 5,
+          "line": 34,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 5,
+          "line": 35,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 5,
+          "line": 31,
+          "message": "time_dependency_bug"
+        }
+      ],
+      "file": "/data/governmental_survey.sol",
+      "name": "Governmental"
+    }
+  ],
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "duration": 4.407379865646362,
+  "end": 1654181186.7625434,
+  "exit_code": 0,
+  "start": 1654181182.3551636,
+  "tool": "osiris"
+}

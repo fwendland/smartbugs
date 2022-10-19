@@ -1,0 +1,47 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 14,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+      "name": "Proxy"
+    },
+    {
+      "errors": [
+        {
+          "column": 13,
+          "line": 33,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 13,
+          "line": 39,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 14,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 14,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+      "name": "VaultProxy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+  "duration": 78.47517704963684,
+  "end": 1654181268.1093552,
+  "exit_code": 0,
+  "start": 1654181189.6341782,
+  "tool": "osiris"
+}

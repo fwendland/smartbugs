@@ -1,0 +1,4 @@
+Analysing /data/integer_overflow_multitx_onefunc_feasible.sol:IntegerOverflowMultiTxOneFuncFeasible...
+Vulnerability: Integer Underflow. Maybe in function: run(uint256). PC: 0xc4. Line number: 22.
+If a = 0
+and b = 1

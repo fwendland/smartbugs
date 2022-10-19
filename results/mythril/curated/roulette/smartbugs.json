@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "mythril",
+  "start": 1654179652.9888186,
+  "end": 1654179705.3711061,
+  "duration": 52.38228750228882,
+  "exit_code": 0
+}

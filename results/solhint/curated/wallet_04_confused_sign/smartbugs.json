@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/wallet_04_confused_sign.sol",
+  "tool": "solhint",
+  "start": 1654186576.805155,
+  "end": 1654186580.5168617,
+  "duration": 3.7117066383361816,
+  "exit_code": 1
+}

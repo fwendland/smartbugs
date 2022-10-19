@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/integer_overflow_mapping_sym_1.sol",
+      "level": "Error",
+      "line": "2",
+      "message": "Line length must be no more than 120 but current length is 154.",
+      "type": "max-line-length"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_mapping_sym_1.sol",
+  "duration": 3.9749629497528076,
+  "end": 1654186590.384518,
+  "exit_code": 1,
+  "start": 1654186586.409555,
+  "tool": "solhint"
+}

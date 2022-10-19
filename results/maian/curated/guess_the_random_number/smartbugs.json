@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/guess_the_random_number.sol",
+  "tool": "maian",
+  "start": 1654162490.6029832,
+  "end": 1654162553.4579287,
+  "duration": 62.85494542121887,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/timed_crowdsale.sol",
+  "tool": "securify",
+  "start": 1654183669.025285,
+  "end": 1654183675.803746,
+  "duration": 6.77846097946167,
+  "exit_code": 0
+}

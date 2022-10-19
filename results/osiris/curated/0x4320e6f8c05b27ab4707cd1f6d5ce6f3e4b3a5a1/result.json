@@ -1,0 +1,57 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 44,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 57,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 58,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 16,
+          "line": 55,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+      "name": "ACCURAL_DEPOSIT"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 95,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 20,
+          "line": 3,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 95,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+      "name": "LogFile"
+    }
+  ],
+  "contract": "dataset/reentrancy/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+  "duration": 58.405818462371826,
+  "end": 1654007458.0629885,
+  "exit_code": 0,
+  "start": 1654007399.65717,
+  "tool": "osiris"
+}

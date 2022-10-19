@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "solhint",
+  "start": 1654186593.1728685,
+  "end": 1654186595.7203887,
+  "duration": 2.547520160675049,
+  "exit_code": 1
+}

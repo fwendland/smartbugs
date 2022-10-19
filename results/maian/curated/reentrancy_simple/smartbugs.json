@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/reentrancy_simple.sol",
+  "tool": "maian",
+  "start": 1654004186.3413374,
+  "end": 1654004299.657391,
+  "duration": 113.31605362892151,
+  "exit_code": 0
+}

@@ -1,0 +1,16 @@
+{
+  "analysis": [
+    {
+      "line_number": "14",
+      "maybe_in_function": "add(uint256)",
+      "pc": "0x90",
+      "vuln_type": "Integer_Overflow"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_1.sol",
+  "duration": 4.548513174057007,
+  "end": 1654092836.3490217,
+  "exit_code": 0,
+  "start": 1654092831.8005085,
+  "tool": "conkas"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.8142247,
+  "end": 1654186487.4963098,
+  "duration": 7.682085037231445,
+  "exit_code": 0
+}

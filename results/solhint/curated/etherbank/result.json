@@ -1,0 +1,90 @@
+{
+  "analysis": [
+    {
+      "column": "3",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "11",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "12",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "14",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "15",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "16",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "18",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "19",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "21",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "3",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "22",
+      "message": "Expected indentation of 8 spaces but found 2",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/etherbank.sol",
+      "level": "Error",
+      "line": "23",
+      "message": "Expected indentation of 4 spaces but found 1",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "duration": 9.851317405700684,
+  "end": 1654082651.2077575,
+  "exit_code": 1,
+  "start": 1654082641.35644,
+  "tool": "solhint"
+}

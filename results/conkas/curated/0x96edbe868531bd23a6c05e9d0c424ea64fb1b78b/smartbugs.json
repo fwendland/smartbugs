@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+  "tool": "conkas",
+  "start": 1654008664.201162,
+  "end": 1654008763.3609378,
+  "duration": 99.15977573394775,
+  "exit_code": 0
+}

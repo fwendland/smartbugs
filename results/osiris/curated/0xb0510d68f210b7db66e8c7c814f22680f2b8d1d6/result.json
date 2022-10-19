@@ -1,0 +1,97 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 4,
+          "line": 102,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 3,
+          "line": 109,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 4,
+          "line": 102,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+      "name": "Puppet"
+    },
+    {
+      "errors": [],
+      "file": "/data/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+      "name": "SafeMath"
+    },
+    {
+      "errors": [
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 4,
+          "line": 102,
+          "message": "callstack_bug"
+        },
+        {
+          "column": 9,
+          "line": 75,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 71,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 69,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 73,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 3,
+          "line": 37,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 75,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 9,
+          "line": 71,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 9,
+          "line": 69,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 9,
+          "line": 73,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+      "name": "Splitter"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+  "duration": 14.384701251983643,
+  "end": 1654181204.0174701,
+  "exit_code": 0,
+  "start": 1654181189.6327689,
+  "tool": "osiris"
+}

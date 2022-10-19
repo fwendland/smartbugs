@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "67.8%",
+      "file": "/data/roulette.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Roulette",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "duration": 3.286684513092041,
+  "end": 1654181867.7361066,
+  "exit_code": 0,
+  "start": 1654181864.4494221,
+  "tool": "oyente"
+}

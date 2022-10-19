@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "honeybadger",
+  "start": 1654122732.1762946,
+  "end": 1654122735.458245,
+  "duration": 3.2819504737854004,
+  "exit_code": 0
+}

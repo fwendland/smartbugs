@@ -1,0 +1,62 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 102,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 21,
+          "line": 2,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 9,
+          "line": 102,
+          "message": "underflow_bugs"
+        }
+      ],
+      "file": "/data/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+      "name": "Log"
+    },
+    {
+      "errors": [
+        {
+          "column": 12,
+          "line": 51,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 56,
+          "line": 51,
+          "message": "overflow_bugs"
+        },
+        {
+          "column": 17,
+          "line": 65,
+          "message": "underflow_bugs"
+        },
+        {
+          "column": 16,
+          "line": 63,
+          "message": "reentrancy_bug"
+        },
+        {
+          "column": 17,
+          "line": 66,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+      "name": "MONEY_BOX"
+    }
+  ],
+  "contract": "dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+  "duration": 64.31378531455994,
+  "end": 1654007463.9631474,
+  "exit_code": 0,
+  "start": 1654007399.649362,
+  "tool": "osiris"
+}

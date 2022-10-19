@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/arithmetic/integer_overflow_mul.sol",
+  "duration": 52.47411632537842,
+  "end": 1654162190.553651,
+  "exit_code": 0,
+  "start": 1654162138.0795348,
+  "tool": "maian"
+}

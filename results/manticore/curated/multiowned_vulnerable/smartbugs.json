@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/multiowned_vulnerable.sol",
+  "tool": "manticore",
+  "start": 1654164567.4113686,
+  "end": 1654166050.213357,
+  "duration": 1482.801988363266,
+  "exit_code": 0
+}

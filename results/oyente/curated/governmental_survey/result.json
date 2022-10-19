@@ -1,0 +1,43 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "93.6%",
+      "file": "/data/governmental_survey.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "Attacker",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 16,
+          "level": "Warning",
+          "line": 35,
+          "message": "Integer Underflow."
+        }
+      ],
+      "evm_code_coverage": "91.1%",
+      "file": "/data/governmental_survey.sol",
+      "integer_overflow": false,
+      "integer_underflow": true,
+      "name": "Governmental",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "duration": 3.2921910285949707,
+  "end": 1654181867.708596,
+  "exit_code": 0,
+  "start": 1654181864.416405,
+  "tool": "oyente"
+}

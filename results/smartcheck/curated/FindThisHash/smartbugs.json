@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "tool": "smartcheck",
+  "start": 1654186515.6430974,
+  "end": 1654186521.5714073,
+  "duration": 5.928309917449951,
+  "exit_code": 0
+}

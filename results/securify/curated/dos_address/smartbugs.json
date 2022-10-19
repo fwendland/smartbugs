@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/dos_address.sol",
+  "tool": "securify",
+  "start": 1654183441.6646779,
+  "end": 1654183510.1918452,
+  "duration": 68.52716732025146,
+  "exit_code": 0
+}

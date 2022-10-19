@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/blackjack.sol",
+  "tool": "solhint",
+  "start": 1654186593.1954486,
+  "end": 1654186596.3535237,
+  "duration": 3.1580750942230225,
+  "exit_code": 1
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/governmental_survey.sol",
+  "tool": "smartcheck",
+  "start": 1654186535.5655549,
+  "end": 1654186540.6099734,
+  "duration": 5.044418573379517,
+  "exit_code": 0
+}

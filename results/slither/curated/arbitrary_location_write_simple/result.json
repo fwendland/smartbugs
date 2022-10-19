@@ -1,0 +1,434 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.fallback (/data/arbitrary_location_write_simple.sol#18-19) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/arbitrary_location_write_simple.sol",
+              "length": 872,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "start": 204
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 35,
+            "lines": [
+              18,
+              19
+            ],
+            "start": 390
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.PushBonusCode (/data/arbitrary_location_write_simple.sol#21-23) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/arbitrary_location_write_simple.sol",
+              "length": 872,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "start": 204
+            },
+            "type": "contract"
+          },
+          "name": "PushBonusCode",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 75,
+            "lines": [
+              21,
+              22,
+              23
+            ],
+            "start": 432
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.PopBonusCode (/data/arbitrary_location_write_simple.sol#25-29) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/arbitrary_location_write_simple.sol",
+              "length": 872,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "start": 204
+            },
+            "type": "contract"
+          },
+          "name": "PopBonusCode",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 254,
+            "lines": [
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 514
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.UpdateBonusCodeAt (/data/arbitrary_location_write_simple.sol#31-34) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/arbitrary_location_write_simple.sol",
+              "length": 872,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "start": 204
+            },
+            "type": "contract"
+          },
+          "name": "UpdateBonusCodeAt",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 183,
+            "lines": [
+              31,
+              32,
+              33,
+              34
+            ],
+            "start": 775
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Wallet.Destroy (/data/arbitrary_location_write_simple.sol#36-39) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Wallet",
+            "source_mapping": {
+              "filename": "/data/arbitrary_location_write_simple.sol",
+              "length": 872,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "start": 204
+            },
+            "type": "contract"
+          },
+          "name": "Destroy",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 108,
+            "lines": [
+              36,
+              37,
+              38,
+              39
+            ],
+            "start": 965
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Wallet.PushBonusCode' (/data/arbitrary_location_write_simple.sol#21-23) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "PushBonusCode",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 75,
+            "lines": [
+              21,
+              22,
+              23
+            ],
+            "start": 432
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Wallet.PopBonusCode' (/data/arbitrary_location_write_simple.sol#25-29) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "PopBonusCode",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 254,
+            "lines": [
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "start": 514
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Wallet.UpdateBonusCodeAt' (/data/arbitrary_location_write_simple.sol#31-34) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "UpdateBonusCodeAt",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 183,
+            "lines": [
+              31,
+              32,
+              33,
+              34
+            ],
+            "start": 775
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'Wallet.Destroy' (/data/arbitrary_location_write_simple.sol#36-39) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Destroy",
+          "source_mapping": {
+            "filename": "/data/arbitrary_location_write_simple.sol",
+            "length": 108,
+            "lines": [
+              36,
+              37,
+              38,
+              39
+            ],
+            "start": 965
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/access_control/arbitrary_location_write_simple.sol",
+  "duration": 5.315779447555542,
+  "end": 1654186387.3088555,
+  "exit_code": 9,
+  "start": 1654186381.993076,
+  "tool": "slither"
+}

@@ -1,0 +1,180 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "EthTxOrderDependenceMinimal.setReward (/data/eth_tx_order_dependence_minimal.sol#18-25) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EthTxOrderDependenceMinimal",
+            "source_mapping": {
+              "filename": "/data/eth_tx_order_dependence_minimal.sol",
+              "length": 635,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "start": 162
+            },
+            "type": "contract"
+          },
+          "name": "setReward",
+          "source_mapping": {
+            "filename": "/data/eth_tx_order_dependence_minimal.sol",
+            "length": 210,
+            "lines": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "start": 368
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "EthTxOrderDependenceMinimal.claimReward (/data/eth_tx_order_dependence_minimal.sol#27-33) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "EthTxOrderDependenceMinimal",
+            "source_mapping": {
+              "filename": "/data/eth_tx_order_dependence_minimal.sol",
+              "length": 635,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "start": 162
+            },
+            "type": "contract"
+          },
+          "name": "claimReward",
+          "source_mapping": {
+            "filename": "/data/eth_tx_order_dependence_minimal.sol",
+            "length": 211,
+            "lines": [
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ],
+            "start": 584
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/eth_tx_order_dependence_minimal.sol:\n\t- pragma solidity^0.4.16 (/data/eth_tx_order_dependence_minimal.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.16",
+          "source_mapping": {
+            "filename": "/data/eth_tx_order_dependence_minimal.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 136
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'EthTxOrderDependenceMinimal.EthTxOrderDependenceMinimal' (/data/eth_tx_order_dependence_minimal.sol#14-16) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "EthTxOrderDependenceMinimal",
+          "source_mapping": {
+            "filename": "/data/eth_tx_order_dependence_minimal.sol",
+            "length": 81,
+            "lines": [
+              14,
+              15,
+              16
+            ],
+            "start": 281
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/front_running/eth_tx_order_dependence_minimal.sol",
+  "duration": 3.4728610515594482,
+  "end": 1654186416.1252527,
+  "exit_code": 4,
+  "start": 1654186412.6523917,
+  "tool": "slither"
+}

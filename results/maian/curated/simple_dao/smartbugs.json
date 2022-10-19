@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/simple_dao.sol",
+  "tool": "maian",
+  "start": 1654004186.3384643,
+  "end": 1654004308.2464082,
+  "duration": 121.90794396400452,
+  "exit_code": 0
+}

@@ -1,0 +1,11 @@
+{
+  "analysis": [
+    []
+  ],
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "duration": 321.94341349601746,
+  "end": 1654175817.2954905,
+  "exit_code": 0,
+  "start": 1654175495.352077,
+  "tool": "manticore"
+}

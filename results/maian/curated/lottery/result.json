@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "duration": 60.09141564369202,
+  "end": 1654162550.727794,
+  "exit_code": 0,
+  "start": 1654162490.6363783,
+  "tool": "maian"
+}

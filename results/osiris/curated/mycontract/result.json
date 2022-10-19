@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/mycontract.sol",
+      "name": "MyContract"
+    }
+  ],
+  "contract": "dataset/access_control/mycontract.sol",
+  "duration": 3.5440967082977295,
+  "end": 1654180878.239615,
+  "exit_code": 0,
+  "start": 1654180874.6955183,
+  "tool": "osiris"
+}

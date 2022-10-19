@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/denial_of_service/auction.sol",
+  "tool": "oyente",
+  "start": 1654181834.2391198,
+  "end": 1654181836.7777278,
+  "duration": 2.5386080741882324,
+  "exit_code": 0
+}

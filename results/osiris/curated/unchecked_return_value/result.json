@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/unchecked_return_value.sol",
+      "name": "ReturnValue"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "duration": 11.205672979354858,
+  "end": 1654181200.8315485,
+  "exit_code": 0,
+  "start": 1654181189.6258755,
+  "tool": "osiris"
+}

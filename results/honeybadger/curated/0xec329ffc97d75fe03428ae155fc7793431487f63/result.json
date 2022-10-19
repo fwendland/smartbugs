@@ -1,0 +1,20 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+      "name": "Owned"
+    },
+    {
+      "errors": [],
+      "file": "/data/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+      "name": "TokenSender"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+  "duration": 274.1133816242218,
+  "end": 1654123678.1839771,
+  "exit_code": 0,
+  "start": 1654123404.0705955,
+  "tool": "honeybadger"
+}

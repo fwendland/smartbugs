@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/integer_overflow_multitx_onefunc_feasible.sol",
+      "name": "IntegerOverflowMultiTxOneFuncFeasible"
+    }
+  ],
+  "contract": "dataset/arithmetic/integer_overflow_multitx_onefunc_feasible.sol",
+  "duration": 3.9292380809783936,
+  "end": 1654122535.483757,
+  "exit_code": 0,
+  "start": 1654122531.554519,
+  "tool": "honeybadger"
+}

@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 16,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+      "name": "B"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+  "duration": 9.925565719604492,
+  "end": 1654181199.541335,
+  "exit_code": 0,
+  "start": 1654181189.6157694,
+  "tool": "osiris"
+}

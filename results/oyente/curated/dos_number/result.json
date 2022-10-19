@@ -1,0 +1,36 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 19,
+          "level": "Warning",
+          "line": 22,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 1,
+          "level": "Warning",
+          "line": 9,
+          "message": "Integer Overflow."
+        }
+      ],
+      "evm_code_coverage": "80.0%",
+      "file": "/data/dos_number.sol",
+      "integer_overflow": true,
+      "integer_underflow": false,
+      "name": "DosNumber",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "duration": 6.78452205657959,
+  "end": 1654181841.0073104,
+  "exit_code": 0,
+  "start": 1654181834.2227883,
+  "tool": "oyente"
+}

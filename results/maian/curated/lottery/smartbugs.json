@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lottery.sol",
+  "tool": "maian",
+  "start": 1654162490.6363783,
+  "end": 1654162550.727794,
+  "duration": 60.09141564369202,
+  "exit_code": 0
+}

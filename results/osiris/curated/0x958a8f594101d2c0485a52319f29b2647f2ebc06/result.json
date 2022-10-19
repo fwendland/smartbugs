@@ -1,0 +1,37 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 5,
+          "line": 70,
+          "message": "truncation_bugs"
+        },
+        {
+          "column": 9,
+          "line": 55,
+          "message": "callstack_bug"
+        }
+      ],
+      "file": "/data/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+      "name": "Marriage"
+    },
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 55,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+      "name": "Owned"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+  "duration": 91.50959897041321,
+  "end": 1654181281.1241646,
+  "exit_code": 0,
+  "start": 1654181189.6145656,
+  "tool": "osiris"
+}

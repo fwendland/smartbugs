@@ -1,0 +1,66 @@
+{
+  "analysis": [
+    {
+      "column": 8,
+      "content": "for(uinti=0;i<_tos.length;i++){caddress.call(id,from,_tos[i],v[i]);}",
+      "line": 12,
+      "name": "SOLIDITY_EXTRA_GAS_IN_LOOPS",
+      "patternId": "d3j11j",
+      "severity": 1
+    },
+    {
+      "column": 8,
+      "content": "for(uinti=0;i<_tos.length;i++){caddress.call(id,from,_tos[i],v[i]);}",
+      "line": 12,
+      "name": "SOLIDITY_GAS_LIMIT_IN_LOOPS",
+      "patternId": "f6f853",
+      "severity": 2
+    },
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 21,
+      "content": "call(id,from,_tos[i],v[i])",
+      "line": 14,
+      "name": "SOLIDITY_UNCHECKED_CALL",
+      "patternId": "f39eed",
+      "severity": 3
+    },
+    {
+      "column": 21,
+      "content": "call(id,from,_tos[i],v[i])",
+      "line": 14,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "83k1no",
+      "severity": 1
+    },
+    {
+      "column": 52,
+      "content": "address[]_tos",
+      "line": 9,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "341gim",
+      "severity": 1
+    },
+    {
+      "column": 67,
+      "content": "uint[]v",
+      "line": 9,
+      "name": "SOLIDITY_UPGRADE_TO_050",
+      "patternId": "341gim",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
+  "duration": 13.82978081703186,
+  "end": 1654186556.7516866,
+  "exit_code": 0,
+  "start": 1654186542.9219058,
+  "tool": "smartcheck"
+}

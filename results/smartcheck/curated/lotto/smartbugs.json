@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/lotto.sol",
+  "tool": "smartcheck",
+  "start": 1654186542.8395433,
+  "end": 1654186553.5958982,
+  "duration": 10.756354808807373,
+  "exit_code": 0
+}

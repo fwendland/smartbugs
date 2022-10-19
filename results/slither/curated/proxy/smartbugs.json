@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "slither",
+  "start": 1654186382.1260693,
+  "end": 1654186387.9445622,
+  "duration": 5.818492889404297,
+  "exit_code": 4
+}

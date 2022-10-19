@@ -1,0 +1,31 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 9,
+          "line": 36,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 36,
+          "message": "concurrency_bug"
+        },
+        {
+          "column": 9,
+          "line": 45,
+          "message": "reentrancy_bug"
+        }
+      ],
+      "file": "/data/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+      "name": "WhaleGiveaway2"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+  "duration": 49.91018629074097,
+  "end": 1654181239.5237434,
+  "exit_code": 0,
+  "start": 1654181189.613557,
+  "tool": "osiris"
+}

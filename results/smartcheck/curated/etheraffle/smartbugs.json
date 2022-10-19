@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/etheraffle.sol",
+  "tool": "smartcheck",
+  "start": 1654186499.5935853,
+  "end": 1654186505.1605704,
+  "duration": 5.566985130310059,
+  "exit_code": 0
+}

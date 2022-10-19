@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "tool": "osiris",
+  "start": 1654181010.0083528,
+  "end": 1654181012.9321978,
+  "duration": 2.923845052719116,
+  "exit_code": 0
+}

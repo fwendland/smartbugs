@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/reentrancy/spank_chain_payment.sol",
+  "tool": "oyente",
+  "start": 1654007545.25955,
+  "end": 1654007562.516328,
+  "duration": 17.25677800178528,
+  "exit_code": 0
+}

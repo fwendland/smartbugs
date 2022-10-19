@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/old_blockhash.sol",
+      "name": "PredictTheBlockHashChallenge"
+    }
+  ],
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 2.923845052719116,
+  "end": 1654181012.9321978,
+  "exit_code": 0,
+  "start": 1654181010.0083528,
+  "tool": "osiris"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/BECToken.sol",
+  "tool": "osiris",
+  "start": 1654180930.7152972,
+  "end": 1654181007.926791,
+  "duration": 77.21149373054504,
+  "exit_code": 0
+}

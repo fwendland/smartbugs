@@ -1,0 +1,50 @@
+{
+  "analysis": [
+    {
+      "column": "2",
+      "file": "/data/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Line length must be no more than 120 but current length is 5333.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "3470",
+      "file": "/data/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+      "level": "Error",
+      "line": "25",
+      "message": "Expected indentation of 12 spaces but found 3469",
+      "type": "indent"
+    },
+    {
+      "column": "2",
+      "file": "/data/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+      "level": "Error",
+      "line": "27",
+      "message": "Line length must be no more than 120 but current length is 121.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "2",
+      "file": "/data/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+      "level": "Error",
+      "line": "33",
+      "message": "Line length must be no more than 120 but current length is 3116.",
+      "type": "max-line-length"
+    },
+    {
+      "column": "1198",
+      "file": "/data/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+      "level": "Error",
+      "line": "33",
+      "message": "Expected indentation of 8 spaces but found 1197",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+  "duration": 13.867144584655762,
+  "end": 1654186636.1740103,
+  "exit_code": 1,
+  "start": 1654186622.3068657,
+  "tool": "solhint"
+}

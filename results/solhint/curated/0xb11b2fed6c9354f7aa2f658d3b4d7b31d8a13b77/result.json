@@ -1,0 +1,18 @@
+{
+  "analysis": [
+    {
+      "column": "56",
+      "file": "/data/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+      "level": "Error",
+      "line": "10",
+      "message": "Expected indentation of 4 spaces but found 55",
+      "type": "indent"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+  "duration": 13.444247245788574,
+  "end": 1654186635.6928313,
+  "exit_code": 1,
+  "start": 1654186622.248584,
+  "tool": "solhint"
+}

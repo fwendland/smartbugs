@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/ether_lotto.sol",
+      "name": "EtherLotto"
+    }
+  ],
+  "contract": "dataset/time_manipulation/ether_lotto.sol",
+  "duration": 5.334023475646973,
+  "end": 1654123375.2446022,
+  "exit_code": 0,
+  "start": 1654123369.9105787,
+  "tool": "honeybadger"
+}

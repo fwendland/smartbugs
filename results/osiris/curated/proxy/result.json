@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/proxy.sol",
+      "name": "Proxy"
+    }
+  ],
+  "contract": "dataset/access_control/proxy.sol",
+  "duration": 35.66495156288147,
+  "end": 1654180910.351169,
+  "exit_code": 0,
+  "start": 1654180874.6862175,
+  "tool": "osiris"
+}

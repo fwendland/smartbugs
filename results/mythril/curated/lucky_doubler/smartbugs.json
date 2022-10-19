@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/bad_randomness/lucky_doubler.sol",
+  "tool": "mythril",
+  "start": 1654177637.8340402,
+  "end": 1654177680.8405795,
+  "duration": 43.0065393447876,
+  "exit_code": 0
+}

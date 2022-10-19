@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/front_running/FindThisHash.sol",
+  "tool": "conkas",
+  "start": 1654106801.336481,
+  "end": 1654106807.5730414,
+  "duration": 6.236560344696045,
+  "exit_code": 0
+}

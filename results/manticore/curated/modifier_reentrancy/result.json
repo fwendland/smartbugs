@@ -1,0 +1,13 @@
+{
+  "analysis": [
+    [],
+    [],
+    []
+  ],
+  "contract": "dataset/reentrancy/modifier_reentrancy.sol",
+  "duration": 79.63654923439026,
+  "end": 1654004856.4090912,
+  "exit_code": 0,
+  "start": 1654004776.772542,
+  "tool": "manticore"
+}

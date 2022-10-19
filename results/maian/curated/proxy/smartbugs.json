@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/proxy.sol",
+  "tool": "maian",
+  "start": 1654161877.2187343,
+  "end": 1654161947.7395792,
+  "duration": 70.52084493637085,
+  "exit_code": 0
+}

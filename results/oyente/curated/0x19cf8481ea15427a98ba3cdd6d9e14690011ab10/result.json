@@ -1,0 +1,146 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "100.0%",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "SafeMath",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.9%",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "StandardToken",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    },
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [
+        {
+          "column": 1,
+          "level": "Warning",
+          "line": 498,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 154,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 3,
+          "level": "Warning",
+          "line": 360,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 26,
+          "level": "Warning",
+          "line": 394,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 280,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 153,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 262,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 20,
+          "level": "Warning",
+          "line": 439,
+          "message": "Integer Underflow."
+        },
+        {
+          "column": 78,
+          "level": "Warning",
+          "line": 300,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 15,
+          "level": "Warning",
+          "line": 427,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 5,
+          "level": "Warning",
+          "line": 242,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 3,
+          "level": "Warning",
+          "line": 338,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 24,
+          "level": "Warning",
+          "line": 329,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 43,
+          "level": "Warning",
+          "line": 289,
+          "message": "Integer Overflow."
+        },
+        {
+          "column": 9,
+          "level": "Warning",
+          "line": 439,
+          "message": "Transaction-Ordering Dependency."
+        },
+        {
+          "column": 10,
+          "level": "Warning",
+          "line": 433,
+          "message": "Transaction-Ordering Dependency."
+        }
+      ],
+      "evm_code_coverage": "71.1%",
+      "file": "/data/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+      "integer_overflow": true,
+      "integer_underflow": true,
+      "name": "daoPOLSKAtokens",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": true
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+  "duration": 33.053011655807495,
+  "end": 1654181902.8589015,
+  "exit_code": 1,
+  "start": 1654181869.8058898,
+  "tool": "oyente"
+}

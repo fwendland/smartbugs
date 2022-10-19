@@ -1,0 +1,175 @@
+{
+  "analysis": [
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "PredictTheBlockHashChallenge.lockInGuess (/data/old_blockhash.sol#24-30) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PredictTheBlockHashChallenge",
+            "source_mapping": {
+              "filename": "/data/old_blockhash.sol",
+              "length": 819,
+              "lines": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "start": 517
+            },
+            "type": "contract"
+          },
+          "name": "lockInGuess",
+          "source_mapping": {
+            "filename": "/data/old_blockhash.sol",
+            "length": 243,
+            "lines": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "start": 747
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "PredictTheBlockHashChallenge.settle (/data/old_blockhash.sol#32-41) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "PredictTheBlockHashChallenge",
+            "source_mapping": {
+              "filename": "/data/old_blockhash.sol",
+              "length": 819,
+              "lines": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+              ],
+              "start": 517
+            },
+            "type": "contract"
+          },
+          "name": "settle",
+          "source_mapping": {
+            "filename": "/data/old_blockhash.sol",
+            "length": 338,
+            "lines": [
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ],
+            "start": 996
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Struct 'PredictTheBlockHashChallenge.guess' (/data/old_blockhash.sol#13-16) is not in CapWords\n",
+      "elements": [
+        {
+          "convention": "CapWords",
+          "name": "guess",
+          "source_mapping": {
+            "filename": "/data/old_blockhash.sol",
+            "length": 58,
+            "lines": [
+              13,
+              14,
+              15,
+              16
+            ],
+            "start": 562
+          },
+          "target": "structure"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/bad_randomness/old_blockhash.sol",
+  "duration": 3.419987440109253,
+  "end": 1654186403.5126877,
+  "exit_code": 3,
+  "start": 1654186400.0927002,
+  "tool": "slither"
+}

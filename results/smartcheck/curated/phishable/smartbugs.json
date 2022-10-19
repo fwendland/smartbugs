@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/phishable.sol",
+  "tool": "smartcheck",
+  "start": 1654186479.8104854,
+  "end": 1654186487.4290981,
+  "duration": 7.618612766265869,
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mapping_write.sol",
+  "tool": "honeybadger",
+  "start": 1654122266.4884975,
+  "end": 1654122352.3653898,
+  "duration": 85.87689232826233,
+  "exit_code": 0
+}

@@ -1,0 +1,26 @@
+{
+  "analysis": [
+    {
+      "column": 16,
+      "content": "^",
+      "line": 7,
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1
+    },
+    {
+      "column": 4,
+      "content": "uint256constantPRICE_PER_TOKEN=1ether;",
+      "line": 11,
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1
+    }
+  ],
+  "contract": "dataset/arithmetic/tokensalechallenge.sol",
+  "duration": 5.991329193115234,
+  "end": 1654186496.315839,
+  "exit_code": 0,
+  "start": 1654186490.3245099,
+  "tool": "smartcheck"
+}

@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/unchecked_low_level_calls/etherpot_lotto.sol",
+  "tool": "slither",
+  "start": 1654186435.649384,
+  "end": 1654186440.3588142,
+  "duration": 4.70943021774292,
+  "exit_code": 14
+}

@@ -1,0 +1,587 @@
+{
+  "analysis": [
+    {
+      "check": "arbitrary-send",
+      "confidence": "Medium",
+      "description": "WhaleGiveaway2.GetFreebie (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#20-28) sends eth to arbitrary user\n\tDangerous calls:\n\t- msg.sender.transfer(this.balance) (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#26)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WhaleGiveaway2",
+            "source_mapping": {
+              "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+              "length": 9255,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "GetFreebie",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 5657,
+            "lines": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 238
+          },
+          "type": "function"
+        },
+        {
+          "expression": "msg.sender.transfer(this.balance)",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 33,
+            "lines": [
+              26
+            ],
+            "start": 5733
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "WhaleGiveaway2.fallback (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#13-18) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WhaleGiveaway2",
+            "source_mapping": {
+              "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+              "length": 9255,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "fallback",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 54,
+            "lines": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18
+            ],
+            "start": 175
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "WhaleGiveaway2.GetFreebie (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#20-28) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WhaleGiveaway2",
+            "source_mapping": {
+              "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+              "length": 9255,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "GetFreebie",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 5657,
+            "lines": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 238
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "WhaleGiveaway2.withdraw (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#30-36) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WhaleGiveaway2",
+            "source_mapping": {
+              "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+              "length": 9255,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "withdraw",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 3241,
+            "lines": [
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36
+            ],
+            "start": 5905
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "WhaleGiveaway2.Command (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#38-45) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WhaleGiveaway2",
+            "source_mapping": {
+              "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+              "length": 9255,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Command",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 199,
+            "lines": [
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ],
+            "start": 9156
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "solc-version",
+      "confidence": "High",
+      "description": "Detected issues with version pragma in /data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol:\n\t- pragma solidity^0.4.19 (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#7): it allows old versions\n",
+      "elements": [
+        {
+          "expression": "^0.4.19",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 24,
+            "lines": [
+              7
+            ],
+            "start": 76
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in WhaleGiveaway2.Command (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#38-45):\n\t-adr.call.value(msg.value)(data) /data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#44\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "WhaleGiveaway2",
+            "source_mapping": {
+              "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+              "length": 9255,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "start": 102
+            },
+            "type": "contract"
+          },
+          "name": "Command",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 199,
+            "lines": [
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ],
+            "start": 9156
+          },
+          "type": "function"
+        },
+        {
+          "expression": "adr.call.value(msg.value)(data)",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 31,
+            "lines": [
+              44
+            ],
+            "start": 9317
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'WhaleGiveaway2.GetFreebie' (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#20-28) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "GetFreebie",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 5657,
+            "lines": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "start": 238
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Function 'WhaleGiveaway2.Command' (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#38-45) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Command",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 199,
+            "lines": [
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ],
+            "start": 9156
+          },
+          "target": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Variable 'WhaleGiveaway2.Owner' (/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol#11) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "Owner",
+          "source_mapping": {
+            "filename": "/data/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "length": 33,
+            "lines": [
+              11
+            ],
+            "start": 132
+          },
+          "target": "variable"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+  "duration": 11.302774667739868,
+  "end": 1654186447.0666287,
+  "exit_code": 10,
+  "start": 1654186435.763854,
+  "tool": "slither"
+}

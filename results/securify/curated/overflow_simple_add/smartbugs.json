@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_simple_add.sol",
+  "tool": "securify",
+  "start": 1654182411.7251606,
+  "end": 1654182424.1493917,
+  "duration": 12.424231052398682,
+  "exit_code": 0
+}

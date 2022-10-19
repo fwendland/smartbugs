@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/simple_suicide.sol",
+      "name": "SimpleSuicide"
+    }
+  ],
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "duration": 4.673085689544678,
+  "end": 1654180879.367266,
+  "exit_code": 0,
+  "start": 1654180874.6941803,
+  "tool": "osiris"
+}

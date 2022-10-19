@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/mycontract.sol",
+  "tool": "conkas",
+  "start": 1654105988.6924014,
+  "end": 1654105993.949009,
+  "duration": 5.256607532501221,
+  "exit_code": 0
+}

@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "23",
+      "maybe_in_function": "transfer(address,uint256)",
+      "pc": "0x273",
+      "vuln_type": "Integer_Overflow"
+    },
+    {
+      "line_number": "22",
+      "maybe_in_function": "transfer(address,uint256)",
+      "pc": "0x227",
+      "vuln_type": "Integer_Underflow"
+    },
+    {
+      "line_number": "20",
+      "maybe_in_function": "transfer(address,uint256)",
+      "pc": "0x1d5",
+      "vuln_type": "Integer_Underflow"
+    }
+  ],
+  "contract": "dataset/arithmetic/token.sol",
+  "duration": 4.7836127281188965,
+  "end": 1654092836.6008186,
+  "exit_code": 0,
+  "start": 1654092831.817206,
+  "tool": "conkas"
+}

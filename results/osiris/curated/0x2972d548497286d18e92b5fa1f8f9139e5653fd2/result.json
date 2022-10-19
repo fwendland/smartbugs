@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
+      "name": "demo"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
+  "duration": 54.47048759460449,
+  "end": 1654181244.0961664,
+  "exit_code": 0,
+  "start": 1654181189.6256788,
+  "tool": "osiris"
+}

@@ -1,0 +1,23 @@
+{
+  "analysis": [
+    {
+      "callstack_depth_attack_vulnerability": false,
+      "errors": [],
+      "evm_code_coverage": "99.4%",
+      "file": "/data/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+      "integer_overflow": false,
+      "integer_underflow": false,
+      "name": "RealOldFuckMaker",
+      "parity_multisig_bug_2": false,
+      "re-entrancy_vulnerability": false,
+      "timestamp_dependency": false,
+      "transaction-ordering_dependence_tod": false
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+  "duration": 4.141369104385376,
+  "end": 1654181873.8884442,
+  "exit_code": 0,
+  "start": 1654181869.747075,
+  "tool": "oyente"
+}

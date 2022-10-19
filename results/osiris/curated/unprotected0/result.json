@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/unprotected0.sol",
+      "name": "Unprotected"
+    }
+  ],
+  "contract": "dataset/access_control/unprotected0.sol",
+  "duration": 2.9788763523101807,
+  "end": 1654180877.6847627,
+  "exit_code": 0,
+  "start": 1654180874.7058864,
+  "tool": "osiris"
+}

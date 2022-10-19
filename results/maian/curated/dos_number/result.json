@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/denial_of_service/dos_number.sol",
+  "duration": 54.429983615875244,
+  "end": 1654163285.9334133,
+  "exit_code": 0,
+  "start": 1654163231.5034297,
+  "tool": "maian"
+}

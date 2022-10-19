@@ -1,0 +1,28 @@
+{
+  "analysis": [
+    {
+      "line_number": "12",
+      "maybe_in_function": "0x7536185e",
+      "pc": "0xff",
+      "vuln_type": "Reentrancy"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "0xbf9bd6cb",
+      "pc": "0x138",
+      "vuln_type": "Unchecked Low Level Call"
+    },
+    {
+      "line_number": "17",
+      "maybe_in_function": "0xbf9bd6cb",
+      "pc": "0x138",
+      "vuln_type": "Reentrancy"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+  "duration": 9.115417957305908,
+  "end": 1654106839.552628,
+  "exit_code": 0,
+  "start": 1654106830.43721,
+  "tool": "conkas"
+}

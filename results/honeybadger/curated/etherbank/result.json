@@ -1,0 +1,15 @@
+{
+  "analysis": [
+    {
+      "errors": [],
+      "file": "/data/etherbank.sol",
+      "name": "EtherBank"
+    }
+  ],
+  "contract": "dataset/reentrancy/etherbank.sol",
+  "duration": 5.871354103088379,
+  "end": 1654003688.5652206,
+  "exit_code": 0,
+  "start": 1654003682.6938665,
+  "tool": "honeybadger"
+}

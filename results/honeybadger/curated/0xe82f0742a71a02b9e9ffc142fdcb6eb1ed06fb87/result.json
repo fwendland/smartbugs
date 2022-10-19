@@ -1,0 +1,21 @@
+{
+  "analysis": [
+    {
+      "errors": [
+        {
+          "column": 809,
+          "line": 20,
+          "message": "hidden_transfer"
+        }
+      ],
+      "file": "/data/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+      "name": "Freebie"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+  "duration": 65.98147487640381,
+  "end": 1654123470.0601661,
+  "exit_code": 0,
+  "start": 1654123404.0786912,
+  "tool": "honeybadger"
+}

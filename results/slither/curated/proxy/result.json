@@ -1,0 +1,199 @@
+{
+  "analysis": [
+    {
+      "check": "controlled-delegatecall",
+      "confidence": "Medium",
+      "description": "Proxy.forward (/data/proxy.sol#17-20) uses delegatecall to a input-controlled function id\n\trequire(bool)(callee.delegatecall(_data)) (/data/proxy.sol#19)\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Proxy",
+            "source_mapping": {
+              "filename": "/data/proxy.sol",
+              "length": 316,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "start": 163
+            },
+            "type": "contract"
+          },
+          "name": "forward",
+          "source_mapping": {
+            "filename": "/data/proxy.sol",
+            "length": 221,
+            "lines": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 255
+          },
+          "type": "function"
+        },
+        {
+          "expression": "require(bool)(callee.delegatecall(_data))",
+          "source_mapping": {
+            "filename": "/data/proxy.sol",
+            "length": 35,
+            "lines": [
+              19
+            ],
+            "start": 351
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "High"
+    },
+    {
+      "check": "external-function",
+      "confidence": "High",
+      "description": "Proxy.forward (/data/proxy.sol#17-20) should be declared external\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Proxy",
+            "source_mapping": {
+              "filename": "/data/proxy.sol",
+              "length": 316,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "start": 163
+            },
+            "type": "contract"
+          },
+          "name": "forward",
+          "source_mapping": {
+            "filename": "/data/proxy.sol",
+            "length": 221,
+            "lines": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 255
+          },
+          "type": "function"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "low-level-calls",
+      "confidence": "High",
+      "description": "Low level call in Proxy.forward (/data/proxy.sol#17-20):\n\t-require(bool)(callee.delegatecall(_data)) /data/proxy.sol#19\n",
+      "elements": [
+        {
+          "contract": {
+            "name": "Proxy",
+            "source_mapping": {
+              "filename": "/data/proxy.sol",
+              "length": 316,
+              "lines": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "start": 163
+            },
+            "type": "contract"
+          },
+          "name": "forward",
+          "source_mapping": {
+            "filename": "/data/proxy.sol",
+            "length": 221,
+            "lines": [
+              17,
+              18,
+              19,
+              20
+            ],
+            "start": 255
+          },
+          "type": "function"
+        },
+        {
+          "expression": "require(bool)(callee.delegatecall(_data))",
+          "source_mapping": {
+            "filename": "/data/proxy.sol",
+            "length": 35,
+            "lines": [
+              19
+            ],
+            "start": 351
+          },
+          "type": "expression"
+        }
+      ],
+      "impact": "Informational"
+    },
+    {
+      "check": "naming-convention",
+      "confidence": "High",
+      "description": "Parameter '_data' of Proxy.forward (/data/proxy.sol#17) is not in mixedCase\n",
+      "elements": [
+        {
+          "convention": "mixedCase",
+          "name": "_data",
+          "source_mapping": {
+            "filename": "/data/proxy.sol",
+            "length": 11,
+            "lines": [
+              17
+            ],
+            "start": 288
+          },
+          "target": "parameter"
+        }
+      ],
+      "impact": "Informational"
+    }
+  ],
+  "contract": "dataset/access_control/proxy.sol",
+  "duration": 5.818492889404297,
+  "end": 1654186387.9445622,
+  "exit_code": 4,
+  "start": 1654186382.1260693,
+  "tool": "slither"
+}

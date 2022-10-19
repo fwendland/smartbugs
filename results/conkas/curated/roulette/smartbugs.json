@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/time_manipulation/roulette.sol",
+  "tool": "conkas",
+  "start": 1654106821.6128821,
+  "end": 1654106827.2233548,
+  "duration": 5.610472679138184,
+  "exit_code": 0
+}

@@ -1,0 +1,13 @@
+{
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  },
+  "contract": "dataset/front_running/ERC20.sol",
+  "duration": 95.21571850776672,
+  "end": 1654163433.8302665,
+  "exit_code": 0,
+  "start": 1654163338.614548,
+  "tool": "maian"
+}

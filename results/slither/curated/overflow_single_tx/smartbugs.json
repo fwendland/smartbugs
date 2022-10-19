@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/arithmetic/overflow_single_tx.sol",
+  "tool": "slither",
+  "start": 1654186390.8701596,
+  "end": 1654186394.6136606,
+  "duration": 3.7435009479522705,
+  "exit_code": 7
+}

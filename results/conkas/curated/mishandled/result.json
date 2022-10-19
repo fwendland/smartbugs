@@ -1,0 +1,22 @@
+{
+  "analysis": [
+    {
+      "line_number": "14",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x114",
+      "vuln_type": "Transaction Ordering Dependence"
+    },
+    {
+      "line_number": "14",
+      "maybe_in_function": "withdrawBalance()",
+      "pc": "0x114",
+      "vuln_type": "Unchecked Low Level Call"
+    }
+  ],
+  "contract": "dataset/unchecked_low_level_calls/mishandled.sol",
+  "duration": 20.879833459854126,
+  "end": 1654106851.3094847,
+  "exit_code": 0,
+  "start": 1654106830.4296513,
+  "tool": "conkas"
+}

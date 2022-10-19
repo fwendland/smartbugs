@@ -1,0 +1,8 @@
+{
+  "contract": "dataset/access_control/simple_suicide.sol",
+  "tool": "maian",
+  "start": 1654161877.2622333,
+  "end": 1654161956.6230812,
+  "duration": 79.36084794998169,
+  "exit_code": 0
+}
