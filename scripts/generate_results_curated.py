@@ -6,6 +6,12 @@ import re
 import csv
 from datetime import timedelta
 
+class colors:
+    INFO = '\033[94m'
+    OK = '\033[92m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
+
 tools = ['mythril','slither','osiris','oyente','smartcheck','manticore','maian','securify','honeybadger','solhint','conkas','ccc']
 
 output_name = 'curated'
@@ -116,24 +122,27 @@ def add_vul(contract, tool, vulnerability, lines):
 
     expected = oracle[contract]
     expected_vunerability_categories = set([vuln['category'] for vuln in expected['vulnerabilities']])
-    for vuln in expected['vulnerabilities']:
-        if lines is not None:
-            for line in lines:
+    if lines is not None:
+        for line in lines:
+            vulnerability_found = None
+            for vuln in expected['vulnerabilities']:
                 if line in vuln['lines'] and category == vuln['category']:
                     vuln = {
                         'contract': contract,
                         'category': vuln['category'],
                         'lines': vuln['lines']
                     }
-                    detected_vunerability_lines[tool][category][contract].add(line)
-                    if vuln not in precisions[category][tool]:
-                        precisions[category][tool].append(vuln)
-                    if contract not in contract_precisions[tool]:
-                        contract_precisions[tool].append(contract)
+                    vulnerability_found = vuln
                     break
-                else:
-                    if category in expected_vunerability_categories:
-                        false_positives[tool][category][contract].add(line)
+            if vulnerability_found != None:
+                detected_vunerability_lines[tool][category][contract].add(line)
+                if vulnerability_found not in precisions[category][tool]:
+                    precisions[category][tool].append(vulnerability_found)
+                if contract not in contract_precisions[tool]:
+                    contract_precisions[tool].append(contract)
+            else:
+                if category in expected_vunerability_categories:
+                    false_positives[tool][category][contract].add(line)
 
     if contract not in contract_vulnerabilities:
         contract_vulnerabilities[contract] = []
@@ -164,11 +173,11 @@ def add_expected_vul(tool, category, contract):
     if not category in expected_vunerability_lines[tool]:
         expected_vunerability_lines[tool][category] = {}
     if not contract in expected_vunerability_lines[tool][category]:
-        expected_vunerability_lines[tool][category][contract] = set()
+        expected_vunerability_lines[tool][category][contract] = list()
 
     for vuln in oracle[contract]['vulnerabilities']:
         if vuln['category'] == category:
-            expected_vunerability_lines[tool][category][contract].update(vuln['lines'])
+            expected_vunerability_lines[tool][category][contract].append(vuln['lines'])
 
 for tool in tools:
     path_tool = os.path.abspath(os.path.join(ROOT, 'results', tool))
@@ -183,7 +192,7 @@ for tool in tools:
         if not os.path.isdir(path_contract):
             continue
         if not os.path.exists(path_result):
-            print("Error %s does not exist!" % (path_result))
+            print(colors.FAIL+"Error "+path_result+" does not exist!"+colors.END)
             continue
         with open(path_result, 'r', encoding='utf-8') as fd:
             data = None
@@ -363,11 +372,16 @@ csv_fn_file = open("false_negatives.csv", "w")
 writer_fn = csv.writer(csv_fn_file)
 writer_fn.writerow(["Tool","Category","Contract","Line Numbers"])
 total_tools = {}
+difference = {}
 for category in categories:
     line = "| {:19} |".format(category.title().replace('_', ' '))
     total_category_fp = set()
     total_category_fn = set()
     for tool in sorted(tools):
+        if tool not in difference:
+            difference[tool] = {}
+        if category not in difference[tool]:
+            difference[tool][category] = []
         if tool not in total_tools:
             total_tools[tool] = {"fp": 0, "fn": 0}
         false_positives_identified, false_negatives_identified = set(), 0
@@ -378,11 +392,18 @@ for category in categories:
                 total_category_fp.update(false_positives[tool][category][contract])
                 false_positives_identified.update(set(false_positives[tool][category][contract]))
         for contract in expected_vunerability_lines[tool][category]:
-            if tool == "ccc" and len(expected_vunerability_lines[tool][category][contract].difference(detected_vunerability_lines[tool][category][contract])) > 0:
-                writer_fn.writerow([tool, category, contract, list(expected_vunerability_lines[tool][category][contract].difference(detected_vunerability_lines[tool][category][contract]))])
-            for fn in expected_vunerability_lines[tool][category][contract].difference(detected_vunerability_lines[tool][category][contract]):
-                total_category_fn.add(contract+":"+str(fn))
-            false_negatives_identified += len(expected_vunerability_lines[tool][category][contract].difference(detected_vunerability_lines[tool][category][contract]))
+            #for fn in expected_vunerability_lines[tool][category][contract].difference(detected_vunerability_lines[tool][category][contract]):
+            #    total_category_fn.add(contract+":"+str(fn))
+            for vulnerable_lines in expected_vunerability_lines[tool][category][contract]:
+                vulnerable_line_found = False
+                for vuln in detected_vunerability_lines[tool][category][contract]:
+                    if vuln in vulnerable_lines:
+                        vulnerable_line_found = True
+                if vulnerable_line_found == False:
+                    difference[tool][category].append(vulnerable_lines)
+                    if tool == "ccc":
+                        writer_fn.writerow([tool, category, contract, vulnerable_lines])
+            false_negatives_identified = len(difference[tool][category])
         line += " {:5} {:5} |".format(len(false_positives_identified), false_negatives_identified)
         total_tools[tool]["fp"] += len(false_positives_identified)
         total_tools[tool]["fn"] += len(total_category_fn)
