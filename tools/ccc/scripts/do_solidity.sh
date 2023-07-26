@@ -22,4 +22,5 @@ do
 done
 
 # Run analysis with CCC
+CPG_CONTRACT_CHECKER_APP_OPTS=-Xss16m
 cpg-contract-checker-app "$FILENAME"

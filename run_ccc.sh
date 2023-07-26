@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RUNID="curated"
-PROCESSES=10
+PROCESSES=30
 TIMEOUT=1800
 
 # Access Control
