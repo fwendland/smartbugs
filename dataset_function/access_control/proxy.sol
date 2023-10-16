@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-112#proxysol
+ * @author: -
+ * @vulnerable_at_lines: 19
+ */
 
 
 

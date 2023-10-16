@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/kieranelby/KingOfTheEtherThrone/blob/v0.4.0/contracts/KingOfTheEtherThrone.sol
+ * @author: -
+ * @vulnerable_at_lines: 110,118,132
+ */
 
 
 
@@ -168,8 +168,3 @@
         ThroneClaimed(currentMonarch.etherAddress, currentMonarch.name, currentClaimPrice);
     }
 
-    // Used only by the wizard to collect his commission.
-    function sweepCommission(uint amount) onlywizard {
-        // <yes> <report> UNCHECKED_LL_CALLS
-        wizardAddress.send(amount);
-    }

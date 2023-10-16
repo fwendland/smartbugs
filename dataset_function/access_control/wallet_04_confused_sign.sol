@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-04-confused-signsol
+ * @author: -
+ * @vulnerable_at_lines: 30
+ */
 
 
 

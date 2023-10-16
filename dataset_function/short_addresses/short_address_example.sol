@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://ericrafaloff.com/analyzing-the-erc20-short-address-attack/
+ * @author: -
+ * @vulnerable_at_lines: 18
+ */
 
 
 

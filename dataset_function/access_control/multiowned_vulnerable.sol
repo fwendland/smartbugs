@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/solidity/unprotected_critical_functions/multiowned_vulnerable/multiowned_vulnerable.sol
+ * @author: -
+ * @vulnerable_at_lines: 38
+ */
 
 
 

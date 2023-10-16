@@ -1,9 +1,9 @@
-
-
-
-
-
-
+/*
+ * @article: https://blog.positive.com/predicting-random-numbers-in-ethereum-smart-contracts-e5358c6b8620
+ * @source: https://etherscan.io/address/0xF767fCA8e65d03fE16D4e38810f5E5376c3372A8#code
+ * @vulnerable_at_lines: 127,128,129,130,132
+ * @author: -
+ */
 
 
 

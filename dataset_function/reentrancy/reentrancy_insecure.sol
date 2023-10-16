@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://consensys.github.io/smart-contract-best-practices/known_attacks/
+ * @author: consensys
+ * @vulnerable_at_lines: 17
+ */
 
 
 

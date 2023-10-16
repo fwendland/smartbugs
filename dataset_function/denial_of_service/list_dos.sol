@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://etherscan.io/address/0xf45717552f12ef7cb65e95476f217ea008167ae3#code
+ * @author: -
+ * @vulnerable_at_lines: 46,48
+ */
 
 
 

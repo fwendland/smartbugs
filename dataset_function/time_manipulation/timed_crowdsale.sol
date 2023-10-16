@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/timestamp_dependence/timed_crowdsale.sol
+ * @author: -
+ * @vulnerable_at_lines: 13
+ */
 
 
 

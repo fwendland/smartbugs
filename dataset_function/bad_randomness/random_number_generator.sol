@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/weak_randomness/random_number_generator.sol
+ * @author: -
+ * @vulnerable_at_lines: 12,18,20,22
+ */
 
 
 

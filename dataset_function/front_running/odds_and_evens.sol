@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: http://blockchain.unica.it/projects/ethereum-survey/attacks.html#oddsandevens
+ * @author: -
+ * @vulnerable_at_lines: 25,28
+ */
 
 
 

@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/trailofbits/not-so-smart-contracts/blob/master/unprotected_function/Unprotected.sol
+ * @author: -
+ * @vulnerable_at_lines: 25
+ */
 
 
 

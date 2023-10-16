@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/sigp/solidity-security-blog
+ * @author: -
+ * @vulnerable_at_lines: 20
+ */
 
 
 

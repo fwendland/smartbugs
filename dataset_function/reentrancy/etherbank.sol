@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/reentrant.sol
+ * @author: -
+ * @vulnerable_at_lines: 21
+ */
 
 
 

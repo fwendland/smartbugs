@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/dos_gas_limit/dos_number.sol
+ * @author: -
+ * @vulnerable_at_lines: 18,19,20,21,22
+ */
 
 
 

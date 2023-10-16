@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: etherscan.io 
+ * @author: -
+ * @vulnerable_at_lines: 69,71,73,75
+ */
 
 
 
@@ -74,31 +74,4 @@
 		// <yes> <report> UNCHECKED_LL_CALLS
         extra[3].call.value(_share).gas(800000)();
         }
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	function() public payable{
-	    if(msg.sender != target[0]){
-			// <yes> <report> UNCHECKED_LL_CALLS
-			target[0].call.value(msg.value).gas(600000)();
-		}
-    }

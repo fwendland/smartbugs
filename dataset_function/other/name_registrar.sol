@@ -1,7 +1,7 @@
-
-
-
-
+/*
+ * @source: https://github.com/sigp/solidity-security-blog#storage-example
+ * @vulnerable_at_lines: 21
+ */
 
 
 

@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/mishandled.sol 
+ * @author: -
+ * @vulnerable_at_lines: 14
+ */
 
 
 

@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/trailofbits/not-so-smart-contracts/blob/master/reentrancy/SpankChain_source_code/SpankChain_Payment.sol
+ * @author: -
+ * @vulnerable_at_lines: 426,430
+ */
 
 
 

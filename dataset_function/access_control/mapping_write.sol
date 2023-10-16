@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-124#mapping-writesol
+ * @author: Suhabe Bugrara
+ * @vulnerable_at_lines: 20
+ */
 
 
 

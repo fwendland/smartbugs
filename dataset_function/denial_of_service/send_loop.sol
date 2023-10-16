@@ -1,9 +1,9 @@
-
-
-
-
-
-
+/*
+ * @source: https://consensys.github.io/smart-contract-best-practices/known_attacks/#dos-with-unexpected-revert
+ * @author: ConsenSys Diligence
+* @vulnerable_at_lines: 24
+ * Modified by Bernhard Mueller
+ */
 
 
 

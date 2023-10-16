@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/trailofbits/not-so-smart-contracts/blob/master/reentrancy/Reentrancy.sol
+ * @author: -
+ * @vulnerable_at_lines: 24
+ */
 
 
 

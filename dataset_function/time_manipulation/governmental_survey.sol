@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: http://blockchain.unica.it/projects/ethereum-survey/attacks.html#governmental
+ * @author: -
+ * @vulnerable_at_lines: 27
+ */
 
 
 

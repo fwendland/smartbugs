@@ -1,8 +1,8 @@
-
-
-
-
-
+/*
+ * @source: https://github.com/trailofbits/not-so-smart-contracts/blob/master/denial_of_service/auction.sol
+ * @author: -
+ * @vulnerable_at_lines: 23
+ */
 
 
 
