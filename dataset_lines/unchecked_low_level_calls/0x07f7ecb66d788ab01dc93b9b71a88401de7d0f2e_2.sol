@@ -1,7 +1,7 @@
 /*
  * @source: etherscan.io 
  * @author: -
- * @vulnerable_at_lines: 198
+ * @vulnerable_at_lines: 213
  */
 
 
@@ -188,16 +188,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
-     * Payout ETH to whale
+     * Payout ETH to whale when player loses
      */
-    function donateToWhale(uint256 amount) 
+    function loseWager(uint256 amount) 
     internal 
     {
         // <yes> <report> UNCHECKED_LL_CALLS
         whale.call.value(amount)(bytes4(keccak256("donate()")));
         totalDonated += amount;
-        emit Donate(amount, whale, msg.sender);
+        emit Lose(amount, msg.sender);
     }
-
-

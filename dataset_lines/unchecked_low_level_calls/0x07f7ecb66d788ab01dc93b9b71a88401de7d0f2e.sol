@@ -1,8 +1,11 @@
 /*
  * @source: etherscan.io 
  * @author: -
- * @vulnerable_at_lines: 198
+ * @vulnerable_at_lines: 201
  */
+
+
+
 
 
 
@@ -191,13 +194,12 @@
     /**
      * Payout ETH to whale
      */
-    function donateToWhale(uint256 amount) 
-    internal 
-    {
+
+ 
+
         // <yes> <report> UNCHECKED_LL_CALLS
         whale.call.value(amount)(bytes4(keccak256("donate()")));
         totalDonated += amount;
         emit Donate(amount, whale, msg.sender);
-    }
 
 
